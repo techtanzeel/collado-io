@@ -8,4 +8,4 @@ All entries are stored as a markdown file and listed below by publication date.
 
 ## 💾 Archive
 ### 2017
-* [Curiosity Trumps Everything](posts/2017/curiosity.md) — (Source URL)[https://collado.io/blog/2017/curiosity]
+* [Curiosity Trumps Everything](posts/2017/curiosity.md) — [Source URL](https://collado.io/blog/2017/curiosity)
