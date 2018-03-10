@@ -43,7 +43,7 @@ The experience is intense. Conversations span through the whole day, until late 
 ## What Will Get You the Job
 The Hiring Week is a soundly engineered artifact that helps us get the job done (no pun intended), and it does work. In Barcelona, the combination of a thriving tech ecosystem and our relentless efforts to bridge the gap between industry and education is rewarding us with a hiring rate over 80% three months upon graduation — which no matter what, is in itself an impressive feat.
 
-At the end of the day, getting our graduates hired is what success looks like from my perspective. It is actually one of my most important KPIs, definitely a pressing one. But after witnessing more than 200 graduations, I can assure you the most successful hires were not ultimately because of the Hiring Week. They were because of [passion and hard work](https://collado.io/blog/2015/2/19/work-passion).
+At the end of the day, getting our graduates hired is what success looks like from my perspective. It is actually one of my most important KPIs, definitely a pressing one. But after witnessing more than 200 graduations, I can assure you the most successful hires were not ultimately because of the Hiring Week. They were because of passion and hard work.
 
 Passion and hard work were the ultimate reasons we could help a guy find a job *“next to the beach, in a workplace where I can catch some waves during the lunch break”*. Or maybe that one that wanted *“a startup job”* in a city that had no tech ecosystem at all[3]. Or a coal miner, a flight attendant, a photographer… the list goes on and on, but they do share something and it is not a tech background.
 
