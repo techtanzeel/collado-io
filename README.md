@@ -11,6 +11,7 @@ All entries are stored as a markdown file and listed below by publication date.
 * [Curiosity Trumps Everything](posts/2017/curiosity.md) — [Source URL](https://collado.io/blog/2017/curiosity)
 * [Community](posts/2017/community.md) — [Source URL](https://collado.io/blog/2017/community)
 * [Book — Anything You Want](posts/2017/anything.md) — [Source URL](https://collado.io/blog/2017/anything)
+* [Book — Delivering Happiness](posts/2017/happiness.md) — [Source URL](https://collado.io/blog/2017/happiness)
 
 ### 2016
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)

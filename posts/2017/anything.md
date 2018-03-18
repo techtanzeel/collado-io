@@ -19,9 +19,9 @@ Being efficient is not the same thing as being effective, kind of a [Tim Ferriss
 
 > It’s a big world. You can loudly leave out 99 percent of it. Have the confidence to know that when your target 1 percent hears you excluding the other 99 percent, the people in that 1 percent will come to you because you’ve shown how much you value them.
 
-The Internet has created a world where percentages don't matter anymore. Is the [Ben Thompson](http://exponent.fm/episode-012-the-internet-rainforest/) 's theory of the Rainforest all over again: having a small fraction of a huge market is enough to thrive as a business. The Internet has unlocked infinite niches, and that of course makes owning a niche more difficult, but once is yours, you will have a sufficiently large market for your business to flourish.
+The Internet has created a world where percentages don't matter anymore. Is the [Ben Thompson](http://exponent.fm/episode-012-the-internet-rainforest/)'s theory of the Rainforest all over again: having a small fraction of a huge market is enough to thrive as a business. The Internet has unlocked infinite niches, and that of course makes owning a niche more difficult, but once is yours, you will have a sufficiently large market for your business to flourish.
 
-It is the same reason why back in the 80s the Mac struggled in a PC dominated world - having a small percentage of the PC market was not enough to attract developers and create a sustainable ecosystem, because the PC market was not large enough. But on the other hand iOS is able to thrive with a small percentage of the mobile market, because the mobile market is times larger than the PC ever was. Again, once you have a big enough market, percentages don't matter anymore.
+Same reason why back in the 80s the Mac struggled in a PC dominated world: having a small percentage of the PC market was not enough to attract developers and create a sustainable ecosystem. The PC market was simply not large enough. But on the other hand iOS is today able to thrive with a small percentage of the mobile market, because the mobile market is times larger than the PC's ever was. Again, once you have a big enough market, percentages don't matter anymore.
 
 More business related takeaways would be:
 
@@ -34,11 +34,11 @@ More business related takeaways would be:
 
 The book is full of references correlating simplicity and happiness. There are a lot of great ideas, but they all gravitate around three main axis.
 
-First, is that craft - learning and building - is an end in itself and what you ought to pursue in order to achieve happiness. *To have something*, on the other hand, is just the means. Again, [Delivering Happiness](https://collado.io/blog/2017/4/9/delivering-happiness) draws a similar conclusion.
+First, craft - learning and building - is an end in itself and what you ought to pursue in order to achieve happiness. *To have something*, on the other hand, is just the means. Again, [Delivering Happiness](https://collado.io/blog/2017/happiness) draws a similar conclusion.
 
 > In the end, it’s about what you want to be, not what you want to have. To have something (a finished recording, a business, or millions of dollars) is the means, not the end. To be something (a good singer, a skilled entrepreneur, or just plain happy) is the real point. When you sign up to run a marathon, you don’t want a taxi to take you to the finish line.
 
-Second, is to focus your time and energy on the things that make you happy. Seems obvious, but there are so many distractions and prejudgments around certain ideas that is easy to get trapped into a task - or life - you did not want to begin with.
+Second, focus your time and energy on the things that make you happy. Seems obvious, but there are so many distractions and prejudgments around certain ideas that is easy to get trapped into a task - or life - you did not want to begin with.
 
 > I loved sitting alone and programming, writing, planning, and inventing—thinking of ideas and making them happen. This makes me happy, not business deals or management. So I found someone who liked doing business deals and put him in charge of all that.
 
