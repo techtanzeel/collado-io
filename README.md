@@ -15,3 +15,6 @@ All entries are stored as a markdown file and listed below by publication date.
 
 ### 2016
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
+
+### 2013
+* [Prologue](posts/2013/prologue.md) — [Source URL](https://collado.io/blog/2013/prologue)
