@@ -15,6 +15,7 @@ All entries are stored as a markdown file and listed below by publication date.
 * [Community](posts/2017/community.md) — [Source URL](https://collado.io/blog/2017/community)
 * [Book — Anything You Want](posts/2017/anything.md) — [Source URL](https://collado.io/blog/2017/anything)
 * [Book — Delivering Happiness](posts/2017/happiness.md) — [Source URL](https://collado.io/blog/2017/happiness)
+* [Alignment](posts/2017/alignment.md) — [Source URL](https://collado.io/blog/2017/alignment)
 
 ### 2016
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
