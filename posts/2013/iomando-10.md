@@ -32,7 +32,6 @@ The solution is composed of three pieces.
 * Server: managed directly by iomando, it provides an extra layer of security and checks the that permissions for each user are up to date.
 * Mobile app: the app is the "tool" to open the door[1]. You can download it for free directly from your iPhone, BlackBerry or Android.
 
-![iomando app](http://res.cloudinary.com/dteii5unv/image/upload/c_scale,w_300/v1522238623/blog/2013/iomando-app-v1-2.jpg "iomando app")
 
 ## Why is it Better?
 The most important thing to consider is that iomando is a software based product. This has two fundamental implications: lower prices and more capabilities.

@@ -7,6 +7,9 @@ All entries are stored as a markdown file and listed below by publication date.
 ❗Warning: this project is a *work in progress* and all the markdowns are still being migrated, for the full archive, please visit [collado.io](https://collado.io).
 
 ## 💾 Archive
+### 2018
+* [Udacity Data Analyst Nanodegree](posts/2018/udacity-dand.md) — [Source URL](https://collado.io/blog/2018/udacity-dand)
+
 ### 2017
 * [Curiosity Trumps Everything](posts/2017/curiosity.md) — [Source URL](https://collado.io/blog/2017/curiosity)
 * [Community](posts/2017/community.md) — [Source URL](https://collado.io/blog/2017/community)
