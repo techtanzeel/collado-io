@@ -18,6 +18,8 @@ All entries are stored as a markdown file and listed below by publication date.
 * [Alignment](posts/2017/alignment.md) — [Source URL](https://collado.io/blog/2017/alignment)
 
 ### 2016
+* [Detachment Strategy for the Apple Watch](posts/2016/detachment-apple-watch.md) — [Source URL](https://collado.io/blog/2016/detachment-apple-watch)
+* [The Designer I Wanted to Be](posts/2016/ux-designer.md) — [Source URL](https://collado.io/blog/2016/design)
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
 
 ### 2013

@@ -1,3 +1,4 @@
+# Alignment
 It is sometimes surprising how easily we get used to things others find fascinating. The boundary conditions define your new normal and it has to be somebody else who suddenly comes in, to remind you how biased your perspective is.
 
 It just happened this week. I was explaining our application process to a prospective student. Which consists, first, in a personal interview to ensure the applicant is aligned with our mission. Then a technical interview to test their motivation and capacity to learn. And finally, if our admissions committee decides to accept the student, she has to complete an online pre work before she can start the program.
