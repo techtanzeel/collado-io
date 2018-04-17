@@ -1,3 +1,9 @@
+---
+title: Prologue
+date: 2013-01-04
+categories: [business, iomando]
+---
+
 # Prologue
 [iomando](https://collado.io/iomando) is a mobile product that provides cloud-managed keyless access solutions for mobile devices. Which in plain English means opening doors and stuff with your phone. The service enables its users to easily access and manage their spaces using a smartphone — instead of keys or remote controls. Thus providing a better experience and defining a whole new category when it comes to interact with our accesses.
 
@@ -112,4 +118,3 @@ Early 2012 we shifted our focus and started exploring other business models arou
 
 ---
 [1] Back then it was the actual Arduino board.
-

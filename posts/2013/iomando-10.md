@@ -1,9 +1,17 @@
+---
+title: Introducing iomando 1.0
+date: 2013-02-23
+categories: [iomando, product]
+---
+
 # Introducing iomando 1.0
 ![iomando app](https://res.cloudinary.com/dteii5unv/image/upload/v1522148504/blog/2013/iomando-app-v1.jpg "iomando app")
 
 Nowadays we use smartphones for almost everything: email, photos, music, alarms, notes… so why not also use them to open our doors and accesses?
 
 Introducing iomando: the new way to open doors and all kind of accesses right from your smartphone. Same way we use keys and remotes, iomando offers a whole new experience to access your spaces, rethought from the ground up and specifically designed for mobile devices.
+
+{{ page.slug }}
 
 
 ## What's the Problem?
@@ -77,5 +85,3 @@ We are rolling out the service in the Barcelona area the 1st of March 2012 and w
 [1] An admin must grant permissions to the mobile user first.
 
 [2] During the trial you can opt out whenever you want, we offer a 30-day money-back guarantee, no questions asked.
-
-

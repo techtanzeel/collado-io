@@ -33,6 +33,6 @@ If you want to proceed anyway and deal with bugs 🐛 and broken links, below yo
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
 
 ## 2013
-* [Introducing iomando 1.0](posts/2013/iomando-10.md) — [Source URL](https://collado.io/blog/2013/2/23/introducing-iomando-v10)
-* [Pivot](posts/2013/pivot.md) — [Source URL](https://collado.io/blog/2013/pivot)
-* [Prologue](posts/2013/prologue.md) — [Source URL](https://collado.io/blog/2013/prologue)
+* [Introducing iomando 1.0](/posts/2013/iomando-10/) — [Source URL](https://collado.io/blog/2013/2/23/introducing-iomando-v10)
+* [Pivot](/posts/2013/pivot/) — [Source URL](https://collado.io/blog/2013/pivot)
+* [Prologue](/posts/2013/prologue/) — [Source URL](https://collado.io/blog/2013/prologue)
