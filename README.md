@@ -1,16 +1,15 @@
 # 📦 Moving collado.io
 
-This repository *will be*, in the near future, the new home for [my personal website](https://collado.io).
+This repository *will be*, in the near future, the new home for [my personal website](https://collado.io) content.
 
-Right now [collado.io](https://collado.io) is hosted at Squarespace and it has been since 2011. For the most, it is fine — I'm extremely happy with the experience so far, but Squarespace is an utterly powerful, multi-purpose platform and definitely not an optimal solution for my basic blogging needs.
+Right now [collado.io](https://collado.io) is hosted at Squarespace, it has been since 2011. For the most, it is fine — I'm extremely happy with the experience so far and have nothing but admiration for their product. On the flip side though, Squarespace is an utterly powerful, multi-purpose platform and definitely not an optimal solution for my basic blogging needs.
 
 Then this project is about a few things:
 
-1. Migrate all the content from Squarespace to GitHub Pages (using Jekyll), which is a more suitable solution to generate static pages from raw markdown files.
+1. Migrate all the content from Squarespace to GitHub Pages (using Gatsby), which is a more suitable solution to generate static pages from raw markdown files.
 2. Use the transition to convert all the content (now living as static html in Squarespace) to markdown files. I do love the simplicity behind the idea of having all my content as a folder of markdown files.
 3. Deallocate all the media content to an external provider (i.e. S3) so all the stuff being moved around are just plain text files written in markdown.
 4. Fix and standardize all the URLs and create a permalink with `blog/:year/:title`.
-5. Sharpen up my Ruby skills — which are definitely stained since I joined the [Ironhack part-time program](https://collado.io/blog/2016/3/30/the-ironhack-experience).
 
 ❗Important: this project is a *work in progress* and all the markdowns are still being migrated, if you are here to read my posts, please visit the  original, Squarespace-hosted and current version of [collado.io](https://collado.io), it **still** is definitely a way better experience.
 
@@ -18,6 +17,7 @@ If you want to proceed anyway and deal with bugs 🐛 and broken links, below yo
 
 # 💾 Archive
 ## 2018
+* [Ready Player One](posts/2018/ready-player-one.md) — [Source URL](https://collado.io/blog/2018/ready-player-one)
 * [Udacity Data Analyst Nanodegree](posts/2018/udacity-dand.md) — [Source URL](https://collado.io/blog/2018/udacity-dand)
 
 ## 2017

@@ -1,6 +1,7 @@
 ---
+path: "/blog/2013/iomando-v10"
 title: Introducing iomando 1.0
-date: 2013-02-23
+date: "2013-02-23"
 categories: [iomando, product]
 ---
 
