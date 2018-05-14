@@ -26,8 +26,6 @@ Old systems like keys, remotes and all the stuff you used to access most places,
 
 The combination of these three features gave us the ability to manage the private property in an flexible way. The old paradigm was constrained by the static nature of keys and remotes. That meant it was not possible (or at least much more difficult) to grant access to a private property to other people for small periods of time, while you were not actually using it.
 
-![iomando app v1](http://res.cloudinary.com/dteii5unv/image/upload/v1522148504/blog/2013/iomando-app-v1.jpg "iomando app")
-
 Our goal was to design a simple interface everyone could relate to. We tested a few designs and found out that a big button was a metaphor from the real world that everybody understood. Back then skeuomorphism was at its prime.
 
 At the same time new trends were just starting to flourish in this direction. The so called shared economy was getting traction in a context of crisis, where technology enabled people to put their assets to work in a smart way.

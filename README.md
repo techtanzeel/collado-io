@@ -17,6 +17,7 @@ If you want to proceed anyway and deal with bugs 🐛 and broken links, below yo
 
 # 💾 Archive
 ## 2018
+* [Months and Terms](posts/2018/months-terms.md) — [Source URL](https://collado.io/blog/2018/months-terms)
 * [Ready Player One](posts/2018/ready-player-one.md) — [Source URL](https://collado.io/blog/2018/ready-player-one)
 * [Udacity Data Analyst Nanodegree](posts/2018/udacity-dand.md) — [Source URL](https://collado.io/blog/2018/udacity-dand)
 
