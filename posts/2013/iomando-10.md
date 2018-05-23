@@ -12,8 +12,6 @@ Nowadays we use smartphones for almost everything: email, photos, music, alarms,
 
 Introducing iomando: the new way to open doors and all kind of accesses right from your smartphone. Same way we use keys and remotes, iomando offers a whole new experience to access your spaces, rethought from the ground up and specifically designed for mobile devices.
 
-{{ page.slug }}
-
 
 ## What's the Problem?
 Keys, remotes or every other type of access systems belong to those kind of things nobody is in love with. They offer a poor user experience, but also inexplicably stick around, patiently awaiting for somebody to come up with a better idea. We are convinced we can deliver a better solution leveraging mobile technologies and great product design.
