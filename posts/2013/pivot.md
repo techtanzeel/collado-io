@@ -1,5 +1,5 @@
 ---
-title: Pivot
+title: "Pivot"
 date: 2013-01-15
 categories: [business, iomando]
 ---

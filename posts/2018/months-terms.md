@@ -1,6 +1,6 @@
 ---
 path: "/blog/2018/months-terms"
-title: Months and Terms
+title: "Months and Terms"
 date: "2018-05-16"
 categories: [education, opinion, product]
 ---

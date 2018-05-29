@@ -1,6 +1,6 @@
 ---
 path: "/blog/2018/ready-player-one"
-title: Ready Player One
+title: "Ready Player One"
 date: "2018-05-09"
 categories: [opinion, tech]
 ---
