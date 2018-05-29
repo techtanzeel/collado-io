@@ -32,9 +32,11 @@ If you want to proceed anyway and deal with bugs 🐛 and broken links, below yo
 ## 2016
 * [Detachment Strategy for the Apple Watch](posts/2016/detachment-apple-watch.md) — [Source URL](https://collado.io/blog/2016/detachment-apple-watch)
 * [The Designer I Wanted to Be](posts/2016/ux-designer.md) — [Source URL](https://collado.io/blog/2016/design)
+* [What If I Had Skipped College?](posts/2016/college.md) — [Source URL](https://collado.io/blog/2016/college)
+* [Drivetrains and Free Time](posts/2016/drivetrains-free-time.md) — [Source URL](https://collado.io/blog/2016/drivetrains-free-time)
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
 
 ## 2013
-* [Introducing iomando 1.0](/posts/2013/iomando-10.md) — [Source URL](https://collado.io/blog/2013/2/23/introducing-iomando-v10)
-* [Pivot](/posts/2013/pivot.md) — [Source URL](https://collado.io/blog/2013/pivot)
-* [Prologue](/posts/2013/prologue.md) — [Source URL](https://collado.io/blog/2013/prologue)
+* [Introducing iomando 1.0](posts/2013/iomando-10.md) — [Source URL](https://collado.io/blog/2013/2/23/introducing-iomando-v10)
+* [Pivot](posts/2013/pivot.md) — [Source URL](https://collado.io/blog/2013/pivot)
+* [Prologue](posts/2013/prologue.md) — [Source URL](https://collado.io/blog/2013/prologue)
