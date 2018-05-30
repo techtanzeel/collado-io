@@ -6,13 +6,13 @@ categories: [opinion, product, tech]
 ---
 
 # Idle Time
-As a thought experiment, imagine you were restricted to use a [single device](https://collado.io/blog/2014/7/20/the-ultimate-device) to interact with the whole digital ether. Exclusively one: laptop, tablet, smartphone, e-reader, you name it, but for the rest of your days, this is the one and only device you would ever be "touching". The good news is that you get to choose, of course.
+As a thought experiment, imagine you were restricted to use a [single device](/blog/2014/7/20/the-ultimate-device) to interact with the whole digital ether. Exclusively one: laptop, tablet, smartphone, e-reader, you name it, but for the rest of your days, this is the one and only device you would ever be "touching". The good news is that you get to choose, of course.
 
 I have presented this riddle to many friends and, invariably, their answer is always the same: smartphone. To their surprise, my answer is — and has always been: old fashioned PC, precisely, macOS[1].
 
-My answer to this question has its raison d'être, since most of my waking hours go by in front of a computer. Not just at work, but even during leisure time. The computer is the tool I use to funnel my creativity: from writing, [coding](https://collado.io/blog/2016/3/30/the-ironhack-experience), [designing](https://collado.io/blog/2016/design), [reading](https://collado.io/blog/?category=books), communicating… but also my go to device for absolutely everything.
+My answer to this question has its raison d'être, since most of my waking hours go by in front of a computer. Not just at work, but even during leisure time. The computer is the tool I use to funnel my creativity: from writing, [coding](/blog/2016/3/30/the-ironhack-experience), [designing](/blog/2016/design), [reading](/blog/?category=books), communicating… but also my go to device for absolutely everything.
 
-I do not dislike smartphones, I understand you can get plenty of stuff done with them, but for me they never "clicked" as creation tools. My iPhone home screen is almost "factory settings" and the main uses it gets are limited to podcasts, audiobooks, music, messaging and hailing a cab from time to time.
+I do not dislike smartphones, I understand you can get plenty of stuff done with them, but for me they never "clicked" as creation tools. My iPhone home screen is almost "[factory settings](/blog/2016/hacks)" and the main uses it gets are limited to podcasts, audiobooks, music, messaging and hailing a cab from time to time.
 
 The computer is the machine I grew up with, the one I discovered a whole new world throughout: from DOS to the dawn of the Internet, I learned to love its design, appreciate its craft, but ultimately, I became fascinated by how it worked.
 
@@ -28,7 +28,7 @@ Before we dive in, please, keep in mind that these lines are not grounded in aca
 
 My working assumption revolved around the idea of how much of the time spent in front of a computer had actually become idle time. Non-productive time, without a clear task or particular goal to achieve, but rather wandering around, just being with the computer, or well, procrastinating.
 
-For a curious, monkey mind, sitting down in front of a computer with no predefined task to accomplish, will inevitably become a recipe for failure. In my particular experience idle time meant playing around with some app settings, re-reading an article or rethinking the way my filing system worked. Unremarkable activities that directly translated to anxiety.
+For a curious, monkey mind, sitting down in front of a computer with no predefined task to accomplish, will inevitably become a recipe for failure. In my particular experience idle time meant playing around with some app settings, re-reading an article or rethinking the way my filing system worked. Unremarkable activities that directly [translated to anxiety](http://science.sciencemag.org/content/330/6006/932).
 
 While in idle mode your mind runs fast, it operates in autopilot, but it is going nowhere. This is a nasty loop, because it feels effortless and comfortable being in idle land, but at the same time you are also aware you shouldn’t be there in the first place.
 
