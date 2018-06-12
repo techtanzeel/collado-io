@@ -34,7 +34,7 @@ If you want to proceed anyway and deal with bugs 🐛 and broken links, below yo
 * [The Designer I Wanted to Be](posts/2016/ux-designer.md) — [Source URL](https://collado.io/blog/2016/design)
 * [What If I Had Skipped College?](posts/2016/college.md) — [Source URL](https://collado.io/blog/2016/college)
 * [Drivetrains and Free Time](posts/2016/drivetrains-free-time.md) — [Source URL](https://collado.io/blog/2016/drivetrains-free-time)
-* [Little Hacks](posts/2016/hacks.md) — [Source URL](https://collado.io/blog/2016/hacks)
+* [Little Hacks](posts/2016/little-hacks.md) — [Source URL](https://collado.io/blog/2016/hacks)
 * [The Ironhack Experience](posts/2016/ironhack-experience.md) — [Source URL](https://collado.io/blog/2016/3/30/the-ironhack-experience)
 
 ## 2013
