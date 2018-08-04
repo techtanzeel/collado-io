@@ -1,17 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Marc Collado Personal Website',
+    author: 'Marc Collado',
+    description: 'Marc Collado Personal Website.',
+    siteUrl: 'https://collado.io',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/assets/markdown`,
-        name: 'markdown',
+        name: 'pages',
+        path: `${__dirname}/src/pages`,
       },
     },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          'gatsby-remark-copy-linked-files',
+        ],
+      },
+    },
+    `gatsby-transformer-sharp`,
   ],
 };

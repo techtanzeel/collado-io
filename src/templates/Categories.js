@@ -5,6 +5,7 @@ import Link from 'gatsby-link';
 
 const Categories = ({ pathContext, data }) => {
   const { category } = pathContext;
+
   const { edges, totalCount } = data.allMarkdownRemark;
   const categoryHeader = `${totalCount} post${
     totalCount === 1 ? '' : 's'
@@ -62,7 +63,7 @@ Categories.propTypes = {
 export default Categories;
 
 export const pageQuery = graphql`
-  query CategoryPage($tag: String) {
+  query CategoryPage($category: String) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

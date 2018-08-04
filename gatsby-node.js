@@ -1,5 +1,4 @@
 const path = require('path');
-const _ = require('lodash');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
@@ -41,24 +40,24 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       });
     });
 
-    let categories = [];
-    _.each(posts, edge => {
-      if (_.get(edge, 'node.frontmatter.categories')) {
-        categories = categories.concat(edge.node.frontmatter.catagories);
-      }
-    });
-    // eliminate duplicate categories
-    categories = _.uniq(categories);
+    // let allCategories = [];
+
+    // posts.forEach(({ node }) => {
+    //   allCategories = allCategories.concat(node.frontmatter.catagories);
+    // });
+
+    // const uniq = a => [...new Set(a)];
+    // const categories = uniq(allCategories);
 
     // make tag pages
-    categories.forEach(category => {
-      createPage({
-        path: `/categories/${_.kebabCase(category)}/`,
-        component: categoriesTemplate,
-        context: {
-          categories,
-        },
-      });
-    });
+    // categories.forEach(category => {
+    //   createPage({
+    //     path: `/categories/${category}/`,
+    //     component: categoriesTemplate,
+    //     context: {
+    //       category,
+    //     },
+    //   });
+    // });
   });
 };

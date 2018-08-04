@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// Utilities
-import kebabCase from 'lodash/kebabCase';
-
 // Components
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
@@ -25,12 +22,8 @@ const CategoriesPage = ({
       <ul>
         {group.map(category => (
           <li key={category.fieldValue}>
-            <Link to={`/categories/${kebabCase(category.fieldValue)}/`}>
-              {category.fieldValue}
-              {' '}
-(
-              {category.totalCount}
-)
+            <Link to={`/categories/${category.fieldValue}/`}>
+              {`${category.fieldValue} (${category.totalCount})`}
             </Link>
           </li>
         ))}
@@ -68,7 +61,6 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
-      filter: { frontmatter: { published: { ne: false } } }
     ) {
       group(field: frontmatter___categories) {
         fieldValue
