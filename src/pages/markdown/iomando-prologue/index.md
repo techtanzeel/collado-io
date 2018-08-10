@@ -2,7 +2,7 @@
 title: "iomando: Prologue"
 date: "2013-01-04"
 path: "/blog/2013/iomando-prologue"
-categories: ["business", "iomando"]
+tags: ["business", "iomando"]
 ---
 
 ## Prologue
