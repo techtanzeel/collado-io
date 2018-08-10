@@ -28,12 +28,6 @@ const Layout = ({ children, data }) => (
   </div>
 );
 
-Layout.propTypes = {
-  children: PropTypes.func.isRequired,
-};
-
-export default Layout;
-
 export const query = graphql`
   query SiteTitleQuery {
     site {
@@ -43,3 +37,16 @@ export const query = graphql`
     }
   }
 `;
+
+Layout.propTypes = {
+  children: PropTypes.func.isRequired,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string,
+      }),
+    }),
+  }).isRequired,
+};
+
+export default Layout;
