@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Marc Collado Personal Website',
+    title: 'Marc\'s Website',
     author: 'Marc Collado',
     description: 'Marc Collado Personal Website.',
     siteUrl: 'https://collado.io',
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'pages',
-        path: `${__dirname}/src/pages`,
+        name: 'markdown',
+        path: `${__dirname}/src/pages/markdown`,
       },
     },
     `gatsby-plugin-sharp`,
@@ -23,7 +23,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 720,
             },
           },
           'gatsby-remark-copy-linked-files',
