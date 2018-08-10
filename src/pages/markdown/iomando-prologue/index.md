@@ -5,7 +5,6 @@ path: "/blog/2013/iomando-prologue"
 tags: ["business", "iomando"]
 ---
 
-## Prologue
 [iomando](/iomando) is a mobile product that provides cloud-managed keyless access solutions for mobile devices. Which in plain English means opening doors and stuff with your phone. The service enables its users to easily access and manage their spaces using a smartphone — instead of keys or remote controls. Thus providing a better experience and defining a whole new category when it comes to interact with accesses.
 
 I co-founded the company back in 2011 and led the product team until 2015. By the end of 2017, iomando was acquired by [Citibox](https://citibox.com) — a Spanish startup that helps you receive goods when you are away.
@@ -116,8 +115,6 @@ We still didn't know exactly how the business model based on that technology wou
 > Looking back we had the stupid assumption that a mobile service to open doors was a weak foundation to build upon. Despite no one was building something similar and it could potentially solve a real problem, we dismissed the idea because we felt we ought to build something bigger, with greater impact (whatever that meant). And the truth is that we ended up building something that nobody wanted.
 
 Early 2012 we shifted our focus and started exploring other business models around the technology that we thought were more attractive. We flirted with park sharing because we were convinced that we could surface a hidden supply of empty spots within communal spaces.
-
-*You can check out the complete [iomando series](/iomando), where I documented the story of the company, or look for other [iomando articles](https://collado.io/blog?category=iomando), mostly about technology and product design.*
 
 ---
 [1] Back then it was the actual Arduino board.

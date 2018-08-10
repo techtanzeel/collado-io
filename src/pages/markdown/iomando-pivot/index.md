@@ -5,8 +5,7 @@ path: "/blog/2013/iomando-pivot"
 tags: [business, iomando]
 ---
 
-## Pivot
-### TL;DR
+## TL;DR
 By January 2012 we already had a [working prototype](/blog/2013/iomando-prologue) of a product that could be used to open doors with a smartphone. Curiously enough, we were convinced that it was not possible to monetize and build a sustainable business around such product.
 
 We then set out to build what we believed was a “more valuable service” leveraging our product. But failed to understand what problem we were ultimately trying to solve.

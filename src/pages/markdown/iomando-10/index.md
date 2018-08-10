@@ -5,7 +5,6 @@ path: "/blog/2013/iomando-10"
 tags: [iomando, product]
 ---
 
-## iomando 1.0
 ![iomando app 1.0](./iomando-app-10.jpg "iomando app 1.0")
 
 Nowadays we use smartphones for almost everything: email, photos, music, alarms, notes… so why not also use them to open our doors and accesses?
