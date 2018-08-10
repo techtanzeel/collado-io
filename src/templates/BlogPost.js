@@ -22,7 +22,7 @@ export default function BlogPost({ data }) {
   );
 }
 
-export const pageQuery = graphql`
+export const blogPostQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
@@ -30,8 +30,24 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
-        categories
+        tags
       }
     }
   }
 `;
+
+BlogPost.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      html: PropTypes.string.isRequired,
+      frontmatter: PropTypes.shape({
+        path: PropTypes.string.isRequired,
+        date: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        tags: PropTypes.arrayOf(
+          PropTypes.string,
+        ),
+      }),
+    }),
+  }).isRequired,
+};
