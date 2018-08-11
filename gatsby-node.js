@@ -5,7 +5,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   return new Promise((resolve, reject) => {
     const blogPostTemplate = path.resolve(`src/templates/BlogPost.js`);
-    // const categoriesTemplate = path.resolve(`src/templates/Categories.js`);
+    const tagTemplate = path.resolve(`src/templates/Tag.js`);
+
     resolve(
       graphql(`
         {
@@ -17,6 +18,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               node {
                 frontmatter {
                   path
+                  tags
                 }
               }
             }
@@ -26,16 +28,31 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         if (result.errors) {
           reject(result.errors);
         }
-        // Create pages for each markdown file
+
         const posts = result.data.allMarkdownRemark.edges;
+
         posts.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPostTemplate,
-            layout: `index`,
+            context: {},
+          });
+        });
+
+        let allTags = [];
+
+        posts.forEach(({ node }) => {
+          allTags = allTags.concat(node.frontmatter.tags);
+        });
+
+        const uniqTags = [...new Set(allTags)];
+
+        uniqTags.forEach(tag => {
+          createPage({
+            path: `/tags/${tag}/`,
+            component: tagTemplate,
             context: {
-              // can be used in blogPostTemplate as a GraphQL variable
-              // to query for data from the markdown file
+              tag,
             },
           });
         });
@@ -43,23 +60,3 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     );
   });
 };
-
-// let allCategories = [];
-
-// posts.forEach(({ node }) => {
-//   allCategories = allCategories.concat(node.frontmatter.catagories);
-// });
-
-// const uniq = a => [...new Set(a)];
-// const categories = uniq(allCategories);
-
-// make tag pages
-// categories.forEach(category => {
-//   createPage({
-//     path: `/categories/${category}/`,
-//     component: categoriesTemplate,
-//     context: {
-//       category,
-//     },
-//   });
-// });
