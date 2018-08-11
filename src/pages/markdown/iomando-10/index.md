@@ -2,7 +2,7 @@
 title: "iomando 1.0"
 date: "2013-02-23"
 path: "/blog/2013/iomando-10"
-tags: [iomando, product]
+tags: ["iomando", "product"]
 ---
 
 ![iomando app 1.0](./iomando-app-10.jpg "iomando app 1.0")

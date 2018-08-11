@@ -2,7 +2,7 @@
 title: "iomando: Pivot"
 date: "2013-01-15"
 path: "/blog/2013/iomando-pivot"
-tags: [business, iomando]
+tags: ["business", "iomando"]
 ---
 
 ## TL;DR
