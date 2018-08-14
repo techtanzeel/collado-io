@@ -131,7 +131,7 @@ We were so focused on our idea that we didn’t realize it until they told us th
 
 At that point, we shifted our business strategy and iomando became what it is today, an access control system based on mobile technologies, which in plain English means opening doors and stuff with your phone.
 
-- - -
+---
 [1] In Europe, particularly in crowded cities like Barcelona, people live in buildings, not houses. More often than not, the lower floor is a communal parking space for the neighbors of that building. Each neighbor owns a spot, but the whole parking is a communal space. This leads to an interesting conjecture because all of the owners of a spot are owners of the parking, but no one owns it entirely.
 
 [2] The basic hardware requirements to enable the the park-sharing business was the same as the mobile door opener, an “always connected” electronic attached to the door. Of course, in order to set up an “enhanced” park-sharing platform it was necessary to install sensors in each spot and more sophisticated equipment, but to kickstart the platform, the door opener was all we needed.
