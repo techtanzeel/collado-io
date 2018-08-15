@@ -49,7 +49,7 @@ For this reason, beyond having a great product for our end user, we also wanted 
 
 To keep our installers "happy" we needed a product that was both easy to install and also kept the installation process the same no matter the external circumstances. In other words, the environment should not place any constraint to the installation process.
 
-![iomando prototype](./iomando-prototype.jpg "iomando prototype")
+![iomando prototype](./iomando-prototype.jpg "iomando cellular prototype")
 
 That immediately ruled out the Wi-Fi option — at least running in infrastructure mode[5], because most of the time there’s not a reliable Wi-Fi connection available to feed the device. The versatility of our product (we can install in places ranging from small houses to big corporate buildings and public facilities) would lead to two problems if it was running on Wi-Fi:
 
@@ -73,9 +73,9 @@ Pairing a phone with another device has always been (at least before the introdu
 
 That made us think deeply of the problem we were trying to solve and the interaction that made it possible.
 
-![iomando open flow](./iomando-flow.jpg "iomando open request diagram")
-
 Opening the door with a smartphone was not a lengthy action: launch the app and tap open. Old keys and remotes are not great products, but they are fast as hell. If we wanted to appeal to our customers we needed to, at least, match that speed.
+
+![iomando flow](./iomando-flow.jpg "iomando flow diagram")
 
 Bluetooth technologies are great for long term relations, like a headset for streaming music, where the main experience is way longer than the pairing itself. In our case, the procedure was quite the opposite. You wanted the pairing to be fast, almost non-existing, because the shorter the experience, the better.
 
