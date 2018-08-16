@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import globalStyles from '../utils/styles/global.module.css';
+import styles from '../utils/styles/post.module.css';
+
 export default function BlogPost({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
+    <div className={styles.container}>
+      <div className={styles.post}>
         <h1>
           {frontmatter.title}
         </h1>
@@ -14,7 +17,7 @@ export default function BlogPost({ data }) {
           {frontmatter.date}
         </h2>
         <div
-          className="blog-post-content"
+          className={styles.content}
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
