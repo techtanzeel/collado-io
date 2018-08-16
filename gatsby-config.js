@@ -14,8 +14,6 @@ module.exports = {
         path: `${__dirname}/src/pages/markdown`,
       },
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -30,6 +28,15 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    // Styles and Typography
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
   ],
 };
