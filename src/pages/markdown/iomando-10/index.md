@@ -5,7 +5,7 @@ path: "/blog/2013/iomando-10"
 tags: ["iomando", "product"]
 ---
 
-ℹ This post was originally posted on February 2012 on the official iomando blog and it announced the release of the first version of the product.
+ℹ️ This post was originally posted on February 2012 on the official iomando blog and it announced the release of the first version of the product.
 
 ![iomando app 1.0](./iomando-app-10.jpg "iomando app 1.0")
 

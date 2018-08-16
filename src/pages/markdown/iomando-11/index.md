@@ -5,7 +5,9 @@ path: "/blog/2013/iomando-11"
 tags: ["iomando", "product"]
 ---
 
-ℹ This post was originally posted on August 2012 on the official iomando blog and it announced the first major update of our product.
+ℹ️ This post was originally posted on August 2012 on the official iomando blog and it announced the first major update of our product.
+
+![iomando access](./iomando-access.jpg "iomando access")
 
 It has been almost half year since [we released the first version of iomando](/blog/2013/iomando-10) in the Barcelona area. We couldn't be happier about the response it had since its introduction, but [we've also learned a lot](/blog/2013/iomando-subscription) from our customers and installers during these months.
 
@@ -48,7 +50,7 @@ iomando is also getting more reliable. Here there's a lot of technical stuff inv
 Before this update, when the open button was pressed, there was a moment of disconnection between what was happening and the information that was displayed on the screen. This uncertainty, despite being just a few seconds, caused a lot of anxiety to the user. We felt that, too.
 
 That's why we are rolling out a new technology[2] that communicates devices and doors, in real time. That means that the state of the operation is being reported in real time to the mobile. If the server detects that there's a problem with the door, the user will be updated in real time. No more surprises.
- 
+
 Finally, iomando is getting more secure. We've discussed before [why a cloud-based access system is more secure](/blog/2013/iomando-cellular#Security) than a key or a remote.
 
 But we wouldn't stop there, we wanted even more.
