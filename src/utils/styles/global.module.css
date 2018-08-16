@@ -1,9 +1,46 @@
-html {
-
-}
+html {}
 
 body {
+  /* border: 1px solid black; */
   margin: 0 auto;
   max-width: 800px;
   min-width: 320px;
+}
+
+p {
+  color: #2A2E2E;
+}
+
+p > a,
+li > a {
+  text-decoration: none;
+  border-bottom: 3px solid #C8EFE8;
+  box-shadow: inset 0 -4px 0 #C8EFE8;
+  transition: background 0.3s ease;
+}
+
+p > a:hover,
+li > a:hover {
+  background: #C8EFE8;
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+blockquote {
+  border-left: 3px solid #1ABC9C;
+  padding-left: 1.1em;
+  width: 92.5%;
+}
+
+blockquote > p {
+  color: #525555;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  letter-spacing: -0.03em;
 }
