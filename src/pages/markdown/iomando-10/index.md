@@ -5,7 +5,7 @@ path: "/blog/2013/iomando-10"
 tags: ["iomando", "product"]
 ---
 
-ℹ️ This post was originally posted on February 2012 on the official iomando blog and it announced the release of the first version of the product.
+ℹ️ This post was originally published on February 2012 on the official iomando blog and it announced the release of the first version of the product.
 
 ![iomando app 1.0](./iomando-app-10.jpg "iomando app 1.0")
 
@@ -37,7 +37,7 @@ The solution is composed of three pieces:
 
 * Electronic device: we install a device next to the door, so the smartphones can easily communicate with it.
 * Server: managed directly by iomando, it provides an extra layer of security and checks the that permissions for each user are up to date.
-* Mobile app: the app is the "tool" to open the door[1]. You can download it for free directly from your iPhone, BlackBerry or Android (coming soon).
+* Mobile app: the app is the "tool" to open the door[^1]. You can download it for free directly from your iPhone, BlackBerry or Android (coming soon).
 
 
 ## Why is it Better?
@@ -76,11 +76,11 @@ But for iomando in particular, there are even more reasons that led us to start 
 
 In short, because of the subscription model we are committed to offer the best experience at any given time, and that means creating and supporting new tools for whatever platform emerges in the future.
 
-iomando will cost 99€ / year with a 30-day trial period[2]. That includes the device installed in the door, the installation of the device led by an authorized iomando professional and a license for up to 100 active users.
+iomando will cost 99€ / year with a 30-day trial period[^2]. That includes the device installed in the door, the installation of the device led by an authorized iomando professional and a license for up to 100 active users.
 
 We are rolling out the service in the Barcelona area the 1st of March 2012 and we’d love to have you on board, so sign up at iomando.com.
 
 ---
-[1] An admin must grant permissions to the mobile user first.
+[^1]: An admin must grant permissions to the mobile user first.
 
-[2] During the trial you can opt out whenever you want, we offer a 30-day money-back guarantee, no questions asked.
+[^2]: During the trial you can opt out whenever you want, we offer a 30-day money-back guarantee, no questions asked.

@@ -35,7 +35,7 @@ The timing could not be better: Spain was still digesting the consequences of a 
 
 > The combination of these three features inevitably led to the change of a fundamental assumption: the access to private property was no longer tied to static ownership, instead with iomando we could now grant discrete permissions to anybody. A mobile app controlled from the cloud was now your key, so we could safely unlock an asset, just for small periods of time, when it was not being used by its owner.
 
-Both the opportunity in the sharing economy in combination with the nature of our technology, inevitably led us towards the parking industry. More precisely, private communal parkings inside buildings[1], where each owner had a spot, but the property of the entire parking didn’t belong to anybody in particular.
+Both the opportunity in the sharing economy in combination with the nature of our technology, inevitably led us towards the parking industry. More precisely, private communal parkings inside buildings[^1], where each owner had a spot, but the property of the entire parking didn’t belong to anybody in particular.
 
 ### Exploiting Underused Assets
 Due to the mobility of cars and people during the day, parking spots spent most of the time empty, unused. But the curious thing was that those empty spots were located in the most precious zones of the city, where parking was the most difficult.
@@ -98,7 +98,7 @@ In order to convince owners and argue against these reasonable points we designe
 
 We realized what we really needed were parking spots in the more critical areas of the city. It was obvious that we weren’t going to get them right off the bat, so we designed a two-step approach, in where first we offered the mobile door opener service for free, and then a premium feature that could turn the space into a park-sharing platform.
 
-This way we could easily capture the most valuable communities without going through the hassle of selling the park-sharing model upfront. During this process we would set up all the communities[2] with necessary hardware to activate the park-sharing business, but with the “excuse” of the door opener system.
+This way we could easily capture the most valuable communities without going through the hassle of selling the park-sharing model upfront. During this process we would set up all the communities[^2] with necessary hardware to activate the park-sharing business, but with the “excuse” of the door opener system.
 
 Deploying all these “seeds” around the city was great, but ultimately we wanted the communities to put their empty spots in the marketplace, so we could make some money out of them.
 
@@ -132,6 +132,6 @@ We were so focused on our idea that we didn’t realize it until they told us th
 At that point, we shifted our business strategy and iomando became what it is today, an access control system based on mobile technologies, which in plain English means opening doors and stuff with your phone.
 
 ---
-[1] In Europe, particularly in crowded cities like Barcelona, people live in buildings, not houses. More often than not, the lower floor is a communal parking space for the neighbors of that building. Each neighbor owns a spot, but the whole parking is a communal space. This leads to an interesting conjecture because all of the owners of a spot are owners of the parking, but no one owns it entirely.
+[^1]: In Europe, particularly in crowded cities like Barcelona, people live in buildings, not houses. More often than not, the lower floor is a communal parking space for the neighbors of that building. Each neighbor owns a spot, but the whole parking is a communal space. This leads to an interesting conjecture because all of the owners of a spot are owners of the parking, but no one owns it entirely.
 
-[2] The basic hardware requirements to enable the the park-sharing business was the same as the mobile door opener, an “always connected” electronic attached to the door. Of course, in order to set up an “enhanced” park-sharing platform it was necessary to install sensors in each spot and more sophisticated equipment, but to kickstart the platform, the door opener was all we needed.
+[^2]: The basic hardware requirements to enable the the park-sharing business was the same as the mobile door opener, an “always connected” electronic attached to the door. Of course, in order to set up an “enhanced” park-sharing platform it was necessary to install sensors in each spot and more sophisticated equipment, but to kickstart the platform, the door opener was all we needed.

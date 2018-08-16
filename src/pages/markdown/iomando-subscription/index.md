@@ -42,7 +42,7 @@ With this annual fee we include:
 
 * An unlimited amount of licenses: you can activate as many users as you want. We won't charge you more if you have 2 or 2.000 of them. So feel free to invite your family and friends and let them use your parking space when they come over for dinner.
 * A simple in-app admin tool that allows the owner to manage and grant permissions to users.
-* The hardware equipment that goes with the door: doors do many things, but none of them is to “talk” to smartphones out of the box. Think of this hardware as some kind of translator so the smartphone can “talk” to (and open) the door[1].
+* The hardware equipment that goes with the door: doors do many things, but none of them is to “talk” to smartphones out of the box. Think of this hardware as some kind of translator so the smartphone can “talk” to (and open) the door[^1].
 * The installation service from one of our network of official iomando-trained installers.
 
 The price for all these services is 99€ / year, a small fraction of what traditional access system would cost.
@@ -104,4 +104,4 @@ This is also good news for our customers, because they will not only benefit fro
 That being said, we truly believe that this is for the best. We are here for the long run and we’ll continue to work in order to deliver the best product at the most competitive price.
 
 ---
-[1] Installing a device to the door it's not an exclusive feature of iomando. Any automated door that works with remotes or magnetic cards will also require this device.
+[^1]: Installing a device to the door it's not an exclusive feature of iomando. Any automated door that works with remotes or magnetic cards will also require this device.

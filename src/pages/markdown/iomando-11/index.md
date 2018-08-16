@@ -5,7 +5,7 @@ path: "/blog/2013/iomando-11"
 tags: ["iomando", "product"]
 ---
 
-ℹ️ This post was originally posted on August 2012 on the official iomando blog and it announced the first major update of our product.
+ℹ️ This post was originally published on August 2012 on the official iomando blog and it announced the first major update of our product.
 
 ![iomando access](./iomando-access.jpg "iomando access")
 
@@ -33,7 +33,7 @@ As discussed in [previous posts](/blog/2013/iomando-pivot), since our interactio
 
 For this reason, our first update today is about the opening experience.
 
-In short, iomando is getting faster. We aren't getting technical in here[1], but we've reduced the time it takes from the moment the open button is pressed, to the open signal reaching the electronic board at the door by an 80%. That's a lot percent.
+In short, iomando is getting faster. We aren't getting technical in here[^1], but we've reduced the time it takes from the moment the open button is pressed, to the open signal reaching the electronic board at the door by an 80%. That's a lot percent.
 
 How we've done that? We are not going to dive into the specifics, but we've worked in three different areas to achieve a compounded improvement.
 
@@ -49,7 +49,7 @@ iomando is also getting more reliable. Here there's a lot of technical stuff inv
 
 Before this update, when the open button was pressed, there was a moment of disconnection between what was happening and the information that was displayed on the screen. This uncertainty, despite being just a few seconds, caused a lot of anxiety to the user. We felt that, too.
 
-That's why we are rolling out a new technology[2] that communicates devices and doors, in real time. That means that the state of the operation is being reported in real time to the mobile. If the server detects that there's a problem with the door, the user will be updated in real time. No more surprises.
+That's why we are rolling out a new technology[^2] that communicates devices and doors, in real time. That means that the state of the operation is being reported in real time to the mobile. If the server detects that there's a problem with the door, the user will be updated in real time. No more surprises.
 
 Finally, iomando is getting more secure. We've discussed before [why a cloud-based access system is more secure](/blog/2013/iomando-cellular#Security) than a key or a remote.
 
@@ -96,6 +96,6 @@ To recap, today we are announcing three updates:
 We are thrilled to announce these new features and we can't wait to share with you all the new stuff we have already planned for the coming months. Stay tuned!
 
 ---
-[1] Believe it or not, every time we opened a door with version 1.0 we sent an SMS to the door. Yes, I know how you feel about that, I felt it, too. That was because our telco provider wasn't able to provide static addresses to the SIM cards, so we couldn't rely on they changing at any given time. That's why we pointed to the only fixed parameter we had to open the door, and that was the SIM phone number. Despite being so (cost) ineffective, that bought us time to deploy the VPN with local IPs that we rolled out with version 1.1.
+[^1]: Believe it or not, every time we opened a door with version 1.0 we sent an SMS to the door. Yes, I know how you feel about that, I felt it, too. That was because our telco provider wasn't able to provide static addresses to the SIM cards, so we couldn't rely on they changing at any given time. That's why we pointed to the only fixed parameter we had to open the door, and that was the SIM phone number. Despite being so (cost) ineffective, that bought us time to deploy the VPN with local IPs that we rolled out with version 1.1.
 
-[2] We discussed a few alternatives, but we felt like Node.js was the best fit to create the layer of communications on top of the solution, that could provide real time data across the board.
+[^2]: We discussed a few alternatives, but we felt like Node.js was the best fit to create the layer of communications on top of the solution, that could provide real time data across the board.

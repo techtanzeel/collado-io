@@ -25,14 +25,14 @@ As the main point of this post is to reveal the reasons behind our decision to u
 
 There were several technologies available in the market — each one with its pros and cons, that could enable this "translation". We came out with our [first commercial prototype](/blog/2013/iomando-prologue) by the end of 2011, but is important to note that when we developed those early designs, [we still didn’t fully appreciate](/blog/2013/iomando-pivot) the potential outcome of the business.
 
-The moment we faced the blank canvas we had four candidates[1] on the table: GSM (cellular)[2], Wi-Fi, Bluetooth (not 4.0) and NFC. We prototyped each of them, and spent a lot of time trying to understand which one would be the perfect fit to our business model.
+The moment we faced the blank canvas we had four candidates[^1] on the table: GSM (cellular)[^2], Wi-Fi, Bluetooth (not 4.0) and NFC. We prototyped each of them, and spent a lot of time trying to understand which one would be the perfect fit to our business model.
 
 Finally, we opted for GSM; below are the reasons why.
 
 ### Compatibility
 Lets start with NFC: back in 2012 the introduction of NFC was seen as a major disruption when it came to interact with the real world (update from the future: wrong!). Of course NFC would be a great way to check-in with iomando, but presented three issues that rule it out from the beginning:
 
-* Compatibility: only Android was officially supporting NFC. Since the 39% of our user base[3] run on iPhone, leaving more than one third of our customers out didn’t look like a smart move[4].
+* Compatibility: only Android was officially supporting NFC. Since the 39% of our user base[^3] run on iPhone, leaving more than one third of our customers out didn’t look like a smart move[^4].
 * Car access: iomando started its operations in communal parkings and by definition the user remained inside a car during the whole interaction. In such environment one can easily see how NFC forces to reach out to some element that is installed outside the car. It sounded like something we wanted to avoid.
 * Additional equipment: even though the experience of waving something outside the car was crappy, the idea of having to equip each parking with a clunky reader implied more costs and a difficult installation.
 
@@ -51,7 +51,7 @@ To keep our installers "happy" we needed a product that was both easy to install
 
 ![iomando prototype](./iomando-prototype.jpg "iomando cellular prototype")
 
-That immediately ruled out the Wi-Fi option — at least running in infrastructure mode[5], because most of the time there’s not a reliable Wi-Fi connection available to feed the device. The versatility of our product (we can install in places ranging from small houses to big corporate buildings and public facilities) would lead to two problems if it was running on Wi-Fi:
+That immediately ruled out the Wi-Fi option — at least running in infrastructure mode[^5], because most of the time there’s not a reliable Wi-Fi connection available to feed the device. The versatility of our product (we can install in places ranging from small houses to big corporate buildings and public facilities) would lead to two problems if it was running on Wi-Fi:
 
 * Most of the time you just don’t have a Wi-Fi network available in the middle of the street or in an industrial environment.
 * On the occasions you have a network in range, in a community for example, neighbors don’t want to “lend” their own network for the sake of the service.
@@ -109,12 +109,12 @@ Looking back, using GSM connections in our devices was one of the best decisions
 It is true that the nature of a centralized GSM connection [shaped our business](/blog/2013/iomando-subscription) in a way that some customers didn’t expect, but at the end, it allowed us to design an easy installation process and creating a frictionless on boarding experience from the user perspective.
 
 ---
-[1] There were actually more, but these four were the ones we were seriously considering. There were already products in the market that opened doors with missed calls and other crazy ideas. We spent a lot of time looking into them and tried to figure out the competitive edge each could bring to our business model. As a rule of thumb, we understood our service was standing in the shoulders of giants by means of running on smartphones, so anything that wasn’t pointing on this direction wasn’t even worth considering.
+[^1]: There were actually more, but these four were the ones we were seriously considering. There were already products in the market that opened doors with missed calls and other crazy ideas. We spent a lot of time looking into them and tried to figure out the competitive edge each could bring to our business model. As a rule of thumb, we understood our service was standing in the shoulders of giants by means of running on smartphones, so anything that wasn’t pointing on this direction wasn’t even worth considering.
 
-[2] The communication layer was not running explicitly over the GSM protocol. Cellular might sound like a more accurate description, but for the sake of simplicity I'll refer to GSM / GPRS / UMTS / LTE as cellular or GSM indistinctly.
+[^2]: The communication layer was not running explicitly over the GSM protocol. Cellular might sound like a more accurate description, but for the sake of simplicity I'll refer to GSM / GPRS / UMTS / LTE as cellular or GSM indistinctly.
 
-[3] Data from November 2013, but it has remained more or less the same since.
+[^3]: Data from November 2013, but it has remained more or less the same since.
 
-[4] Update from 2014: iPhone 6 added an NFC chip, but it was only for Apple to use, so no API, no developers, yet.
+[^4]: Update from 2014: iPhone 6 added an NFC chip, but it was only for Apple to use, so no API, no developers, yet.
 
-[5] The Wi-Fi version could come in three flavors: Access Point, Infrastructure or Ad-Hoc. The Access Point, creates an SSID on its own, that’s great, but we found out that in some places the network could interfere with the one you already had installed. The Infrastructure mode was useful if you already had a Wi-Fi in your place, but that was not the case in communities. And of course, dealing with DHCP was a mess. Finally, the Ad-Hoc connection is great for this kind of application, but the Wi-Fi direct protocol was not mature back then and there was poor support for it.
+[^5]: The Wi-Fi version could come in three flavors: Access Point, Infrastructure or Ad-Hoc. The Access Point, creates an SSID on its own, that’s great, but we found out that in some places the network could interfere with the one you already had installed. The Infrastructure mode was useful if you already had a Wi-Fi in your place, but that was not the case in communities. And of course, dealing with DHCP was a mess. Finally, the Ad-Hoc connection is great for this kind of application, but the Wi-Fi direct protocol was not mature back then and there was poor support for it.

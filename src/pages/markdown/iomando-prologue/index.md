@@ -62,7 +62,7 @@ On one end, you had the PC, that was limiting the "switching experience" because
 
 > It was great as an experiment, but definitely not great for something you actually want to use everyday.
 
-On the other end, you had the electronic device[1] you installed next to "the thing" you wanted to gain control over. It had to be connected to a Wi-Fi network in order to “talk” with the PC. That was a problem because you were always depending on the availability of the network, which was not ubiquitous.
+On the other end, you had the electronic device[^1] you installed next to "the thing" you wanted to gain control over. It had to be connected to a Wi-Fi network in order to “talk” with the PC. That was a problem because you were always depending on the availability of the network, which was not ubiquitous.
 
 The hack was constrained by design. It was constrained because it had anchors on both sides, it did not belong in there. It felt incomplete and out of place, as if we already had the recipe but not yet the ingredients.
 
@@ -117,4 +117,4 @@ We still didn't know exactly how the business model based on that technology wou
 Early 2012 we shifted our focus and started exploring other business models around the technology that we thought were more attractive. We flirted with park sharing because we were convinced that we could surface a hidden supply of empty spots within communal spaces.
 
 ---
-[1] Back then it was the actual Arduino board.
+[^1]: Back then it was the actual Arduino board.
