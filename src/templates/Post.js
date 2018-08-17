@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import globalStyles from '../utils/styles/global.module.css';
-import styles from '../utils/styles/post.module.css';
+import styles from './Post.module.css';
 
 export default function BlogPost({ data }) {
   const { markdownRemark } = data;
