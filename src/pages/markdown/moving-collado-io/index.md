@@ -5,7 +5,7 @@ path: "/blog/2018/moving-collado-io"
 tags: [update]
 ---
 
-For more than 5 years I have been consistently jotting down thoughts and ideas at collado.io. Topics ranging from [product stories at iomando](/tags/iomando), [the experience at Ironhack](tags/ironhack), [summaries of the books I liked](/tags/books) or just [random thoughts](/tags/opinion). They all have accounted for more than one hundred fifty entries so far.
+For more than 5 years I have been consistently jotting down thoughts and ideas at collado.io. Topics ranging from [product stories at iomando](/iomando), [the experience at Ironhack](tags/ironhack), [summaries of the books I liked](/books) or just [random thoughts](/tags/opinion). They all have accounted for more than one hundred fifty entries so far.
 
 What started as a way to crystalize what I learnt has become a journey of discovery in itself. Writing meant no more than stitching words in front of the other, but I started because I was afraid of forgetting books I read.
 
