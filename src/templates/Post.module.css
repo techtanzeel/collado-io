@@ -35,3 +35,41 @@
 .content > h3 a:hover {
   color: #1ABC9C;
 }
+
+.content > p {
+  color: #2A2E2E;
+}
+
+.content > p > a,
+.content > li > a {
+  text-decoration: none;
+  border-bottom: 3px solid #C8EFE8;
+  box-shadow: inset 0 -4px 0 #C8EFE8;
+  transition: background 0.3s ease;
+}
+
+.content > p > a:hover,
+.content > li > a:hover {
+  background: #C8EFE8;
+  text-decoration: none;
+}
+
+.content > p > a,
+.content > p > a:visited,
+.content > p > a:hover,
+.content > p > a:active {
+  color: inherit;
+}
+
+.content > blockquote {
+  border-left: 3px solid #1ABC9C;
+  padding-left: 1.1em;
+  width: 92.5%;
+}
+
+.content > blockquote > p {
+  color: #525555;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  letter-spacing: -0.03em;
+}
