@@ -7,37 +7,37 @@ import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
 
-const Navbar = ({ }) => (
+const Navbar = () => (
   <Navigation>
-    <NavLink
+    <NaviLink
       to="/"
     >
       {`home`}
-    </NavLink>
+    </NaviLink>
 
     <Divider />
 
-    <NavLink
+    <NaviLink
       to="/blog"
     >
       {`blog`}
-    </NavLink>
+    </NaviLink>
 
     <Divider />
 
-    <NavLink
+    <NaviLink
       to="#"
     >
       {`projects`}
-    </NavLink>
+    </NaviLink>
 
     <Divider />
 
-    <NavLink
-      to="#"
+    <NaviLink
+      to="/now"
     >
       {`now`}
-    </NavLink>
+    </NaviLink>
   </Navigation>
 );
 
@@ -47,14 +47,14 @@ const Navigation = styled.div`
   justify-content: center;
   margin: 0em auto 1.2em auto;
   opacity: 0.9;
-  padding: 1.2em 1em;
+  padding: 1.2em 0.5em;
 `;
 
-const NavLink = styled(Link)`
+const NaviLink = styled(Link)`
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
   color: white;
-  margin: 0em 1.1em;
+  margin: 0em 1em;
   text-decoration: none;
 
   &:hover {
