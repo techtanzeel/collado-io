@@ -1,0 +1,16 @@
+html {}
+
+body {}
+
+.container {
+  min-width: 320px;
+  max-width: 960px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 960px) {}
+
+@media (min-width: 1200px) {}
