@@ -2,34 +2,29 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Navbar from '../components/Navbar';
+import Layout from './Layout';
 import styles from './BlogPost.module.css';
 
-export default function BlogPost({ data }) {
+const BlogPost = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className="container">
-      <Navbar />
+    <Layout>
       <BlogPostPage>
-
         <BlogPostTitle>
           {frontmatter.title}
         </BlogPostTitle>
         <MetaText>
           {`Published on ${frontmatter.date}`}
         </MetaText>
-
         <div
           className={styles.content}
           dangerouslySetInnerHTML={{ __html: html }}
         />
-
       </BlogPostPage>
-
-    </div>
+    </Layout>
   );
-}
+};
 
 const BlogPostPage = styled.div`
   padding: 0em 2em;
@@ -51,7 +46,7 @@ const MetaText = styled.p`
 `;
 
 export const blogPostQuery = graphql`
-  query blogPostByPath($path: String!) {
+  query blogPostQuery($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
@@ -79,3 +74,5 @@ BlogPost.propTypes = {
     }),
   }).isRequired,
 };
+
+export default BlogPost;

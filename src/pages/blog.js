@@ -3,8 +3,8 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Navbar from '../components/Navbar';
 import PostLink from '../components/PostLink';
+import Layout from '../templates/Layout';
 
 const Blog = ({ data }) => {
   const Posts = data.allMarkdownRemark.edges;
@@ -13,17 +13,18 @@ const Blog = ({ data }) => {
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
-    <div className="container">
-      <Navbar />
+    <Layout>
       <BlogPage>
         {PostsList}
       </BlogPage>
-    </div>
+    </Layout>
   );
 };
 
 const BlogPage = styled.div`
-  padding: 0em 2em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 2em;
 `;
 
 export const blogQuery = graphql`
@@ -49,13 +50,13 @@ Blog.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          excerpt: PropTypes.string.isRequired,
-          id: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
+          excerpt: PropTypes.string,
+          id: PropTypes.string,
+          totalCount: PropTypes.number,
           frontmatter: PropTypes.shape({
-            date: PropTypes.string.isRequired,
-            path: PropTypes.string.isRequired,
-            title: PropTypes.string.isRequired,
+            date: PropTypes.string,
+            path: PropTypes.string,
+            title: PropTypes.string,
           }),
         }),
       ),
