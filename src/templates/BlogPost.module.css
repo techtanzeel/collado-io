@@ -1,66 +1,47 @@
-.container {
-  padding: 0 2em;
-}
-
-.post {}
-
-.content {}
-
-.post > h1,
+/* Headers */
 .content > h2,
 .content > h3 {
+  color: #2A2E2E;
   font-weight: 700;
   letter-spacing: -0.025em;
   margin-top: 2em;
   text-transform: uppercase;
 }
 
-.post > h1 {
-  color: #2A2E2E;
-  font-size: 1.8em;
-}
-
 .content > h2 {
-  color: #2A2E2E;
   font-size: 1.4em;
 }
 
 .content > h3 {
-  color: #525555;
   font-size: 1.2em;
 }
 
-.post > h1 a:hover,
-.content > h2 a:hover,
-.content > h3 a:hover {
-  color: #1ABC9C;
-}
-
+/* Text */
 .content > p {
   color: #2A2E2E;
 }
 
+.content a,
+.content a:visited,
+.content a:hover,
+.content a:active {
+  color: inherit;
+}
+
 .content > p > a,
-.content > li > a {
-  text-decoration: none;
+.content li > a {
   border-bottom: 3px solid #C8EFE8;
   box-shadow: inset 0 -4px 0 #C8EFE8;
+  text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .content > p > a:hover,
-.content > li > a:hover {
+.content li > a:hover {
   background: #C8EFE8;
-  text-decoration: none;
 }
 
-.content > p > a,
-.content > p > a:visited,
-.content > p > a:hover,
-.content > p > a:active {
-  color: inherit;
-}
-
+/* Blockquotes */
 .content > blockquote {
   border-left: 3px solid #1ABC9C;
   padding-left: 1.1em;
@@ -72,4 +53,26 @@
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
   letter-spacing: -0.03em;
+}
+
+/* Code */
+.content > p > code {
+  padding: 0em 0.25em;
+}
+
+/* Footer */
+.content > div > hr {
+  display: none;
+}
+
+.content > div > ol > li > a {
+  border-bottom: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.content > div > ol > li > a:hover,
+.content > div > ol > li > a:hover {
+  background: none;
+  color: #1ABC9C;
 }

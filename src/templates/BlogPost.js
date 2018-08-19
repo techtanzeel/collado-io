@@ -1,32 +1,57 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
-import globalStyles from '../utils/styles/global.module.css';
-import styles from './Post.module.css';
+import Navbar from '../components/Navbar';
+import styles from './BlogPost.module.css';
 
 export default function BlogPost({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className={styles.container}>
-      <div className={styles.post}>
-        <h1>
+    <div className="container">
+      <Navbar />
+      <BlogPostPage>
+
+        <BlogPostTitle>
           {frontmatter.title}
-        </h1>
-        <h2>
-          {frontmatter.date}
-        </h2>
+        </BlogPostTitle>
+        <MetaText>
+          {`Published on ${frontmatter.date}`}
+        </MetaText>
+
         <div
           className={styles.content}
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </div>
+
+      </BlogPostPage>
+
     </div>
   );
 }
 
+const BlogPostPage = styled.div`
+  padding: 0em 2em;
+`;
+
+const BlogPostTitle = styled.h1`
+  color: #2A2E2E;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-top: 1em;
+  text-transform: uppercase;
+`;
+
+const MetaText = styled.p`
+  color: #525555;
+  font-size: 0.8em;
+  opacity: 0.5;
+`;
+
 export const blogPostQuery = graphql`
-  query BlogPostByPath($path: String!) {
+  query blogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
