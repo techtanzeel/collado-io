@@ -7,74 +7,68 @@ import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
 
-const Navbar = ({ }) => {
-  console.log();
-  return (
-    <Container>
-      <Nav>
-        <NavLink
-          to="/"
-        >
-          {`Home`}
-        </NavLink>
+const Navbar = ({ }) => (
+  <Navigation>
+    <NavLink
+      to="/"
+    >
+      {`home`}
+    </NavLink>
 
-        <Divider />
+    <Divider />
 
-        <NavLink
-          to="#"
-        >
-          {`Blog`}
-        </NavLink>
+    <NavLink
+      to="/blog"
+    >
+      {`blog`}
+    </NavLink>
 
-        <Divider />
+    <Divider />
 
-        <NavLink
-          to="#"
-        >
-          {`Projects`}
-        </NavLink>
+    <NavLink
+      to="#"
+    >
+      {`projects`}
+    </NavLink>
 
-        <Divider />
+    <Divider />
 
-        <NavLink
-          to="#"
-        >
-          {`Now`}
-        </NavLink>
-      </Nav>
-    </Container>
-  );
-};
+    <NavLink
+      to="#"
+    >
+      {`now`}
+    </NavLink>
+  </Navigation>
+);
 
-const Container = styled.div`
+const Navigation = styled.div`
   background: ${fakeAsbestos};
-  margin-bottom: 1.2em;
-`;
-
-const Nav = styled.div`
   display: flex;
   justify-content: center;
-  margin: 0px auto;
-  minWidth: 320px;
-  maxWidth: 960px;
+  margin: 0em auto 1.2em auto;
+  opacity: 0.9;
   padding: 1.2em 1em;
 `;
 
 const NavLink = styled(Link)`
   font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
+  font-size: 0.9em;
   color: white;
-  margin: 0em 1em;
+  margin: 0em 1.1em;
   text-decoration: none;
+
+  &:hover {
+    color: ${eggShell};
+  }
 `;
 
 const Divider = styled.span`
-  background: ${eggShell};
-  border-radius: 0.15em;
+  background: white;
+  border-radius: 0.125em;
   margin-top: 0.7em;
-  transparency: 0.5;
-  height: 0.3em;
-  width: 0.3em;
+  opacity: 0.25;
+  height: 0.25em;
+  width: 0.25em;
 `;
 
 Navbar.propTypes = {};
