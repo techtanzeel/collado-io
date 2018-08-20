@@ -7,9 +7,20 @@ import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
 
+const urlMatch = (match, location) => {
+  console.log('MATCH:', match);
+  console.log('LOCATION:', location);
+  return location.pathname === '/';
+};
+
 const Navbar = () => (
   <Navigation>
     <NaviLink
+      activeStyle={{
+        borderBottom: `2px solid white`,
+      }}
+      exact
+      isActive={urlMatch}
       to="/"
     >
       {`home`}
@@ -18,6 +29,10 @@ const Navbar = () => (
     <Divider />
 
     <NaviLink
+      activeStyle={{
+        borderBottom: `2px solid white`,
+      }}
+      exact
       to="/blog"
     >
       {`blog`}
@@ -26,7 +41,11 @@ const Navbar = () => (
     <Divider />
 
     <NaviLink
-      to="#"
+      exact
+      to="/projects"
+      activeStyle={{
+        borderBottom: `2px solid white`,
+      }}
     >
       {`projects`}
     </NaviLink>
@@ -34,7 +53,11 @@ const Navbar = () => (
     <Divider />
 
     <NaviLink
+      exact
       to="/now"
+      activeStyle={{
+        borderBottom: `2px solid white`,
+      }}
     >
       {`now`}
     </NaviLink>
@@ -46,19 +69,25 @@ const Navigation = styled.div`
   display: flex;
   justify-content: center;
   margin: 0em auto 1.2em auto;
-  opacity: 0.9;
   padding: 1.2em 0.5em;
 `;
 
 const NaviLink = styled(Link)`
+  color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
-  color: white;
   margin: 0em 1em;
   text-decoration: none;
 
   &:hover {
-    color: ${eggShell};
+    color: ${turquoise};
+  }
+
+  &:active {
+    color: ${turquoise};
+    &:hover {
+    color: white;
+    }
   }
 `;
 
