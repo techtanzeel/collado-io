@@ -7,20 +7,13 @@ import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
 
-const urlMatch = (match, location) => {
-  console.log('MATCH:', match);
-  console.log('LOCATION:', location);
-  return location.pathname === '/';
-};
-
 const Navbar = () => (
   <Navigation>
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid white`,
+        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
       }}
       exact
-      isActive={urlMatch}
       to="/"
     >
       {`home`}
@@ -30,7 +23,7 @@ const Navbar = () => (
 
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid white`,
+        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
       }}
       exact
       to="/blog"
@@ -41,11 +34,11 @@ const Navbar = () => (
     <Divider />
 
     <NaviLink
+      activeStyle={{
+        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+      }}
       exact
       to="/projects"
-      activeStyle={{
-        borderBottom: `2px solid white`,
-      }}
     >
       {`projects`}
     </NaviLink>
@@ -53,11 +46,11 @@ const Navbar = () => (
     <Divider />
 
     <NaviLink
+      activeStyle={{
+        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+      }}
       exact
       to="/now"
-      activeStyle={{
-        borderBottom: `2px solid white`,
-      }}
     >
       {`now`}
     </NaviLink>
@@ -68,7 +61,7 @@ const Navigation = styled.div`
   background: ${fakeAsbestos};
   display: flex;
   justify-content: center;
-  margin: 0em auto 1.2em auto;
+  margin-bottom: 1.2em;
   padding: 1.2em 0.5em;
 `;
 
@@ -76,26 +69,20 @@ const NaviLink = styled(Link)`
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
-  margin: 0em 1em;
+  margin: 0em 0.5em;
+  padding: 0.1em 0.5em 0.2em 0.5em;
   text-decoration: none;
 
   &:hover {
-    color: ${turquoise};
-  }
-
-  &:active {
-    color: ${turquoise};
-    &:hover {
-    color: white;
-    }
+    border-bottom: 2px solid ${turquoise};
   }
 `;
 
 const Divider = styled.span`
   background: white;
   border-radius: 0.125em;
-  margin-top: 0.7em;
-  opacity: 0.25;
+  margin-top: 0.8em;
+  opacity: 0.4;
   height: 0.25em;
   width: 0.25em;
 `;
