@@ -3,17 +3,9 @@
 .content > h3 {
   color: #2A2E2E;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -1px;
   margin-top: 2em;
   text-transform: uppercase;
-}
-
-.content > h2 {
-  font-size: 1.4em;
-}
-
-.content > h3 {
-  font-size: 1.2em;
 }
 
 /* Text */
@@ -52,7 +44,7 @@
   color: #525555;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.0625em;
 }
 
 /* Code */

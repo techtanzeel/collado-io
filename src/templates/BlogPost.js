@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Layout from './Layout';
 import styles from './BlogPost.module.css';
+import Layout from './Layout';
+import {
+  black, fakeAsbestos, turquoise, eggShell,
+} from '../utils/colors';
 
 const BlogPost = ({ data }) => {
   const { markdownRemark } = data;
@@ -15,7 +18,10 @@ const BlogPost = ({ data }) => {
           {frontmatter.title}
         </BlogPostTitle>
         <MetaText>
-          {`Published on ${frontmatter.date}`}
+          {`Published on ${frontmatter.date} `}
+          <a href={frontmatter.path}>
+            🔗
+          </a>
         </MetaText>
         <div
           className={styles.content}
@@ -31,16 +37,15 @@ const BlogPostPage = styled.div`
 `;
 
 const BlogPostTitle = styled.h1`
-  color: #2A2E2E;
-  font-size: 2em;
+  color: ${black};
   font-weight: 700;
-  letter-spacing: -0.025em;
-  margin-top: 1em;
+  letter-spacing: -1px;
+  margin: 1em 0em 0.125em 0em;
   text-transform: uppercase;
 `;
 
 const MetaText = styled.p`
-  color: #525555;
+  color: ${fakeAsbestos};
   font-size: 0.8em;
   opacity: 0.5;
 `;
