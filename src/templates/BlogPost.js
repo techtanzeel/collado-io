@@ -33,6 +33,8 @@ const BlogPost = ({ data }) => {
 };
 
 const BlogPostPage = styled.div`
+  margin: 0em auto;
+  max-width: 800px;
   padding: 0em 2em;
 `;
 
