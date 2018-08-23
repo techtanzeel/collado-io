@@ -22,9 +22,9 @@ const Blog = ({ data }) => {
 };
 
 const BlogPage = styled.div`
-  margin: 0 auto;
+  margin: 0em auto;
   max-width: 800px;
-  padding: 0 2em;
+  padding: 0em 2em;
 `;
 
 export const blogQuery = graphql`

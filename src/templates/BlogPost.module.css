@@ -33,6 +33,12 @@
   background: #C8EFE8;
 }
 
+/* Avoid img link styling */
+p:first-child > a {
+  border-bottom: 0px;
+  box-shadow: 0px;
+}
+
 /* Blockquotes */
 .content > blockquote {
   border-left: 3px solid #1ABC9C;

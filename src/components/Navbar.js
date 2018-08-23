@@ -11,7 +11,7 @@ const Navbar = () => (
   <Navigation>
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
       }}
       exact
       to="/"
@@ -23,9 +23,8 @@ const Navbar = () => (
 
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
       }}
-      exact
       to="/blog"
     >
       {`blog`}
@@ -35,9 +34,8 @@ const Navbar = () => (
 
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
       }}
-      exact
       to="/projects"
     >
       {`projects`}
@@ -47,7 +45,7 @@ const Navbar = () => (
 
     <NaviLink
       activeStyle={{
-        borderBottom: `2px solid rgba(255, 255, 255, 0.4)`,
+        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
       }}
       exact
       to="/now"
@@ -62,7 +60,7 @@ const Navigation = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 1.2em;
-  padding: 1.2em 0.5em;
+  padding: 1em 0.5em;
 `;
 
 const NaviLink = styled(Link)`
@@ -70,11 +68,11 @@ const NaviLink = styled(Link)`
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
   margin: 0em 0.5em;
-  padding: 0.1em 0.5em 0.2em 0.5em;
+  padding: 0.2em 0.5em;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 2px solid ${turquoise};
+    border-bottom: 3px solid ${turquoise};
   }
 `;
 
