@@ -2,7 +2,7 @@
 title: "Ready Player One"
 date: "2018-05-09"
 path: "/blog/2018/ready-player-one"
-categories: [movie, opinion, tech]
+categories: ["movie", "opinion", "tech"]
 ---
 
 Last month I went to the movies.

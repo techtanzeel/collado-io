@@ -2,7 +2,7 @@
 title: "Moving collado.io"
 date: "2018-08-17"
 path: "/blog/2018/moving-collado-io"
-tags: [update]
+tags: ["update"]
 ---
 
 For more than 5 years I have been consistently jotting down thoughts and ideas at collado.io. Topics ranging from [product stories at iomando](/iomando), [the experience at Ironhack](tags/ironhack), [summaries of the books I liked](/books) or just [random thoughts](/tags/opinion). They all have accounted for more than one hundred fifty entries so far.
