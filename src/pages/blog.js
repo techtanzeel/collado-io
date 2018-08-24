@@ -22,6 +22,8 @@ const Blog = ({ data }) => {
 };
 
 const BlogPage = styled.div`
+  display: flex;
+  flex-flow: column;
   margin: 0em auto;
   max-width: 800px;
   padding: 0em 2em;
