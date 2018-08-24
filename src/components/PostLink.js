@@ -27,14 +27,19 @@ const CardLink = styled(Link)`
 const BlogPostTitle = styled.h3`
   color: ${black};
   letter-spacing: -1px;
-  margin-bottom: 0em;
+  margin-bottom: 0.1em;
   text-transform: uppercase;
+  transition: color 0.3s ease;
+
+  @media (min-width: 768px) {
+    font-size: 1.4em;
+  }
 `;
 
 const CardWrapper = styled.div`
   border-left: 0.5em solid ${eggShell};
-  margin-bottom: 1em;
   padding-left: 0.8em;
+  transition: border-left 0.3s ease;
 
   &:hover {
     border-left: 0.5em solid ${turquoise};
