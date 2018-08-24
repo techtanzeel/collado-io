@@ -7,51 +7,25 @@ import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
 
+const renderNavbar = () => {
+  const navItems = ['home', 'blog', 'projects', 'now'];
+  return navItems.map((item) => (
+    <NaviLink
+      activeStyle={{
+        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
+      }}
+      exact={item === `home`}
+      key={item}
+      to={item === `home` ? `/` : `/${item}`}
+    >
+      {`${item}`}
+    </NaviLink>
+  ));
+};
+
 const Navbar = () => (
   <Navigation>
-    <NaviLink
-      activeStyle={{
-        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
-      }}
-      exact
-      to="/"
-    >
-      {`home`}
-    </NaviLink>
-
-    <Divider />
-
-    <NaviLink
-      activeStyle={{
-        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
-      }}
-      to="/blog"
-    >
-      {`blog`}
-    </NaviLink>
-
-    <Divider />
-
-    <NaviLink
-      activeStyle={{
-        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
-      }}
-      to="/projects"
-    >
-      {`projects`}
-    </NaviLink>
-
-    <Divider />
-
-    <NaviLink
-      activeStyle={{
-        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
-      }}
-      exact
-      to="/now"
-    >
-      {`now`}
-    </NaviLink>
+    {renderNavbar()}
   </Navigation>
 );
 
@@ -59,7 +33,7 @@ const Navigation = styled.div`
   background: ${fakeAsbestos};
   display: flex;
   justify-content: center;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.3em;
   padding: 1em 0.5em;
 `;
 
@@ -74,15 +48,10 @@ const NaviLink = styled(Link)`
   &:hover {
     border-bottom: 3px solid ${turquoise};
   }
-`;
 
-const Divider = styled.span`
-  background: white;
-  border-radius: 0.125em;
-  margin-top: 0.8em;
-  opacity: 0.4;
-  height: 0.25em;
-  width: 0.25em;
+  @media (min-width: 768px) {
+    padding: 0.2em 0.9em;
+  }
 `;
 
 Navbar.propTypes = {};
