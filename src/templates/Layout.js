@@ -15,19 +15,11 @@ const Layout = ({ children }) => (
 const Container = styled.div`
   min-width: 320px;
 
-  @media (min-width: 576px) {
-
-  }
-
   @media (min-width: 768px) {
 
   }
 
-  @media (min-width: 960px) {
-
-  }
-
-  @media (min-width: 1200px) {
+  @media (min-width: 1024px) {
 
   }
 `;
