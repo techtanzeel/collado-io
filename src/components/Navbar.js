@@ -8,7 +8,7 @@ import {
 } from '../utils/colors';
 
 const renderNavbar = () => {
-  const navItems = ['home', 'blog', 'projects', 'now'];
+  const navItems = ['home', 'blog', 'work', 'now'];
   return navItems.map((item) => (
     <NaviLink
       activeStyle={{
