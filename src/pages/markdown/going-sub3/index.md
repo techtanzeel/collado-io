@@ -2,7 +2,7 @@
 title: "Going Sub3"
 date: "2018-08-20"
 path: "/blog/2018/going-sub3"
-tags: [health, sub3]
+tags: ["health", "sub3"]
 ---
 
 Last year — also by the end of the summer, I challenged myself to finish the 2018 Barcelona Marathon under three hours.
