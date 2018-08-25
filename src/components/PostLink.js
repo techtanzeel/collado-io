@@ -37,7 +37,7 @@ const BlogPostTitle = styled.h3`
 `;
 
 const CardWrapper = styled.div`
-  border-left: 0.5em solid ${eggShell};
+  border-left: 0.5em solid ${fakeAsbestos}44;
   padding-left: 0.8em;
   transition: border-left 0.3s ease;
 
@@ -51,9 +51,8 @@ const CardWrapper = styled.div`
 `;
 
 const MetaText = styled.p`
-  color: ${fakeAsbestos};
+  color: ${fakeAsbestos}88;
   font-size: 0.8em;
-  opacity: 0.5;
 `;
 
 PostLink.propTypes = {};

@@ -12,7 +12,7 @@ const renderNavbar = () => {
   return navItems.map((item) => (
     <NaviLink
       activeStyle={{
-        borderBottom: `3px solid rgba(255, 255, 255, 0.4)`,
+        borderBottom: `3px solid #FFF4`,
       }}
       exact={item === `home`}
       key={item}

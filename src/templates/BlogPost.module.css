@@ -34,9 +34,8 @@
 }
 
 /* Avoid img link styling */
-p:first-child > a {
+.content > p > a > img:host {
   border-bottom: 0px;
-  box-shadow: 0px;
 }
 
 /* Blockquotes */
@@ -50,7 +49,7 @@ p:first-child > a {
   color: #525555;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
-  letter-spacing: -0.0625em;
+  letter-spacing: -1px;
 }
 
 /* Code */

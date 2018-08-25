@@ -18,10 +18,7 @@ const BlogPost = ({ data }) => {
           {frontmatter.title}
         </BlogPostTitle>
         <MetaText>
-          {`Published on ${frontmatter.date} `}
-          <a href={frontmatter.path}>
-            🔗
-          </a>
+          {`Published on ${frontmatter.date}`}
         </MetaText>
         <div
           className={styles.content}
@@ -47,9 +44,8 @@ const BlogPostTitle = styled.h1`
 `;
 
 const MetaText = styled.p`
-  color: ${fakeAsbestos};
+  color: ${fakeAsbestos}88;
   font-size: 0.8em;
-  opacity: 0.5;
 `;
 
 export const blogPostQuery = graphql`

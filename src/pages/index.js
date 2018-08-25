@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import Layout from '../templates/Layout';
 
+
 const Home = () => {
   console.log();
   return (
@@ -14,8 +15,18 @@ const Home = () => {
           {`My Story In A Few Paragraphs...`}
         </h2>
         <p>
-          {`Born and raised in Barcelona. I am an Industrial Engineer, always involved with tech products and companies.`}
+          Born and raised in Barcelona. I am an Industrial Engineer, always involved with tech products and companies.
         </p>
+        <p>
+          In 2011, upon graduation, co-founded iomando technologies, a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a cool product and ended up acquired by
+          {' '}
+          <a href="https://citibox.com/">
+          Citibox
+          </a>
+          {' '}
+          in 2017.
+        </p>
+
       </HomePage>
     </Layout>
   );
