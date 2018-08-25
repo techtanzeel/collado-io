@@ -15,19 +15,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'images',
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 720,
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              showCaptions: false,
             },
           },
           'gatsby-remark-copy-linked-files',
         ],
       },
     },
+    // Images
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     // Styles and Typography
