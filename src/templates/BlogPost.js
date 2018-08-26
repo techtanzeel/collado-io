@@ -7,6 +7,12 @@ import Layout from './Layout';
 import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
+import {
+  mobile, tablet, desktop,
+} from '../utils/breakpoints';
+import {
+  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+} from '../utils/theme';
 
 const BlogPost = ({ data }) => {
   const { markdownRemark } = data;
@@ -17,9 +23,9 @@ const BlogPost = ({ data }) => {
         <BlogPostTitle>
           {frontmatter.title}
         </BlogPostTitle>
-        <MetaText>
+        <Published>
           {`Published on ${frontmatter.date}`}
-        </MetaText>
+        </Published>
         <div
           className={styles.content}
           dangerouslySetInnerHTML={{ __html: html }}
@@ -35,15 +41,11 @@ const BlogPostPage = styled.div`
   padding: 0em 2em;
 `;
 
-const BlogPostTitle = styled.h1`
-  color: ${black};
-  font-weight: 700;
-  letter-spacing: -1px;
+const BlogPostTitle = styled(Title1)`
   margin: 1em 0em 0.125em 0em;
-  text-transform: uppercase;
 `;
 
-const MetaText = styled.p`
+const Published = styled.p`
   color: ${fakeAsbestos}88;
   font-size: 0.8em;
 `;

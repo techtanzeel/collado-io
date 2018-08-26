@@ -5,8 +5,14 @@ import styled from 'styled-components';
 
 import Layout from '../templates/Layout';
 import {
+  mobile, tablet, desktop,
+} from '../utils/breakpoints';
+import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
+import {
+  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+} from '../utils/theme';
 
 const Home = ({ data }) => {
   const marcImg = data.file.childImageSharp.resolutions.src;
@@ -18,9 +24,9 @@ const Home = ({ data }) => {
           <Title>
               Marc Collado
           </Title>
-          <MetaText>
+          <TagLine>
             Singularly curious
-          </MetaText>
+          </TagLine>
           <Marc src={marcImg} alt="Marc Collado" />
         </TitleWrap>
 
@@ -34,40 +40,40 @@ const Home = ({ data }) => {
         <p>
           In 2011, upon graduation, co-founded
           {' '}
-          <a href="/work/iomando">
+          <BodyLink href="/work/iomando">
             iomando technologies
-          </a>
+          </BodyLink>
           , a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a
           {' '}
-          <a href="/work/iomando/product">
+          <BodyLink href="/work/iomando/product">
             cool product
-          </a>
+          </BodyLink>
           {' '}
           and ended up acquired by
           {' '}
-          <a href="https://citibox.com/">
+          <BodyLink href="https://citibox.com/">
             Citibox
-          </a>
+          </BodyLink>
           {' '}
           in 2017.
         </p>
         <p>
           In 2015, decided to
           {' '}
-          <a href="/blog/2015/stepping-down">
+          <BodyLink href="/blog/2015/stepping-down">
             switch gears
-          </a>
+          </BodyLink>
           {' '}
           and pursue another passion of mine:
           {' '}
-          <a href="/tags/education">
+          <BodyLink href="/tags/education">
             education
-          </a>
+          </BodyLink>
           . Then joined
           {' '}
-          <a href="/work/ironhack">
+          <BodyLink href="/work/ironhack">
             Ironhack
-          </a>
+          </BodyLink>
           {' '}
           Ironhack, to change the way we learn about technology. First as the GM in Barcelona, establishing the city operations from the ground up, and later on as Product Manager.
         </p>
@@ -83,86 +89,84 @@ const Home = ({ data }) => {
           <li>
             Hold
             {' '}
-            <a href="/tags/opinion">
+            <BodyLink href="/tags/opinion">
               strong opinions
-            </a>
+            </BodyLink>
             {' '}
              on
             {' '}
-            <a href="/tags/health">
+            <BodyLink href="/tags/health">
               health
-            </a>
+            </BodyLink>
             ,
             {' '}
-            <a href="/tags/happiness">
+            <BodyLink href="/tags/happiness">
               happiness
-            </a>
+            </BodyLink>
             ,
             {' '}
-            <a href="/tags/simple">
+            <BodyLink href="/tags/simple">
               simple living
-            </a>
+            </BodyLink>
             {' '}
             and
             {' '}
-            <a href="/tags/product">
+            <BodyLink href="/tags/product">
               products
-            </a>
+            </BodyLink>
             {' '}
              in general.
           </li>
           <li>
-            <a href="/tags/coding">
+            <BodyLink href="/tags/coding">
               Engineering
-            </a>
+            </BodyLink>
             ,
             {' '}
-            <a href="/tags/craft">
+            <BodyLink href="/tags/craft">
               craftsmanship
-            </a>
+            </BodyLink>
             ,
             {' '}
-            <a href="/tags/history">
+            <BodyLink href="/tags/history">
               history
-            </a>
+            </BodyLink>
             , and
             {' '}
-            <a href="/tags/physics">
+            <BodyLink href="/tags/physics">
               physics
-            </a>
+            </BodyLink>
             {' '}
             have all my attention.
           </li>
-          <ul>
-            <li>
+          <li>
               Couldn't agree more with idea that
-              {' '}
-              <i>
+            {' '}
+            <i>
                 "we don’t see things as they are"
-              </i>
-              {' '}
+            </i>
+            {' '}
               that we actually
-              {' '}
-              <i>
+            {' '}
+            <i>
                 "see them as we are"
-              </i>
+            </i>
             .
-            </li>
-          </ul>
+          </li>
           <li>
             Love things that
             {' '}
-            <a href="/tags/transport">
+            <BodyLink href="/tags/transport">
               move around
-            </a>
+            </BodyLink>
             : bikes, cars, trains, planes, you name it.
           </li>
           <li>
             Know for a fact that any mindless activity gets much better by listening to a
             {' '}
-            <a href="/tags/podcast">
+            <BodyLink href="/tags/podcast">
               podcast
-            </a>
+            </BodyLink>
             .
           </li>
           <li>
@@ -183,42 +187,22 @@ const HomePage = styled.div`
 const TitleWrap = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
 `;
 
-const Title = styled.h1`
-  box-shadow: inset 0em -0.6em 0em ${eggShell};
-  color: ${black};
-  font-weight: 700;
-  letter-spacing: -1px;
+const Title = styled(Title1)`
   margin: 0em auto;
   padding: 0em 0.5em;
   text-align: center;
-  text-transform: uppercase;
-
-  @media (min-width: 576px) {
-    font-size: 2.2em;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 2.4em;
-  }
 `;
 
-const MetaText = styled.p`
-  color: ${fakeAsbestos}88;
-  font-size: 0.8em;
+const TagLine = styled(MetaText)`
   margin: 0em auto;
   text-align: center;
   text-transform: uppercase;
+`;
 
-  @media (min-width: 576px) {
-    font-size: 0.9em;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 1em;
-  }
+const Subtitle = styled(Title3)`
+  margin-top: 0.5em;
 `;
 
 const Marc = styled.img`
@@ -226,21 +210,13 @@ const Marc = styled.img`
   max-width: 275px;
   width: 75%;
 
-  @media (min-width: 576px) {
+  @media (min-width: ${mobile}) {
     max-width: 325px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${tablet}) {
     max-width: 375px;
   }
-`;
-
-const Subtitle = styled.h2`
-  color: ${black};
-  font-weight: 700;
-  letter-spacing: -1px;
-  margin-top: 1em;
-  text-transform: uppercase;
 `;
 
 export const imgQuery = graphql`
