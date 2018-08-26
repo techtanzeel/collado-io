@@ -4,19 +4,22 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
-  black, fakeAsbestos, turquoise, eggShell,
+  fakeAsbestos, turquoise,
 } from '../utils/colors';
+import {
+  Title3, MetaText,
+} from '../utils/theme';
 
 const PostLink = ({ post }) => (
   <CardLink to={post.frontmatter.path}>
-    <CardWrapper>
+    <Container>
       <BlogPostTitle>
         {post.frontmatter.title}
       </BlogPostTitle>
       <MetaText>
         {`Published on ${post.frontmatter.date} →`}
       </MetaText>
-    </CardWrapper>
+    </Container>
   </CardLink>
 );
 
@@ -24,19 +27,12 @@ const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
-const BlogPostTitle = styled.h3`
-  color: ${black};
-  letter-spacing: -1px;
+const BlogPostTitle = styled(Title3)`
   margin-bottom: 0.1em;
-  text-transform: uppercase;
   transition: color 0.3s ease;
-
-  @media (min-width: 768px) {
-    font-size: 1.4em;
-  }
 `;
 
-const CardWrapper = styled.div`
+const Container = styled.div`
   border-left: 0.5em solid ${fakeAsbestos}44;
   padding-left: 0.8em;
   transition: border-left 0.3s ease;
@@ -48,11 +44,6 @@ const CardWrapper = styled.div`
   &:hover ${BlogPostTitle} {
     color: ${turquoise};
   }
-`;
-
-const MetaText = styled.p`
-  color: ${fakeAsbestos}88;
-  font-size: 0.8em;
 `;
 
 PostLink.propTypes = {};
