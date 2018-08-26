@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import PageHeader from '../components/PageHeader';
 import Layout from '../templates/Layout';
 import {
   mobile, tablet, desktop,
@@ -20,15 +21,13 @@ const Home = ({ data }) => {
   return (
     <Layout>
       <HomePage>
-        <TitleWrap>
-          <Title>
-              Marc Collado
-          </Title>
-          <TagLine>
-            Singularly curious
-          </TagLine>
-          <Marc src={marcImg} alt="Marc Collado" />
-        </TitleWrap>
+        <PageHeader
+          title="Marc Collado"
+          tagline="Singularly Curious"
+          img
+          imgURL={marcImg}
+          imgAlt="Marc Collado"
+        />
 
         <Subtitle>
           My Story In A Few Paragraphs
@@ -75,7 +74,7 @@ const Home = ({ data }) => {
             Ironhack
           </BodyLink>
           {' '}
-          Ironhack, to change the way we learn about technology. First as the GM in Barcelona, establishing the city operations from the ground up, and later on as Product Manager.
+          to change the way we learn about technology. First as the GM in Barcelona, establishing the city operations from the ground up, and later on as Product Manager.
         </p>
         <p>
           As you can see, I like simple and starting things from scratch.
@@ -184,39 +183,8 @@ const HomePage = styled.div`
   padding: 0 2em;
 `;
 
-const TitleWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-const Title = styled(Title1)`
-  margin: 0em auto;
-  padding: 0em 0.5em;
-  text-align: center;
-`;
-
-const TagLine = styled(MetaText)`
-  margin: 0em auto;
-  text-align: center;
-  text-transform: uppercase;
-`;
-
 const Subtitle = styled(Title3)`
   margin-top: 0.5em;
-`;
-
-const Marc = styled.img`
-  margin: 0em auto;
-  max-width: 275px;
-  width: 75%;
-
-  @media (min-width: ${mobile}) {
-    max-width: 325px;
-  }
-
-  @media (min-width: ${tablet}) {
-    max-width: 375px;
-  }
 `;
 
 export const imgQuery = graphql`

@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import PageHeader from '../components/PageHeader';
 import PostLink from '../components/PostLink';
 import Layout from '../templates/Layout';
 
@@ -15,6 +16,10 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <BlogPage>
+        <PageHeader
+          title="Blog"
+          tagline="Ideas Were Written"
+        />
         {PostsList}
       </BlogPage>
     </Layout>
