@@ -6,6 +6,9 @@ import styled from 'styled-components';
 import {
   black, fakeAsbestos, turquoise, eggShell,
 } from '../utils/colors';
+import {
+  mobile, tablet, desktop,
+} from '../utils/breakpoints';
 
 const renderNavbar = () => {
   const navItems = ['home', 'blog', 'work', 'now'];
@@ -49,8 +52,14 @@ const NaviLink = styled(Link)`
     border-bottom: 3px solid ${turquoise};
   }
 
-  @media (min-width: 768px) {
-    padding: 0.2em 0.9em;
+  @media (min-width: ${mobile}) {
+    font-size: 1em;
+    padding: 0.2em 0.6em;
+  }
+
+  @media (min-width: ${tablet}) {
+    font-size: 1.1em;
+    padding: 0.2em 0.7em;
   }
 `;
 
