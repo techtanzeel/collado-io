@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
-  black, fakeAsbestos, turquoise, eggShell,
+  fakeAsbestos, turquoise,
 } from '../utils/colors';
 import {
-  mobile, tablet, desktop,
+  mobile, tablet,
 } from '../utils/breakpoints';
 
 const renderNavbar = () => {
