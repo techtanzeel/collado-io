@@ -5,6 +5,8 @@ path: "/blog/2018/ready-player-one"
 tags: ["movie", "opinion", "tech"]
 ---
 
+![Ready Player One](./ready-player-one.jpg "Ready Player One")
+
 Last month I went to the movies.
 
 This is kind of an extraordinary event by itself because I never go. Turns out a wise friend extended the recommendation, told me the movie was worth it, and as I always do, I trusted his advice.
