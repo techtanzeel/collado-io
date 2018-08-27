@@ -7,8 +7,6 @@ featured: "false"
 excerpt: "Any hard skill will inevitably become a commodity at some point in time, even programming. But the ability to adapt, retool and learn new things are the wild card that will open countless doors and enable you to become the master of your own professional fate."
 ---
 
-![Students at Ironhack](./ironhack-student.jpg "Students from the Web Development Bootcamp coding at Ironhack")
-
 If you are somewhat up to date with the news coming up from the education world, you will have noticed some controversy, to say the least, around [inaccurate placement metrics](https://arstechnica.com/tech-policy/2017/10/one-of-the-original-coding-schools-must-pay-375k-over-employment-claims/), [programmers bubbles](https://medium.com/@TebbaVonMathenstien/are-programmers-headed-toward-another-bursting-bubble-528e30c59a0e) and this whole apocalyptic narrative about [bootcamps and the future of education](https://www.nytimes.com/2017/08/24/technology/coding-boot-camps-close.html).
 
 Under other circumstances, I would not indulge in commenting on such a critical subject. But after more than two years as the GM at Ironhack here in Barcelona[^1], I almost feel the obligation to tell the story of what it is like to join a bootcamp and the prospect of getting a job afterward.
@@ -17,7 +15,9 @@ Under other circumstances, I would not indulge in commenting on such a critical 
 ## The Students
 First of all, I wanted to shed some light on the background of the students we take in and demystify this whole Computer Science myth. While it is true that a small subset of our graduates already held an engineering degree when they joined the bootcamp, the majority of them did not. With the data right in front of me, I can assure you there is no correlation at all between prior “formal engineering education” and higher hiring rates at the end of the program.
 
-Our students are usually recent grads or early career changers. They are attracted by the prospect of doing creative work, mastering the craft and joining the tech industry. They come from very diverse backgrounds, true, but they do share something unique: they are insanely motivated individuals that want to see a change in their lives.
+![Students at Ironhack](./ironhack-student.jpg "Students from the Web Development Bootcamp coding at Ironhack")
+
+Our students are usually [recent grads](/blog/2016/skip-college) or early career changers. They are attracted by the prospect of doing creative work, mastering the craft and joining the tech industry. They come from very diverse backgrounds, true, but they do share something unique: they are insanely motivated individuals that want to see a change in their lives.
 
 This is not a coincidence though. It is no secret we [select our students](/blog/2017/alignment) — of course, we do. But we don’t do it in an *are-you-already-an-engineer* basis. Our criteria are easier than that: we look for passion, grit, and resilience, regardless of your background.
 
