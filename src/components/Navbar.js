@@ -44,8 +44,8 @@ const NaviLink = styled(Link)`
   border-bottom: 3px solid ${turquoise}00;
   color: white;
   font-family: 'Roboto Mono', monospace;
-  font-size: 0.9em;
-  margin: 0em 0.5em;
+  font-size: 0.8em;
+  margin: 0.1em 0.5em;
   padding: 0.2em 0.5em;
   text-decoration: none;
 
@@ -54,12 +54,12 @@ const NaviLink = styled(Link)`
   }
 
   @media (min-width: ${mobile}) {
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0.2em 0.6em;
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 0.2em 0.7em;
   }
 `;

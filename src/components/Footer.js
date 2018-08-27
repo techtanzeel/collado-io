@@ -64,7 +64,7 @@ const FooterLink = styled.a`
 
   @media (min-width: ${mobile}) {
     font-size: 0.9em;
-    margin: 0em 0.5em;
+    margin: 0.1em 0.5em;
     padding: 0.2em 0.6em;
   }
 
