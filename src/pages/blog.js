@@ -35,7 +35,10 @@ const BlogPage = styled.div`
 
 export const blogQuery = graphql`
   query blogQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      limit: 1000
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id
@@ -44,8 +47,8 @@ export const blogQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             excerpt
             path
-            title
             tags
+            title
           }
         }
       }
@@ -63,7 +66,9 @@ Blog.propTypes = {
           totalCount: PropTypes.number,
           frontmatter: PropTypes.shape({
             date: PropTypes.string,
+            excerpt: PropTypes.string,
             path: PropTypes.string,
+            tags: PropTypes.arrayOf(PropTypes.string),
             title: PropTypes.string,
           }),
         }),
