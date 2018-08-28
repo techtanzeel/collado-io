@@ -33,6 +33,7 @@ const PostTags = ({ tags }) => (
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
 `;
 
@@ -42,13 +43,13 @@ const TagLink = styled(Link)`
 
 const TagName = styled(MetaText)`
   background: ${eggShell}88;
-  border-bottom: 0.2em solid ${turquoise}00;
-  border-top: 0.2em solid ${turquoise}00;
+  border-bottom: 0.3em solid ${turquoise}00;
+  border-top: 0.3em solid ${turquoise}00;
   margin: 0em 0.5em 0.4em 0em;
-  padding: 0em 0.5em;
+  padding: 0em 0.6em;
 
   &:hover {
-    border-bottom: 0.2em solid ${turquoise};
+    border-bottom: 0.3em solid ${turquoise};
   }
 `;
 
