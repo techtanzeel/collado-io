@@ -42,8 +42,10 @@ export const blogQuery = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            excerpt
             path
             title
+            tags
           }
         }
       }
