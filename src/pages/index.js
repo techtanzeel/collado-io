@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import PageHeader from '../components/PageHeader';
 import Layout from '../templates/Layout';
+
 import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
@@ -78,6 +79,30 @@ const Home = ({ data }) => {
         </p>
         <p>
           As you can see, I like simple and starting things from scratch.
+        </p>
+        <p>
+          From time to time, I sit and write some thoughts down in the
+          {' '}
+          <BodyLink href="/blog">
+            blog
+          </BodyLink>
+          , but I devote almost all my free time to
+          {' '}
+          <BodyLink href="/tags/book">
+            read books
+          </BodyLink>
+          ,
+          {' '}
+          <BodyLink href="/blog/2018/udacity-dand">
+            learn new stuff
+          </BodyLink>
+          {' '}
+           and build, mostly,
+          {' '}
+          <BodyLink href="https://github.com/MarcCollado">
+            useless things
+          </BodyLink>
+          .
         </p>
 
         <Subtitle>

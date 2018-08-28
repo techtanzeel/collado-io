@@ -3,17 +3,17 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import PageHeader from '../components/PageHeader';
 import Layout from '../templates/Layout';
 
 const Now = () => {
   console.log();
   return (
     <Layout>
-      <NowPage>
-        <h1>
-          {`Now Page`}
-        </h1>
-      </NowPage>
+      <PageHeader
+        title="Now"
+        tagline="What I'm Up To"
+      />
     </Layout>
   );
 };

@@ -13,7 +13,7 @@ import {
 const renderNavbar = () => {
   const navItems = ['home', 'blog', 'work', 'now'];
   return navItems.map((item) => (
-    <NaviLink
+    <NavbarLink
       activeStyle={{
         borderBottom: `3px solid #FFF4`,
       }}
@@ -22,17 +22,17 @@ const renderNavbar = () => {
       to={item === `home` ? `/` : `/${item}`}
     >
       {`${item}`}
-    </NaviLink>
+    </NavbarLink>
   ));
 };
 
 const Navbar = () => (
-  <Navigation>
+  <Container>
     {renderNavbar()}
-  </Navigation>
+  </Container>
 );
 
-const Navigation = styled.div`
+const Container = styled.div`
   background: ${fakeAsbestos};
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ const Navigation = styled.div`
   padding: 1em 0.5em;
 `;
 
-const NaviLink = styled(Link)`
+const NavbarLink = styled(Link)`
   border-bottom: 3px solid ${turquoise}00;
   color: white;
   font-family: 'Roboto Mono', monospace;
