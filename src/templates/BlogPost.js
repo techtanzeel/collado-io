@@ -23,9 +23,9 @@ const BlogPost = ({ data }) => {
         <BlogPostTitle>
           {frontmatter.title}
         </BlogPostTitle>
-        <Published>
+        <MetaText>
           {`Published on ${frontmatter.date}`}
-        </Published>
+        </MetaText>
         <div
           className={styles.content}
           dangerouslySetInnerHTML={{ __html: html }}
@@ -43,11 +43,6 @@ const BlogPostPage = styled.div`
 
 const BlogPostTitle = styled(Title1)`
   margin: 1em 0em 0.125em 0em;
-`;
-
-const Published = styled.p`
-  color: ${fakeAsbestos}88;
-  font-size: 0.8em;
 `;
 
 export const blogPostQuery = graphql`
