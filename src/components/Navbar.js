@@ -41,6 +41,7 @@ const Container = styled.div`
 `;
 
 const NavbarLink = styled(Link)`
+  border-bottom: 3px solid ${turquoise}00;
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;

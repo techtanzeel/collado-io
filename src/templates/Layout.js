@@ -3,12 +3,14 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 const Layout = ({ children }) => (
   <Container>
     <Navbar />
     {children}
+    <Footer />
   </Container>
 );
 
