@@ -41,16 +41,17 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 1.6em;
-  padding: 1.5em 0.5em;
+  padding: 1.5em 0em;
 
   @media (min-width: ${mobile}) {
-    padding: 2em 0.5em;
+    padding: 2em 0em;
     flex-direction: row;
   }
 `;
 
 const FooterLink = styled.a`
-  border-bottom: 3px solid ${fakeAsbestos}00;
+  border-bottom: 0.2em solid ${fakeAsbestos}00;
+  border-top: 0.2em solid ${fakeAsbestos}00;
   color: ${fakeAsbestos};
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em;
@@ -59,12 +60,12 @@ const FooterLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    border-bottom: 3px solid ${fakeAsbestos};
+    border-bottom: 0.2em solid ${fakeAsbestos};
   }
 
   @media (min-width: ${mobile}) {
     font-size: 0.9em;
-    margin: 0.1em 0.5em;
+    margin: 0em 0.5em;
     padding: 0.2em 0.6em;
   }
 

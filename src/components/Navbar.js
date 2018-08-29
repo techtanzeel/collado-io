@@ -37,20 +37,21 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 1.3em;
-  padding: 1em 0.5em;
+  padding: 1em 0em;
 `;
 
 const NavbarLink = styled(Link)`
-  border-bottom: 3px solid ${turquoise}00;
-  color: white;
+  border-bottom: 0.2em solid #FFF0;
+  border-top: 0.2em solid #FFF0;
+  color: #FFF;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em;
-  margin: 0.1em 0.5em;
+  margin: 0em 0.5em;
   padding: 0.2em 0.5em;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 3px solid ${turquoise};
+    border-bottom: 0.2em solid #FFF;
   }
 
   @media (min-width: ${mobile}) {
