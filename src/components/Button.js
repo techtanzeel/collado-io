@@ -14,7 +14,7 @@ import {
 } from '../utils/theme';
 
 const Button = ({
-  children, primary, large, url,
+  children, large, primary, url,
 }) => (
   <Container>
     <ButtonLink
@@ -40,13 +40,13 @@ const ButtonLink = styled(Link)`
 
 const ButtonText = styled(MetaText)`
   background: ${props => (props.type ? fakeAsbestos : `${eggShell}88`)};
-  border-bottom: 0.3em solid ${turquoise}00;
-  border-top: 0.3em solid ${turquoise}00;
-  color: ${props => (props.type ? `#FFF` : `${fakeAsbestos}`)};
-  padding: 0.5em 1.2em;
+  border-bottom: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}00};
+  border-top: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}00};
+  color: ${props => (props.type ? `#FFF` : `${fakeAsbestos}88`)};
+  padding: ${props => (props.size ? `1.2em 1.8em` : `0.6em 0.9em`)};
 
   &:hover {
-    border-bottom: 0.3em solid ${turquoise};
+    border-bottom: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}};
   }
 `;
 
