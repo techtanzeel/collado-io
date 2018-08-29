@@ -16,13 +16,16 @@ import {
 const TagPill = ({ children }) => (
   <TagLink
     key={children}
-    url={`/tags/${children}`}
+    to={`/tags/${children}`}
   >
     <TagName>
       {`${children}`.toLowerCase()}
     </TagName>
   </TagLink>
 );
+
+// Does not have a container element, hence it has to be nested
+// inside a flex container i.e. PostTags.js
 
 const TagLink = styled(Link)`
   text-decoration: none;
@@ -32,7 +35,8 @@ const TagName = styled(MetaText)`
   background: ${eggShell}88;
   border-bottom: 0.3em solid ${turquoise}00;
   border-top: 0.3em solid ${turquoise}00;
-  margin: 0em 0.5em 0.4em 0em;
+  margin-bottom: 0.4em; // Overrides default line-height
+  margin-right: 0.5em; // Makes some room between pills
   padding: 0em 0.5em;
 
   &:hover {

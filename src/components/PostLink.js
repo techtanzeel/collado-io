@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import PostTags from './PostTags';
+import TagList from './TagList';
 
 import {
   mobile, tablet,
@@ -23,22 +23,22 @@ const PostLink = ({ post }) => (
       </BlogPostTitle>
     </CardLink>
 
-    <Excerpt>
+    <MetaText>
       {post.frontmatter.excerpt}
-    </Excerpt>
+    </MetaText>
 
     <Published>
       {`Published on ${post.frontmatter.date}`}
     </Published>
 
-    <PostTags
+    <TagList
       tags={post.frontmatter.tags}
     />
   </Container>
 );
 
 const Container = styled.div`
-  border-left: 0.3em solid ${fakeAsbestos}44;
+  border-left: 0.3em solid ${fakeAsbestos}88;
   margin-bottom: 2em;
   padding-left: 0.8em;
   transition: border-left 0.3s ease;
@@ -54,16 +54,7 @@ const BlogPostTitle = styled(Title2)`
   &:hover {
     color: ${turquoise};
   }
-
-  &:hover ${Container} {
-    border-left: 0.3em solid ${turquoise};
-  }
 `;
-
-const Excerpt = styled(MetaText)`
-
-`;
-
 
 const Published = styled(MetaText)`
   margin-bottom: 0.5em;
