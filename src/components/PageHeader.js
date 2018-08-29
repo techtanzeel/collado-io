@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
-  mobile, tablet,
+  mobile, tablet, desktop,
 } from '../utils/breakpoints';
 import {
   Title1, MetaText,
@@ -45,15 +45,19 @@ const HeaderLine = styled(MetaText)`
 
 const HeaderImage = styled.img`
   margin: 0em auto;
-  min-width: 160px;
-  width: 50%;
+  min-width: 11em;
+  width: 45%;
 
   @media (min-width: ${mobile}) {
-    max-width: 280px;
+    max-width: 16em;
   }
 
   @media (min-width: ${tablet}) {
-    max-width: 330px;
+    max-width: 17em;
+  }
+
+  @media (min-width: ${desktop}) {
+    max-width: 18em;
   }
 `;
 

@@ -6,7 +6,7 @@ import {
   fakeAsbestos, eggShell,
 } from '../utils/colors';
 import {
-  mobile, tablet,
+  mobile, tablet, desktop,
 } from '../utils/breakpoints';
 
 const Footer = () => (
@@ -54,7 +54,7 @@ const FooterLink = styled.a`
   border-top: 0.2em solid ${fakeAsbestos}00;
   color: ${fakeAsbestos};
   font-family: 'Roboto Mono', monospace;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 0.5em 0em;
   padding: 0.2em 0.5em;
   text-decoration: none;
@@ -64,15 +64,19 @@ const FooterLink = styled.a`
   }
 
   @media (min-width: ${mobile}) {
-    font-size: 0.9em;
+    font-size: 0.95em;
     margin: 0em 0.5em;
     padding: 0.2em 0.6em;
   }
 
   @media (min-width: ${tablet}) {
     font-size: 1em;
-    padding: 0.2em 0.7em;
+    padding: 0.2em 0.65em;
+  }
 
+  @media (min-width: ${desktop}) {
+    font-size: 1.05em;
+    padding: 0.2em 0.7em;
   }
 `;
 

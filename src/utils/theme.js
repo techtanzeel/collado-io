@@ -67,12 +67,27 @@ const Title3 = styled.h3`
 
 const BodyText = styled.p`
   color: ${fakeAsbestos};
+  font-size: 0.8em;
+
+  @media (min-width: ${mobile}) {
+    font-size: 0.9em;
+  }
+
+  @media (min-width: ${tablet}) {
+    font-size: 1em;
+  }
+
+  @media (min-width: ${desktop}) {
+    font-size: 1.1em;
+  }
 `;
 
 const BodyLink = styled.a`
-  border-bottom: 3px solid ${eggShell};
-  box-shadow: inset 0 -4px 0 ${eggShell};
+  border-bottom: 0.3em solid ${eggShell};
+  border-top: 0.1em solid ${eggShell}00;
+  box-shadow: inset 0 -0.3em 0 ${eggShell};
   color: inherit;
+  font-size: 0.9em;
   text-decoration: none;
   transition: background 0.3s ease;
 
@@ -88,18 +103,34 @@ const BodyLink = styled.a`
   &:active {
     color: inherit;
   }
-`;
-
-const MetaText = styled.p`
-  color: ${fakeAsbestos}88;
-  font-size: 0.8em;
 
   @media (min-width: ${mobile}) {
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 
   @media (min-width: ${tablet}) {
     font-size: 1em;
+  }
+
+  @media (min-width: ${desktop}) {
+    font-size: 1.05em;
+  }
+`;
+
+const MetaText = styled.p`
+  color: ${fakeAsbestos}88;
+  font-size: 0.9em;
+
+  @media (min-width: ${mobile}) {
+    font-size: 0.95em;
+  }
+
+  @media (min-width: ${tablet}) {
+    font-size: 1em;
+  }
+
+  @media (min-width: ${desktop}) {
+    font-size: 1.05em;
   }
 `;
 
