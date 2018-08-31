@@ -4,7 +4,7 @@ date: "2017-11-27"
 path: "/blog/2017/curiosity"
 tags: ["craft", "education", "ironhack", "opinion"]
 featured: "false"
-excerpt: "Any hard skill will inevitably become a commodity at some point in time, even programming. But the ability to adapt, retool and learn new things are the wild card that will open countless doors and enable you to become the master of your own professional fate."
+excerpt: "Any hard skill will inevitably become a commodity at some point in time, even programming. The ability to adapt, retool and learn new things are the wild card that will open countless doors and enable you to become the master of your own professional fate."
 ---
 
 If you are somewhat up to date with the news coming up from the education world, you will have noticed some controversy, to say the least, around [inaccurate placement metrics](https://arstechnica.com/tech-policy/2017/10/one-of-the-original-coding-schools-must-pay-375k-over-employment-claims/), [programmers bubbles](https://medium.com/@TebbaVonMathenstien/are-programmers-headed-toward-another-bursting-bubble-528e30c59a0e) and this whole apocalyptic narrative about [bootcamps and the future of education](https://www.nytimes.com/2017/08/24/technology/coding-boot-camps-close.html).
@@ -23,7 +23,7 @@ This is not a coincidence though. It is no secret we [select our students](/blog
 
 So is a bootcamp suitable for everybody? No, it is not. A bootcamp is a remarkably [hard experience](/blog/2016/ironhack-experience). But it is also not a matter of being a CS or not, it is a matter of willingness.
 
-I do believe anybody can learn [anything](/blog/2017/anything), but the question is: are you willing to sacrifice, prioritize, commit in order to fulfill a larger vision and build a remarkable future?
+I do believe anybody can learn [anything](/blog/2017/book-anything-you-want), but the question is: are you willing to sacrifice, prioritize, commit in order to fulfill a larger vision and build a remarkable future?
 
 Again and again, the ones who answer *“yes, I do”* to this question are our students.
 
