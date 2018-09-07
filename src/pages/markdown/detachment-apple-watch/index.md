@@ -1,0 +1,31 @@
+---
+title: "Detachment Strategy For The Apple Watch"
+date: "2016-08-21"
+path: "/blog/2016/apple-watch"
+tags: ["opinion", "product", "tech"]
+featured: "false"
+excerpt: "What if Apple rolled out the next generation Apple Watch with a built-in, low power, world wide, cellular connectivity that helped detach the device from the iPhone."
+source: "https://www.bloomberg.com/news/articles/2016-08-18/apple-said-to-hit-roadblocks-in-cutting-watch-ties-to-iphone"
+---
+
+> Apple has hit roadblocks in making major changes that would connect its Watch to cellular networks and make it less dependent on the iPhone, according to people with knowledge of the matter. The company still plans to announce new watch models this fall boasting improvements to health tracking.
+
+Every single time I run into an Apple Watch user, out of curiosity, I ask about their experience with the device. Hence I have heard plenty of valuable feedback, beautiful user stories, but also curious challenges they encounter. But without question, the main complain they usually bring up — besides battery life, of course, is the ability to untether the Apple Watch from the iPhone.
+
+It is a perfectly reasonable claim though. At the end of the day, the narrative for the Apple Watch is about [bringing technology closer](/blog/2014/wearable-problems), creating a more intimate experience without the inconvenience of having your phone in your pocket all the time.
+
+But this narrative breaks down every single time the Apple Watch loses the "connectivity support" from its parent. Which usually happens when you need it the most: hiking, going to the beach or any activity where you would prefer "not to" bring your phone with you.
+
+Some improvements have been made along the way with the [introduction of watchOS 2](http://www.imore.com/whats-changed-watchos-2) and the ability to connect the Apple Watch directly to a Wi-Fi network. But in order to get full autonomy, the Watch needs to connect to a fully fledged cellular network, the same way an iPhone does. But of course, it is tricky. On one hand, data transmissions through cellular connectivity drain batteries quicker than BLE or Wi-Fi. On the other, the smaller the footprint of the device, the smaller the batteries you can fit inside. If your challenges come from both ends, it follows that from a technological standpoint, we are quite not there yet.
+
+Regardless, there always have been rumors about [Apple becoming its own cellular carrier](http://www.macworld.com/article/2919139/could-apple-become-its-own-cellular-carrier.html). Which makes perfect sense, since it would allow Apple to integrate the single most important chunk of the experience they are not in control of. It would automatically translate into seamless activation of the devices, cross-country compatibility, simplification of the product line and an endless list of enhancements ultimately benefiting the customer experience.
+
+But it remains an extremely complex endeavor. First of all, closing deals with operators that are now partners. Then scaling capacity to provide data to all devices, in every single region. [Google did something similar last year with Project Fi](https://techcrunch.com/2015/04/22/google-launches-its-own-wireless-service-project-fi/), but the service was deployed in a more controlled environment, only for selected Nexus models. Which not only accounted for fewer devices but also targeted a more early adopter type of user.
+
+Where I want to drive this at is: what if Apple rolled out the next generation Apple Watch with a built-in, low power, worldwide, cellular connectivity that helped detach the device from the iPhone. Of course, I am not talking about a 4G connection here, but something more like (please, I need a leap of faith here): [SigFox](http://www.sigfox.com). The nature of this network would not be intended to watch videos on YouTube, but rather to receive an important notification or send a critical message that can't wait until you reach the phone.
+
+Probably this would be the kind of service only Apple apps could use in the very early stages. Maybe afterward would be accessible to third parties through a private API with highly strict rules, as it has happened in the past with the rollout of other Apple products. Moreover, the Apple Watch would be the perfect device to start with: it is already targeting pre-chasm users, more willing to support "experiments", and also operate at a smaller scale than the iPhone does.
+
+It is not the exact same thing, but [Amazon has been doing something similar for their Kindle lineup](http://www.pcworld.com/article/139810/article.html) for more than ten years now with outstanding results.
+
+I acknowledge there are plenty of flaws in the idea. But wouldn't it be a clever way to bridge the detachment gap of the Apple Watch, while laying the foundation for a worldwide network to power every single Apple device in the long term?
