@@ -1,0 +1,56 @@
+---
+title: "Alignment"
+date: "2017-02-19"
+path: "/blog/2017/alignment"
+tags: ["craft", "education", "ironhack", "opinion"]
+featured: "true"
+excerpt: "Our society needs passion and craft. Enthusiasm to build great things. The best way to foster this mindset is to just have these enthusiastic students sharing the same room."
+---
+
+It is sometimes shocking how easily we get used to things others find fascinating. Boundary conditions define your [new normal](https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html) and it has to be somebody else who suddenly comes in, to remind you how biased your perspective is.
+
+It just happened this week. I was explaining our application process to a prospective student. Which consists, first, in a personal interview to ensure the applicant is aligned with our mission. Then a technical interview to test their motivation and capacity to learn. And finally, if our admissions committee decides to accept the student, she has to complete an online pre-work before she can start the program.
+
+After this brief explanation, she was gently surprised, especially by the first step, the personal interview.
+
+But before we move forward with the story, let me digress and explain the idea behind this first interview.
+
+All of our programs are [extremely intense experiences](/blog/2016/ironhack-experience), if you have not been there, you can't even begin to imagine what it is like. During two months, every single day, students spend +12 hours coding, designing, learning, struggling. It feels overwhelming at the beginning, but it compounds at the end. When that happens, it is life transforming.
+
+I know it because I have seen it many times. People with no prior coding experience, transitioning their careers into tech and becoming software developers, in just two months. It is powerful and rewarding. You are bending reality, redefining your limits and what you thought it was possible. But during the process, if you do not feel exhausted, you are clearly doing something wrong.
+
+It sounds hard because it is and one of the key aspects of the endurance is wanting it so badly.
+
+But we only have twenty seats per edition and we want to make sure they will be filled with the ones that want it the most. The most committed students, the ones that will succeed no matter what.
+
+This is precisely the raison d'être of this first personal interview: to test and ensure the class is filled with this attitude.
+
+I have seen many cohorts come in and out. This dynamic in a class is the prerequisite for the whole group to succeed. In my humble opinion, there are two reasons for that.
+
+To understand the first, let me tell you something. Before I went to college I used to compete in sailing - [Europe class](http://www.europeclass.org) for the curious. Our team traveled across the country for the national championship, and [it felt like family](/blog/2017/community) to me. We developed such a profound friendship and trust with each other, that I have never felt with, say, college friends. It is also a relationship that has gone beyond our sailing days despite choosing completely opposite life paths.
+
+I used to take these relationships for granted until somebody unexpectedly told me the reason why: *the harshest and rough environments become the catalysts for the strongest relationships to develop*. In my story, sailing in the ocean.
+
+Back to Ironhack, there is the exact same dynamic at play here. It is a tough experience, but you see all the people looking at each other faces, they feel they belong there. They know everybody shares the same goal and it relieves them. They are not alone in this crazy two-month mission and the bonds they create with each other transcend the bootcamp itself.
+
+> This is how your class becomes amazing and inspiring, but also a safe environment for the students.
+
+The second one is what I call the marathon effect — and yes, I just made that up, but bear with me, it all makes sense. If you have ever taken part in a race you know what I am talking about. Say you are [running a marathon](/projects/sub3). You get there in the morning, all the crowd prepared for the race sharing this same goal — by now this should sound familiar — and you blend yourself with this bright atmosphere.
+
+You are aiming for 42 km, but you are not running alone anymore and the atmosphere literally pushes you beyond your capabilities, it lifts you. You achieve what you thought was impossible and it is because you run with the people. It has happened to me, many times. I am unable to run a sub 3:20 marathon on my own. I tried, and I failed. But I did it the race day.
+
+Ironhack is no different than that. Having twenty extremely motivated students that [share the same goal](/blog/2017/curiosity) help each of them achieve the impossible. Something they would have never done alone. It is the magic of having a group of students that share a common vision in the same room.
+
+> This is how your class becomes a transforming experience where each student can unleash their true potential, far beyond what they could even imagine.
+
+Maybe you do not remember, but we were talking about my interview with this student. She was gently surprised because she remembered her experience [back in college](/blog/2016/skip-college). She told me everybody in there had a different aspiration. She was passioned and had this clear goal in her mind, but could not relate to anybody. She felt powerless and alone.
+
+She remembered me the importance of creating these dynamics in the class. In a way, she remembered me the importance of having this first personal interview. Something I definitely knew but never thought from this perspective. I got used to it and took it for granted.
+
+We live in a society where college is this place you go because you turned eighteen. You go there because this is what you are supposed to do. It is what your parents did, it is what your friends are doing. But many of you, like me, did it without purpose. It was so embedded in our society, that it seemed to be the next step in life, no questions asked.
+
+Because of it, the college has become an end in itself. It has lost purpose. They just put random people in a big building, with completely misaligned goals, and passively wait four years until they come out on the other side. Nothing good comes out on the other side.
+
+College should be a system designed to help you achieve your life's vision, not just a place you go and exchange four bright years of your life to earn a useless paper. You do not need a paper, there are plenty of those out there.
+
+Today our society needs [passion and craft](/blog/2015/passion-work). Enthusiasm to build great things. The best way to foster this mindset is to just have these enthusiastic students in the same room. Sharing a common vision and pushing one another. Only then is when the magic happens, but the necessary condition is always the same: alignment.
