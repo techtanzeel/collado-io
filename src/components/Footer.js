@@ -40,7 +40,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 1.6em;
+  margin-top: 3em;
   padding: 1.5em 0em;
 
   @media (min-width: ${mobile}) {

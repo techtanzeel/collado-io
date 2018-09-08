@@ -4,7 +4,7 @@ date: "2017-07-01"
 path: "/blog/2017/community"
 tags: ["craft", "education", "ironhack", "opinion"]
 featured: "true"
-excerpt: "At Ironhack we care about our community to the extent other people would think we are insane. It turns out, community has become an essential piece of our student experience and the key to having the best product."
+excerpt: "At Ironhack we care about our community to an extent other people would think we are insane. It turns out though, the community has become a fundamental piece of our student experience and one of the keys to having the best product."
 ---
 
 Out of the blue, last month, one of the most prominent startups in town invited me to lecture their marketing team about the lessons we (at Ironhack) have learned building our amazing community.
@@ -13,7 +13,9 @@ On one hand, I was happily surprised they extended such invitation. Just the fac
 
 On the other hand, there was this nagging thought I couldn't get off my head: the more I mulled over the content of the presentation, the more I felt I truly didn't know what to say or even where to start.
 
-At Ironhack, our community is one of our most precious assets. We devote tons of time and resources to develop and nurture it, without even expecting the slightest return in the short term. We do it because we care. Because we truly believe it is the right thing. But I had never written down an ordered list with our tactics or how-tos when it comes to building a community.
+![Attendees at the WeCode Madrid](./we-code-madrid.jpg "Attendees at the WeCode Madrid")
+
+At Ironhack, our community is one of our most precious assets. We devote tons of time and resources to [develop and nurture](/blog/2015/wecode) it, without even expecting the slightest return in the short term. We do it because we care. Because we truly believe it is the right thing. But I had never written down an ordered list with our tactics or how-tos when it comes to building a community.
 
 To begin with, I am neither expert in marketing nor I thought of myself as knowledgeable about community-related strategies. But since I wanted to prepare the lecture, I started drafting ideas, thoughts... and dived deep into the *raison d'être*, the building blocks of our community.  I rejoiced and found the exercise fascinating and I wanted to share a few lines with some of the takeaways.
 
@@ -27,7 +29,9 @@ A community is neither a *build it and they will come* thing, nor a passive asse
 
 This is the first realization I came across: your community must be embedded in your DNA. In other words, unless you run an NGO, the community must be supporting and reinforcing some aspects of your culture or business model. Otherwise, chances are you will fail to invest in it. Incentives matter, a lot.
 
-In order to thrive, your community must be deeply integrated into the way your business operates. That means all your stakeholders should derive value from nurturing the community and your business should get healthier when the community is engaged.
+![Attendees at the WeDesign Madrid](./we-design-madrid.jpg "Attendees at the WeDesign Madrid")
+
+In order to thrive, your community must be [deeply integrated](/blog/2017/alignment) into the way your business operates. That means all your stakeholders should derive value from nurturing the community and your business should get healthier when the community is engaged.
 
 
 ## Identity, Product, Partners
@@ -41,7 +45,9 @@ I don't know why, but at the end of the day, I picture some friends, having this
 
 But of course, we need to constantly remind ourselves that we are here to deliver an amazing educational experience. It is precisely at this point where the integration with our product is the most transformative.
 
-At this moment in time, where all educational content is being commoditized and distributed for free, the experience becomes not only more important but essential when it comes to having the best product. Given this environment, I would argue that our community is the most powerful asset we have to compete in this new *axis of performance*.
+![Attendees at the WeCode Paris](./we-code-paris.jpg "Attendees at the WeCode Paris")
+
+At this moment in time, where all educational content is being commoditized and distributed for free, the [experience](/blog/2016/ironhack-experience) becomes not only more important but essential when it comes to having the best product. Given this environment, I would argue that our community is the most powerful asset we have to compete in this new *axis of performance*.
 
 Our community is the answer to the question: how are you different than your competitors? Why are you a better choice? I once struggled with answering this question. But now I see it crystal clear: a strong, deeply engaged community is the most powerful answer to why you should join Ironhack.
 
@@ -49,7 +55,7 @@ Our community is the answer to the question: how are you different than your com
 ## Community and Culture
 I like this idea of defining culture as *what happens when nobody is looking*. Sometimes we take it for granted, but in a way, community and culture are two sides of the same coin.
 
-Alumni, hiring partners, other friendly groups, public institutions... all of them orbit around us, helping create a unique environment for our students to develop their craft. Scattered people working together under the Ironhack theme to provide an educational experience that none of our students would forget.
+Alumni, hiring partners, other friendly groups, public institutions... all of them orbit around us, helping create a unique environment for our students to [develop their craft](/blog/2017/curiosity). Scattered people working together under the Ironhack theme to provide an educational experience that none of our students would forget.
 
 > This idea of community doesn't come naturally to me. Like it or not, my engineering background makes me perceive the world in 0s and 1s. A community is an extremely complex artifact composed of the most polyhedral entities: human beings. This makes analyzing, even talking about community a really challenging endeavor.
 
@@ -64,5 +70,3 @@ As we discussed, community (potentially) pays off in the long run. Its growth fo
 Past a certain point, your community will greatly pay off, but most won't make it there. Building and scaling a healthy community is not an easy endeavor and the future returns can't be your primary motivation.
 
 A community is an end in itself, one you must appreciate, care and nurture beyond rationality or balance sheets. The main takeaway of these lines is that the community is one of the most powerful tools to differentiate and build your business on. But the approach when it comes to creating yours, can't be transactional. You must definitely care, love what you do, only then gravity will do the rest.
-
-
