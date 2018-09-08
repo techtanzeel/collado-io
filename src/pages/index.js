@@ -167,7 +167,7 @@ const Home = ({ data }) => {
               Couldn't agree more with idea that
             {' '}
             <i>
-                "we don’t see things as they are"
+                "we don't see things as they are"
             </i>
             {' '}
               that we actually

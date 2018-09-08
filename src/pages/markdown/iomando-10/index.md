@@ -60,9 +60,9 @@ We strongly believe the subscription based model creates a more truthful relatio
 
 Subscription based revenue forces us to always deliver the best possible service, because if you are not fully satisfied with our service you can easily opt out whenever you feel like it.
 
-One-shot payments might seem more appealing for some: "because I own the product", "because I’m not locked in", we have heard them all.
+One-shot payments might seem more appealing for some: "because I own the product", "because I'm not locked in", we have heard them all.
 
-But we couldn’t disagree more.
+But we couldn't disagree more.
 
 One-shot pricing frees companies of further improvement upon existing customers, because no additional revenue is generated from them. So all the efforts are placed in acquiring new customers, not in taking care of the existing ones.
 
@@ -70,15 +70,15 @@ The subscription based model forces us to place the same or even more resources 
 
 But for iomando in particular, there are even more reasons that led us to start as a subscription based service.
 
-* Technology evolves fast, and so do we: when you get a remote, you acquire a piece of plastic that’s not going to change any time. iomando changes that and instead, it gets better with time. We will release new versions periodically with new functionalities and improvements. We want every customer on the same page, enjoying the latest version of our service.
-* OS releases: every year there are major OS updates to mobile platforms. We’ll also update our app in order to get the most of the new APIs, resources and capabilities available to developers. We want you running on the latest technology, but we don’t want you to pay extra for that.
-* New devices: think what five years ago looked like. Just five years. A service like iomando would not be possible. There were another kind of devices that don’t look like anything of what we have today. So now imagine five years from now. Maybe we use some kind of wearable technology or a new set of devices… who knows. Unfortunately we don’t know either. But we know that we will support whatever technological trend that comes next.
+* Technology evolves fast, and so do we: when you get a remote, you acquire a piece of plastic that's not going to change any time. iomando changes that and instead, it gets better with time. We will release new versions periodically with new functionalities and improvements. We want every customer on the same page, enjoying the latest version of our service.
+* OS releases: every year there are major OS updates to mobile platforms. We'll also update our app in order to get the most of the new APIs, resources and capabilities available to developers. We want you running on the latest technology, but we don't want you to pay extra for that.
+* New devices: think what five years ago looked like. Just five years. A service like iomando would not be possible. There were another kind of devices that don't look like anything of what we have today. So now imagine five years from now. Maybe we use some kind of wearable technology or a new set of devices… who knows. Unfortunately we don't know either. But we know that we will support whatever technological trend that comes next.
 
 In short, because of the subscription model we are committed to offer the best experience at any given time, and that means creating and supporting new tools for whatever platform emerges in the future.
 
 iomando will cost 99€ / year with a 30-day trial period[^2]. That includes the device installed in the door, the installation of the device led by an authorized iomando professional and a license for up to 100 active users.
 
-We are rolling out the service in the Barcelona area the 1st of March 2012 and we’d love to have you on board, so sign up at iomando.com.
+We are rolling out the service in the Barcelona area the 1st of March 2012 and we'd love to have you on board, so sign up at iomando.com.
 
 ---
 [^1]: An admin must grant permissions to the mobile user first.

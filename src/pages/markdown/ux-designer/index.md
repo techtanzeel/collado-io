@@ -19,15 +19,15 @@ Crafting the experience, what actually happens when *you tap that button*, felt 
 
 But despite this has been a recurrent theme of mine after college, it is obvious that I have failed to become a UX professional. Life routed me to [other paths](projects/iomando), but the obsession with interaction and design, has stuck with me in every single thing I did.
 
-That is the reason why regardless I have been pulled away from explicit design roles as my day job, I have always tried to embrace design principles when making product and business decisions. I quote from iomando’s [design recap](/blog/2015/iomando-design) I wrote last summer:
+That is the reason why regardless I have been pulled away from explicit design roles as my day job, I have always tried to embrace design principles when making product and business decisions. I quote from iomando's [design recap](/blog/2015/iomando-design) I wrote last summer:
 
-> During my years at iomando I understood that design is a much more profound concept than "how it looks”. To me, design means falling in love with the problem. You are really designing when you break the problem down to pieces and get to the roots of it. Because getting features out of the door is an easy task, but getting the right ones, the ones that are really solving a problem in a meaningful way, that is hard.
+> During my years at iomando I understood that design is a much more profound concept than "how it looks". To me, design means falling in love with the problem. You are really designing when you break the problem down to pieces and get to the roots of it. Because getting features out of the door is an easy task, but getting the right ones, the ones that are really solving a problem in a meaningful way, that is hard.
 
 > Yet this precise thing, the joy of building great products and putting them in the hands of people is the ultimate reason why I started this company. And my job, every day, is to just try to instill this enthusiasm in every single corner of iomando.
 
 We built an entire company around this foundation because we deeply cared about what people experienced when they interacted with our product. That is exactly what I mean with *"embrace design principles"*. I loved the idea of designing for experience, and despite I could not allocate all my time to this endeavor, I have always made sure we were putting attention to the last, smallest detail. I think I put it much better in [here](/blog/2015/stepping-down) (emphasis mine):
 
-> I co-founded iomando almost 4 years ago with just one goal in mind: building an amazing product and putting it in the hands of people. That’s all I cared about. I was thrilled watching our customers fascinated by the fact that they were able to access their parking, factories, or whatever place, with their mobile phones. That feeling was the fuel that kept me going, and to me, the most tangible expression of happiness, aside from my family.
+> I co-founded iomando almost 4 years ago with just one goal in mind: building an amazing product and putting it in the hands of people. That's all I cared about. I was thrilled watching our customers fascinated by the fact that they were able to access their parking, factories, or whatever place, with their mobile phones. That feeling was the fuel that kept me going, and to me, the most tangible expression of happiness, aside from my family.
 
 > Crafting this experience, building something that people were actually in love with, has always been my guide, my little contribution to the world.
 

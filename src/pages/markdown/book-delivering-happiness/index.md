@@ -12,8 +12,8 @@ Money and happiness do not correlate linearly. Its relation looks to me like a l
 
 At the end of the book, there is an accurate framework to categorize the types of happiness, I paraphrase:
 
-* Pleasure: is about always chasing the next high. I like to refer to it as the “Rock Star” type of happiness because it's great if you can have a constant inflow of stimuli, but it's very hard to maintain unless you're living the lifestyle of a rock star.
-* Passion: is also known as flow, where peak performance meets peak engagement, and time flies by. Research has shown that of the three types of happiness, this is the second longest lasting. Professional athletes sometimes refer to this state as “being in the zone.”
+* Pleasure: is about always chasing the next high. I like to refer to it as the "Rock Star" type of happiness because it's great if you can have a constant inflow of stimuli, but it's very hard to maintain unless you're living the lifestyle of a rock star.
+* Passion: is also known as flow, where peak performance meets peak engagement, and time flies by. Research has shown that of the three types of happiness, this is the second longest lasting. Professional athletes sometimes refer to this state as "being in the zone."
 * Higher Purpose: is about being part of something bigger than yourself that has meaning to you. Of the three types of happiness, this is the longest lasting.
 
 > One of the things that he found from his research was that great companies have a greater purpose and bigger vision beyond just making money or being number one in a market.

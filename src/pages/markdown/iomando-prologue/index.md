@@ -29,13 +29,13 @@ This is important because nowadays most of this stuff has been already figured o
 ## The Catalyst
 I still could not articulate how, but at some point in time it was clear to me that certain trends were about to merge and the mobile industry would lead the way.
 
-I’m sure back then this clarity looked more like a draft than an ordered list, but these are the main bullets that articulated the reasoning behind my hunch:
+I'm sure back then this clarity looked more like a draft than an ordered list, but these are the main bullets that articulated the reasoning behind my hunch:
 
 * Always connected: we were just starting to grasp the endless implications of having a permanently connected device with us all the time.
 * Personal device: those devices brought with them something truly new, the sense of ownership. Smartphones came with you all the time and were moving the technology closer to us. The idea of *my device* was something we had not seen during the PC era.
 * Interaction between physical and digital: the combination of the two firsts points defined the frontier between the physical world and personal digital experiences. In a way, our biological capabilities could be enhanced by these devices.
 * Feature inheritance: mobile technologies were matching some features from single function devices. In most cases, they were even doing a better job than their former replacements, thanks to the software capabilities.
-* Ephemeralization: I’ve always admired [Fuller's work](https://en.wikipedia.org/wiki/Buckminster_Fuller) and I’m 100% sold to the idea doing more with less as a byproduct of technological advancement. Mobile seemed to me the highest exponent of this trend.
+* Ephemeralization: I've always admired [Fuller's work](https://en.wikipedia.org/wiki/Buckminster_Fuller) and I'm 100% sold to the idea doing more with less as a byproduct of technological advancement. Mobile seemed to me the highest exponent of this trend.
 * Mobile digital hub: the idea of [digital hub](https://www.youtube.com/watch?v=SYMTy6fchiQ) Steve Jobs introduced back in Macworld 2001, seemed to be moving away from computers and forming around mobile.
 
 
@@ -62,7 +62,7 @@ On one end, you had the PC, that was limiting the "switching experience" because
 
 > It was great as an experiment, but definitely not great for something you actually want to use everyday.
 
-On the other end, you had the electronic device[^1] you installed next to "the thing" you wanted to gain control over. It had to be connected to a Wi-Fi network in order to “talk” with the PC. That was a problem because you were always depending on the availability of the network, which was not ubiquitous.
+On the other end, you had the electronic device[^1] you installed next to "the thing" you wanted to gain control over. It had to be connected to a Wi-Fi network in order to "talk" with the PC. That was a problem because you were always depending on the availability of the network, which was not ubiquitous.
 
 The hack was constrained by design. It was constrained because it had anchors on both sides, it did not belong in there. It felt incomplete and out of place, as if we already had the recipe but not yet the ingredients.
 

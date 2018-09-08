@@ -7,7 +7,7 @@ source: "https://www.amazon.com/dp/1501260626"
 ---
 
 ## Showing Up
-It is not a matter of “how much” I produced or “how good” is the outcome as long as the focus remains on the long term. The craftsman — the pro — is the one that shows up everyday.
+It is not a matter of "how much" I produced or "how good" is the outcome as long as the focus remains on the long term. The craftsman — the pro — is the one that shows up everyday.
 
 He persists and devotes himself to the craft.
 
@@ -35,7 +35,7 @@ Friends sometimes ask, "Don't you get lonely sitting by yourself all day?" At fi
 	* It cannot be reasoned with. It understands nothing but power.
 	* It is an engine of destruction, programmed from the factory to prevent us from doing our work.
 * Resistance is fear. But it is too cunning to show itself naked in this form, then it brings in Rationalization.
-	* A series of plausible, rational justifications for why we shouldn’t do our work.
+	* A series of plausible, rational justifications for why we shouldn't do our work.
 * The more important a call or action is to our soul's evolution, the more Resistance we will feel toward pursuing it. Therefore, the more scared we are of a work or calling, the more sure we can be that we have to do it.
 * It aims to kill. Its target is the epicenter of our being: our genius, our soul, the unique and priceless gift we were put on earth to give and that no one else has but us.
 * Resistance has no strength of its own. Every ounce of juice it possesses comes from us. We feed it with power by our fear of it.
