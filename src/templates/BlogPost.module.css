@@ -22,8 +22,8 @@
 
 .content > p > a,
 .content li > a {
-  border-bottom: 3px solid #C8EFE8;
-  box-shadow: inset 0 -4px 0 #C8EFE8;
+  border-bottom: 0.25em solid #C8EFE8;
+  box-shadow: inset 0 -0.25em 0 #C8EFE8;
   text-decoration: none;
   transition: background 0.3s ease;
 }
@@ -35,8 +35,8 @@
 
 /* Blockquotes */
 .content > blockquote {
-  border-left: 3px solid #1ABC9C;
-  padding-left: 1.1em;
+  border-left: 0.25em solid #1ABC9C;
+  padding-left: 1em;
   width: 92.5%;
 }
 

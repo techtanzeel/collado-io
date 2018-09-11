@@ -15,7 +15,7 @@ const renderNavbar = () => {
   return navItems.map((item) => (
     <NavbarLink
       activeStyle={{
-        borderBottom: `3px solid #FFF4`,
+        borderBottom: `0.25em solid #FFF4`,
       }}
       exact={item === `home`}
       key={item}
@@ -36,37 +36,37 @@ const Container = styled.div`
   background: ${fakeAsbestos};
   display: flex;
   justify-content: center;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.5em;
   padding: 1em 0em;
 `;
 
 const NavbarLink = styled(Link)`
-  border-bottom: 0.2em solid #FFF0;
-  border-top: 0.2em solid #FFF0;
+  border-bottom: 0.25em solid #FFF0;
+  border-top: 0.25em solid #FFF0;
   color: #FFF;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
   margin: 0em 0.5em;
-  padding: 0.2em 0.5em;
+  padding: 0.25em 0.5em;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 0.2em solid #FFF;
+    border-bottom: 0.25em solid #FFF;
   }
 
   @media (min-width: ${mobile}) {
     font-size: 0.95em;
-    padding: 0.2em 0.6em;
+    padding: 0.25em 0.5em;
   }
 
   @media (min-width: ${tablet}) {
     font-size: 1em;
-    padding: 0.2em 0.65em;
+    padding: 0.25em 0.75em;
   }
 
   @media (min-width: ${desktop}) {
     font-size: 1.05em;
-    padding: 0.2em 0.7em;
+    padding: 0.25em 0.75em;
   }
 `;
 

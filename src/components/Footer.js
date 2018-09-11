@@ -41,7 +41,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 3em;
-  padding: 1.5em 0em;
+  padding: 1em 0em;
 
   @media (min-width: ${mobile}) {
     padding: 2em 0em;
@@ -50,33 +50,33 @@ const Container = styled.div`
 `;
 
 const FooterLink = styled.a`
-  border-bottom: 0.2em solid ${fakeAsbestos}00;
-  border-top: 0.2em solid ${fakeAsbestos}00;
+  border-bottom: 0.25em solid ${fakeAsbestos}00;
+  border-top: 0.25em solid ${fakeAsbestos}00;
   color: ${fakeAsbestos};
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
   margin: 0.5em 0em;
-  padding: 0.2em 0.5em;
+  padding: 0.25em 0.5em;
   text-decoration: none;
 
   &:hover {
-    border-bottom: 0.2em solid ${fakeAsbestos};
+    border-bottom: 0.25em solid ${fakeAsbestos};
   }
 
   @media (min-width: ${mobile}) {
     font-size: 0.95em;
     margin: 0em 0.5em;
-    padding: 0.2em 0.6em;
+    padding: 0.25em 0.5em;
   }
 
   @media (min-width: ${tablet}) {
     font-size: 1em;
-    padding: 0.2em 0.65em;
+    padding: 0.25em 0.75em;
   }
 
   @media (min-width: ${desktop}) {
     font-size: 1.05em;
-    padding: 0.2em 0.7em;
+    padding: 0.25em 0.75em;
   }
 `;
 

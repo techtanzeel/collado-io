@@ -30,9 +30,9 @@ const Home = ({ data }) => {
           imgAlt="Marc Collado"
         />
 
-        <Subtitle>
+        <Title3>
           My Story In A Few Paragraphs
-        </Subtitle>
+        </Title3>
 
         <p>
           Born and raised in Barcelona. I am an Industrial Engineer, always involved with tech products and companies.
@@ -105,9 +105,9 @@ const Home = ({ data }) => {
           .
         </p>
 
-        <Subtitle>
+        <Title3>
           Other Irrelevant Things
-        </Subtitle>
+        </Title3>
 
         <ul>
           <li>
@@ -206,10 +206,6 @@ const HomePage = styled.div`
   margin: 0 auto;
   max-width: 800px;
   padding: 0 2em;
-`;
-
-const Subtitle = styled(Title3)`
-  margin-top: 0.5em;
 `;
 
 export const imgQuery = graphql`

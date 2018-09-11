@@ -8,37 +8,60 @@ import {
 } from './colors';
 
 const Title1 = styled.h1`
-  box-shadow: inset 0em -0.6em 0em ${eggShell};
+  box-shadow: inset 0em -0.5em 0em ${eggShell};
   color: ${black};
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-    font-size: 2.2em;
+    font-size: 2.25em;
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 2.4em;
+    font-size: 2.5em;
   }
 
   @media (min-width: ${desktop}) {
-    font-size: 2.6em;
+    font-size: 2.75em;
   }
 `;
 
 const Title2 = styled.h2`
   color: ${black};
+  font-size: 1.5em;
   font-weight: 700;
   letter-spacing: -1px;
+  margin-top: 2em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-    font-size: 1.6em;
+    font-size: 1.75em;
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 1.8em;
+    font-size: 2em;
+  }
+
+  @media (min-width: ${desktop}) {
+    font-size: 2.25em;
+  }
+`;
+
+const Title3 = styled.h3`
+  color: ${black};
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-top: 2em;
+  text-transform: uppercase;
+
+  @media (min-width: ${mobile}) {
+    font-size: 1.5em;
+  }
+
+  @media (min-width: ${tablet}) {
+    font-size: 1.75em;
   }
 
   @media (min-width: ${desktop}) {
@@ -46,31 +69,12 @@ const Title2 = styled.h2`
   }
 `;
 
-const Title3 = styled.h3`
-  color: ${black};
-  font-weight: 700;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-
-  @media (min-width: ${mobile}) {
-    font-size: 1.4em;
-  }
-
-  @media (min-width: ${tablet}) {
-    font-size: 1.6em;
-  }
-
-  @media (min-width: ${desktop}) {
-    font-size: 1.8em;
-  }
-`;
-
 const BodyText = styled.p`
   color: ${fakeAsbestos};
-  font-size: 0.8em;
+  font-size: 0.9em;
 
   @media (min-width: ${mobile}) {
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 
   @media (min-width: ${tablet}) {
@@ -78,14 +82,13 @@ const BodyText = styled.p`
   }
 
   @media (min-width: ${desktop}) {
-    font-size: 1.1em;
+    font-size: 1.05em;
   }
 `;
 
 const BodyLink = styled.a`
-  border-bottom: 0.3em solid ${eggShell};
-  border-top: 0.1em solid ${eggShell}00;
-  box-shadow: inset 0 -0.3em 0 ${eggShell};
+  border-bottom: 0.25em solid ${eggShell};
+  box-shadow: inset 0 -0.25em 0 ${eggShell};
   color: inherit;
   font-size: 0.9em;
   text-decoration: none;
