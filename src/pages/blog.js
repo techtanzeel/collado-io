@@ -36,6 +36,7 @@ const BlogPage = styled.div`
 export const blogQuery = graphql`
   query blogQuery {
     allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
