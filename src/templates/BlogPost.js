@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import styles from './BlogPost.module.css';
+import styles from './md.module.css';
 import Layout from './Layout';
 import {
   black, fakeAsbestos, turquoise, eggShell,
