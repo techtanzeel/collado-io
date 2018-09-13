@@ -77,9 +77,9 @@ const Published = styled(MetaText)`
 
 PostLink.propTypes = {
   date: PropTypes.string.isRequired,
-  excerpt: PropTypes.string.isRequired,
+  excerpt: PropTypes.string,
   path: PropTypes.string.isRequired,
-  tags: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(PropTypes.string).isRequired,
   title: PropTypes.string.isRequired,
 };
 
