@@ -10,9 +10,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     resolve(
       graphql(`
         {
-          allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+          blogPosts: allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
             limit: 1000
+            sort: { fields: [frontmatter___date], order: DESC }
           ) {
             edges {
               node {
@@ -29,7 +30,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           reject(result.errors);
         }
 
-        const posts = result.data.allMarkdownRemark.edges;
+        const posts = result.data.blogPosts.edges;
 
         posts.forEach(({ node }) => {
           createPage({

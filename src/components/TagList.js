@@ -16,7 +16,9 @@ import {
 } from '../utils/theme';
 
 const renderTags = (tags) => tags.map((tag) => (
-  <TagPill>
+  <TagPill
+    key={tag}
+  >
     {tag}
   </TagPill>
 ));

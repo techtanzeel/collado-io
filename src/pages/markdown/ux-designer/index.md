@@ -17,7 +17,7 @@ And I know all this stuff because believe it or not, when I was 23, fresh [out o
 
 Crafting the experience, what actually happens when *you tap that button*, felt absolutely mind-blowing to me. Back then I did not understand how this role played out within a team or if it even existed inside a *regular* company, but I loved the idea of designing a holistic experience: Design with capital D.
 
-But despite this has been a recurrent theme of mine after college, it is obvious that I have failed to become a UX professional. Life routed me to [other paths](projects/iomando), but the obsession with interaction and design, has stuck with me in every single thing I did.
+But despite this has been a recurrent theme of mine after college, it is obvious that I have failed to become a UX professional. Life routed me to [other paths](/iomando), but the obsession with interaction and design, has stuck with me in every single thing I did.
 
 That is the reason why regardless I have been pulled away from explicit design roles as my day job, I have always tried to embrace design principles when making product and business decisions. I quote from iomando's [design recap](/blog/2015/iomando-design) I wrote last summer:
 

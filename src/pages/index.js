@@ -40,7 +40,7 @@ const Home = ({ data }) => {
         <p>
           In 2011, upon graduation, co-founded
           {' '}
-          <BodyLink href="/work/iomando">
+          <BodyLink href="/iomando">
             iomando technologies
           </BodyLink>
           , a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a

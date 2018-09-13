@@ -34,6 +34,10 @@ const Container = styled.div`
   @media (min-width: ${tablet}) {
 
   }
+
+  @media (min-width: ${desktop}) {
+
+  }
 `;
 
 Layout.propTypes = {

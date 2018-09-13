@@ -10,7 +10,15 @@ const Blog = ({ data }) => {
   const Posts = data.allMarkdownRemark.edges;
   const PostsList = Posts
     .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => (
+      <PostLink
+        key={edge.node.id}
+        date={edge.node.frontmatter.date}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
+        tags={edge.node.frontmatter.tags}
+        title={edge.node.frontmatter.title}
+      />));
 
   return (
     <Layout>
@@ -36,13 +44,13 @@ const BlogPage = styled.div`
 export const blogQuery = graphql`
   query blogQuery {
     allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             excerpt
