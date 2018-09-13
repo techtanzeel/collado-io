@@ -10,7 +10,15 @@ const Blog = ({ data }) => {
   const Posts = data.allMarkdownRemark.edges;
   const PostsList = Posts
     .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => (
+      <PostLink
+        key={edge.node.id}
+        date={edge.node.frontmatter.date}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
+        tags={edge.node.frontmatter.tags}
+        title={edge.node.frontmatter.title}
+      />));
 
   return (
     <Layout>

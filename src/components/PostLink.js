@@ -6,42 +6,56 @@ import styled from 'styled-components';
 import TagList from './TagList';
 
 import {
-  mobile, tablet,
+  mobile, tablet, desktop,
 } from '../utils/breakpoints';
-import {
-  fakeAsbestos, turquoise,
-} from '../utils/colors';
-import {
-  Title2, MetaText,
-} from '../utils/theme';
+import { fakeAsbestos, turquoise } from '../utils/colors';
+import { Title2, BodyText, MetaText } from '../utils/theme';
 
-const PostLink = ({ post }) => (
+const PostLink = ({
+  date, excerpt, path, tags, title,
+}) => (
   <Container>
-    <CardLink to={post.frontmatter.path}>
+    <CardLink to={path}>
       <BlogPostTitle>
-        {post.frontmatter.title}
+        {title}
       </BlogPostTitle>
     </CardLink>
 
-    <MetaText>
-      {post.frontmatter.excerpt}
-    </MetaText>
+    <BodyText>
+      {excerpt}
+    </BodyText>
 
     <Published>
-      {`Published on ${post.frontmatter.date}`}
+      {`Published on ${date}`}
     </Published>
 
     <TagList
-      tags={post.frontmatter.tags}
+      tags={tags}
     />
   </Container>
 );
 
 const Container = styled.div`
-  border-left: 0.3em solid ${fakeAsbestos}88;
-  margin-bottom: 2em;
-  padding-left: 0.8em;
-  transition: border-left 0.3s ease;
+  background: ${fakeAsbestos}44;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25em;
+  padding: 1em 1.25em;
+
+  @media (min-width: ${mobile}) {
+    margin-bottom: 1.5em;
+    padding: 1em 1.5em;
+  }
+
+  @media (min-width: ${tablet}) {
+    margin-bottom: 1.75em;
+    padding: 1.25em 1.75em;
+  }
+
+  @media (min-width: ${desktop}) {
+    margin-bottom: 2em;
+    padding: 1.25em 2em;
+  }
 `;
 
 const CardLink = styled(Link)`
@@ -49,6 +63,7 @@ const CardLink = styled(Link)`
 `;
 
 const BlogPostTitle = styled(Title2)`
+  margin-top: 0.5em;
   transition: color 0.3s ease;
 
   &:hover {
@@ -60,6 +75,12 @@ const Published = styled(MetaText)`
   margin-bottom: 0.5em;
 `;
 
-PostLink.propTypes = {};
+PostLink.propTypes = {
+  date: PropTypes.string.isRequired,
+  excerpt: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
+  tags: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 export default PostLink;
