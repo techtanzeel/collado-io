@@ -32,7 +32,7 @@ const Title2 = styled.h2`
   font-size: 1.5em;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-top: 2em;
+  margin-top: 1.5em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
@@ -53,7 +53,7 @@ const Title3 = styled.h3`
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-top: 2em;
+  margin-top: 1.5em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
@@ -122,18 +122,18 @@ const BodyLink = styled.a`
 
 const MetaText = styled.p`
   color: ${fakeAsbestos}88;
-  font-size: 0.9em;
+  font-size: 0.8em;
 
   @media (min-width: ${mobile}) {
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   @media (min-width: ${desktop}) {
-    font-size: 1.05em;
+    font-size: 0.95em;
   }
 `;
 
