@@ -6,15 +6,31 @@ import styled from 'styled-components';
 import NowPost from '../components/NowPost';
 import PageHeader from '../components/PageHeader';
 import Layout from '../templates/Layout';
+import styles from '../templates/md.module.css';
 
+import {
+  mobile, tablet, desktop,
+} from '../utils/breakpoints';
+import {
+  black, fakeAsbestos, turquoise, eggShell,
+} from '../utils/colors';
+import {
+  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+} from '../utils/theme';
 
 const Now = ({ data }) => {
   const Nows = data.allMarkdownRemark.edges;
+
+  const NowHeader = Nows
+    .filter(edge => edge.node.frontmatter.date === null)
+    .map(edge => edge.node.html);
+
   const NowsList = Nows
     .filter(edge => !!edge.node.frontmatter.date)
     .map(edge => (
       <NowPost
         key={edge.node.id}
+        title={edge.node.frontmatter.title}
         date={edge.node.frontmatter.date}
         html={edge.node.html}
       />
@@ -26,6 +42,10 @@ const Now = ({ data }) => {
         <PageHeader
           title="Now"
           tagline="What I'm Up To"
+        />
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: NowHeader }}
         />
         {NowsList}
       </NowPage>
@@ -51,7 +71,8 @@ export const nowQuery = graphql`
           id
           html
           frontmatter {
-            date
+            date(formatString: "MMMM DD, YYYY")
+            title
           }
         }
       }
