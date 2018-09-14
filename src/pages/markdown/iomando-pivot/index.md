@@ -3,6 +3,8 @@ title: "iomando: Pivot"
 date: "2013-01-15"
 path: "/blog/2013/iomando-pivot"
 tags: ["business", "iomando"]
+featured: "false"
+excerpt: "The story and lessons learned while introducing the first iteration of our product."
 ---
 
 ## TL;DR
@@ -60,7 +62,7 @@ We detected a problem:
 
 Then we saw an opportunity:
 
-*..there were a lot of empty spaces in those areas, but they could not be accessed because of the static nature of access control systems.*
+*...there were a lot of empty spaces in those areas, but they could not be accessed because of the static nature of access control systems.*
 
 And here's our solution:
 

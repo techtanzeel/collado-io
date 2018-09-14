@@ -3,6 +3,8 @@ title: "Idle Time"
 date: "2018-05-30"
 path: "/blog/2018/idle-time"
 tags: ["happiness", "opinion", "product", "tech"]
+featured: "false"
+excerpt: "How the mere action of setting aside the mouse to the left of the keyboard radically changed the relationship with my computer."
 ---
 
 As a thought experiment, imagine you were restricted to use a [single device](/blog/2014/ultimate-device) to interact with the whole digital ether. Exclusively one: laptop, tablet, smartphone, e-reader, you name it, but for the rest of your days, this is the one and only device you would ever be "touching". The good news is that you get to choose, of course.

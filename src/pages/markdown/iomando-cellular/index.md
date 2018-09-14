@@ -3,6 +3,8 @@ title: "On Cellular Technology"
 date: "2013-04-02"
 path: "/blog/2013/iomando-cellular"
 tags: ["iomando", "product", "tech"]
+featured: "false"
+excerpt: "The reasons behind the decision of using cellular technology — rather than Bluetooth of Wi-Fi, to power our devices."
 ---
 
 During several Meetups and panels here in Barcelona, we've been frequently asked about the hardware development at iomando. Particularly the decisions behind the technology we use to power our access systems.

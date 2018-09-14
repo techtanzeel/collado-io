@@ -3,6 +3,7 @@ title: "Delivering Happiness"
 date: "2017-04-09"
 path: "/blog/2017/book-delivering-happiness"
 tags: ["book", "business", "happiness", "simple"]
+featured: "false"
 source: "https://www.amazon.com/dp/B00FOT936Y/"
 ---
 

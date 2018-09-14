@@ -3,6 +3,8 @@ title: "Months and Terms"
 path: "/blog/2018/months-terms"
 date: "2018-05-16"
 tags: ["education", "opinion", "product"]
+featured: "false"
+excerpt: "Why the term-based plan is a better approach to motivate students."
 ---
 
 I have been receiving quite a lot of feedback from my recent post about [enrolling the Udacity's Data Analyst Nanodegree](/blog/2018/udacity-dand). Unexpectedly, even prospective students contacted me asking for advice on whether they should enroll or not, which totally came as a pleasant surprise.

@@ -3,6 +3,7 @@ title: "Anything You Want"
 date: "2017-04-14"
 path: "/blog/2017/book-anything-you-want"
 tags: ["book", "craft", "happiness", "simple"]
+featured: "false"
 source: "https://www.amazon.com/dp/B013XUNUAA"
 ---
 

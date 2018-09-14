@@ -3,6 +3,7 @@ title: "The War Of Art"
 date: "2018-07-30"
 path: "/blog/2018/book-war-art"
 tags: ["book", "craft", "happiness", "product"]
+featured: "false"
 source: "https://www.amazon.com/dp/1501260626"
 ---
 

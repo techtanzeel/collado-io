@@ -3,6 +3,8 @@ title: "iomando 1.0"
 date: "2013-02-23"
 path: "/blog/2013/iomando-10"
 tags: ["iomando", "product"]
+featured: "false"
+excerpt: "Introducing iomando 1.0"
 ---
 
 ℹ️ This post was originally published on February 2012 on the official iomando blog and it announced the release of the first version of the product.
