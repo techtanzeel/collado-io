@@ -37,7 +37,6 @@
 .content > blockquote {
   border-left: 0.25em solid #1ABC9C;
   padding-left: 1em;
-  width: 92.5%;
 }
 
 .content > blockquote > p {
