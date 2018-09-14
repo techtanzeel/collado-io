@@ -4,14 +4,9 @@ import styled from 'styled-components';
 
 import styles from './md.module.css';
 import Layout from './Layout';
+
 import {
-  black, fakeAsbestos, turquoise, eggShell,
-} from '../utils/colors';
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
-import {
-  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+  Title1, MetaText,
 } from '../utils/theme';
 
 const BlogPost = ({ data }) => {
@@ -19,30 +14,22 @@ const BlogPost = ({ data }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <BlogPostPage>
-        <BlogPostTitle>
-          {frontmatter.title}
-        </BlogPostTitle>
-        <MetaText>
-          {`Published on ${frontmatter.date}`}
-        </MetaText>
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </BlogPostPage>
+      <BlogPostTitle>
+        {frontmatter.title}
+      </BlogPostTitle>
+      <MetaText>
+        {`Published on ${frontmatter.date}`}
+      </MetaText>
+      <div
+        className={styles.content}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </Layout>
   );
 };
 
-const BlogPostPage = styled.div`
-  margin: 0em auto;
-  max-width: 800px;
-  padding: 0em 2em;
-`;
-
 const BlogPostTitle = styled(Title1)`
-  margin: 1em 0em 0.125em 0em;
+  margin-bottom: 0.25em;
 `;
 
 export const blogPostQuery = graphql`

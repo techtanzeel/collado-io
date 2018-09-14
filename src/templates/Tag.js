@@ -9,13 +9,7 @@ import PageHeader from '../components/PageHeader';
 import PostLink from '../components/PostLink';
 
 import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
-import {
-  black, fakeAsbestos, turquoise, eggShell,
-} from '../utils/colors';
-import {
-  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+  Title2,
 } from '../utils/theme';
 
 const Tag = ({ pathContext, data }) => {
@@ -40,30 +34,22 @@ const Tag = ({ pathContext, data }) => {
 
   return (
     <Layout>
-      <TagPage>
-        <PageHeader
-          title={`This is ${tag}`}
-          tagline="The blog, filtered"
-        />
-        <Title2>
-          {tagHeader}
-        </Title2>
-        {PostsList}
-        <Button
-          url="/tags"
-        >
+      <PageHeader
+        title={`This is ${tag}`}
+        tagline="The blog, filtered"
+      />
+      <Title2>
+        {tagHeader}
+      </Title2>
+      {PostsList}
+      <Button
+        url="/tags"
+      >
           View all tags
-        </Button>
-      </TagPage>
+      </Button>
     </Layout>
   );
 };
-
-const TagPage = styled.div`
-  margin: 0em auto;
-  max-width: 800px;
-  padding: 0em 2em;
-`;
 
 export const tagPageQuery = graphql`
   query tagPageQuery($tag: String) {

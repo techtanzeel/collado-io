@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
 import PageHeader from '../components/PageHeader';
 import PostLink from '../components/PostLink';
@@ -22,24 +21,14 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <BlogPage>
-        <PageHeader
-          title="Blog"
-          tagline="Ideas Were Written"
-        />
-        {PostsList}
-      </BlogPage>
+      <PageHeader
+        title="Blog"
+        tagline="Ideas Were Written"
+      />
+      {PostsList}
     </Layout>
   );
 };
-
-const BlogPage = styled.div`
-  display: flex;
-  flex-flow: column;
-  margin: 0em auto;
-  max-width: 800px;
-  padding: 0em 2em;
-`;
 
 export const blogQuery = graphql`
   query blogQuery {

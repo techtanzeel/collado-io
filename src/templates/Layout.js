@@ -19,7 +19,9 @@ import {
 const Layout = ({ children }) => (
   <Container>
     <Navbar />
-    {children}
+    <Content>
+      {children}
+    </Content>
     <Footer />
   </Container>
 );
@@ -37,6 +39,26 @@ const Container = styled.div`
 
   @media (min-width: ${desktop}) {
 
+  }
+`;
+
+const Content = styled.div`
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0em 2em;
+
+  @media (min-width: ${mobile}) {
+    padding: 0em 3em;
+  }
+
+  @media (min-width: ${tablet}) {
+    padding: 0em 4em;
+  }
+
+  @media (min-width: ${desktop}) {
+    padding: 0em;
   }
 `;
 
