@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -62,8 +61,6 @@ const Content = styled.div`
   }
 `;
 
-Layout.propTypes = {
-  children: PropTypes.object.isRequired,
-};
+Layout.propTypes = {};
 
 export default Layout;
