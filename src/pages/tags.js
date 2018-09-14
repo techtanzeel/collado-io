@@ -28,6 +28,7 @@ const TagsPage = ({ data }) => {
     </div>
   );
 };
+
 export const pageQuery = graphql`
   query TagsQuery {
     site {
@@ -36,6 +37,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
       limit: 1000
     ) {
       group(field: frontmatter___tags) {

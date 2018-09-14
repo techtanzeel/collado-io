@@ -28,7 +28,15 @@ const Tag = ({ pathContext, data }) => {
   const Posts = data.allMarkdownRemark.edges;
   const PostsList = Posts
     .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => (
+      <PostLink
+        key={edge.node.id}
+        date={edge.node.frontmatter.date}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
+        tags={edge.node.frontmatter.tags}
+        title={edge.node.frontmatter.title}
+      />));
 
   return (
     <Layout>
@@ -60,9 +68,9 @@ const TagPage = styled.div`
 export const tagPageQuery = graphql`
   query tagPageQuery($tag: String) {
     allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(markdown)/" }, frontmatter: { tags: { in: [$tag] } } }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
       edges {
