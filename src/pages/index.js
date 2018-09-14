@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import PageHeader from '../components/PageHeader';
 import Layout from '../templates/Layout';
+import styles from '../templates/md.module.css';
 
 import {
   mobile, tablet, desktop,
@@ -17,8 +18,8 @@ import {
 } from '../utils/theme';
 
 const Home = ({ data }) => {
-  const marcImg = data.file.childImageSharp.resolutions.src;
-
+  const marcImg = data.img.childImageSharp.resolutions.src;
+  const homeText = data.copy.edges[0].node.html;
   return (
     <Layout>
       <HomePage>
@@ -29,174 +30,10 @@ const Home = ({ data }) => {
           imgURL={marcImg}
           imgAlt="Marc Collado"
         />
-
-        <Title3>
-          My Story In A Few Paragraphs
-        </Title3>
-
-        <p>
-          Born and raised in Barcelona. I am an Industrial Engineer, always involved with tech products and companies.
-        </p>
-        <p>
-          In 2011, upon graduation, co-founded
-          {' '}
-          <BodyLink href="/iomando">
-            iomando technologies
-          </BodyLink>
-          , a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a
-          {' '}
-          <BodyLink href="/work/iomando/product">
-            cool product
-          </BodyLink>
-          {' '}
-          and ended up acquired by
-          {' '}
-          <BodyLink href="https://citibox.com/">
-            Citibox
-          </BodyLink>
-          {' '}
-          in 2017.
-        </p>
-        <p>
-          In 2015, decided to
-          {' '}
-          <BodyLink href="/blog/2015/stepping-down">
-            switch gears
-          </BodyLink>
-          {' '}
-          and pursue another passion of mine:
-          {' '}
-          <BodyLink href="/tags/education">
-            education
-          </BodyLink>
-          . Then joined
-          {' '}
-          <BodyLink href="/work/ironhack">
-            Ironhack
-          </BodyLink>
-          {' '}
-          to change the way we learn about technology. First as the GM in Barcelona, establishing the city operations from the ground up, and later on as Product Manager.
-        </p>
-        <p>
-          As you can see, I like simple and starting things from scratch.
-        </p>
-        <p>
-          From time to time, I sit and write some thoughts down in the
-          {' '}
-          <BodyLink href="/blog">
-            blog
-          </BodyLink>
-          , but I devote almost all my free time to
-          {' '}
-          <BodyLink href="/tags/book">
-            read books
-          </BodyLink>
-          ,
-          {' '}
-          <BodyLink href="/blog/2018/udacity-dand">
-            learn new stuff
-          </BodyLink>
-          {' '}
-           and build, mostly,
-          {' '}
-          <BodyLink href="https://github.com/MarcCollado">
-            useless things
-          </BodyLink>
-          .
-        </p>
-
-        <Title3>
-          Other Irrelevant Things
-        </Title3>
-
-        <ul>
-          <li>
-            Hold
-            {' '}
-            <BodyLink href="/tags/opinion">
-              strong opinions
-            </BodyLink>
-            {' '}
-             on
-            {' '}
-            <BodyLink href="/tags/health">
-              health
-            </BodyLink>
-            ,
-            {' '}
-            <BodyLink href="/tags/happiness">
-              happiness
-            </BodyLink>
-            ,
-            {' '}
-            <BodyLink href="/tags/simple">
-              simple living
-            </BodyLink>
-            {' '}
-            and
-            {' '}
-            <BodyLink href="/tags/product">
-              products
-            </BodyLink>
-            {' '}
-             in general.
-          </li>
-          <li>
-            <BodyLink href="/tags/coding">
-              Engineering
-            </BodyLink>
-            ,
-            {' '}
-            <BodyLink href="/tags/craft">
-              craftsmanship
-            </BodyLink>
-            ,
-            {' '}
-            <BodyLink href="/tags/history">
-              history
-            </BodyLink>
-            , and
-            {' '}
-            <BodyLink href="/tags/physics">
-              physics
-            </BodyLink>
-            {' '}
-            have all my attention.
-          </li>
-          <li>
-              Couldn't agree more with idea that
-            {' '}
-            <i>
-                "we don't see things as they are"
-            </i>
-            {' '}
-              that we actually
-            {' '}
-            <i>
-                "see them as we are"
-            </i>
-            .
-          </li>
-          <li>
-            Love things that
-            {' '}
-            <BodyLink href="/tags/transport">
-              move around
-            </BodyLink>
-            : bikes, cars, trains, planes, you name it.
-          </li>
-          <li>
-            Know for a fact that any mindless activity gets much better by listening to a
-            {' '}
-            <BodyLink href="/tags/podcast">
-              podcast
-            </BodyLink>
-            .
-          </li>
-          <li>
-            Do not like to travel, I truly believe it is overrated, but I'd definitely go for a tour around the world just to see amazing factories.
-          </li>
-        </ul>
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: homeText }}
+        />
       </HomePage>
     </Layout>
   );
@@ -208,9 +45,19 @@ const HomePage = styled.div`
   padding: 0 2em;
 `;
 
-export const imgQuery = graphql`
-  query imgQuery {
-    file(relativePath: { eq: "marc.jpg" }) {
+export const homeQuery = graphql`
+  query homeQuery {
+    copy: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/(home)/" } }
+    ) {
+      edges {
+        node {
+          id
+          html
+        }
+      }
+    }
+    img: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
         resolutions {
           src
