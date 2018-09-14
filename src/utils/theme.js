@@ -32,7 +32,6 @@ const Title2 = styled.h2`
   font-size: 1.5em;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-top: 1.6em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
@@ -53,7 +52,6 @@ const Title3 = styled.h3`
   font-size: 1.25em;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-top: 1.4em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
