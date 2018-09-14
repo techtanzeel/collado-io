@@ -1,6 +1,7 @@
 ---
 title: "Late 2018"
 date: "2018-09-01"
+path: "/now"
 ---
 
 In a nutshell, later this year I'll be spending more time training, coding, and reading, all the details below.
