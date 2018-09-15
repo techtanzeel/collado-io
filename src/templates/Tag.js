@@ -1,12 +1,10 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
 import Layout from './Layout';
 import Button from '../components/Button';
 import PageHeader from '../components/PageHeader';
-import PostLink from '../components/PostLink';
+import PostList from '../components/PostList';
 
 import {
   Title2,
@@ -19,18 +17,7 @@ const Tag = ({ pathContext, data }) => {
     totalCount === 1 ? '' : 's'
   } tagged with "${tag}"`;
 
-  const Posts = data.allMarkdownRemark.edges;
-  const PostsList = Posts
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => (
-      <PostLink
-        key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        excerpt={edge.node.frontmatter.excerpt}
-        path={edge.node.frontmatter.path}
-        tags={edge.node.frontmatter.tags}
-        title={edge.node.frontmatter.title}
-      />));
+  const posts = data.allMarkdownRemark.edges;
 
   return (
     <Layout>
@@ -41,11 +28,13 @@ const Tag = ({ pathContext, data }) => {
       <Title2>
         {tagHeader}
       </Title2>
-      {PostsList}
+      <PostList>
+        {posts}
+      </PostList>
       <Button
         url="/tags"
       >
-          View all tags
+        View all tags
       </Button>
     </Layout>
   );
