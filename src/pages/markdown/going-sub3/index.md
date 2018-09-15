@@ -81,7 +81,7 @@ The idea behind starting this project goes back to the very idea of why I starte
 
 I want to publish all of this. Not because humanity needs to know, thousands if not millions of people have already walked down this path, but because I just want a place to look back, reflect, and see what I've been up to during my time on Earth.
 
-This post marks the beginning of the project #sub3, I'll keep publishing all related posts under the tag `sub3` and also create a dedicated page with all the project's information at [collado.io/sub3](collado.io/sub3).
+This post marks the beginning of the project #sub3, I'll keep publishing all related posts under the tag `sub3` and also create a dedicated page with all the project's information at [collado.io/sub3](/sub3).
 
 ---
 [^1]: Not that I quit exercising, despite never being a professional athlete, I've always maintained a fairly active lifestyle. During this gap, from fourteen to eighteen, I trained regularly with the sailing national team. We didn't run much, but it kept me quite busy.
