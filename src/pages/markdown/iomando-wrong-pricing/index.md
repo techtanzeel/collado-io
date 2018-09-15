@@ -4,7 +4,7 @@ date: "2013-06-10"
 path: "/blog/2013/iomando-wrong-pricing"
 tags: ["iomando", "business"]
 featured: "false"
-excerpt: "The story of how we changed our pricing strategy in order to make both distributors and customers happy, but also create a sustainable business along the way."
+excerpt: "How we changed our pricing strategy in order to make both distributors and customers happy, yet also create a business along the way."
 ---
 
 ![iomando pricing](./iomando-pricing.jpg "An early pricing slide taken from an old catalogue")

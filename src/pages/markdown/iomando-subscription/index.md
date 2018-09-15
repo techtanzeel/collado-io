@@ -4,7 +4,7 @@ date: "2013-03-11"
 path: "/blog/2013/iomando-subscription"
 tags: ["business", "iomando"]
 featured: "false"
-excerpt: "The reasons behind the decision of iomando being a subscription service instead of a one-off purchase."
+excerpt: "Why subscription-based businesses promote the right incentives in order to create the best products."
 ---
 
 ![iomando vs remote](./iomando-vs-remote.jpg "iomando vs remote")

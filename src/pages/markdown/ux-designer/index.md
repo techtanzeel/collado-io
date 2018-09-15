@@ -4,7 +4,7 @@ date: "2016-07-03"
 path: "/blog/2016/designer"
 tags: ["craft", "design", "education", "ironhack", "opinion"]
 featured: "true"
-excerpt: "Despite having been pulled away from explicit design roles as my day job, I have always tried to embrace design principles when making a product or business decisions."
+excerpt: "Despite having been pulled away from explicit design roles as my day job, I have always embraced design principles when making a product or a business decision."
 ---
 
 This fall, at Ironhack, we are introducing a brand new [UX/UI bootcamp](https://www.ironhack.com/en/ux-ui-design-bootcamp). Despite this writing has nothing to do with that — well maybe a little bit, but more on that later, it is a great segue to a more personal story that recently has brought back some memories from my 23-year-old self.

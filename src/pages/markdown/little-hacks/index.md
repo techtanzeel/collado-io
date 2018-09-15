@@ -4,7 +4,7 @@ date: "2016-05-31"
 path: "/blog/2016/hacks"
 tags: ["happiness", "opinion", "product", "simple"]
 featured: "false"
-excerpt: "Small actions, huge gains."
+excerpt: "Small habits, huge gains."
 ---
 
 > Our goal here isn’t to be defensive and resist our phones but to ask the question, “how can we make our home screen a livable place?” A place we can return to frequently, knowing it will respect our intentions and support our conscious use. And a place that makes room for the thoughts and concerns we want to have, and not the ones we don’t.

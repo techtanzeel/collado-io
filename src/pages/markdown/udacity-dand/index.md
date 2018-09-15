@@ -4,6 +4,7 @@ date: "2018-04-04"
 path: "/blog/2018/udacity-dand"
 tags: ["craft", "education", "product"]
 featured: "true"
+excerpt: "My review of the Udacity Data Analyst Nanodegree."
 ---
 
 ![udacity data science nanodegree](./udacity-dand.jpg "udacity data science nanodegree")

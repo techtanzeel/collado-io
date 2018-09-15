@@ -4,7 +4,7 @@ date: "2013-01-04"
 path: "/blog/2013/iomando-prologue"
 tags: ["business", "iomando"]
 featured: "false"
-excerpt: "The — simplified — story of how iomando came to be."
+excerpt: "The — overly simplified — story of how iomando came to be."
 ---
 
 [iomando](/iomando) is a mobile product that provides cloud-managed keyless access solutions for mobile devices. Which in plain English means opening doors and stuff with your phone. The service enables its users to easily access and manage their spaces using a smartphone — instead of keys or remote controls. Thus providing a better experience and defining a whole new category when it comes to interact with accesses.

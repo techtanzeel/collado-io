@@ -4,7 +4,7 @@ date: "2013-01-15"
 path: "/blog/2013/iomando-pivot"
 tags: ["business", "iomando"]
 featured: "false"
-excerpt: "The story and lessons learned while introducing the first iteration of our product."
+excerpt: "The lessons learned while introducing the very first iteration of our product."
 ---
 
 ## TL;DR

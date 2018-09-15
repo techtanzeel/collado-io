@@ -4,7 +4,7 @@ date: "2017-02-19"
 path: "/blog/2017/alignment"
 tags: ["craft", "education", "ironhack", "opinion"]
 featured: "true"
-excerpt: "Our society needs passion and craft. Enthusiasm to build great things. The best way to foster this mindset is to just have these enthusiastic students sharing the same room."
+excerpt: "Passion, craft, and enthusiasm are the required ingredients in order to build great things. The best way to nurture this mindset is to have these enthusiastic students sharing the same room."
 ---
 
 It is sometimes shocking how easily we get used to things others find fascinating. Boundary conditions define your [new normal](https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html) and it has to be somebody else who suddenly comes in, to remind you how biased your perspective is.

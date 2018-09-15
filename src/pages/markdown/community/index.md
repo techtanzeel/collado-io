@@ -4,7 +4,7 @@ date: "2017-07-01"
 path: "/blog/2017/community"
 tags: ["craft", "education", "ironhack", "opinion"]
 featured: "true"
-excerpt: "At Ironhack we care about our community to an extent other people would think we are insane. It turns out though, the community has become a fundamental piece of our student experience and one of the keys to having the best product."
+excerpt: "We care about our community to an extent other people would think we are insane. It has become a fundamental piece of our student experience and the key to having the best product."
 ---
 
 Out of the blue, last month, one of the most prominent startups in town invited me to lecture their marketing team about the lessons we (at Ironhack) have learned building our amazing community.

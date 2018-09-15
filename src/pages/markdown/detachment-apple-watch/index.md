@@ -4,7 +4,7 @@ date: "2016-08-21"
 path: "/blog/2016/apple-watch"
 tags: ["opinion", "product", "tech"]
 featured: "false"
-excerpt: "What if Apple rolled out the next generation Apple Watch with a built-in, low power, world wide, cellular connectivity that helped detach the device from the iPhone."
+excerpt: "What if Apple rolled out the next Apple Watch with a built-in, low power, worldwide, cellular connectivity?"
 source: "https://www.bloomberg.com/news/articles/2016-08-18/apple-said-to-hit-roadblocks-in-cutting-watch-ties-to-iphone"
 ---
 

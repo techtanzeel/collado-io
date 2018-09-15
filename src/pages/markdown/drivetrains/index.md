@@ -4,10 +4,10 @@ date: "2016-06-04"
 path: "/blog/2016/drivetrains"
 tags: ["opinion", "tech", "transport"]
 featured: "false"
-excerpt: "Autonomous cars and its implications analyzed from drivetrains, ownership and operations."
+excerpt: "Autonomous cars and its implications explained, from drivetrains, ownership to operations."
 ---
 
-> Autonomous cars will be commonplace by 2025 and have a near monopoly by 2030, and the sweeping change they bring will eclipse every other innovation our society has experienced. They will cause unprecedented job loss and a fundamental restructuring of our economy, solve large portions of our environmental problems, prevent tens of thousands of deaths per year, save millions of hours with increased productivity, and create entire new industries that we cannot even imagine from our current vantage point.  
+> Autonomous cars will be commonplace by 2025 and have a near monopoly by 2030, and the sweeping change they bring will eclipse every other innovation our society has experienced. They will cause unprecedented job loss and a fundamental restructuring of our economy, solve large portions of our environmental problems, prevent tens of thousands of deaths per year, save millions of hours with increased productivity, and create entire new industries that we cannot even imagine from our current vantage point.
 
 Never heard of Zack Kanter before, but his post about self-driving cars definitely caught my attention. I do not entirely share his dramatic view of the job market fallout. I ultimately believe we are tool builders, that’s what we do. New tools always spur new opportunities and create needs that were not even imaginable before.
 
@@ -19,7 +19,7 @@ First of all, we have to acknowledge that this is already happening. There are s
 
 On a more emotional layer the interest in cars is dropping among younger generations. Smartphones are replacing cars as a proxy for freedom and social status, and paradoxically, they can’t used while driving. Nowadays cars embody a wide range of negative values such as pollution, accidents, congestions… even Toyota’s USA President, Jim Lentz, agrees:
 
-> We have to face the growing reality that today young people don’t seem to be as interested in cars as previous generations.  
+> We have to face the growing reality that today young people don’t seem to be as interested in cars as previous generations.
 
 The problem though, is that most conversations I hear are revolving around self-driving cars when in fact they attempt to describe three different — and partially independent, dynamics.
 

@@ -3,6 +3,8 @@ title: "Going Sub3"
 date: "2018-08-20"
 path: "/blog/2018/going-sub3"
 tags: ["health", "sub3"]
+featured: "true"
+excerpt: "Last year I set out to run a marathon in less than 3 hours and failed. This year I'll reset my goal but also make a fun project out of it."
 ---
 
 Last year — also by the end of the summer, I challenged myself to finish the 2018 Barcelona Marathon under three hours.

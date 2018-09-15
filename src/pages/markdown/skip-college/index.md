@@ -4,7 +4,7 @@ date: "2016-06-26"
 path: "/blog/2016/skip-college"
 tags: ["education", "ironhack", "opinion"]
 featured: "false"
-excerpt: "College incentives are totally broken because its success is not properly linked to student outcomes. New students will keep joining out of fear and societal pressure and the institution won't be incentivized to change."
+excerpt: "College incentives are totally misaligned because its success is not properly linked to student outcomes."
 ---
 
 Since the day I [joined the Ironhack team](/blog/2015/wecode), I have witnessed — from the very first row, more than one hundred students graduating from our bootcamp here in Barcelona. Right after the program, most of them successfully land amazing jobs as developers or start working on their own projects. Because of that, sometimes, I can't help but ask myself what would have happened if I had [skipped college](/blog/2013/industrial-engineer) altogether.

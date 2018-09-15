@@ -4,7 +4,7 @@ date: "2016-03-30"
 path: "/blog/2016/ironhack-experience"
 tags: ["education", "ironhack", "opinion"]
 featured: "true"
-excerpt: "Why this Saturday I will be enrolling the Ironhack Web Development program, and why everybody in a managing position, technical or not, should join, too."
+excerpt: "This Saturday I will be enrolling the Ironhack Web Development program, and why everybody in a managing position, technical or not, should join, too."
 ---
 
 This Saturday the 2nd of April, I will be enrolling the [Ironhack](https://www.ironhack.com) Web Development program, in its part-time format. It spans six months: two afternoons during the week and the whole Saturday, accounting for more than 400 hours of accelerated learning.

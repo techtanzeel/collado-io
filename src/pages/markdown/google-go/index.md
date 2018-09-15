@@ -4,7 +4,7 @@ date: "2016-03-12"
 path: "/blog/2016/google-go"
 tags: ["tech"]
 featured: "false"
-excerpt: "It’s not a human move. I’ve never seen a human play this move. So beautiful. — It’s a word he keeps repeating. Beautiful. Beautiful. Beautiful."
+excerpt: "It’s not a human move — Fan Hui said. We are teaching computers how to think."
 source: "https://www.wired.com/2016/03/sadness-beauty-watching-googles-ai-play-go/"
 ---
 
