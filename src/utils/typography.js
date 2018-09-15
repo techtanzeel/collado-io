@@ -5,7 +5,7 @@ require('typeface-ibm-plex-sans');
 
 const typography = new Typography({
   baseFontSize: '16px',
-  baseLineHeight: 1.7,
+  baseLineHeight: 1.75,
   scaleRatio: 2,
   headerFontFamily: [
     'Roboto Mono',

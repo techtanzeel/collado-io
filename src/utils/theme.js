@@ -119,18 +119,18 @@ const BodyLink = styled.a`
 
 const MetaText = styled.p`
   color: ${fakeAsbestos}88;
-  font-size: 0.75em;
+  font-size: 0.8em;
 
   @media (min-width: ${mobile}) {
-    font-size: 0.8em;
-  }
-
-  @media (min-width: ${tablet}) {
     font-size: 0.85em;
   }
 
-  @media (min-width: ${desktop}) {
+  @media (min-width: ${tablet}) {
     font-size: 0.9em;
+  }
+
+  @media (min-width: ${desktop}) {
+    font-size: 0.95em;
   }
 `;
 
