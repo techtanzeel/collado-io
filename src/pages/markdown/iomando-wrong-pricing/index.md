@@ -2,7 +2,7 @@
 title: "We Were Wrong About Pricing"
 date: "2013-06-10"
 path: "/blog/2013/iomando-wrong-pricing"
-tags: ["iomando", "business"]
+tags: ["business", "iomando"]
 featured: "false"
 excerpt: "How we changed our pricing strategy in order to make both distributors and customers happy, yet also create a business along the way."
 ---
