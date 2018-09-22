@@ -1,9 +1,24 @@
-import Typography from 'typography';
-
-require('typeface-roboto-mono');
-require('typeface-ibm-plex-sans');
+const Typography = require('typography');
 
 const typography = new Typography({
+  googleFonts: [
+    {
+      name: 'Roboto Mono',
+      styles: [
+        '400',
+        '700',
+      ],
+    },
+    {
+      name: 'IBM Plex Sans',
+      styles: [
+        '400',
+        '400i',
+        '700',
+        '700i',
+      ],
+    },
+  ],
   baseFontSize: '16px',
   baseLineHeight: 1.75,
   scaleRatio: 2,
@@ -17,4 +32,4 @@ const typography = new Typography({
   ],
 });
 
-export default typography;
+module.exports = typography;
