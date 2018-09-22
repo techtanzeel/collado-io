@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import Layout from './Layout';
@@ -10,8 +11,8 @@ import {
   Title2,
 } from '../utils/theme';
 
-const Tag = ({ pathContext, data }) => {
-  const { tag } = pathContext;
+const Tag = ({ pageContext, data }) => {
+  const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? '' : 's'
@@ -64,7 +65,7 @@ export const tagPageQuery = graphql`
 `;
 
 Tag.propTypes = {
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     tag: PropTypes.string,
   }).isRequired,
   data: PropTypes.shape({

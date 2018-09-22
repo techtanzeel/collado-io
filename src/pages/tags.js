@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import { graphql, Link } from 'gatsby';
+import PropTypes from 'prop-types';
 
 const TagsPage = ({ data }) => {
   const { title } = data.site.siteMetadata;
