@@ -12,6 +12,7 @@
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-remark-copy-linked-files": "^1.5.37",
+    "gatsby-remark-embed-video": "^1.4.0",
     "gatsby-remark-images": "^1.5.67",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
