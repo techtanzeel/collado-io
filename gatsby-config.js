@@ -6,7 +6,9 @@ module.exports = {
     siteUrl: 'https://collado.io',
   },
   plugins: [
+    // React helmet
     'gatsby-plugin-react-helmet',
+    // Source filesystem
     {
       resolve: `gatsby-source-filesystem`,
       options: {

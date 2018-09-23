@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -17,6 +18,15 @@ import {
 
 const Layout = ({ children }) => (
   <Container>
+    <Helmet defaultTitle={`Marc Collado`}>
+      <meta name="twitter:site" content="@MarcCollado" />
+      <meta name="og:type" content="website" />
+      <link
+        rel="canonical"
+        href={`https://collado.io`}
+      />
+      <html lang="en" />
+    </Helmet>
     <Navbar />
     <Content>
       {children}
