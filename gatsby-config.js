@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     // React helmet
     'gatsby-plugin-react-helmet',
+
     // Source filesystem
     {
       resolve: `gatsby-source-filesystem`,
@@ -37,10 +38,13 @@ module.exports = {
         path: `${__dirname}/src/pages/now`,
       },
     },
+
+    // Markdown parser
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-copy-linked-files',
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -59,14 +63,16 @@ module.exports = {
           //     noIframeBorder: true,
           //   },
           // },
-          'gatsby-remark-copy-linked-files',
         ],
       },
     },
-    // Images
+    `gatsby-plugin-catch-links`,
+
+    // Image processing
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // Styles and Typography
+
+    // Styles and typography
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-typography`,
