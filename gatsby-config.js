@@ -6,7 +6,10 @@ module.exports = {
     siteUrl: 'https://collado.io',
   },
   plugins: [
+    // React helmet
     'gatsby-plugin-react-helmet',
+
+    // Source filesystem
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,10 +38,13 @@ module.exports = {
         path: `${__dirname}/src/pages/now`,
       },
     },
+
+    // Markdown parser
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-copy-linked-files',
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -47,24 +53,26 @@ module.exports = {
               showCaptions: false,
             },
           },
-          // {
-          //   resolve: 'gatsby-remark-embed-video',
-          //   options: {
-          //     width: 800,
-          //     ratio: 1.77,
-          //     height: 400,
-          //     related: false,
-          //     noIframeBorder: true,
-          //   },
-          // },
-          'gatsby-remark-copy-linked-files',
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: 800,
+              ratio: 1.77,
+              height: 400,
+              related: false,
+              noIframeBorder: true,
+            },
+          },
         ],
       },
     },
-    // Images
+    `gatsby-plugin-catch-links`,
+
+    // Image processing
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // Styles and Typography
+
+    // Styles and typography
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-typography`,

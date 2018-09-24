@@ -30,6 +30,9 @@ export const homeQuery = graphql`
   query homeQuery {
     img: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
+        sizes(maxWidth: 800) {
+          srcSet
+        }
         resolutions {
           src
         }
