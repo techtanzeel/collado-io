@@ -28,7 +28,7 @@ Last year [this is 2012] we've installed our service in more than three hundred 
 2012 has definitively been a good year for iomando and, among other things, here are a few highlights that sum it up:
 
 * Closed our first seed round with local business angels and industry partners.
-* Released [iomando v1.1](/blog/2013/iomando-11) last June [again, this is 2012], which included many new features such as the possibility to manage users right from the mobile app or a faster door-opening engine — which reduced the opening time almost 80% and increase its security.
+* Released [iomando v1.1](/blog/2013/iomando-11) last summer [again, this is 2012], which included many new features such as the possibility to manage users right from the mobile app or a faster door-opening engine — which reduced the opening time almost 80% and increase its security.
 * Won the [Barcelona Startup Network](https://twitter.com/WayraES/status/403594760273002496) Smart Cities Edition.
 * Learned a ton about [subscription-based business models](/blog/2013/iomando-subscription) and made [some adjustments](/blog/2013/iomando-wrong-pricing) to the the way iomando is distributed.
 
@@ -45,10 +45,9 @@ Because of our subscription model, they will benefit from all these new features
 Now that's been cleared out of the way, let's jump into the update.
 
 
-## Mobile App
+## Redesigned Interface
 iomando v2.0 brings a completely redesigned UI and an array of new features: some following our roadmap, others — we didn't plan for — as we encountered new problems our users revealed. The amount of unexpected things we have learned from our customer feedback has definitely surprised the whole team and we can't wait to put this new version of iomando in the hands of our users.
 
-### Redesigned Interface
 iomando has moved away from "glossy" appearance and embraced current, flatter trends. Led by the industry movement towards flatter designs, the overall experience feels like it belongs to the medium again. The new colors stand out because of its elegant cues and a personality that makes iomando's design truly unique.
 
 ![iomando app 2.0](./iomando-app-20-2.jpg "A redesigned interface that feels more like current flatter design trends, led by iOS7 ")
@@ -60,7 +59,7 @@ Finally, despite the navigation menu remains in the bottom, we moved the managem
 Now the home screen is all about opening doors. We've removed the arrows on the corners and fully embraced the swipe gesture as the main interaction to navigate between them.
 
 
-### Passwordless Login
+## Passwordless Login
 This is one of the most challenging features we have implemented so far, but also one that we hope our customers will love the most.
 
 Here's a fact: everybody hates username and passwords.
@@ -86,7 +85,7 @@ Prior to iomando v2.0, the admin had to "guess" the user email in order to activ
 With the passwordless system, the admin has a unique, unchanging identifier — the phone number — that can be used to assign permissions across the service.
 
 
-### Up To Four Accesses
+## Up To Four Accesses
 This is kind of a big deal. One of the most demanded features, especially among household customers, was the ability to manage multiple accesses or doors on the same screen.
 
 iomando v2.0 now supports up to four doors within the same space and screen.
@@ -98,7 +97,7 @@ Now when you configure your space you can set up to four doors 👇
 This new feature also comes alongside the addition of the second relay to our electronic board. You can [read more](/blog/2013/iomando-20-hardware) on the hardware update, but the gist of it is that prior to iomando v2.0, each access required an independent device. The new electronics though, now support multiple doors, making it easier to install, but also way more affordable since only a single device has to be installed.
 
 
-### Geolocation And Enhanced Management
+## Geolocation And Enhanced Management
 One of the consequences of iomando being powered by [cellular connectivity](/blog/2013/iomando-cellular) is its ability to open the door from, literally, anywhere in the world. Is not a matter of distance, if you have cell reception, you can issue an open command wherever you are.
 
 ![iomando app 2.0 — geolocation](./geolocation.jpg "iomando will start using geolocation services on the phone to determine if a user is close enough to a certain access")
