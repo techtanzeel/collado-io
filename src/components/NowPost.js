@@ -26,7 +26,9 @@ const NowPost = ({ date, html, title }) => (
 );
 
 const Container = styled.div`
-  background: ${fakeAsbestos}44;
+  border: 1px solid ${fakeAsbestos}22;
+  border-radius: 0.25em;
+  box-shadow: ${fakeAsbestos}22 0px 1px 4px 0px;
   display: flex;
   flex-direction: column;
   margin-bottom: 1.25em;
