@@ -10,7 +10,7 @@ import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
 import {
-  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+  MetaText,
 } from '../utils/theme';
 
 const Button = ({
@@ -40,16 +40,21 @@ const ButtonLink = styled(Link)`
 
 const ButtonText = styled(MetaText)`
   background: ${props => (props.type ? fakeAsbestos : `${eggShell}88`)};
-  border-bottom: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}00};
-  border-top: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}00};
+  border-bottom: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}00};
+  border-top: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}00};
   color: ${props => (props.type ? `#FFF` : `${fakeAsbestos}88`)};
-  padding: ${props => (props.size ? `1.2em 1.8em` : `0.6em 0.9em`)};
+  padding: ${props => (props.size ? `1.25em 1.75em` : `0.5em 0.75em`)};
 
   &:hover {
-    border-bottom: ${props => (props.size ? `0.4em` : `0.3em`)} solid ${turquoise}};
+    border-bottom: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}};
   }
 `;
 
-Button.propTypes = {};
+Button.propTypes = {
+  children: PropTypes.string.isRequired,
+  large: PropTypes.bool.isRequired,
+  primary: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
 
 export default Button;

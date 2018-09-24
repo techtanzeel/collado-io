@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
@@ -79,7 +78,5 @@ const FooterLink = styled.a`
     padding: 0.25em 0.75em;
   }
 `;
-
-Footer.propTypes = {};
 
 export default Footer;
