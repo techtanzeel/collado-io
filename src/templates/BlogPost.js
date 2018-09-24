@@ -6,6 +6,8 @@ import styled from 'styled-components';
 import styles from './md.module.css';
 import Layout from './Layout';
 
+import TagList from '../components/TagList';
+
 import {
   Title1, MetaText,
 } from '../utils/theme';
@@ -24,6 +26,10 @@ const BlogPost = ({ data }) => {
       <div
         className={styles.content}
         dangerouslySetInnerHTML={{ __html: html }}
+      />
+      <hr />
+      <TagList
+        tags={frontmatter.tags}
       />
     </Layout>
   );

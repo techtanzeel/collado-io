@@ -21,7 +21,7 @@ const TagList = ({ tags }) => (
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 `;
 
 TagList.propTypes = {
