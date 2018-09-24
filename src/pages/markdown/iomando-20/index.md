@@ -11,7 +11,7 @@ excerpt: "Introducing iomando 2.0, with a redesigned interface, passwordless log
 
 This announcement also came accompanied by two complimentary updates:
 
-* iomando 2.0
+* [iomando 2.0](/blog/2013/iomando-20)
 * [iomando 2.0 — Hardware Update](/blog/2013/iomando-20-hardware): a hardware-focused release notes.
 * [iomando 2.0 — Behind The Scenes](/blog/2014/iomando-20-behind): the product story behind some of the new features.
 

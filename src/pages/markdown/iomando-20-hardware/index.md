@@ -25,9 +25,7 @@ As mentioned in a [previous entry](/blog/2013/iomando-subscription) that explain
 >
 > A subscription-based model creates a more truthful relationship between the customer and the company.
 >
-> Since we'll be paid on a recurrent basis, we'll always be under the customer evaluation. Therefore, subscription-based revenue forces us to always deliver the best possible service, because if you are not fully satisfied with our service you can easily opt out whenever you feel like it.
-> [...]
-> The subscription-based model incentivizes us to place the same or even more resources to existing customers, generating a long-term commitment and a healthier relationship between the parties.
+> Since we'll be paid on a recurrent basis, we'll always be under the customer evaluation. Therefore, subscription-based revenue forces us to always deliver the best possible service, because if you are not fully satisfied with our service you can easily opt out whenever you feel like it. [...] The subscription-based model incentivizes us to place the same or even more resources to existing customers, generating a long-term commitment and a healthier relationship between the parties.
 
 In a nutshell, it means that, among other things, we are equally incentivized to improve our current customers' experience as we are to acquire new ones. Most companies deliver on this promise issuing software updates, which have no marginal per-unit cost, but we wanted to go a step further.
 
@@ -51,7 +49,7 @@ The double relay bay works when the accesses are close to each other. But imagin
 
 To fix these situations, the new hardware features a new low-power radio module that is able to locally connect via radio frequency to the master board — the one that has the SIM card and cellular connectivity.
 
-This way we can reduce the installation costs — the radio module is way cheaper, the most expensive component of the BOM is by far the GSM modem, but also optimize the connectivity of the master board, that doubles down as a local hub for the rest of devices.
+This way we can reduce the installation costs — the radio module is way cheaper, the most expensive component of the BOM is by far the [GSM modem](/blog/2013/iomando-cellular), but also optimize the connectivity of the master board, that doubles down as a local hub for the rest of devices.
 
 The main challenge to enable this feature was not the complexity of "making it work" or connecting the child-boards to the main hub — which was also hard. The biggest nut to crack was the installers' experience. In other words, to design an installation process that all our partners could easily learn, in order to start deploying them as fast as possible with the least amount of errors.
 

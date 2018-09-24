@@ -18,12 +18,12 @@ import {
 
 const Layout = ({ children }) => (
   <Container>
-    <Helmet defaultTitle={`Marc Collado`}>
+    <Helmet defaultTitle="Marc Collado">
       <meta name="twitter:site" content="@MarcCollado" />
       <meta name="og:type" content="website" />
       <link
         rel="canonical"
-        href={`https://collado.io`}
+        href="https://collado.io"
       />
       <html lang="en" />
     </Helmet>
