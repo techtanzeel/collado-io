@@ -3,8 +3,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import TagList from './TagList';
-
 import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
@@ -12,7 +10,7 @@ import { fakeAsbestos, turquoise } from '../utils/colors';
 import { Title2, BodyText, MetaText } from '../utils/theme';
 
 const PostLink = ({
-  date, excerpt, path, tags, title,
+  date, excerpt, path, title,
 }) => (
   <Container>
     <CardLink to={path}>
@@ -29,9 +27,6 @@ const PostLink = ({
       {`Published on ${date}`}
     </Published>
 
-    {/* <TagList
-      tags={tags}
-    /> */}
   </Container>
 );
 
@@ -81,7 +76,6 @@ PostLink.propTypes = {
   date: PropTypes.string.isRequired,
   excerpt: PropTypes.string,
   path: PropTypes.string.isRequired,
-  tags: PropTypes.arrayOf(PropTypes.string).isRequired,
   title: PropTypes.string.isRequired,
 };
 
