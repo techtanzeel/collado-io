@@ -1,0 +1,76 @@
+---
+title: "iomando 2.0 — Hardware Update"
+date: "2013-12-27"
+path: "/blog/2013/iomando-20-hardware"
+tags: ["iomando", "product", "tech"]
+featured: "false"
+excerpt: "Introducing iomando 2.0 hardware, with double relay bay to control up to four accesses, radio communications for mesh networking and GPS support."
+---
+
+ℹ️ This post was originally published in May 2013 on the official iomando blog and it announced the release of the second version of the product, focusing on the hardware updates.
+
+This announcement also came accompanied by two complimentary updates:
+
+* [iomando 2.0](/blog/2013/iomando-20)
+* [iomando 2.0 — Hardware Update](/blog/2013/iomando-20-hardware): a hardware-focused release notes.
+* [iomando 2.0 — Behind The Scenes](/blog/2014/iomando-20-behind): the product story behind some of the new features.
+
+Across all three you'll find many insights around the design process and the challenges we faced developing the product from many perspectives.
+
+Now, to the update.
+
+As mentioned in a [previous entry](/blog/2013/iomando-subscription) that explained how iomando’s business model works.
+
+> We are here for the long run. We truly believe in our mission and we want to build a sustainable business that focuses on delivering the best product.
+>
+> A subscription-based model creates a more truthful relationship between the customer and the company.
+>
+> Since we'll be paid on a recurrent basis, we'll always be under the customer evaluation. Therefore, subscription-based revenue forces us to always deliver the best possible service, because if you are not fully satisfied with our service you can easily opt out whenever you feel like it.
+> [...]
+> The subscription-based model incentivizes us to place the same or even more resources to existing customers, generating a long-term commitment and a healthier relationship between the parties.
+
+In a nutshell, it means that, among other things, we are equally incentivized to improve our current customers' experience as we are to acquire new ones. Most companies deliver on this promise issuing software updates, which have no marginal per-unit cost, but we wanted to go a step further.
+
+Starting today, we'll be rolling out an updated electronic board that will enable some of the features released with [iomando v2.0](/blog/2013/iomando-20). As part of the update, all our customers will gradually get the new hardware as well. Something we would have never done iomando was a one-shot service.
+
+![iomando app 2.0 hardware](./electronics.jpg "A close up of our revamped electronic board, featuring a double relay bay to control up to four doors with one board")
+
+Our new electronic board 👆 has been entirely designed and manufactured in-house by our team.
+
+It sports three new features that can be useful in places with "tricky" accesses and also enables a handful of features announced alongside [iomando v2.0](/blog/2013/iomando-20).
+
+
+## Double Relay Bay
+To begin with, each board mounts now a double relay bay. This means that from now on, each board that gets out of the factory will have the ability to control up to four doors, instead of one. This has the advantage of not having to install separated devices if you happen to have more than one door that is close to each other. It reduces installation costs and optimizes the hardware that's being distributed.
+
+
+## Radio Communications Module
+The double relay bay works when the accesses are close to each other. But imagine that you have multiple accesses and they are far apart. A situation we encounter often. Multiple relays don’t work under these circumstances because the installation costs of having to deploy long lengths of cables are high. Then you end up with the same problem of having to install one electronic controller per door, as we always had.
+
+![iomando app 2.0 — radio schema](./radio-schema.jpg "The radio module will help reduce the installation costs and optimize the connectivity of the master board")
+
+To fix these situations, the new hardware features a new low-power radio module that is able to locally connect via radio frequency to the master board — the one that has the SIM card and cellular connectivity.
+
+This way we can reduce the installation costs — the radio module is way cheaper, the most expensive component of the BOM is by far the GSM modem, but also optimize the connectivity of the master board, that doubles down as a local hub for the rest of devices.
+
+The main challenge to enable this feature was not the complexity of "making it work" or connecting the child-boards to the main hub — which was also hard. The biggest nut to crack was the installers' experience. In other words, to design an installation process that all our partners could easily learn, in order to start deploying them as fast as possible with the least amount of errors.
+
+![iomando app 2.0 — setup schema](./setup-schema.jpg "The biggest challenge we faced was to design the installation process")
+
+Here’s 👆 a schema of the "hidden" process we had to create in order to enable our installers, so they could understand how to set up several radio-connected boards. This setup process that most certainly no end-user will ever see or care about, took almost the same amount of work to design as other front-facing, shiny features.
+
+
+## GPS Module
+iomando v2.0 introduced location services in order to determine the distance someone is allowed to access certain place, determined by the place’s admin.
+
+![iomando app 2.0 — electronics schema](./electronics-schema.jpg "We've also redesigned the placement of some internal components in order to make it smaller and more power efficient")
+
+It all sounds nice and good, but we quickly realized that we don’t have full control of the final location of the devices we sell through a reseller or a distribution partner. The admin can later fix it through the admin panel, but this is not always the case.
+
+That’s the reason why the new board will sport a GPS chip that will automatically report and update the position of the device. Then when an admin sets a geo-fence, the distance is seamlessly calculated.
+
+To wrap it up: building hardware is hard.
+
+It gets worse if you are a small company that is starting out. Building this new iteration of our electronics has been one of the hardest challenges we have faced so far. Nonetheless, we are confident that it will make the iomando experience way better.
+
+The new hardware will be rolling out to our distributors next week and will be gradually updating current customers’ devices starting next month.
