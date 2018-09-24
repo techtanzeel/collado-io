@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
@@ -17,7 +17,6 @@ const renderNavbar = () => {
       activeStyle={{
         borderBottom: `0.25em solid #FFF4`,
       }}
-      exact={item === `home`}
       key={item}
       to={item === `home` ? `/` : `/${item}`}
     >
@@ -70,6 +69,6 @@ const NavbarLink = styled(Link)`
   }
 `;
 
-Navbar.propTypes = {};
+// Navbar.propTypes = {};
 
 export default Navbar;
