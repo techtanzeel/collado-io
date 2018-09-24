@@ -12,7 +12,7 @@ const renderPosts = (posts) => (
         date={edge.node.frontmatter.date}
         excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
-        tags={edge.node.frontmatter.tags}
+        // tags={edge.node.frontmatter.tags}
         title={edge.node.frontmatter.title}
       />))
 );
