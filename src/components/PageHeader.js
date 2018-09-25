@@ -37,6 +37,7 @@ const Title = styled(Title1)`
 `;
 
 const TagLine = styled(MetaText)`
+  margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 `;
