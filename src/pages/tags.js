@@ -1,30 +1,29 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import PageHeader from '../components/PageHeader';
+import Layout from '../templates/Layout';
+
 const TagsPage = ({ data }) => {
-  const { title } = data.site.siteMetadata;
   const { group } = data.allMarkdownRemark;
 
   return (
-    <div>
-      <Helmet title={title} />
-      <div>
-        <h1>
-          Tags
-        </h1>
-        <ul>
-          {group.map(tag => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tags/${tag.fieldValue}/`}>
-                {`${tag.fieldValue} (${tag.totalCount})`}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    <Layout>
+      <PageHeader
+        title="All Tags"
+        tagline="The blog, tagged"
+      />
+      <ul>
+        {group.map(tag => (
+          <li key={tag.fieldValue}>
+            <Link to={`/tags/${tag.fieldValue}/`}>
+              {`${tag.fieldValue} (${tag.totalCount})`}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </Layout>
   );
 };
 
