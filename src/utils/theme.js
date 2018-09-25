@@ -11,77 +11,76 @@ const Title1 = styled.h1`
   box-shadow: inset 0em -0.5em 0em ${eggShell};
   color: ${black};
   font-weight: 700;
+  // font-size === 28px
   letter-spacing: -1px;
+  padding: 0em 0.5em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-
+    font-size: 2em; // 32px
   }
 
   @media (min-width: ${tablet}) {
-
+    font-size: 2.5em; // 40px
+    padding: 0em 0.75em;
   }
 
   @media (min-width: ${desktop}) {
-
+    font-size: 2.75em; // 44px
+    padding: 0em 1em;
   }
 `;
 
 const Title2 = styled.h2`
   color: ${black};
-  font-size: 1.5em;
+  // font-size === 24.112px
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-
+    font-size: 1.75em; // 28px
   }
 
   @media (min-width: ${tablet}) {
-
+    font-size: 2em; // 32px
   }
 
   @media (min-width: ${desktop}) {
-
+    font-size: 2.25em; // 36px
   }
 `;
 
 const Title3 = styled.h3`
   color: ${black};
-  font-size: 1.25em;
+  // font-size === 21.112px
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-
+    font-size: 1.5em; // 24px
   }
 
   @media (min-width: ${tablet}) {
-
+    font-size: 1.75em; // 28px
   }
 
   @media (min-width: ${desktop}) {
-
+    font-size: 2em; // 32px
   }
 `;
 
 const BodyText = styled.p`
   color: ${fakeAsbestos};
 
-
-  @media (min-width: ${mobile}) {
-
-  }
+  @media (min-width: ${mobile}) {}
 
   @media (min-width: ${tablet}) {
-
+    font-size: 1.125em;
   }
 
-  @media (min-width: ${desktop}) {
-
-  }
+  @media (min-width: ${desktop}) {}
 `;
 
 const BodyLink = styled.a`
@@ -104,34 +103,26 @@ const BodyLink = styled.a`
     color: inherit;
   }
 
-  @media (min-width: ${mobile}) {
-
-  }
+  @media (min-width: ${mobile}) {}
 
   @media (min-width: ${tablet}) {
-
+    font-size: 1.125em;
   }
 
-  @media (min-width: ${desktop}) {
-
-  }
+  @media (min-width: ${desktop}) {}
 `;
 
 const MetaText = styled.p`
   color: ${fakeAsbestos}88;
-  font-size: 0.8em;
+  font-size: 0.875em;
 
-  @media (min-width: ${mobile}) {
-    font-size: 0.85em;
-  }
+  @media (min-width: ${mobile}) {}
 
   @media (min-width: ${tablet}) {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
-  @media (min-width: ${desktop}) {
-    font-size: 0.95em;
-  }
+  @media (min-width: ${desktop}) {}
 `;
 
 export {

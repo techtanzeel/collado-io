@@ -12,11 +12,10 @@ const Home = ({ data }) => {
   return (
     <Layout>
       <PageHeader
-        title="Marc Collado"
-        tagline="Singularly Curious"
-        img
-        imgURL={homeImg}
         imgAlt="Marc Collado"
+        imgURL={homeImg}
+        tagline="Singularly Curious"
+        title="Marc Collado"
       />
       <div
         className={styles.content}
