@@ -10,43 +10,41 @@ import {
 } from '../utils/theme';
 
 const PageHeader = ({
-  title, tagline, img, imgURL, imgAlt,
+  imgAlt, imgURL, tagline, title,
 }) => (
   <Container
-    cozy={img}
+    hasImage={imgURL}
   >
-    <HeaderTitle>
+    <Title>
       {title}
-    </HeaderTitle>
-    <HeaderLine>
+    </Title>
+    <TagLine>
       {tagline}
-    </HeaderLine>
-    {img ? <HeaderImage src={imgURL} alt={imgAlt} /> : ''}
+    </TagLine>
+    {imgURL ? <Image src={imgURL} alt={imgAlt} /> : ''}
   </Container>
 );
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => (props.cozy ? '0em' : '2em')};
+  margin-bottom: ${props => (props.hasImage ? '0em' : '2em')};
 `;
 
-const HeaderTitle = styled(Title1)`
+const Title = styled(Title1)`
   margin: 0em auto;
-  padding: 0em 0.5em;
   text-align: center;
 `;
 
-const HeaderLine = styled(MetaText)`
-  margin: 0em auto;
+const TagLine = styled(MetaText)`
   text-align: center;
   text-transform: uppercase;
 `;
 
-const HeaderImage = styled.img`
+const Image = styled.img`
   margin: 0em auto;
-  min-width: 11em;
-  width: 45%;
+  min-width: 12em;
+  width: 50%;
 
   @media (min-width: ${mobile}) {
     max-width: 16em;
@@ -61,6 +59,16 @@ const HeaderImage = styled.img`
   }
 `;
 
-PageHeader.propTypes = {};
+PageHeader.propTypes = {
+  imgAlt: PropTypes.string,
+  imgURL: PropTypes.string,
+  tagline: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
+
+PageHeader.defaultProps = {
+  imgAlt: '',
+  imgURL: 'false',
+};
 
 export default PageHeader;
