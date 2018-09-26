@@ -11,7 +11,7 @@ As a thought experiment, imagine you were restricted to use a [single device](/b
 
 I have presented this riddle to many friends and, invariably, their answer is always the same: smartphone. To their surprise, my answer is — and has always been: old fashioned PC, precisely, macOS[^1].
 
-My answer to this question has its raison d'être, since most of my waking hours go by in front of a computer. Not just at work, but even during leisure time. The computer is the tool I use to funnel my creativity: from writing, [coding](/blog/2016/ironhack-experience), [designing](/blog/2016/designer), [reading](/tags/book), communicating… but also my go to device for absolutely everything.
+My answer to this question has its raison d'être, since most of my waking hours go by in front of a computer. Not just at work, but even during leisure time. The computer is the tool I use to funnel my creativity: from writing, [coding](/blog/2016/ironhack-experience), [designing](/blog/2016/designer), [reading](/tags/books), communicating… but also my go to device for absolutely everything.
 
 I do not dislike smartphones, I understand you can get plenty of stuff done with them, but for me they never "clicked" as creation tools. My iPhone home screen is almost "[factory settings](/blog/2016/hacks)" and the main uses it gets are limited to podcasts, audiobooks, music, messaging and hailing a cab from time to time.
 
