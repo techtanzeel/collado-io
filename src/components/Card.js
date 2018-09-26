@@ -25,7 +25,7 @@ const Container = styled.div`
   padding: 0.75em 1.25em;
   transition: box-shadow 0.3s ease;
 
-  &:hover {
+  &:hover, &:active {
     box-shadow: ${props => (props.hasHover ? `${fakeAsbestos}22 0em 0.5em 1em 0em` : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`)}
   }
 
