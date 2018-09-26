@@ -4,7 +4,7 @@ path: "/blog/2018/months-terms"
 date: "2018-05-16"
 tags: ["education", "opinion", "product"]
 featured: "false"
-excerpt: "Why I stuck with the DAND's monthly structure rather than switching to the updated term-based model"
+excerpt: "Why I stuck with the DAND's monthly structure rather than switching to the updated term-based model."
 ---
 
 I have been receiving quite a lot of feedback from my recent post about [enrolling the Udacity's Data Analyst Nanodegree](/blog/2018/udacity-dand). Unexpectedly, even prospective students contacted me asking for advice on whether they should enroll or not, which totally came as a pleasant surprise.
