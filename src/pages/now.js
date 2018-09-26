@@ -29,7 +29,7 @@ const Now = ({ data }) => {
     <Layout>
       <PageHeader
         title="Now"
-        tagline="What I'm Up To"
+        tagline="Things I'm Doing"
       />
       <div
         className={styles.content}
