@@ -4,6 +4,7 @@ date: "2018-10-06"
 path: "/blog/2018/book-free-will"
 tags: ["book", "physics", "psychology"]
 featured: "false"
+excerpt: "Free will is an illusion. Thoughts and intentions emerge from background causes of which we are unaware and over which we exert no conscious control."
 source: "https://www.amazon.com/dp/B006IDG2T6"
 ---
 
