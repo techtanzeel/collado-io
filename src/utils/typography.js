@@ -21,7 +21,7 @@ const typography = new Typography({
   ],
   baseFontSize: '16px',
   baseLineHeight: 1.75,
-  scaleRatio: 2,
+  scaleRatio: 1.75,
   headerFontFamily: [
     'Roboto Mono',
     'monospace',

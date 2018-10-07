@@ -5,7 +5,7 @@ path: "/home"
 ---
 
 ## My Story In a Few Paragraphs
-Born and raised in Barcelona, I am an Industrial Engineer, always involved with tech products and companies.
+Born and raised in Barcelona, I am an Industrial Engineer, always involved with [tech](/tags/tech) products and companies.
 
 In 2011, upon graduation, co-founded [iomando technologies](/iomando), a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a [cool product](/iomando) and ended up acquired by [Citibox](https://citibox.com/) in late 2017.
 
@@ -18,7 +18,7 @@ As you can see, I like simple, starting things from scratch, and devote almost a
 
 ## Other Irrelevant Things
 * Hold [strong opinions](/tags/opinion) on [well-being](/tags/health) and [happiness](/tags/happiness), [simple living](/tags/simple) and [products](/tags/product) in general.
-* Anything that involves [engineering](/tags/coding), [craftsmanship](/tags/craft), [physics](/tags/physics) or [history](/tags/history) and human behavior, has all my attention.
+* Anything that has to do with good [engineering](/tags/coding), [craftsmanship](/tags/craft), [physics](/tags/physics), [history](/tags/history) or [human behavior](/tags/psychology), has all my attention.
 * Couldn't agree more with Anaïs Nin idea that *"we don't see things as they are"* that we actually *"see them as we are"*.
 * Love stuff that [moves around](/tags/transport): bikes, cars, trains, planes, you name it.
 * Know for a fact that any mindless activity gets much better by listening to a podcast.

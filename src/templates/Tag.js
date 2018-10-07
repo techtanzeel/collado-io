@@ -8,7 +8,7 @@ import PageHeader from '../components/PageHeader';
 import PostList from '../components/PostList';
 
 import {
-  Title2,
+  Title3,
 } from '../utils/theme';
 
 const Tag = ({ pageContext, data }) => {
@@ -26,9 +26,9 @@ const Tag = ({ pageContext, data }) => {
         title={`This is ${tag}`}
         tagline="The blog, filtered"
       />
-      <Title2>
+      <Title3>
         {tagHeader}
-      </Title2>
+      </Title3>
       <PostList>
         {posts}
       </PostList>

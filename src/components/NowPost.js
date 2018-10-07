@@ -2,19 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import Card from './Card';
 import styles from '../templates/md.module.css';
 
 import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
-import { fakeAsbestos } from '../utils/colors';
 import { Title2, MetaText } from '../utils/theme';
 
 const NowPost = ({ date, html, title }) => (
-  <Container>
-    <NowTitle>
+  <Card
+    hasHover={false}
+  >
+    <Title>
       {title}
-    </NowTitle>
+    </Title>
     <div
       className={styles.content}
       dangerouslySetInnerHTML={{ __html: html }}
@@ -22,35 +24,10 @@ const NowPost = ({ date, html, title }) => (
     <Published>
       {`Updated on ${date}`}
     </Published>
-  </Container>
+  </Card>
 );
 
-const Container = styled.div`
-  border: 1px solid ${fakeAsbestos}22;
-  border-radius: 0.25em;
-  box-shadow: ${fakeAsbestos}22 0px 1px 4px 0px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.25em;
-  padding: 1em 1.25em;
-
-  @media (min-width: ${mobile}) {
-    margin-bottom: 1.5em;
-    padding: 1em 1.5em;
-  }
-
-  @media (min-width: ${tablet}) {
-    margin-bottom: 1.75em;
-    padding: 1.25em 1.75em;
-  }
-
-  @media (min-width: ${desktop}) {
-    margin-bottom: 2em;
-    padding: 1.25em 2em;
-  }
-`;
-
-const NowTitle = styled(Title2)`
+const Title = styled(Title2)`
   margin-top: 0.5em;
 `;
 

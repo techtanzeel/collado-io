@@ -13,7 +13,7 @@ const Blog = ({ data }) => {
     <Layout>
       <PageHeader
         title="Blog"
-        tagline="Ideas Were Written"
+        tagline="Things I've Written"
       />
       <PostList>
         {posts}
