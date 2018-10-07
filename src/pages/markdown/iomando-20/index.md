@@ -126,4 +126,4 @@ In addition to that, we are rolling out a web-based beta version of our manageme
 We've been working on this update for almost an entire year. As always, we've poured a lot of care and effort building the new version of iomando. We couldn't be more excited about putting this new iomando in your hands and we hope you will enjoy the experience as much as we did.
 
 ---
-[^1] We consider an active user someone who has downloaded the app, had permission in one or more space and opened the door at least once in the last month. For example, someone that has used the service once 2 months ago and hasn't used it again, doesn't count as an active user.
+[^1]: We consider an active user someone who has downloaded the app, had permission in one or more space and opened the door at least once in the last month. For example, someone that has used the service once 2 months ago and hasn't used it again, doesn't count as an active user.
