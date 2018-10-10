@@ -19,11 +19,11 @@ Across all three you'll find many insights around the design process and the cha
 
 Now, to the update.
 
-Last month we introduced [iomando v2.0](/blog/2013/iomando-20) — an entirely new version of our product, both on the software and [hardware end](/blog/2013/iomando-20-hardware).
+Last month we introduced [iomando 2.0](/blog/2013/iomando-20) — an entirely new version of our product, both on the software and [hardware end](/blog/2013/iomando-20-hardware).
 
 Since the rollout, we've been receiving a ton of feedback and curiously, a lot of people reached out asking why we had taken certain (product) decisions. We thought this was a great opportunity to expose the reasoning behind some of them.
 
-Unfortunately, we can’t cover all the features released alongside iomando v2.0, because there were a lot of them. Remember, the new UI, the passwordless login, support for up to four doors from the same space, geolocation enhancements, new management tools, passcode lock, plus, all the hardware-related improvements.
+Unfortunately, we can’t cover all the features released alongside iomando 2.0, because there were a lot of them. Remember, the new UI, the passwordless login, support for up to four doors from the same space, geolocation enhancements, new management tools, passcode lock, plus, all the hardware-related improvements.
 
 A walk through all of them would take longer than a single post. Instead, we can focus on the three that we've sweated the most — and also the ones that we've been asked the most 👇
 
@@ -74,7 +74,7 @@ In our ideal world, the user logged in once and she wouldn’t need a password a
 
 Meet the verification code.
 
-![iomando app 2.0 — passwordless login](./paswordless-login.jpg "iomando v2.0 features a passwordless login, the only thing the user needs to do is to enter the SMS code she receives the first time she logs in")
+![iomando app 2.0 — passwordless login](./paswordless-login.jpg "iomando 2.0 features a passwordless login, the only thing the user needs to do is to enter the SMS code she receives the first time she logs in")
 
 When we tried to distill what security meant for iomando, we thought of a piece of information only the user knew (and remembered), but also something third parties wouldn’t have access to.
 
@@ -96,7 +96,7 @@ But we acknowledge iomando is an edge case, an outlier in security terms. We dea
 
 ![iomando app 2.0 — four-digit passcode lock](./four-digit-passcode.jpg "Input speed was improved by automatically showing the numeric keyboard, but inevitably, security has inevitably hold back some of the smoothness")
 
-Then coming hand in hand with the passwordless login, one of the features we've introduced with iomando v2.0 is the ability (disabled by default) for the user to set a four-digit passcode that will be prompted every time the open button is tapped.
+Then coming hand in hand with the passwordless login, one of the features we've introduced with iomando 2.0 is the ability (disabled by default) for the user to set a four-digit passcode that will be prompted every time the open button is tapped.
 
 While developing the feature, we acknowledged we were messing up with one of our core values — i.e. speed in the execution. But on the other hand, it was also true that security, at this stage, was a far more critical concern, something we rather had to address sooner than later.
 

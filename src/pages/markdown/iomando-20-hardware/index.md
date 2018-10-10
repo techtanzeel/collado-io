@@ -29,13 +29,13 @@ As mentioned in a [previous entry](/blog/2013/iomando-subscription) that explain
 
 In a nutshell, it means that, among other things, we are equally incentivized to improve our current customers' experience as we are to acquire new ones. Most companies deliver on this promise issuing software updates, which have no marginal per-unit cost, but we wanted to go a step further.
 
-Starting today, we'll be rolling out an updated electronic board that will enable some of the features released with [iomando v2.0](/blog/2013/iomando-20). As part of the update, all our customers will gradually get the new hardware as well. Something we would have never done iomando was a one-shot service.
+Starting today, we'll be rolling out an updated electronic board that will enable some of the features released with [iomando 2.0](/blog/2013/iomando-20). As part of the update, all our customers will gradually get the new hardware as well. Something we would have never done iomando was a one-shot service.
 
 ![iomando app 2.0 hardware](./electronics.jpg "A close up of our revamped electronic board, featuring a double relay bay to control up to four doors with one board")
 
 Our new electronic board 👆 has been entirely designed and manufactured in-house by our team.
 
-It sports three new features that can be useful in places with "tricky" accesses and also enables a handful of features announced alongside [iomando v2.0](/blog/2013/iomando-20).
+It sports three new features that can be useful in places with "tricky" accesses and also enables a handful of features announced alongside [iomando 2.0](/blog/2013/iomando-20).
 
 
 ## Double Relay Bay
@@ -59,7 +59,7 @@ Here’s 👆 a schema of the "hidden" process we had to create in order to enab
 
 
 ## GPS Module
-iomando v2.0 introduced location services in order to determine the distance someone is allowed to access certain place, determined by the place’s admin.
+iomando 2.0 introduced location services in order to determine the distance someone is allowed to access certain place, determined by the place’s admin.
 
 ![iomando app 2.0 — electronics schema](./electronics-schema.jpg "We've also redesigned the placement of some internal components in order to make it smaller and more power efficient")
 
