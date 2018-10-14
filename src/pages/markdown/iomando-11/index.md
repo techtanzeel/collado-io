@@ -43,7 +43,7 @@ How we've done that? We are not going to dive into the specifics, but we've work
 2. On the server side, where almost all the gainings come from, we've revamped the communication layer between the server and the electronics making it faster and more efficient.
 3. We rolled out an OTA update to all of the installed electronics and now they handle the requests more efficiently while consuming less energy.
 
-See if you can spot the differences between this updated flow diagram and the one used in v1.0 shown in [this post](/blog/2013/iomando-cellular#Pairing).
+See if you can spot the differences between this updated flow diagram and the one used in iomando 1.0, shown in [this post](/blog/2013/iomando-cellular#Pairing).
 
 ![iomando flow](./iomando-flow-11.jpg "iomando 1.1 flow diagram")
 
