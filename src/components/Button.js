@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+
+import SuperLink from './SuperLink';
 
 import {
   fakeAsbestos, eggShell, turquoise,
@@ -17,8 +18,8 @@ const Button = ({
   children, large, primary, url,
 }) => (
   <Container>
-    <ButtonLink
-      to={url}
+    <SuperLink
+      href={url}
     >
       <ButtonText
         type={primary}
@@ -26,16 +27,12 @@ const Button = ({
       >
         {children}
       </ButtonText>
-    </ButtonLink>
+    </SuperLink>
   </Container>
 );
 
 const Container = styled.div`
   display: flex;
-`;
-
-const ButtonLink = styled(Link)`
-  text-decoration: none;
 `;
 
 const ButtonText = styled(MetaText)`
