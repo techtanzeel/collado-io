@@ -1,0 +1,50 @@
+---
+title: "Hi From Ironhack"
+date: "2015-09-28"
+path: "/blog/2015/hi-from-ironhack"
+tags: ["ironhack"]
+featured: "false"
+excerpt: "After just twelve days, I traded a praised sabbatical for one of the most challenging opportunities I have ever been faced. I am joining Ironhack as the Campus Manager in Barcelona, which means setting up the entire city operations from scratch."
+---
+
+A few days ago I [stepped down](/blog/2015/stepping-down) from iomando. As a co-founder, and after more than four years, this was undoubtedly one of the most difficult decisions I’ve ever faced.
+
+I didn’t have much of an idea of what was waiting for me on the other side. What I did know for sure, though, is that I would take a few months off — to learn new things, go deep down into my Kindle wishlist, enjoy some time alone and deeply think about what to do next.
+
+Do not expect the kind of fancy sabbatical most people envision though — involving crazy trips or endless partying. I do not like to travel. I like quiet and simple. My monthly expenses don’t go beyond some 9.99€ subscriptions and a handful of dinners out with friends.
+
+Your mileage might vary, but I could run on this sabbatical mode for quite a while — not that I have endless resources, but my needs are rather small.
+
+An ideal sabbatical looks like learning to code, big time, and an endless book list waiting to be checked off. Despite I haven't created a Trello board to organize all this stuff — shame on me — there are three things a sabbatical should accomplish to assess its success:
+
+1. Get out on the other side as a more knowledgeable, better person. In other words, the sabbatical itself has to work as a self-upgrading mechanism.
+2. Have plenty of time to build. My life so far has featured this recurring theme that has pushed me towards more management roles, but away from technical positions. I started building the product at iomando, but ended up leading the team and more involved than I wanted with fundraising. If I’m taking a sabbatical, I’m setting the rules, thus I’ll be building.
+3. Recreate a clearer picture of what to do next. I won't be jumping into a job just because the opportunity presented itself. First I need to understand "why am I uniquely qualified to do that job" or "why I want to devote the next X years to that project". I want to know that I’m the man for the job, that I’m passioned about what the company does, and I’m committing for the long run.
+
+Good, everything seemed to be in place. That was the plan so far. But long story short, my sabbatical lasted, literally, twelve days.
+
+The day after I decided to step down from iomando a friend of mine reached out. She heard about something I "couldn’t miss out". Of course, I said that "I’m not interested, I’m on a sabbatical". She insisted, again. I said no, again.
+
+I wouldn’t say I prepared to deal with such temptations. It is always hard to say no to opportunities. In such position it is difficult to step back and think strategically, that more opportunities will come — that first comes the thinking, then the hunting.
+
+I didn’t prepare enough. I said, "ok cool, let’s meet the guy". She was right. I couldn’t miss out. My sabbatical had officially come to an end.
+
+I’m joining Ironhack.
+
+I don’t know if this is the right call. I don’t know if I should have stuck to the plan. Maybe I’ll never know. Maybe I will. What I do know, though, is this is once in a lifetime opportunity and one of the most exciting challenges I have ever been faced with.
+
+Ironhack is a coding school, transforming how people learn about technology. Changing the way education works by tying its success to student outcomes, flipping the entire educational model on its head. Instead of believing that learning is an end by itself, at Ironhack learning is a support mechanism to its student's goals — i.e. getting a job, changing careers, becoming an entrepreneur...
+
+My job? Campus Manager in Barcelona. And it means? In short, it means I have to establish the entire company operations in the city, from scratch. Recruit the team, set up a community, enroll students, assemble a network of hiring partners... easier said than done 😅
+
+This is a unique challenge on its own, no doubt about it. It also unfolds itself in the intersection of technology, education, and startups — definitely some areas I know a thing or two about.
+
+The only concern I had though, is that the job was far removed from a product. This was the only thing that held my decision back a few days. I had to think about it but finally ended up realizing that Ironhack Barcelona was a product in itself. I never thought of a product like this before, I’ve always thought of product as an array of 1s and 0s.
+
+But the definition of this product is broader than that.
+
+It means starting from scratch, solving a problem for our students, optimizing resources, hiring the best team, setting the right metrics, thinking of the go-to-market strategy... I never encountered a more holistic challenge than establishing an entire city operation.
+
+It is for me a new definition of a product, a bigger one. It encompasses way more variables and possibilities than iomando ever did. It is also an opportunity to do something memorable, truly change people’s lives (no cliche) in a deeper, meaningful way.
+
+Ultimately, I hope something worth setting aside a sabbatical for — a sabbatical that I promised myself, will eventually happen.
