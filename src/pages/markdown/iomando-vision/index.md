@@ -1,7 +1,7 @@
 ---
 title: "Thoughts On Vision"
 date: "2014-01-23"
-path: "/blog/2014/vision"
+path: "/blog/2014/iomando-vision"
 tags: ["iomando", "opinion"]
 featured: "false"
 excerpt: "As we advanced on our journey we discovered new, initially invisible markets to serve, where our product was a better fit. The hardest part though was acknowledging that our initial product ideas were not optimal."
