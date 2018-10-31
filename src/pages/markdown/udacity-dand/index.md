@@ -7,7 +7,7 @@ featured: "true"
 excerpt: "My review of the Udacity Data Analyst Nanodegree."
 ---
 
-![udacity data science nanodegree](./udacity-dand.jpg "udacity data science nanodegree")
+![Udacity data science nanodegree](./udacity-dand.jpg "Udacity data science nanodegree")
 
 Last January I proudly finished the [Udacity Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) (DAND) and this is my attempt — I hope in 1.000 words or less, to publish the kind of post I wish I'd read back before I enrolled: relate why I did it, who is it for and, of course, how the experience was like.
 

@@ -40,7 +40,7 @@ Lets start with NFC: back in 2012 the introduction of NFC was seen as a major di
 
 GSM seemed like a better option basically because it was rooted in the nature of smartphones. Sending and receiving packages over TCP/IP is the thing they do best. Moreover, if we talk about compatibility, GSM is compatible with all devices out of the box, without the need of explicitly toggling an additional connection.
 
-![bluetooth off](./bluetooth-off.jpg "bluetooth iOS menu off")
+![Bluetooth off](./bluetooth-off.jpg "Bluetooth iOS menu off")
 
 Believe it or not, one of the most shocking takeaways we brought home from our user research was the amount of people that still turned off Wi-Fi and Bluetooth because "it drains my battery". Since GSM was working out of the box for everyone, it turned out to be a more natural fit for our user behavior.
 
