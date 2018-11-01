@@ -40,10 +40,10 @@ const Now = ({ data }) => {
   );
 };
 
-export const nowQuery = graphql`
-  query nowQuery {
+export const query = graphql`
+  {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(now)/" } }
+      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(now)/" } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 1000
     ) {

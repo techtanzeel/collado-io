@@ -25,8 +25,8 @@ const Home = ({ data }) => {
   );
 };
 
-export const homeQuery = graphql`
-  query homeQuery {
+export const query = graphql`
+  {
     img: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 800) {
@@ -38,7 +38,7 @@ export const homeQuery = graphql`
       }
     }
     text: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(home)/" } }
+      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(home)/" } }
     ) {
       edges {
         node {

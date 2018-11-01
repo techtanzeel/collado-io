@@ -22,10 +22,10 @@ const Blog = ({ data }) => {
   );
 };
 
-export const blogQuery = graphql`
-  query blogQuery {
+export const query = graphql`
+  {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
+      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" } }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
