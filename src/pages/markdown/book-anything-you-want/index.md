@@ -1,5 +1,5 @@
 ---
-title: "Anything You Want"
+title: "📖 Anything You Want"
 date: "2017-04-14"
 path: "/blog/2017/book-anything-you-want"
 tags: ["books", "craft", "happiness", "simple"]

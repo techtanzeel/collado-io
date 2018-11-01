@@ -1,6 +1,6 @@
 ---
-title: "Delivering Happiness"
-date: "2017-04-09"
+title: "📖 Delivering Happiness"
+date: "2017-03-09"
 path: "/blog/2017/book-delivering-happiness"
 tags: ["books", "business", "happiness", "simple"]
 featured: "false"

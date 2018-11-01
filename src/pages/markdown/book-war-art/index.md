@@ -1,5 +1,5 @@
 ---
-title: "The War Of Art"
+title: "📖 The War Of Art"
 date: "2018-07-30"
 path: "/blog/2018/book-war-art"
 tags: ["books", "craft", "happiness", "product"]
