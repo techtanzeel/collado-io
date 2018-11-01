@@ -7,31 +7,31 @@ featured: "false"
 excerpt: "The product story behind the major refactor of the Udacity's React Nanodegree second project."
 ---
 
-Last March I [joined the Udacity’s React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products, but most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
+Last March I [joined the Udacity’s React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
 
 Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/iomando), at [Ironhack](/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-pm).
 
 Coming from a technical background has given me an "unfair advantage" relating to other software engineers — despite dealing mostly with the management side of things — participating in technical discussions and comfortably sharing opinionated ideas about our approach to software development.
 
-Yet at the same time, web development moves fast, and I started to sense that React – one of the most critical pieces of our stack, and a really cool technology — was outpacing me in many ways.
+Yet at the same time, web development moves fast, and I started to sense that React – one of the most critical pieces of our stack — was outpacing me in many ways.
 
 I had to learn React, I owed to my team.
 
-Long story short — if you rather want the long version [check out the RDND in-depth post](/blog/2018/udacity-rdnd) — late July I delivered the last project of the RDND. Yet I finished the Nanodegree feeling that I rushed through the thing. Like I just put a ton of strings together that made some React-sense and wrap them up in GitHub repos in order to graduate. But didn’t digest the best practices, didn’t master React’s foundation. Somehow, it missed the point.
+Long story short — if you rather want the long version [check out the RDND in-depth post](/blog/2018/udacity-rdnd) — late July I delivered the last project of the RDND. Yet I finished the Nanodegree feeling that I rushed through the thing. Like I just put a ton of strings together that made some React-sense and wrap them up onto GitHub repos in order to graduate. But didn’t digest the best practices, didn’t master React’s foundation. Somehow, it missed the point.
 
-Because of that, I promised myself that as soon as I could put some more "side-project time" together I would go back, review the projects, one at a time, and implement all the cool things I kept on learning during my day to day interactions with our engineers.
+Because of that, I promised myself that as soon as I could put some more "side-project time" together I would go back, review them one at a time, and implement all the cool things I kept on learning.
 
 It took me almost three months to find the right time, but finally, the last couple of weeks have been all about updating the [Would You Rather](https://github.com/MarcCollado/would-you-rather) project — the second one of the RDND.
 
 > This project consists in a small quiz game, built with React & Redux, that quizzes the user with polls in a "Would You Rather..." format. It allows the user to log in, post polls and also vote on polls posted by other users.
 
-I chose to start working again on this one because it was built on top of Redux — which I really liked, but also because it was the one that seemed to have the most room for improvement. During these past two weeks, I set aside almost every evening (and some nights, too) to work on a fully revamped product: from the overall UI design, down to the component structure and the way the data is fetched and handled throughout the app.
+I chose to start working again on this one because it was built on top of Redux — which I really liked, but also because it was the one that seemed to have the most room for improvement. During these past two weeks, I set aside almost every evening (and some nights, too) to work on a fully revamped product: from the UI design fundamentals, down to the component structure and the way the data is fetched and handled throughout the app.
 
 In a nutshell, what impressed me the most after going deep again into the project was, first, how quickly you forget about the code you wrote just three or four months ago; and second, yet closely related, what an embarrassing experience is to go through your "old" code. Which I’ll take as a good thing since it means that you’re learning and skills have improved.
 
-The app now retains less than 25% of the original code I delivered back in May, while reducing the total lines of code by more than 30% — achieving, of course, feature parity with the older version. I really didn’t know before I started the update where those metric belonged in a performance scale for an amateur developer. After consulting with many fellow developers that know a thing or two about it, I have been told that it is pretty impressive 👍.
+The app now retains less than 25% of the original code I delivered back in May, while reducing the total lines of code by more than 30% — achieving, of course, feature parity with the older version. I really didn’t know where those metric belonged in a performance scale for an amateur. After consulting with many fellow developers that know a thing or two about it, I have been told that it is pretty impressive 👍.
 
-On top of that, the app loads faster — mostly because I [got rid](https://github.com/MarcCollado/would-you-rather/commit/e053f686a65812c69f60d6e92eb8f4a7f873171c) of the [MaterialbUI library](https://material-ui.com/) (more on that later), but also improved the way asynchronous calls were managed since they were taxing the app performance.
+On top of that, the app loads faster — mostly because I [got rid](https://github.com/MarcCollado/would-you-rather/commit/e053f686a65812c69f60d6e92eb8f4a7f873171c) of the [Material UI library](https://material-ui.com/) (more on that later), but also improved the way asynchronous calls were managed since they were taxing the app performance.
 
 The app comes packed with many new features under the hood, but I’ll try to cover the most important things spanning from the design of the UI down to the refactor of some critical components.
 
@@ -48,19 +48,19 @@ We basically narrowed down our design stack from four separate tools...
 
 ...down to a single product, Figma — without losing any features nor accepting any tradeoffs along the way. This is definitely not something that happens very often.
 
-Because of that, I was already interacting with Figma but never had the opportunity to get my hands dirty. Moreover, one of the things that I regret the most (again, going back to the point of rushing through the Nanodegree) was that during the program I didn’t have the time to actually design the projects. But instead jumped straight to the code editor — not something that I’m really proud of. In other words, I would have never encouraged my team to do such a thing, but I clearly didn’t eat my own dog food here.
+Because of that, I was already interacting with Figma but never had the opportunity to get my hands dirty. Moreover, one of the things that I regret the most (again, going back to the point of rushing through the Nanodegree) was that during the program I didn’t have the time to actually design the projects. But instead jumped straight to the code editor — not something that I’m proud of. In other words, I would have never encouraged my team to do such a thing, but I clearly didn’t eat my own dog food here.
 
 So I started — as it should be — from the very beginning. Designing each component in advance, every state it went through the app lifecycle. The journey started with colors and typography. In this regard, I cheated a little bit and used Ironhack’s color palette. For the fonts, I used a combination of Fira Code and Fira Mono.
 
 ![New colors and fonts](./colors-fonts.jpg "The new colors and fonts used for the upgrade of the Would You Rather project")
 
-Now that my love for Figma is already confessed, let's move on to design more interesting things like...
+Now that my love for Figma is already confessed, let's move on to the design of more interesting things like...
 
 
 ## The Poll Card
 Later on, I set out to reimagine the most critical UI component: the poll card. I aimed to keep the voting experience as simple as possible, yet it still took two taps to vote from the home page.
 
-This was because of not a deliberated product decision, but the consequence of a technical constraint I couldn't get my head around at the time. Fortunately, my coding skills seem to sharpen up and I could finally deliver a card that managed its own state across the lifespan of the poll.
+This was not a deliberated product decision, but the consequence of a technical constraint I couldn't get my head around at the time. Fortunately, my coding skills seem to sharpen up and I could finally deliver a card that managed its own state across the lifespan of the poll.
 
 ![Old poll card vs. new poll card](./new-old-poll.jpg "It took two clicks to vote in the old card")
 
@@ -68,9 +68,9 @@ On the interaction level, I also wanted to keep the card as minimal as possible,
 
 ![New poll card](./poll-card.jpg "The new poll card has a larger tappable area")
 
-> The outcome is a poll card with larger tappable areas, since the container itself acts as the button, that creates a polarizing feeling through the color composition itself — which is the main idea behind the Would You Rather game. No additional buttons or text required, it is as simple as simple gets.
+> The outcome is a poll card with larger tappable areas, since the poll container itself acts as the button, that creates a polarizing feeling through the color composition itself — which is the main idea behind the Would You Rather game. No additional buttons or text required, it is as simple as simple gets.
 
-Before the refactor, the poll card component was truly a mess. It consisted mainly of the poll text, then it had "attached" its correspondent CTA, which rendered dynamically depending on the question state. What sounds like a plan on paper, caused a lot of problems since the CTAs had to manage its own state as well, turning the whole thing into a really confusing, inconsistent piece of code.
+Before the refactor, codewise, the poll card component was truly a mess. It consisted mainly of the poll text, then it had "attached" its correspondent CTA, which rendered dynamically depending on the poll state. What sounds like a plan on paper, caused a lot of problems since the CTAs had to manage its own state as well, turning the whole thing into a really confusing, inconsistent piece of code.
 
 Following best practices, now the card has its own component during its lifecycle that properly manages the uniqueness of the poll throughout each step of the way. The components follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) and are isolated enough to do just one thing, but do it really well.
 
@@ -90,8 +90,8 @@ Here's where Styled Components really came in handy, allowing for the UI style t
 
 
 ## Final Thoughts
-I could go on and on over many of the new features of the Would You Rather project. I really had a great time refactoring it from the ground up, but if you made it this far, I think it'd be a good idea for you to just go to its repo and check it out for yourself.
+I could go on and on over many of the new features of the Would You Rather project. I really had a great time refactoring it from the ground up, but if you made it this far, I think it'd be a good idea for you to just go to the [project repo](https://github.com/MarcCollado/would-you-rather) and check it out for yourself.
 
-From now on, I'll try to be more incremental with its development, documenting the roadmap, properly adding issues to the project and working on it regularly, rather than doing massive, one-off pushes. Ultimately I just want to keep practicing my coding skills, while building out things that could be of use to myself and (hopefully) others.
+From now on, I'll try to be more incremental with its development, documenting the roadmap, properly adding issues to the project and working on it regularly, rather than doing massive, one-off pushes. The idea behind all this is no other than to keep practicing my coding skills, while building out things that could be of use to myself and (hopefully) others.
 
 Next up, will be [Flashcards](https://github.com/MarcCollado/flashcards), the third and final project of the Nanodegree: a mobile application built with React Native, that allows users to create decks, add cards with questions to the decks and, of course, quiz themselves and receive a score upon quiz completion.
