@@ -27,8 +27,8 @@ const TagsPage = ({ data }) => {
   );
 };
 
-export const pageQuery = graphql`
-  query TagsQuery {
+export const query = graphql`
+  {
     site {
       siteMetadata {
         title

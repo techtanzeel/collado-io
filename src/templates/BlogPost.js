@@ -39,7 +39,7 @@ const BlogPostTitle = styled(Title1)`
   margin-bottom: 0.25em;
 `;
 
-export const blogPostQuery = graphql`
+export const query = graphql`
   query blogPostQuery($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html

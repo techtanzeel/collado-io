@@ -41,7 +41,7 @@ const Tag = ({ pageContext, data }) => {
   );
 };
 
-export const tagPageQuery = graphql`
+export const query = graphql`
   query tagPageQuery($tag: String) {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(markdown)/" }, frontmatter: { tags: { in: [$tag] } } }
