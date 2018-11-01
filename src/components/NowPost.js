@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Card from './Card';
-import styles from '../templates/md.module.css';
+import styles from '../utils/md.module.css';
 
 import {
   mobile, tablet, desktop,

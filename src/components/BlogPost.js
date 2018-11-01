@@ -3,10 +3,9 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import styles from './md.module.css';
 import Layout from './Layout';
-
-import TagList from '../components/TagList';
+import TagList from './TagList';
+import styles from '../utils/md.module.css';
 
 import {
   Title1, MetaText,
@@ -39,7 +38,7 @@ const BlogPostTitle = styled(Title1)`
   margin-bottom: 0.25em;
 `;
 
-export const blogPostQuery = graphql`
+export const query = graphql`
   query blogPostQuery($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html

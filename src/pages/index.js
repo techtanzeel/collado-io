@@ -2,9 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import Layout from '../templates/Layout';
-import styles from '../templates/md.module.css';
+import styles from '../utils/md.module.css';
 
 const Home = ({ data }) => {
   const homeImg = data.img.childImageSharp.resolutions.src;
@@ -25,8 +25,8 @@ const Home = ({ data }) => {
   );
 };
 
-export const homeQuery = graphql`
-  query homeQuery {
+export const query = graphql`
+  {
     img: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 800) {
@@ -38,7 +38,7 @@ export const homeQuery = graphql`
       }
     }
     text: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(home)/" } }
+      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(home)/" } }
     ) {
       edges {
         node {

@@ -37,6 +37,7 @@
         "argsIgnorePattern": "res|next|^err"
       }
     ],
+    "no-useless-constructor": 1,
     "quotes": [
       1,
       "single",
@@ -44,7 +45,9 @@
         "allowTemplateLiterals": true
       }
     ],
-    "react/jsx-filename-extension": 0
+    "react/forbid-prop-types": 1,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 1
   },
   "plugins": [
     "html",
