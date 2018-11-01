@@ -3,10 +3,9 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import styles from './md.module.css';
 import Layout from './Layout';
-
-import TagList from '../components/TagList';
+import TagList from './TagList';
+import styles from '../utils/md.module.css';
 
 import {
   Title1, MetaText,

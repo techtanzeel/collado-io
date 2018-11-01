@@ -2,10 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import Button from './Button';
 import Layout from './Layout';
-import Button from '../components/Button';
-import PageHeader from '../components/PageHeader';
-import PostList from '../components/PostList';
+import PageHeader from './PageHeader';
+import PostList from './PostList';
 
 import {
   Title3,
@@ -44,7 +44,7 @@ const Tag = ({ pageContext, data }) => {
 export const query = graphql`
   query tagPageQuery($tag: String) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(markdown)/" }, frontmatter: { tags: { in: [$tag] } } }
+      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" }, frontmatter: { tags: { in: [$tag] } } }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
