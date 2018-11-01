@@ -1,8 +1,8 @@
 ---
 title: "Udacity Data Analyst Nanodegree"
-date: "2018-04-04"
+date: "2018-02-04"
 path: "/blog/2018/udacity-dand"
-tags: ["craft", "education", "product"]
+tags: ["coding", "craft", "education", "product", "tech"]
 featured: "true"
 excerpt: "My review of the Udacity Data Analyst Nanodegree."
 ---

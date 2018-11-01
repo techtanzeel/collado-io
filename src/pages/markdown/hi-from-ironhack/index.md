@@ -2,7 +2,7 @@
 title: "Hi From Ironhack"
 date: "2015-09-28"
 path: "/blog/2015/hi-from-ironhack"
-tags: ["ironhack"]
+tags: ["ironhack", "update"]
 featured: "false"
 excerpt: "After just twelve days, I traded a praised sabbatical for one of the most challenging opportunities I have ever been faced. I am joining Ironhack as the Campus Manager in Barcelona, which means setting up the entire city operations from scratch."
 ---

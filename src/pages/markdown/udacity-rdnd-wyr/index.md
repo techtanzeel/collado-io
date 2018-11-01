@@ -2,7 +2,7 @@
 title: "The Would You Rather Refactor"
 date: "2018-11-01"
 path: "/blog/2018/would-you-rather-refactor"
-tags: ["coding", "ironhack", "product", "tech"]
+tags: ["coding", "craft", "design", "education", "product", "tech"]
 featured: "false"
 excerpt: "The product story behind the major refactor of the Udacity's React Nanodegree second project."
 ---
