@@ -2,10 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import Layout from '../components/Layout';
 import NowPost from '../components/NowPost';
 import PageHeader from '../components/PageHeader';
-import Layout from '../templates/Layout';
-import styles from '../templates/md.module.css';
+import styles from '../utils/md.module.css';
 
 const Now = ({ data }) => {
   const Nows = data.allMarkdownRemark.edges;

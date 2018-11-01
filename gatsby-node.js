@@ -4,14 +4,14 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const blogPostTemplate = path.resolve(`src/templates/BlogPost.js`);
-    const tagTemplate = path.resolve(`src/templates/Tag.js`);
+    const blogPostTemplate = path.resolve(`src/components/BlogPost.js`);
+    const tagTemplate = path.resolve(`src/components/Tag.js`);
 
     resolve(
       graphql(`
         {
           blogPosts: allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/(blog)/" } }
+            filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" } }
             limit: 1000
             sort: { fields: [frontmatter___date], order: DESC }
           ) {

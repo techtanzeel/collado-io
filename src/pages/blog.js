@@ -2,9 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import PostList from '../components/PostList';
-import Layout from '../templates/Layout';
 
 const Blog = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
