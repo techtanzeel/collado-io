@@ -11,7 +11,7 @@ exports.createPages = ({ actions, graphql }) => {
       graphql(`
         {
           blogPosts: allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/(markdown)/" } }
+            filter: { fileAbsolutePath: { regex: "/(blog)/" } }
             limit: 1000
             sort: { fields: [frontmatter___date], order: DESC }
           ) {

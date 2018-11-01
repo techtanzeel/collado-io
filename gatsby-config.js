@@ -21,28 +21,28 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'home',
-        path: `${__dirname}/src/pages/home`,
+        path: `${__dirname}/src/markdown/home`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'markdown',
-        path: `${__dirname}/src/pages/markdown`,
+        name: 'blog',
+        path: `${__dirname}/src/markdown/blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'now',
-        path: `${__dirname}/src/pages/now`,
+        path: `${__dirname}/src/markdown/now`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'work',
-        path: `${__dirname}/src/pages/work`,
+        path: `${__dirname}/src/markdown/work`,
       },
     },
 
