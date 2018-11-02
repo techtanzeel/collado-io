@@ -11,7 +11,7 @@ import {
   Title3,
 } from '../utils/theme';
 
-const Tag = ({ pageContext, data }) => {
+const TagPage = ({ pageContext, data }) => {
   const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
@@ -64,7 +64,7 @@ export const query = graphql`
   }
 `;
 
-Tag.propTypes = {
+TagPage.propTypes = {
   pageContext: PropTypes.shape({
     tag: PropTypes.string,
   }).isRequired,
@@ -88,4 +88,4 @@ Tag.propTypes = {
   }).isRequired,
 };
 
-export default Tag;
+export default TagPage;

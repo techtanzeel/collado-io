@@ -11,7 +11,7 @@ import {
   Title1, MetaText,
 } from '../utils/theme';
 
-const BlogPost = ({ data }) => {
+const BlogPostPage = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
@@ -52,7 +52,7 @@ export const query = graphql`
   }
 `;
 
-BlogPost.propTypes = {
+BlogPostPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       html: PropTypes.string.isRequired,
@@ -68,4 +68,4 @@ BlogPost.propTypes = {
   }).isRequired,
 };
 
-export default BlogPost;
+export default BlogPostPage;

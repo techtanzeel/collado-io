@@ -4,8 +4,8 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const blogPostTemplate = path.resolve(`src/components/BlogPost.js`);
-    const tagTemplate = path.resolve(`src/components/Tag.js`);
+    const blogPostPage = path.resolve(`src/components/BlogPostPage.js`);
+    const tagPage = path.resolve(`src/components/TagPage.js`);
 
     resolve(
       graphql(`
@@ -35,7 +35,7 @@ exports.createPages = ({ actions, graphql }) => {
         posts.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
-            component: blogPostTemplate,
+            component: blogPostPage,
             context: {},
           });
         });
@@ -43,7 +43,7 @@ exports.createPages = ({ actions, graphql }) => {
         let allTags = [];
 
         posts.forEach(({ node }) => {
-          allTags = allTags.concat(node.frontmatter.tags);
+          allTags = [...allTags, ...node.frontmatter.tags];
         });
 
         const uniqTags = [...new Set(allTags)];
@@ -51,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
         uniqTags.forEach(tag => {
           createPage({
             path: `/tags/${tag}/`,
-            component: tagTemplate,
+            component: tagPage,
             context: {
               tag,
             },
