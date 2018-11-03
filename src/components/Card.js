@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { fakeAsbestos } from '../utils/colors';
 
 const Card = ({ children, hasHover }) => (
