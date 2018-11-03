@@ -18,7 +18,7 @@ const NowPost = ({ date, html, title }) => (
       {title}
     </Title>
     <div
-      className={styles.content}
+      className={styles.md}
       dangerouslySetInnerHTML={{ __html: html }}
     />
     <Published>

@@ -32,7 +32,7 @@ const Now = ({ data }) => {
         tagline="Things I'm Doing"
       />
       <div
-        className={styles.content}
+        className={styles.md}
         dangerouslySetInnerHTML={{ __html: NowHeader }}
       />
       {NowsList}

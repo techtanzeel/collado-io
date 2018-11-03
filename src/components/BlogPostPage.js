@@ -6,10 +6,7 @@ import styled from 'styled-components';
 import Layout from './Layout';
 import TagList from './TagList';
 import styles from '../utils/md.module.css';
-
-import {
-  Title1, MetaText,
-} from '../utils/theme';
+import { Title1, MetaText } from '../utils/theme';
 
 const BlogPostPage = ({ data }) => {
   const { markdownRemark } = data;
@@ -23,7 +20,7 @@ const BlogPostPage = ({ data }) => {
         {`Published on ${frontmatter.date}`}
       </MetaText>
       <div
-        className={styles.content}
+        className={styles.md}
         dangerouslySetInnerHTML={{ __html: html }}
       />
       <hr />

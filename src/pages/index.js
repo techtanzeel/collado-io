@@ -18,7 +18,7 @@ const Home = ({ data }) => {
         title="Marc Collado"
       />
       <div
-        className={styles.content}
+        className={styles.md}
         dangerouslySetInnerHTML={{ __html: homeText }}
       />
     </Layout>
