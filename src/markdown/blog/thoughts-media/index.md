@@ -1,6 +1,6 @@
 ---
 title: "Thoughts On Media"
-date: "2015-09-29"
+date: "2015-10-10"
 path: "/blog/2015/media"
 tags: ["business", "tech"]
 featured: "false"
