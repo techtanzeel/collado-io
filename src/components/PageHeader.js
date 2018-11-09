@@ -26,19 +26,18 @@ const PageHeader = ({
 );
 
 const Container = styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => (props.hasImage ? '0em' : '2em')};
+  margin-bottom: ${props => (props.hasImage ? '-1.25em' : '0em')};
 `;
 
 const Title = styled(Title1)`
   margin: 0em auto;
-  text-align: center;
 `;
 
 const TagLine = styled(MetaText)`
   margin-bottom: 1em;
-  text-align: center;
   text-transform: uppercase;
 `;
 
@@ -69,7 +68,7 @@ PageHeader.propTypes = {
 
 PageHeader.defaultProps = {
   imgAlt: '',
-  imgURL: 'false',
+  imgURL: '',
 };
 
 export default PageHeader;
