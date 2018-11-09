@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import Layout from './Layout';
 import TagList from './TagList';
 import styles from '../utils/md.module.css';
-import { Title1, MetaText } from '../utils/theme';
+import { Title1, Title3, MetaText } from '../utils/theme';
 
 const BlogPostPage = ({ data }) => {
   const { markdownRemark } = data;
@@ -24,6 +24,7 @@ const BlogPostPage = ({ data }) => {
         dangerouslySetInnerHTML={{ __html: html }}
       />
       <hr />
+      <TagTitle>Tags</TagTitle>
       <TagList
         tags={frontmatter.tags}
       />
@@ -33,6 +34,10 @@ const BlogPostPage = ({ data }) => {
 
 const BlogPostTitle = styled(Title1)`
   margin-bottom: 0.25em;
+`;
+
+const TagTitle = styled(Title3)`
+  text-align: center;
 `;
 
 export const query = graphql`
