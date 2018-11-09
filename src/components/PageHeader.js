@@ -21,7 +21,7 @@ const PageHeader = ({
     <TagLine>
       {tagline}
     </TagLine>
-    {imgURL ? <Image src={imgURL} alt={imgAlt} /> : ''}
+    {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
   </Container>
 );
 
