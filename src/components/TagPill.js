@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+
+import SuperLink from './SuperLink';
 
 import {
   mobile, tablet, desktop,
@@ -14,21 +15,20 @@ import {
 } from '../utils/theme';
 
 const TagPill = ({ children }) => (
-  <TagLink
-    key={children}
-    to={`/tags/${children}`}
-  >
-    <TagName>
-      {`${children}`.toLowerCase()}
-    </TagName>
-  </TagLink>
+  <Container>
+    <SuperLink
+      key={children}
+      href={`/tags/${children}`}
+    >
+      <TagName>
+        {`${children}`.toLowerCase()}
+      </TagName>
+    </SuperLink>
+  </Container>
 );
 
-// Does not have a container element, hence it has to be nested
-// inside a flex container i.e. PostTags.js
-
-const TagLink = styled(Link)`
-  text-decoration: none;
+const Container = styled.div`
+  display: flex;
 `;
 
 const TagName = styled(MetaText)`
