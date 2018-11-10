@@ -3,12 +3,8 @@ import { Link } from 'gatsby';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import {
-  fakeAsbestos,
-} from '../utils/colors';
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
+import { fakeAsbestos } from '../utils/colors';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
 
 const renderNavbar = () => {
   const navItems = ['home', 'blog', 'work', 'now'];

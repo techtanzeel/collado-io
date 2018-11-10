@@ -1,12 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {
-  fakeAsbestos, eggShell,
-} from '../utils/colors';
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
+import { fakeAsbestos, eggShell } from '../utils/colors';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
 
 const Footer = () => (
   <Container>
@@ -49,8 +45,8 @@ const Container = styled.div`
 `;
 
 const FooterLink = styled.a`
-  border-bottom: 0.25em solid ${fakeAsbestos}00;
-  border-top: 0.25em solid ${fakeAsbestos}00;
+  border-bottom: 0.25em solid transparent;
+  border-top: 0.25em solid transparent;
   color: ${fakeAsbestos};
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
