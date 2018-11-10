@@ -4,26 +4,21 @@ import styled from 'styled-components';
 
 import SuperLink from './SuperLink';
 
-import {
-  fakeAsbestos, eggShell, turquoise,
-} from '../utils/colors';
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
-import {
-  MetaText,
-} from '../utils/theme';
+// Size is passed via props, but the Button itself is not yet responsive
+// import { mobile, tablet, desktop } from '../utils/breakpoints';
+import { fakeAsbestos, eggShell } from '../utils/colors';
+import { MetaTextMono } from '../utils/theme';
 
 const Button = ({
-  children, large, primary, url,
+  children, href, size, theme,
 }) => (
   <Container>
     <SuperLink
-      href={url}
+      href={href}
     >
       <ButtonText
-        type={primary}
-        size={large}
+        theme={theme}
+        size={size}
       >
         {children}
       </ButtonText>
@@ -35,23 +30,24 @@ const Container = styled.div`
   display: flex;
 `;
 
-const ButtonText = styled(MetaText)`
-  background: ${props => (props.type ? fakeAsbestos : `${eggShell}88`)};
-  border-bottom: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}00};
-  border-top: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}00};
-  color: ${props => (props.type ? `#FFF` : `${fakeAsbestos}88`)};
-  padding: ${props => (props.size ? `1.25em 1.75em` : `0.5em 0.75em`)};
+const ButtonText = styled(MetaTextMono)`
+  background: ${props => (props.theme === 'dark' ? fakeAsbestos : `${eggShell}88`)};
+  border-bottom: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
+  border-top: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
+  color: ${props => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
+  padding: ${props => (props.size === 'large' ? `1.25em 1.75em` : `0.5em 0.75em`)};
 
   &:hover {
-    border-bottom: ${props => (props.size ? `0.5em` : `0.25em`)} solid ${turquoise}};
+    border-bottom-size: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)};
+    border-bottom-color: ${props => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
   }
 `;
 
 Button.propTypes = {
   children: PropTypes.string.isRequired,
-  large: PropTypes.bool.isRequired,
-  primary: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(['small', 'large']).isRequired,
+  theme: PropTypes.oneOf(['light', 'dark']).isRequired,
 };
 
 export default Button;
