@@ -1,12 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import BlogPost from './BlogPost';
 import Button from './Button';
 import Layout from './Layout';
 import PageHeader from './PageHeader';
-
 import { Title3 } from '../utils/theme';
 
 const TagPage = ({ pageContext, data }) => {
@@ -39,14 +39,23 @@ const TagPage = ({ pageContext, data }) => {
         {TagHeader}
       </Title3>
       {BlogsList}
-      <Button
-        url="/tags"
-      >
+      <ButtonContainer>
+        <Button
+          href="/tags"
+          size="small"
+          theme="light"
+        >
         View all tags
-      </Button>
+        </Button>
+      </ButtonContainer>
     </Layout>
   );
 };
+
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 export const query = graphql`
   query tagPageQuery($tag: String) {
