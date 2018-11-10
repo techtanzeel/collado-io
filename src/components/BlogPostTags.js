@@ -4,17 +4,15 @@ import styled from 'styled-components';
 
 import TagPill from './TagPill';
 
-const renderTags = (tags) => tags.map((tag) => (
-  <TagPill
-    key={tag}
-  >
-    {tag}
-  </TagPill>
-));
-
-const TagList = ({ tags }) => (
+const BlogPostTags = ({ tags }) => (
   <Container>
-    {renderTags(tags)}
+    {tags.map((tag) => (
+      <TagPill
+        key={tag}
+      >
+        {tag}
+      </TagPill>
+    ))}
   </Container>
 );
 
@@ -24,8 +22,8 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-TagList.propTypes = {
+BlogPostTags.propTypes = {
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default TagList;
+export default BlogPostTags;

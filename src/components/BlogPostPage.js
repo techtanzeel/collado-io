@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Layout from './Layout';
-import TagList from './TagList';
+import BlogPostTags from './BlogPostTags';
 import styles from '../utils/md.module.css';
 import { Title1, Title3, MetaText } from '../utils/theme';
 
@@ -25,7 +25,7 @@ const BlogPostPage = ({ data }) => {
       />
       <hr />
       <TagTitle>Tags</TagTitle>
-      <TagList
+      <BlogPostTags
         tags={frontmatter.tags}
       />
     </Layout>
