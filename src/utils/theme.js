@@ -125,6 +125,21 @@ const MetaText = styled.p`
   @media (min-width: ${desktop}) {}
 `;
 
+const MetaTextMono = styled.p`
+  color: ${fakeAsbestos}88;
+  font-family: 'Roboto Mono', 'monospace';
+  font-size: 0.875em;
+  text-transform: lowercase;
+
+  @media (min-width: ${mobile}) {}
+
+  @media (min-width: ${tablet}) {
+    font-size: 1em;
+  }
+
+  @media (min-width: ${desktop}) {}
+`;
+
 export {
-  Title1, Title2, Title3, BodyText, BodyLink, MetaText,
+  Title1, Title2, Title3, BodyText, BodyLink, MetaText, MetaTextMono,
 };
