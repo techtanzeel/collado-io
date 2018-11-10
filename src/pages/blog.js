@@ -4,10 +4,22 @@ import PropTypes from 'prop-types';
 
 import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import PostList from '../components/PostList';
+import BlogPost from '../components/BlogPost';
 
 const Blog = ({ data }) => {
-  const posts = data.allMarkdownRemark.edges;
+  const Blogs = data.allMarkdownRemark.edges;
+
+  const BlogsList = Blogs
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge => (
+      <BlogPost
+        key={edge.node.id}
+        date={edge.node.frontmatter.date}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
+        // tags={edge.node.frontmatter.tags}
+        title={edge.node.frontmatter.title}
+      />));
 
   return (
     <Layout>
@@ -15,9 +27,7 @@ const Blog = ({ data }) => {
         title="Blog"
         tagline="Things I've Written"
       />
-      <PostList>
-        {posts}
-      </PostList>
+      {BlogsList}
     </Layout>
   );
 };
@@ -50,9 +60,7 @@ Blog.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          excerpt: PropTypes.string,
           id: PropTypes.string,
-          totalCount: PropTypes.number,
           frontmatter: PropTypes.shape({
             date: PropTypes.string,
             excerpt: PropTypes.string,

@@ -10,7 +10,7 @@ import {
 } from '../utils/breakpoints';
 import { Title2, BodyText, MetaText } from '../utils/theme';
 
-const PostLink = ({
+const BlogPost = ({
   date, excerpt, path, title,
 }) => (
   <Card
@@ -60,11 +60,11 @@ const Published = styled(MetaText)`
   @media (min-width: ${desktop}) {}
 `;
 
-PostLink.propTypes = {
+BlogPost.propTypes = {
   date: PropTypes.string.isRequired,
   excerpt: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 
-export default PostLink;
+export default BlogPost;
