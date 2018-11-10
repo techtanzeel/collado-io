@@ -2,23 +2,32 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
+import BlogPost from './BlogPost';
 import Button from './Button';
 import Layout from './Layout';
 import PageHeader from './PageHeader';
-import PostList from './PostList';
 
-import {
-  Title3,
-} from '../utils/theme';
+import { Title3 } from '../utils/theme';
 
 const TagPage = ({ pageContext, data }) => {
+  const Blogs = data.allMarkdownRemark.edges;
   const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
-  const tagHeader = `${totalCount} post${
+
+  const TagHeader = `${totalCount} post${
     totalCount === 1 ? '' : 's'
   } tagged with "${tag}"`;
 
-  const posts = data.allMarkdownRemark.edges;
+  const BlogsList = Blogs
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge => (
+      <BlogPost
+        key={edge.node.id}
+        date={edge.node.frontmatter.date}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
+        title={edge.node.frontmatter.title}
+      />));
 
   return (
     <Layout>
@@ -27,11 +36,9 @@ const TagPage = ({ pageContext, data }) => {
         tagline="The blog, filtered"
       />
       <Title3>
-        {tagHeader}
+        {TagHeader}
       </Title3>
-      <PostList>
-        {posts}
-      </PostList>
+      {BlogsList}
       <Button
         url="/tags"
       >
