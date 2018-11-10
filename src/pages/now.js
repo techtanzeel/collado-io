@@ -44,13 +44,13 @@ export const query = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(now)/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
       limit: 1000
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
-          id
           html
+          id
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
@@ -61,6 +61,21 @@ export const query = graphql`
   }
 `;
 
-Now.propTypes = {};
+Now.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          html: PropTypes.string,
+          id: PropTypes.string,
+          frontmatter: PropTypes.shape({
+            date: PropTypes.string,
+            title: PropTypes.string,
+          }),
+        }),
+      ),
+    }),
+  }).isRequired,
+};
 
 export default Now;
