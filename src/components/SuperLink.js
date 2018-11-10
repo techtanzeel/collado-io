@@ -3,9 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const SuperLink = ({
-  children, href,
-}) => (
+const SuperLink = ({ children, href }) => (
   href.startsWith('/')
     ? (
       <RelativeLink
