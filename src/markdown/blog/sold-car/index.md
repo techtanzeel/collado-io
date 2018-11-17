@@ -9,7 +9,7 @@ excerpt: "I love cars, but getting rid of mine was probably the smartest, most g
 
 I love cars, things that move in general, but particularly cars.
 
-They have always fascinated me since I was a kid. Back then I use to ~study~ read the final pages — those that listed each and every model with its specs — of all the car magazines I could get my hands on. I knew every single model's spec by heart: horsepower, weight, torque, transmission, height… everything. I use to play this game with my parents, where I handed over the magazine and let them ask me anything: "what's BMW 323i horsepower" or "the wheelbase of an Audi 80" and we could go on and on...
+They have always fascinated me since I was a kid. Back then I use to ~~study~~ read the final pages — those that listed each and every model with its specs — of all the car magazines I could get my hands on. I knew every single model's spec by heart: horsepower, weight, torque, transmission, height… everything. I use to play this game with my parents, where I handed over the magazine and let them ask me anything: "what's BMW 323i horsepower" or "the wheelbase of an Audi 80" and we could go on and on...
 
 I’ve always thought of the road as an everlasting showroom for cars. They keep going and going. I remember stepping out of the house hoping to see some wild species among the utilitarians.
 

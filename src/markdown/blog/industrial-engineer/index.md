@@ -7,7 +7,7 @@ featured: "false"
 excerpt: "After my college years, these are some thoughts on the history and value of an Industrial Engineering degree."
 ---
 
-Two years ago I finished my five-plus-one year degree in Engineering. The official name goes something like "Industrial Engineer specialized in Business Management", and despite not quite feeling like one, my academic title says so. After more than five ~long~ years working hard to earn my degree I feel like I want to talk about it, share some thoughts on the matter and try to better understand the value of these kinds of degrees.
+Two years ago I finished my five-plus-one year degree in Engineering. The official name goes something like "Industrial Engineer specialized in Business Management", and despite not quite feeling like one, my academic title says so. After more than five ~~long~~ years working hard to earn my degree I feel like I want to talk about it, share some thoughts on the matter and try to better understand the value of these kinds of degrees.
 
 ## What Exactly an Industrial Engineer Is?
 I'll start with a brief description of what an Industrial Engineer (IE) is or, at least, was[^1]. And also why here in Spain, the figure of the IE is quite different than in other countries.
