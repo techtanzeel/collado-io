@@ -60,14 +60,6 @@
     ],
     "react/forbid-prop-types": 1,
     "react/jsx-filename-extension": 0,
-    "react/jsx-indent": [
-      0,
-      2
-    ],
-    "react/jsx-indent-props": [
-      0,
-      2
-    ],
     "react/jsx-one-expression-per-line": [
       1,
       {
