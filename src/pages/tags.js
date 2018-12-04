@@ -15,7 +15,7 @@ const TagsPage = ({ data }) => {
         tagline="The blog, tagged"
       />
       <ul>
-        {group.map(tag => (
+        {group.map((tag) => (
           <li key={tag.fieldValue}>
             <Link to={`/tags/${tag.fieldValue}/`}>
               {`${tag.fieldValue} (${tag.totalCount})`}

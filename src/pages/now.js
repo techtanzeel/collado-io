@@ -11,12 +11,12 @@ const Now = ({ data }) => {
   const Nows = data.allMarkdownRemark.edges;
 
   const NowHeader = Nows
-    .filter(edge => edge.node.frontmatter.date === null)
-    .map(edge => edge.node.html);
+    .filter((edge) => edge.node.frontmatter.date === null)
+    .map((edge) => edge.node.html);
 
   const NowsList = Nows
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => (
+    .filter((edge) => !!edge.node.frontmatter.date)
+    .map((edge) => (
       <NowPost
         key={edge.node.id}
         title={edge.node.frontmatter.title}
@@ -49,8 +49,8 @@ export const query = graphql`
     ) {
       edges {
         node {
-          html
           id
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
@@ -66,8 +66,8 @@ Now.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          html: PropTypes.string,
           id: PropTypes.string,
+          html: PropTypes.string,
           frontmatter: PropTypes.shape({
             date: PropTypes.string,
             title: PropTypes.string,
