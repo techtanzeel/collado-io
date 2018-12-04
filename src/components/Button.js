@@ -6,32 +6,32 @@ import SuperLink from './SuperLink';
 
 // Size is passed via props, but the Button itself is not yet responsive
 // import { mobile, tablet, desktop } from '../utils/breakpoints';
-import { fakeAsbestos, eggShell } from '../utils/colors';
+import { fakeAsbestos, bianchiGreen } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
 
 const Button = ({
   children, href, size, theme,
 }) => (
-  <Container>
-    <SuperLink
-      href={href}
-    >
-      <ButtonText
-        theme={theme}
-        size={size}
+    <Container>
+      <SuperLink
+        href={href}
       >
-        {children}
-      </ButtonText>
-    </SuperLink>
-  </Container>
-);
+        <ButtonText
+          theme={theme}
+          size={size}
+        >
+          {children}
+        </ButtonText>
+      </SuperLink>
+    </Container>
+  );
 
 const Container = styled.div`
   display: flex;
 `;
 
 const ButtonText = styled(MetaTextMono)`
-  background: ${props => (props.theme === 'dark' ? fakeAsbestos : `${eggShell}88`)};
+  background: ${props => (props.theme === 'dark' ? fakeAsbestos : `${bianchiGreen}88`)};
   border-bottom: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
   border-top: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
   color: ${props => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};

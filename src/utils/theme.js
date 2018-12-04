@@ -4,55 +4,61 @@ import {
   mobile, tablet, desktop,
 } from './breakpoints';
 import {
-  black, fakeAsbestos, turquoise, eggShell,
+  hipBlack, fakeAsbestos, bianchiGreen,
 } from './colors';
 
 const Title1 = styled.h1`
-  box-shadow: inset 0em -0.5em 0em ${eggShell};
-  color: ${black};
+  box-shadow: inset 0em -0.5em 0em ${bianchiGreen};
+  color: ${hipBlack};
   font-weight: 700;
-  // font-size === 28px
+  /* font-size === 28px */
   letter-spacing: -1px;
   padding: 0em 0.5em;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-    font-size: 2em; // 32px
+    font-size: 2em;
+    /* font-size === 32px */
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 2.5em; // 40px
+    font-size: 2.5em;
+    /* font-size === 40px */
     padding: 0em 0.75em;
   }
 
   @media (min-width: ${desktop}) {
-    font-size: 2.75em; // 44px
+    font-size: 2.75em;
+    /* font-size === 44px */
     padding: 0em 1em;
   }
 `;
 
 const Title2 = styled.h2`
-  color: ${black};
-  // font-size === 24.112px
+  color: ${hipBlack};
+  /* font-size === 24.112px */
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase;
 
   @media (min-width: ${mobile}) {
-    font-size: 1.75em; // 28px
+    font-size: 1.75em;
+    /* font-size === 28px */
   }
 
   @media (min-width: ${tablet}) {
-    font-size: 2em; // 32px
+    font-size: 2em;
+    /* font-size === 32px */
   }
 
   @media (min-width: ${desktop}) {
-    font-size: 2.25em; // 36px
+    font-size: 2.25em;
+    /* font-size === 36px */
   }
 `;
 
 const Title3 = styled.h3`
-  color: ${black};
+  color: ${hipBlack};
   // font-size === 21.112px
   font-weight: 700;
   letter-spacing: -1px;
@@ -84,8 +90,8 @@ const BodyText = styled.p`
 `;
 
 const BodyLink = styled.a`
-  border-bottom: 0.25em solid ${eggShell};
-  box-shadow: inset 0 -0.25em 0 ${eggShell};
+  border-bottom: 0.25em solid ${bianchiGreen};
+  box-shadow: inset 0 -0.25em 0 ${bianchiGreen};
   color: inherit;
   text-decoration: none;
   transition: background 0.3s ease;
@@ -96,7 +102,7 @@ const BodyLink = styled.a`
 
   &:hover {
     color: inherit;
-    background: ${eggShell};
+    background: ${bianchiGreen};
   }
 
   &:active {
@@ -127,7 +133,7 @@ const MetaText = styled.p`
 
 const MetaTextMono = styled.p`
   color: ${fakeAsbestos}88;
-  font-family: 'Roboto Mono', 'monospace';
+  font-family: 'IBM Plex Mono', 'monospace';
   font-size: 0.875em;
   text-transform: lowercase;
 

@@ -3,7 +3,7 @@ const Typography = require('typography');
 const typography = new Typography({
   googleFonts: [
     {
-      name: 'Roboto Mono',
+      name: 'IBM Plex Mono',
       styles: [
         '400',
         '700',
@@ -20,10 +20,10 @@ const typography = new Typography({
     },
   ],
   baseFontSize: '16px',
-  baseLineHeight: 1.75,
+  baseLineHeight: 1.65,
   scaleRatio: 1.75,
   headerFontFamily: [
-    'Roboto Mono',
+    'IBM Plex Mono',
     'monospace',
   ],
   bodyFontFamily: [

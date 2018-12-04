@@ -10,7 +10,7 @@ import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
 import {
-  black, fakeAsbestos, turquoise, eggShell,
+  hipBlack, fakeAsbestos, bianchiGreen,
 } from '../utils/colors';
 import {
   Title1, Title2, Title3, BodyText, BodyLink, MetaText,

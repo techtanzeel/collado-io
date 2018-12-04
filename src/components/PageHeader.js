@@ -12,24 +12,18 @@ import {
 const PageHeader = ({
   imgAlt, imgURL, tagline, title,
 }) => (
-  <Container
-    hasImage={imgURL}
-  >
-    <Title>
-      {title}
-    </Title>
-    <TagLine>
-      {tagline}
-    </TagLine>
-    {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
-  </Container>
+  <Container hasImage={imgURL}>
+      <Title>{title}</Title>
+      <TagLine>{tagline}</TagLine>
+      {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
+    </Container>
 );
 
 const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => (props.hasImage ? '-1.25em' : '0em')};
+  margin-bottom: ${props => (props.hasImage ? '0.5em' : '0.25em')};
 `;
 
 const Title = styled(Title1)`

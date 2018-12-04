@@ -39,7 +39,7 @@ const NavbarLink = styled(Link)`
   border-bottom: 0.25em solid #FFF0;
   border-top: 0.25em solid #FFF0;
   color: #FFF;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9em;
   margin: 0em 0.5em;
   padding: 0.25em 0.5em;

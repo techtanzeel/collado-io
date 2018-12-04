@@ -4,7 +4,6 @@
   color: #2A2E2E;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-top: 1.75em;
   text-transform: uppercase;
 }
 
@@ -23,26 +22,26 @@
 
 .md > p > a,
 .md li > a {
-  border-bottom: 0.25em solid #C8EFE8;
-  box-shadow: inset 0 -0.25em 0 #C8EFE8;
+  border-bottom: 0.25em solid #B3E4C8;
+  box-shadow: inset 0 -0.25em 0 #B3E4C8;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .md > p > a:hover,
 .md li > a:hover {
-  background: #C8EFE8;
+  background: #B3E4C8;
 }
 
 /* Blockquotes */
 .md > blockquote {
-  border-left: 0.25em solid #1ABC9C;
+  border-left: 0.25em solid #B3E4C8;
   padding-left: 1em;
 }
 
 .md > blockquote > p {
   color: #525555;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.875em;
   letter-spacing: -1px;
 }
@@ -55,14 +54,14 @@
 }
 
 .md > blockquote > p > a {
-  border-bottom: 0.25em solid #C8EFE8;
-  box-shadow: inset 0 -0.25em 0 #C8EFE8;
+  border-bottom: 0.25em solid #B3E4C8;
+  box-shadow: inset 0 -0.25em 0 #B3E4C8;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .md > blockquote > p > a:hover {
-  background: #C8EFE8;
+  background: #B3E4C8;
 }
 
 /* Code */
@@ -84,7 +83,7 @@
 .md > div > ol > li > a:hover,
 .md > div > ol > li > a:hover {
   background: none;
-  color: #C8EFE8;
+  color: #B3E4C8;
 }
 
 /* Images & GIFs */
@@ -96,22 +95,18 @@
 @media (min-width: 576px) {
   .md > h2 {
     font-size: 1.75em;
-    margin-top: 1.5em;
   }
   .md > h3 {
     font-size: 1.5em;
-    margin-top: 1.5em;
   }
 }
 
 @media (min-width: 768px) {
   .md > h2 {
     font-size: 2em;
-    margin-top: 1.25em;
   }
   .md > h3 {
     font-size: 1.75em;
-    margin-top: 1.25em;
   }
 
   .md > p,
