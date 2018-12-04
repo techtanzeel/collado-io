@@ -13,17 +13,17 @@ const PageHeader = ({
   imgAlt, imgURL, tagline, title,
 }) => (
   <Container hasImage={imgURL}>
-      <Title>{title}</Title>
-      <TagLine>{tagline}</TagLine>
-      {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
-    </Container>
+    <Title>{title}</Title>
+    <TagLine>{tagline}</TagLine>
+    {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
+  </Container>
 );
 
 const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => (props.hasImage ? '0.5em' : '0.25em')};
+  margin-bottom: ${(props) => (props.hasImage ? '-2em' : '0.25em')};
 `;
 
 const Title = styled(Title1)`

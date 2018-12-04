@@ -19,8 +19,8 @@ const TagPage = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
 
   const BlogsList = Blogs
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => (
+    .filter((edge) => !!edge.node.frontmatter.date)
+    .map((edge) => (
       <BlogPost
         key={edge.node.id}
         date={edge.node.frontmatter.date}

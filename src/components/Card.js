@@ -24,7 +24,7 @@ const Container = styled.div`
   transition: box-shadow 0.3s ease;
 
   &:hover, &:active {
-    box-shadow: ${props => (props.hasHover ? `${fakeAsbestos}22 0em 0.5em 1em 0em` : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`)}
+    box-shadow: ${(props) => (props.hasHover ? `${fakeAsbestos}22 0em 0.5em 1em 0em` : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`)}
   }
 
   @media (min-width: ${mobile}) {
