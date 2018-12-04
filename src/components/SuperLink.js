@@ -11,8 +11,7 @@ const SuperLink = ({ children, href }) => (
       >
         {children}
       </RelativeLink>
-    )
-    : (
+    ) : (
       <a
         href={href}
       >
