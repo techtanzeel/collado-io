@@ -5,9 +5,7 @@ import styled from 'styled-components';
 import Card from './Card';
 import styles from '../utils/md.module.css';
 
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
+// import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title2, MetaText } from '../utils/theme';
 
 const NowPost = ({ date, html, title }) => (
