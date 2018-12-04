@@ -32,13 +32,13 @@ const Container = styled.div`
 
 const ButtonText = styled(MetaTextMono)`
   background: ${(props) => (props.theme === 'dark' ? fakeAsbestos : `${bianchiGreen}88`)};
-  border-bottom: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
-  border-top: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
+  border-bottom: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent;
+  border-top: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent;
   color: ${(props) => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
   padding: ${(props) => (props.size === 'large' ? `1.25em 1.75em` : `0.5em 0.75em`)};
 
   &:hover {
-    border-bottom-size: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)};
+    border-bottom-width: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)};
     border-bottom-color: ${(props) => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
   }
 `;
