@@ -9,7 +9,7 @@ Born and raised in Barcelona, I am an [Industrial Engineer](/blog/2013/industria
 
 In 2011, right upon graduation, co-founded [iomando technologies](/iomando), a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a [really cool product](/iomando) and ended up acquired by [Citibox](https://citibox.com/) in late 2017.
 
-In 2015, though, I decided to [switch gears](/blog/2015/stepping-down) and pursue another passion of mine: [education](/tags/education). Then [joined Ironhack](/blog/2015/hi-from-ironhack) to change the way we learn about technology. First as the [Campus Manager](/blog/2017/ironhack-gm) in Barcelona, establishing the city operations from the ground up, and later on as a [Product Manager](/blog/2017/ironhack-pm).
+In 2015, though, I decided to [switch gears](/blog/2015/stepping-down) and pursue another passion of mine: [education](/tags/education). Then [joined Ironhack](/blog/2015/hi-from-ironhack) to change the way we learn about technology. First as the [Campus Manager](/blog/2017/ironhack-gm) in Barcelona, establishing the city operations from the ground up, and later on as a [Product Manager](/blog/2017/ironhack-from-gm-to-pm).
 
 As you can see, I like starting things from scratch. Other than that, I devote almost all my free time to [reading](/books), [training](https://www.strava.com/athletes/1113999), and [building](https://github.com/MarcCollado), mostly, useless things.
 

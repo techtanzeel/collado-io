@@ -9,7 +9,7 @@ excerpt: "The product story behind the major refactor of the Udacity's React Nan
 
 Last March I [joined the Udacity’s React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
 
-Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/iomando), at [Ironhack](/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-pm).
+Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/iomando), at [Ironhack](/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
 
 Coming from a technical background has given me an "unfair advantage" relating to other software engineers — despite dealing mostly with the management side of things — participating in technical discussions and comfortably sharing opinionated ideas about our approach to software development.
 
