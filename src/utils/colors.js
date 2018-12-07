@@ -1,11 +1,11 @@
-const black = '#2A2E2E';
+const hipBlack = '#2A2E2E';
 const fakeAsbestos = '#525555';
-const turquoise = '#1ABC9C';
-const eggShell = '#C8EFE8';
+const bianchiGreen = '#B3E4C8';
+// const turquoise = '#1ABC9C';
+// const eggShell = '#C8EFE8';
 
 export {
-  black,
+  hipBlack,
   fakeAsbestos,
-  turquoise,
-  eggShell,
+  bianchiGreen,
 };

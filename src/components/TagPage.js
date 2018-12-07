@@ -7,6 +7,7 @@ import BlogPost from './BlogPost';
 import Button from './Button';
 import Layout from './Layout';
 import PageHeader from './PageHeader';
+// import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title3 } from '../utils/theme';
 
 const TagPage = ({ pageContext, data }) => {
@@ -19,8 +20,8 @@ const TagPage = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
 
   const BlogsList = Blogs
-    .filter(edge => !!edge.node.frontmatter.date)
-    .map(edge => (
+    .filter((edge) => !!edge.node.frontmatter.date)
+    .map((edge) => (
       <BlogPost
         key={edge.node.id}
         date={edge.node.frontmatter.date}

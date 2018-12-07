@@ -6,7 +6,7 @@ import SuperLink from './SuperLink';
 
 // Size is passed via props, but the Button itself is not yet responsive
 // import { mobile, tablet, desktop } from '../utils/breakpoints';
-import { fakeAsbestos, eggShell } from '../utils/colors';
+import { fakeAsbestos, bianchiGreen } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
 
 const Button = ({
@@ -31,15 +31,15 @@ const Container = styled.div`
 `;
 
 const ButtonText = styled(MetaTextMono)`
-  background: ${props => (props.theme === 'dark' ? fakeAsbestos : `${eggShell}88`)};
-  border-bottom: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
-  border-top: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent};
-  color: ${props => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
-  padding: ${props => (props.size === 'large' ? `1.25em 1.75em` : `0.5em 0.75em`)};
+  background: ${(props) => (props.theme === 'dark' ? fakeAsbestos : `${bianchiGreen}88`)};
+  border-bottom: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent;
+  border-top: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)} solid transparent;
+  color: ${(props) => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
+  padding: ${(props) => (props.size === 'large' ? `1.25em 1.75em` : `0.5em 0.75em`)};
 
   &:hover {
-    border-bottom-size: ${props => (props.size === 'large' ? `0.5em` : `0.25em`)};
-    border-bottom-color: ${props => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
+    border-bottom-width: ${(props) => (props.size === 'large' ? `0.5em` : `0.25em`)};
+    border-bottom-color: ${(props) => (props.theme === 'dark' ? `#FFF` : `${fakeAsbestos}`)};
   }
 `;
 

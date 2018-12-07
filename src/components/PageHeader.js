@@ -2,25 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
-import {
-  Title1, MetaText,
-} from '../utils/theme';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
+import { Title1, MetaText } from '../utils/theme';
 
 const PageHeader = ({
   imgAlt, imgURL, tagline, title,
 }) => (
-  <Container
-    hasImage={imgURL}
-  >
-    <Title>
-      {title}
-    </Title>
-    <TagLine>
-      {tagline}
-    </TagLine>
+  <Container hasImage={imgURL}>
+    <Title>{title}</Title>
+    <TagLine>{tagline}</TagLine>
     {imgURL ? <Image src={imgURL} alt={imgAlt} /> : null}
   </Container>
 );
@@ -29,7 +19,7 @@ const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => (props.hasImage ? '-1.25em' : '0em')};
+  margin-bottom: ${(props) => (props.hasImage ? '-2em' : '0.25em')};
 `;
 
 const Title = styled(Title1)`

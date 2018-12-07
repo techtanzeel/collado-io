@@ -3,9 +3,10 @@ import { Link } from 'gatsby';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { fakeAsbestos } from '../utils/colors';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
+import { fakeAsbestos } from '../utils/colors';
 
+// TODO: integrate renderNavbar within Navbar the same way blog.js
 const renderNavbar = () => {
   const navItems = ['home', 'blog', 'work', 'now'];
   return navItems.map((item) => (
@@ -39,7 +40,7 @@ const NavbarLink = styled(Link)`
   border-bottom: 0.25em solid #FFF0;
   border-top: 0.25em solid #FFF0;
   color: #FFF;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9em;
   margin: 0em 0.5em;
   padding: 0.25em 0.5em;

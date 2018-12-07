@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import SuperLink from './SuperLink';
 
 import { tablet } from '../utils/breakpoints';
-import { fakeAsbestos, black } from '../utils/colors';
+import { fakeAsbestos, hipBlack } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
 
 const TagPill = ({ children }) => (
@@ -27,7 +27,7 @@ const Container = styled.div`
 const TagName = styled(MetaTextMono)`
   background: ${fakeAsbestos}22;
   border-radius: 0.25em;
-  color: ${black};
+  color: ${hipBlack};
   margin-bottom: 0.25em;
   margin-right: 0.25em; // Makes some room between pills
   padding: 0.25em 0.5em;

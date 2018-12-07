@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Layout from './Layout';
 import BlogPostTags from './BlogPostTags';
 import styles from '../utils/md.module.css';
+// import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title1, Title3, MetaText } from '../utils/theme';
 
 const BlogPostPage = ({ data }) => {
