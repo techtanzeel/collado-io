@@ -2,7 +2,7 @@
 title: "iomando Is Now Able To Push"
 date: "2014-01-13"
 path: "/blog/2014/iomando-push"
-tags: ["iomando", "product", "tech"]
+tags: ["iomando", "update", "product", "tech"]
 featured: "false"
 excerpt: "Introducing iomando 2.0.1, the ~~not that~~ minor update that brings along push synchronization across the board. The feature that nobody will see, but everybody will notice."
 ---
