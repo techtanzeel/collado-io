@@ -2,7 +2,7 @@
 title: "I Sold My Car"
 date: "2013-09-08"
 path: "/blog/2013/sold-my-car"
-tags: ["opinion", "transport"]
+tags: ["idea", "cars"]
 featured: "false"
 excerpt: "I love cars, but getting rid of mine was probably the smartest, most gratifying decision I've made during my twenties."
 ---
