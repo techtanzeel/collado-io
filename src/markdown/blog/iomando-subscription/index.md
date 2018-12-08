@@ -1,8 +1,8 @@
 ---
-title: "On Services And Subscriptions"
+title: "Services And Subscriptions"
 date: "2013-03-11"
-path: "/blog/2013/iomando-subscription"
-tags: ["business", "iomando"]
+path: "/blog/2013/services-and-subscriptions"
+tags: ["iomando", "memoir", "idea", "business"]
 featured: "false"
 excerpt: "Why subscription-based businesses promote the right incentives in order to create the best products."
 ---
@@ -38,7 +38,7 @@ With the caveat that the same way our competitors have no means to replicate our
 
 
 ## How It Works
-iomando works as an anual fee that it's billed to the community — the customer, as other shared services, like the elevator maintenance or the cleanings staff, do.
+iomando works as an annual fee that it's billed to the community — the customer, as other shared services, like the elevator maintenance or the cleanings staff, do.
 
 With this annual fee we include:
 
@@ -50,8 +50,7 @@ With this annual fee we include:
 The price for all these services is 99€ / year, a small fraction of what traditional access system would cost.
 
 
-## Why We Did It
-### Price Syndication
+## Price Syndication
 The replacement of access system constitute a sunk cost in most communities. That's because community members independently pay for their own lost or broken keys, but don't syndicate the cost to a communal expense. Access system devices are not perceived as a direct community cost, because the buying happens behind the curtain.
 
 It is reasonable to assume that when we ask for a yearly fee the entire community has to pay for, it is perceived as something extra, a cost they didn't have before. In other words, community members don't want to pay for the "other" neighbors access system.
@@ -68,7 +67,8 @@ The problem is that nobody "sees" this cost in their integrity, because when som
 
 In short, we are trying to surface this sunk cost and offer a better deal: 99€ per year. Yes, it is a community expense. But it's way lower than the sum of all the lost and broken remotes that community members replace on its own each year.
 
-### Long Term Commitment
+
+## Long Term Commitment
 We are here for the long run. We truly believe in our mission and we want to build a sustainable business that focuses on delivering the best product.
 
 A subscription based model creates a more truthful relationship between the customer and the company.
@@ -81,7 +81,8 @@ One-shot pricing frees companies of further improvement upon existing customers,
 
 The subscription based model incentivizes us to place the same or even more resources to existing customers, generating a long term commitment and a healthier relationship between the parties.
 
-### The Best Product
+
+## The Best Product
 Technology evolves, so do we. When you get a remote — or any other access system for that matter, you are acquiring a piece of plastic that's not going to change any time.
 
 iomando gets better with time.
@@ -95,6 +96,7 @@ Finally, think of 5 years ago: a service like iomando could not be possible. Tec
 Now imagine 5 years from now.
 
 5 years from now we may use some kind of new wearable technology, whatever, who knows. Unfortunately, we don't know either. But we do know we will support whatever comes next because a subscription model will incentivize us to offer the best experience at any given time.
+
 
 ## Recap
 Keys and remotes have remained untouched for almost fifty years. We are now faced with an amazing challenge to approach the market with a fresh value proposition leveraging mobile technology.
