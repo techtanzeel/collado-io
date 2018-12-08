@@ -1,8 +1,8 @@
 ---
-title: "iomando: Prologue"
+title: "iomando — Prologue"
 date: "2013-01-04"
 path: "/blog/2013/iomando-prologue"
-tags: ["business", "iomando"]
+tags: ["iomando", "memoir", "business"]
 featured: "false"
 excerpt: "The — overly simplified — story of how iomando came to be."
 ---
