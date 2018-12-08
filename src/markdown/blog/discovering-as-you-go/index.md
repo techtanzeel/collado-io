@@ -34,7 +34,7 @@ Somebody smarter than me, once said that if "the only thing you have is a hammer
 
 Our thinking of iomando "as a plain replacement for keys and remotes" blinded us to opportunities beyond the domestic market. Because at the time, we didn’t know such market existed, thus we were offering a better and more convenient alternative to traditional access systems in a market we did know.
 
-As we started to understand more and more why our service was enabling these opportunities, the [foundation of our technology](/blog/2013/iomando-cellular), we put ourselves in a position to truly unravel the full potential of our vision.
+As we started to understand more and more why our service was enabling these opportunities, the [foundation of our technology](/blog/2013/betting-on-cellular), we put ourselves in a position to truly unravel the full potential of our vision.
 
 Don't get me wrong though, replacing household remotes with our service was a great start. We were successfully solving a problem we knew. But as we dived deeper — as we unraveled the AOE's map — we discovered people facing hard problems where iomando could really offer a lot more value.
 

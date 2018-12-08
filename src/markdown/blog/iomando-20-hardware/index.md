@@ -49,7 +49,7 @@ The double relay bay works when the accesses are close to each other. But imagin
 
 To fix these situations, the new hardware features a new low-power radio module that is able to locally connect via radio frequency to the master board — the one that has the SIM card and cellular connectivity.
 
-This way we can reduce the installation costs — the radio module is way cheaper, the most expensive component of the BOM is by far the [GSM modem](/blog/2013/iomando-cellular), but also optimize the connectivity of the master board, that doubles down as a local hub for the rest of devices.
+This way we can reduce the installation costs — the radio module is way cheaper, the most expensive component of the BOM is by far the [GSM modem](/blog/2013/betting-on-cellular), but also optimize the connectivity of the master board, that doubles down as a local hub for the rest of devices.
 
 The main challenge to enable this feature was not the complexity of "making it work" or connecting the child-boards to the main hub — which was also hard. The biggest nut to crack was the installers' experience. In other words, to design an installation process that all our partners could easily learn, in order to start deploying them as fast as possible with the least amount of errors.
 

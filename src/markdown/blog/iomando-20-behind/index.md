@@ -114,7 +114,7 @@ Getting to know the user position in real time opened a whole world of possibili
 
 ![iomando app 2.0 — geolocation](./geolocation.jpg "From the list, an admin is able to determine a global distance for the entire space, and if necessary, override the setting in a per-user basis")
 
-Since [iomando is distance-agnostic](/blog/2013/iomando-cellular) when it comes to fulfilling accesses requests, the most straight-forward and obvious geolocation-related feature was to create a geofence around an access point.
+Since [iomando is distance-agnostic](/blog/2013/betting-on-cellular) when it comes to fulfilling accesses requests, the most straight-forward and obvious geolocation-related feature was to create a geofence around an access point.
 
 In plain English, this simply means we draw a circle around an access with a certain radius — this is a distance set by an admin, which determines whether you are allowed to access or not. Then every time you tap the open button, the app will process your position, match it again the security radius, and decide — depending on whether you’re in or out of the circle — if you’re allowed to open.
 

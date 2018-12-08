@@ -98,7 +98,7 @@ This new feature also comes alongside the addition of the second relay to our el
 
 
 ## Geolocation And Enhanced Management
-One of the consequences of iomando being powered by [cellular connectivity](/blog/2013/iomando-cellular) is its ability to open the door from, literally, anywhere in the world. Is not a matter of distance, if you have cell reception, you can issue an open command wherever you are.
+One of the consequences of iomando being powered by [cellular connectivity](/blog/2013/betting-on-cellular) is its ability to open the door from, literally, anywhere in the world. Is not a matter of distance, if you have cell reception, you can issue an open command wherever you are.
 
 ![iomando app 2.0 — geolocation](./geolocation.jpg "iomando will start using geolocation services on the phone to determine if a user is close enough to a certain access")
 

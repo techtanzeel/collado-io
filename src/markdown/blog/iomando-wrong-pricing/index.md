@@ -9,7 +9,7 @@ excerpt: "How we changed our pricing strategy in order to make both distributors
 
 ![iomando pricing](./iomando-pricing.jpg "An early pricing slide taken from an old catalogue")
 
-When we [launched iomando](/blog/2013/iomando-10) we did it with a clear goal in mind: to provide the best keyless access system for our customers. In order to do this, we focused on having a [great product](/blog/2013/iomando-cellular), but also worked hard to emphasize the experience surrounding its core product.
+When we [launched iomando](/blog/2013/iomando-10) we did it with a clear goal in mind: to provide the best keyless access system for our customers. In order to do this, we focused on having a [great product](/blog/2013/betting-on-cellular), but also worked hard to emphasize the experience surrounding its core product.
 
 To that end, we [kept on building](/blog/2013/iomando-11) a strong and trustworthy installation network and a new approach to the way our customers [paid for the service](/blog/2013/services-and-subscriptions).
 

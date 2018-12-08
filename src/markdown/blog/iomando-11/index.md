@@ -43,7 +43,7 @@ How we've done that? We are not going to dive into the specifics, but we've work
 2. On the server side, where almost all the gainings come from, we've revamped the communication layer between the server and the electronics making it faster and more efficient.
 3. We rolled out an OTA update to all of the installed electronics and now they handle the requests more efficiently while consuming less energy.
 
-See if you can spot the differences between this updated flow diagram and the one used in iomando 1.0, shown in [this post](/blog/2013/iomando-cellular#Pairing).
+See if you can spot the differences between this updated flow diagram and the one used in iomando 1.0, shown in [this post](/blog/2013/betting-on-cellular#Pairing).
 
 ![iomando flow](./iomando-flow-11.jpg "iomando 1.1 flow diagram")
 
@@ -53,7 +53,7 @@ Before this update, when the open button was pressed, there was a moment of disc
 
 That's why we are rolling out a new technology[^2] that communicates devices and doors, in real time. That means that the state of the operation is being reported in real time to the mobile. If the server detects that there's a problem with the door, the user will be updated in real time. No more surprises.
 
-Finally, iomando is getting more secure. We've discussed before [why a cloud-based access system is more secure](/blog/2013/iomando-cellular#Security) than a key or a remote.
+Finally, iomando is getting more secure. We've discussed before [why a cloud-based access system is more secure](/blog/2013/betting-on-cellular#Security) than a key or a remote.
 
 But we wouldn't stop there, we wanted even more.
 
