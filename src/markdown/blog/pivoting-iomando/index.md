@@ -4,7 +4,7 @@ date: "2013-01-15"
 path: "/blog/2013/pivoting-iomando"
 tags: ["iomando", "memoir", "business"]
 featured: "false"
-excerpt: "Most of our initial assumptions for iomando proved to be wrong early on. This is the story of how we turned the entire business model around and the lessons we learned while introducing the very first iteration of the product."
+excerpt: "Most of our initial assumptions about iomando proved to be wrong early on. This is the story of how we turned the entire business model around and the lessons we learned while introducing the very first iteration of the product."
 ---
 
 By January 2012 we already had a [working prototype](/blog/2013/iomando-prologue) of a product that could be used to open doors with a smartphone. Curiously enough, we were convinced that it was not possible to monetize and build a sustainable business around such product.
