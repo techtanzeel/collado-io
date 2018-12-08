@@ -8,6 +8,10 @@
   text-transform: uppercase;
 }
 
+.md > h2:first-of-type {
+  margin-top: 0em;
+}
+
 /* Text */
 .md > p,
 .md li {
