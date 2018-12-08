@@ -1,10 +1,10 @@
 ---
-title: "Understanding Focus"
+title: "Overcoming Focus"
 date: "2014-02-11"
-path: "/blog/2014/iomando-focus"
-tags: ["business", "iomando"]
+path: "/blog/2014/overcoming-focus"
+tags: ["iomando", "memoir", "idea", "business"]
 featured: "false"
-excerpt: "While focus is usually perceived as a fundamental component to build a sustainable buisiness in the long-term, when in survival mode, focus might only contribute to wreck you down."
+excerpt: "While focus is usually perceived as a fundamental component to build a sustainable business in the long-term, when in survival mode, focus might only contribute to wreck you down."
 ---
 
 The underdog can't afford to fight several wars at a time, but it can certainly win the one that matters most. In order to do that, focus becomes an important tool. Any effort or investment not pointing to the right direction should be immediately dismissed. Focus means ruthless optimization, insatiable obsession, narrow execution, and going beyond where no other human has been before.
