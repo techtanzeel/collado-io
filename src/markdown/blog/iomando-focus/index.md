@@ -24,7 +24,7 @@ The market was literally empty and we could start wherever we wanted. We had the
 
 We were afraid of making a decision in the dark.
 
-Our reaction to that was to [simultaneously explore several options](/blog/2014/iomando-vision). Since our product was unique in the market, most of our customers were satisfied with the small delta of improvement we offered. The first consequence of the combination of a market with plenty of empty space and the activation of several channels at a time is, inevitably, growth.
+Our reaction to that was to [simultaneously explore several options](/blog/2014/discovering-as-you-go). Since our product was unique in the market, most of our customers were satisfied with the small delta of improvement we offered. The first consequence of the combination of a market with plenty of empty space and the activation of several channels at a time is, inevitably, growth.
 
 As a result, we set the focus problem aside, pretending it didn't exist, in order to postpone the decision. Money kept coming in from our different sales channels and it is truly difficult to say "no" to money when you're starting out — even in small amounts.
 
