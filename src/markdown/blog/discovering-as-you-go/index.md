@@ -1,13 +1,13 @@
 ---
-title: "Thoughts On Vision"
+title: "Discovering As You Go"
 date: "2014-01-23"
-path: "/blog/2014/iomando-vision"
-tags: ["iomando", "opinion"]
+path: "/blog/2014/discovering-as-you-go"
+tags: ["iomando", "memoir", "idea", "business", "product"]
 featured: "false"
 excerpt: "As we advanced on our journey we discovered new, initially invisible markets to serve, where our product was a better fit. The hardest part though was acknowledging that our initial product ideas were not optimal."
 ---
 
-Two years ago we — [accidentally](/blog/2013/iomando-prologue) — built a technology we thought we could turn into a [product](/blog/2013/iomando-10). By that time, we didn’t know some basic stuff, such as great products are all about identifying real problems. More important, that you have to really understand the problem before you even write the first line of code.
+Two years ago we — [accidentally](/blog/2013/iomando-prologue) — built a technology we thought we could turn into a [product](/blog/2013/iomando-10). By that time, we didn’t know some of the basic stuff, such as great products are all about identifying real problems. More important, that you have to really understand the problem before you even write the first line of code.
 
 Curiously, iomando was — unintentionally — designed the other way around.
 
