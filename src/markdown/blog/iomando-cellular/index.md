@@ -25,7 +25,7 @@ There are three parts to it, the mobile app, the server and the electronics next
 
 As the main point of this post is to reveal the reasons behind our decision to use cellular technology to power our service, we will focus on the electronics installed on the door; as we mentioned before, the "translator".
 
-There were several technologies available in the market — each one with its pros and cons, that could enable this "translation". We came out with our [first commercial prototype](/blog/2013/iomando-prologue) by the end of 2011, but is important to note that when we developed those early designs, [we still didn't fully appreciate](/blog/2013/iomando-pivot) the potential outcome of the business.
+There were several technologies available in the market — each one with its pros and cons, that could enable this "translation". We came out with our [first commercial prototype](/blog/2013/iomando-prologue) by the end of 2011, but is important to note that when we developed those early designs, [we still didn't fully appreciate](/blog/2013/pivoting-iomando) the potential outcome of the business.
 
 The moment we faced the blank canvas we had four candidates[^1] on the table: GSM (cellular)[^2], Wi-Fi, Bluetooth (not 4.0) and NFC. We prototyped each of them, and spent a lot of time trying to understand which one would be the perfect fit to our business model.
 

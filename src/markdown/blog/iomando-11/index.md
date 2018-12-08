@@ -31,7 +31,7 @@ iomando is all about access. When we designed our mobile experience to access an
 
 ![iomando value prop](iomando-value-prop.jpg "iomando features and value prop")
 
-As discussed in [previous posts](/blog/2013/iomando-pivot), since our interaction model is primarily based on software, we are able to improve the experience as we better understand our customers needs, in a way keys or remotes can't.
+As discussed in [previous posts](/blog/2013/pivoting-iomando), since our interaction model is primarily based on software, we are able to improve the experience as we better understand our customers needs, in a way keys or remotes can't.
 
 For this reason, our first update today is about the opening experience.
 

@@ -11,7 +11,7 @@ Two years ago we — [accidentally](/blog/2013/iomando-prologue) — built a tec
 
 Curiously, iomando was — unintentionally — designed the other way around.
 
-Our first approach to the market was directed to solve a problem that turned out [nobody had](/blog/2013/iomando-pivot). The fact of being wrong was a tough lesson at the time, but it wasn’t a defeat in itself. The process helped us become “experts” in the field, which unveiled new opportunities we would exploit later on. Such opportunities were simply not available before, because we didn’t understand the market well enough.
+Our first approach to the market was directed to solve a problem that turned out [nobody had](/blog/2013/pivoting-iomando). The fact of being wrong was a tough lesson at the time, but it wasn’t a defeat in itself. The process helped us become “experts” in the field, which unveiled new opportunities we would exploit later on. Such opportunities were simply not available before, because we didn’t understand the market well enough.
 
 As I see it, the process of industry or field discovery is like visiting a new country for the first time. It makes sense over time, as you go. Stepping onto small things, friction, little details, that surprises and changes you in ways you couldn't expect. Then they start compounding. They ignite a chain reaction that builds upon and connects previously acquired knowledge, forming a new paradigm.
 
