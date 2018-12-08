@@ -2,7 +2,7 @@
 title: "iomando 1.0"
 date: "2013-02-23"
 path: "/blog/2013/iomando-10"
-tags: ["iomando", "product"]
+tags: ["iomando", "update", "product"]
 featured: "true"
 excerpt: "Introducing iomando 1.0"
 ---
