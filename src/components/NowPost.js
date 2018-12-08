@@ -3,10 +3,9 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Card from './Card';
-import styles from '../utils/md.module.css';
-
 // import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title2, MetaText } from '../utils/theme';
+import styles from '../utils/md.module.css';
 
 const NowPost = ({ date, html, title }) => (
   <Card
