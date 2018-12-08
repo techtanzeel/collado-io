@@ -11,7 +11,7 @@ excerpt: "An original, unaltered replica of a post published on the official iom
 
 ![iomando access](./iomando-access.jpg "iomando access")
 
-It has been almost half year since [we released the first version of iomando](/blog/2013/iomando-10) in the Barcelona area. We couldn't be happier about the response it had since its introduction, but [we've also learned a lot](/blog/2013/iomando-subscription) from our customers and installers during these months.
+It has been almost half year since [we released the first version of iomando](/blog/2013/iomando-10) in the Barcelona area. We couldn't be happier about the response it had since its introduction, but [we've also learned a lot](/blog/2013/services-and-subscriptions) from our customers and installers during these months.
 
 First of all we wanted to thank all of you who have taken the time to get in touch and send us feedback. We really appreciate it and we encourage every customer to write us about the experience, what feels right and what could be improved. This is our main guidance to deliver better products in the future, so the more the better.
 

@@ -108,7 +108,7 @@ Remote open: as we said before, there's no direct connection between the smartph
 
 Looking back, using GSM connections in our devices was one of the best decisions we've ever made, and it gave us a huge competitive advantage from the product perspective.
 
-It is true that the nature of a centralized GSM connection [shaped our business](/blog/2013/iomando-subscription) in a way that some customers didn't expect, but at the end, it allowed us to design an easy installation process and creating a frictionless on boarding experience from the user perspective.
+It is true that the nature of a centralized GSM connection [shaped our business](/blog/2013/services-and-subscriptions) in a way that some customers didn't expect, but at the end, it allowed us to design an easy installation process and creating a frictionless on boarding experience from the user perspective.
 
 ---
 [^1]: There were actually more, but these four were the ones we were seriously considering. There were already products in the market that opened doors with missed calls and other crazy ideas. We spent a lot of time looking into them and tried to figure out the competitive edge each could bring to our business model. As a rule of thumb, we understood our service was standing in the shoulders of giants by means of running on smartphones, so anything that wasn't pointing on this direction wasn't even worth considering.

@@ -30,7 +30,7 @@ Last year [this is 2012] we've installed our service in more than three hundred 
 * Closed our first seed round with local business angels and industry partners.
 * Released [iomando 1.1](/blog/2013/iomando-11) last summer [again, this is 2012], which included many new features such as the possibility to manage users right from the mobile app or a faster door-opening engine — which reduced the opening time almost 80% and increase its security.
 * Won the [Barcelona Startup Network](https://twitter.com/WayraES/status/403594760273002496) Smart Cities Edition.
-* Learned a ton about [subscription-based business models](/blog/2013/iomando-subscription) and made [some adjustments](/blog/2013/iomando-wrong-pricing) to the the way iomando is distributed.
+* Learned a ton about [subscription-based business models](/blog/2013/services-and-subscriptions) and made [some adjustments](/blog/2013/iomando-wrong-pricing) to the the way iomando is distributed.
 
 We have a lot to celebrate, but we wanted more. During the entire year, we've been working hard to bring the next generation of our product to the market. As a result, today we are rolling out a whole new set of mobile apps, administrator panel and electronics for the door.
 

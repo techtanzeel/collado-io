@@ -19,7 +19,7 @@ Across all three you'll find many insights around the design process and the cha
 
 Now, to the update.
 
-As mentioned in a [previous entry](/blog/2013/iomando-subscription) that explained how iomando’s business model works.
+As mentioned in a [previous entry](/blog/2013/services-and-subscriptions) that explained how iomando’s business model works.
 
 > We are here for the long run. We truly believe in our mission and we want to build a sustainable business that focuses on delivering the best product.
 >
