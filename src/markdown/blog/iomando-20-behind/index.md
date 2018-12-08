@@ -2,7 +2,7 @@
 title: "iomando 2.0 — Behind The Scenes"
 date: "2014-01-07"
 path: "/blog/2014/iomando-20-behind"
-tags: ["iomando", "design", "product"]
+tags: ["iomando", "update", "design", "product"]
 featured: "false"
 excerpt: "Introducing iomando 2.0, the product story behind its three most prominent and challenging features."
 ---

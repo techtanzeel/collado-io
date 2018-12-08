@@ -2,7 +2,7 @@
 title: "iomando 2.0"
 date: "2013-12-12"
 path: "/blog/2013/iomando-20"
-tags: ["iomando", "product"]
+tags: ["iomando", "update", "product"]
 featured: "true"
 excerpt: "Introducing iomando 2.0, with a redesigned interface, passwordless login, support for multiple doors, location-based permissions and much more."
 ---

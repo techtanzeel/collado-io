@@ -2,7 +2,7 @@
 title: "iomando 2.0 — Hardware Update"
 date: "2013-12-27"
 path: "/blog/2013/iomando-20-hardware"
-tags: ["iomando", "product", "tech"]
+tags: ["iomando", "update", "product", "tech"]
 featured: "false"
 excerpt: "Introducing iomando 2.0 hardware, with double relay bay to control up to four accesses, radio communications for mesh networking and GPS support."
 ---
