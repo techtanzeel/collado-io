@@ -4,7 +4,7 @@ date: "2013-05-09"
 path: "/blog/2013/iomando-11"
 tags: ["iomando", "update", "product"]
 featured: "true"
-excerpt: "An original, unaltered replica of a post published in the iomando blog that introduced iomando 1.1, with a faster and more secure open experience, a new mobile management tool and much more."
+excerpt: "An original, unaltered replica of a post published on the official iomando blog that introduced iomando 1.1, with a faster and more secure open experience, a new mobile management tool and much more."
 ---
 
 ℹ️ This post was originally published on August 2012 on the official iomando blog and it announced the first major update of our product.

@@ -4,7 +4,7 @@ date: "2013-02-23"
 path: "/blog/2013/iomando-10"
 tags: ["iomando", "update", "product"]
 featured: "true"
-excerpt: "An original, unaltered replica of the first post published in the iomando blog that announced the release of the first version of the product."
+excerpt: "An original, unaltered replica of the first post published on the official iomando blog that announced the release of the first version of the product."
 ---
 
 ℹ️ This post was originally published on February 2012 on the official iomando blog and it announced the release of the first version of the product.
