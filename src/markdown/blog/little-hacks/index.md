@@ -1,17 +1,17 @@
 ---
 title: "Little Hacks"
 date: "2016-05-31"
-path: "/blog/2016/hacks"
-tags: ["happiness", "opinion", "product", "simple"]
+path: "/blog/2016/little-hacks"
+tags: ["idea", "ux", "happiness", "simplicity"]
 featured: "false"
-excerpt: "Small habits, huge gains."
+excerpt: "Little changes can cause amazing outcomes. The last chapter of this story features three small tweaks I made to my phone settings, that have radically changed the way I interact with my digital life."
 ---
 
 > Our goal here isn’t to be defensive and resist our phones but to ask the question, “how can we make our home screen a livable place?” A place we can return to frequently, knowing it will respect our intentions and support our conscious use. And a place that makes room for the thoughts and concerns we want to have, and not the ones we don’t.
 
 From time to time, I ask myself which is the single habit I can easily stick to right away, that will have the largest impact in my daily life.
 
-For example, a few years ago I read [The Miracle Morning](https://www.amazon.com/Miracle-Morning-Not-So-Obvious-Guaranteed-Transform-ebook/dp/B00AKKS278) — good book, where I came across a seemingly harmless quote, that might strike as a rather obvious statement at first, but ended up radically transforming the first hours of my days.
+For example, a few years ago I read [The Miracle Morning](https://www.amazon.com/dp/B00AKKS278/) — good book, where I came across a seemingly harmless quote, that might strike as a rather obvious statement at first, but ended up radically transforming the first hours of my days.
 
 > Well, hitting the snooze button keeps us from waking with a sense of purpose. Each time you reach for that button, you are subconsciously saying to yourself that you don’t want to rise to your life, your experiences and the day ahead.
 
@@ -32,8 +32,8 @@ Since, I came up with a simple set of rules that have radically changed the way 
 ## Apps
 * Stick to the ones you actually use: this seems like a simple rule, but spring cleaning apps can become a rather unpleasant task. The nagging thought of "maybe I need it for X...", "I used it that one time..." will never remiss. That’s the reason why I took a radical opposite approach to tackle this issue: I started with zero apps and installed them as needed. You’ll be surprised with the few apps you actually use: right now, my phone only has 16.
 * Default to defaults: require a really compelling case to install 3rd party apps that mimic Apple stock ones. This can be controversial for two reasons: first one, because we all love 3rd party apps, but second, because Apple stock apps are usually not that great. Then the question: why do it? I found that "staying default" limits "what you can do", reduces duplicity and complexity across the OS. If there’s no strong case to do it, stay default. Mail, Contacts, Calendars, Weather, Photos, Safari... are great examples of stock Apple apps that can suit most of our basic needs.
-    * The exception to that rule, of course, exists. If the delta of functionality (and enjoyment) the app provides is so massive that is worth dealing with the added complexity, so be it. In my case, Bear, Spotify or Citymapper are clear examples.
-    * Then of course there is functionality the OS doesn’t provide by default. In these cases, of course a compelling case is still required, but the utilitarian aspect here becomes more relevant.
+  * The exception to that rule, of course, exists. If the delta of functionality (and enjoyment) the app provides is so massive that is worth dealing with the added complexity, so be it. In my case, Bear, Spotify or Citymapper are clear examples.
+  * Then of course there is functionality the OS doesn’t provide by default. In these cases, of course a compelling case is still required, but the utilitarian aspect here becomes more relevant.
 
 
 ## Notifications
