@@ -26,7 +26,15 @@ class Layout extends React.Component {
     this.state = { renderSnackBar: true };
   }
 
+  componentDidMount() {
+    const localStorageRef = localStorage.getItem('renderSnackBar');
+    if (localStorageRef) {
+      this.setState({ renderSnackBar: JSON.parse(localStorageRef) });
+    }
+  }
+
   handleUnmountSnackBar = () => {
+    localStorage.setItem('renderSnackBar', JSON.stringify(false));
     this.setState({ renderSnackBar: false });
   }
 
