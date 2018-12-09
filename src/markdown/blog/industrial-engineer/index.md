@@ -58,7 +58,7 @@ Obviously, I can't just blame my studies for not focusing on something in partic
 
 In my particular case, this lack of focus was also driven by being a little immature and didn't quite know what I wanted to [do next](/blog/2013/iomando-prologue).
 
-As an example, I have always [loved cars](/blog/2016/drivetrains). The European car industry tends to recruit so many Spanish IE because of their rich profile. But as a student only got one car-related subject during the whole degree. I mean, yes, lots of subjects related with car mechanics or physics, but just one pointed directly to them.
+As an example, I have always [loved cars](/blog/2016/drivetrains-free-time). The European car industry tends to recruit so many Spanish IE because of their rich profile. But as a student only got one car-related subject during the whole degree. I mean, yes, lots of subjects related with car mechanics or physics, but just one pointed directly to them.
 
 
 ## So What's Wrong With Industrial Engineers?
