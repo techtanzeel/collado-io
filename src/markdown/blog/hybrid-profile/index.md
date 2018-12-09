@@ -2,7 +2,7 @@
 title: "The Rise Of The Hybrid Profile"
 date: "2016-02-07"
 path: "/blog/2016/hybrid-profile"
-tags: ["education", "ironhack"]
+tags: ["ironhack", "idea", "education"]
 featured: "false"
 excerpt: "Chances are that sooner or later you’ll need to deal with code or with someone who codes. The parallelism seems inevitable, learning how to program in the near future can be compared to studying English today."
 ---
@@ -39,7 +39,7 @@ No matter what you are currently doing, chances are that sooner or later you’l
 ## The Digital Transformation That Lies Ahead
 In a "traditional" company, both product and business units were nicely coupled. They understood what their counterpart did, thus creating a healthy relation and a smooth communication between the two. Salespeople, for instance, had a clear understanding of the product and how to pitch it to suit their customers' needs. Marketers comprehended the value proposition and clearly identified the go-to-market strategy.
 
-But the moment the product transitions to a place that you no longer understand, a huge disconnection between product and business arises. It generates knowledge asymmetries between the sales force and customers. Marketers no longer understand where their users are to be found and how to [target them appropriately](/blog/2015/media). Overnight, the rules of your game have dramatically changed and the only way to keep playing is to adapt.
+But the moment the product transitions to a place that you no longer understand, a huge disconnection between product and business arises. It generates knowledge asymmetries between the sales force and customers. Marketers no longer understand where their users are to be found and how to [target them appropriately](/blog/2015/ad-blockers-market-niches). Overnight, the rules of your game have dramatically changed and the only way to keep playing is to adapt.
 
 > In a "traditional" company, both product and business units were perfectly aligned. They understood what their counterpart did. But the moment the product transitions to a place that you no longer understand, a huge disconnection between product and business emerges.
 
