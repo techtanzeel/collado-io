@@ -1,8 +1,8 @@
 ---
-title: "Drivetrains and Free Time"
+title: "Drivetrains And Free Time"
 date: "2016-06-04"
-path: "/blog/2016/drivetrains"
-tags: ["opinion", "tech", "transport"]
+path: "/blog/2016/drivetrains-free-time"
+tags: ["idea", "ai", "cars"]
 featured: "false"
 excerpt: "Autonomous cars and its implications explained, from drivetrains, ownership to operations."
 ---
