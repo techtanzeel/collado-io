@@ -1,8 +1,8 @@
 ---
 title: "Watching Google’s AI play Go"
 date: "2016-03-12"
-path: "/blog/2016/google-go"
-tags: ["tech"]
+path: "/blog/2016/google-ai-play-go"
+tags: ["idea", "tech", "ai"]
 featured: "false"
 excerpt: "It’s not a human move — Fan Hui said. We are teaching computers how to think."
 source: "https://www.wired.com/2016/03/sadness-beauty-watching-googles-ai-play-go/"
