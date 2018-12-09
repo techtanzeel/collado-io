@@ -2,9 +2,9 @@
 title: "Idle Time"
 date: "2018-05-30"
 path: "/blog/2018/idle-time"
-tags: ["happiness", "opinion", "product", "tech"]
+tags: ["idea", "happiness", "productivity"]
 featured: "false"
-excerpt: "How the mere act of setting the mouse aside to the left of the keyboard radically changed the relationship with my computer, forever."
+excerpt: "How the mere act of setting the mouse aside to the left of the keyboard completely changed the relationship with my computer, forever."
 ---
 
 As a thought experiment, imagine you were restricted to use a [single device](/blog/2014/ultimate-device) to interact with the whole digital ether. Exclusively one: laptop, tablet, smartphone, e-reader, you name it, but for the rest of your days, this is the one and only device you would ever be "touching". The good news is that you get to choose, of course.
@@ -13,7 +13,7 @@ I have presented this riddle to many friends and, invariably, their answer is al
 
 My answer to this question has its raison d'être, since most of my waking hours go by in front of a computer. Not just at work, but even during leisure time. The computer is the tool I use to funnel my creativity: from writing, [coding](/blog/2016/ironhack-experience), [designing](/blog/2016/designer), [reading](/tags/books), communicating… but also my go to device for absolutely everything.
 
-I do not dislike smartphones, I understand you can get plenty of stuff done with them, but for me they never "clicked" as creation tools. My iPhone home screen is almost "[factory settings](/blog/2016/hacks)" and the main uses it gets are limited to podcasts, audiobooks, music, messaging and hailing a cab from time to time.
+I do not dislike smartphones, I understand you can get plenty of stuff done with them, but for me they never "clicked" as creation tools. My iPhone home screen is almost [factory settings](/blog/2016/little-hacks) and the main uses it gets are limited to podcasts, audiobooks, music, messaging and hailing a cab from time to time.
 
 The computer is the machine I grew up with, the one I discovered a whole new world throughout: from DOS to the dawn of the Internet, I learned to love its design, appreciate its craft, but ultimately, I became fascinated by how it worked.
 
