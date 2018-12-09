@@ -28,7 +28,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.75em 1em;
+  padding: 1em;
 
   @media (min-width: ${mobile}) {
     flex-direction: row;
@@ -38,7 +38,7 @@ const Container = styled.div`
 
 const SnackText = styled(BodyText)`
   font-size: 0.8em;
-  margin: 0em 0em 0.75em 0em;
+  margin: 0em 0em 1em 0em;
   max-width: 740px;
   text-align: center;
 
@@ -84,10 +84,12 @@ const StyledIcon = styled(FontAwesomeIcon)`
   }
 `;
 
-const Dismiss = styled.div`
+const Dismiss = styled.button`
   background-color: #F1C40F;
+  border: none;
   border-radius: 14px;
-  padding: 0px 8px;
+  display: flex;
+  padding: 6px 9px;
   transition: background-color 0.3s ease;
 
   &:visited {
