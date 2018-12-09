@@ -1,8 +1,8 @@
 ---
-title: "Thoughts On Media"
+title: "Ad-Blockers And Market Niches"
 date: "2015-10-10"
-path: "/blog/2015/media"
-tags: ["business", "tech"]
+path: "/blog/2015/ad-blockers-market-niches"
+tags: ["idea", "business", "tech"]
 featured: "false"
 excerpt: "The Internet has flipped the advertisement industry in its head. Which in turn, has surfaced a plethora of market niches that were simply not available before, yet they remain to be addressed."
 ---
@@ -48,7 +48,6 @@ Ben Thompson put it in better words in his article [The Facebook Reckoning](http
 
 
 ## Mobile
-
 In the midst of this painful transition, yet another remarkable event took place: enter the mobile era.
 
 Mobile was not only built on top of these three Internet assumptions, but it actually went further, embraced them, and took them to its most extreme form.
@@ -76,12 +75,14 @@ Yet the latter assumption was enabled through the massive social media platforms
 
 Although we’ve always had an online identity built up from cookies in our browser since forever, social media platforms were able to refine our profiles to an insane extent.
 
-There are many reasons for that, such as the ownership of the device that came along with mobile — desktop computers were likely to be shared among families, but most importantly, because of the amount of information we were willing to share with these platforms in exchange for the "free" product.
+There are many reasons for that, such as the ownership of the device that came along with mobile — desktop computers were more likely to be shared among families, but most importantly, because of the amount of information we were willing to share with these platforms in exchange for the "free" product.
 
 It all set up the stage for a new wave of the online advertising model that has proved more effective — and profitable — across all platforms.
 
 In this new environment, the Internet allows publishers to reach people at a more specific level and with great detail. Thus targeting them in a way it wasn’t possible before. Which means that it is easier to reach a particular segment, but it’s more difficult to stand out among the crowd.
 
+
+## Internet-Enabled Niches
 All this 1.500-word explanation was the drumroll to get to the place where I could make the final point.
 
 The result of having this profound knowledge of our users means that as publishers or entrepreneurs for that matter, we end up with far more niches to tackle. Entire hidden, unserved communities become addressable all of a sudden. The most obscure interest becomes now visible and is waiting for new businesses to serve them.
