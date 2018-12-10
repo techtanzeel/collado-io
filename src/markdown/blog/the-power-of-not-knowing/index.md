@@ -2,7 +2,7 @@
 title: "The Power Of Not Knowing"
 date: "2016-06-15"
 path: "/blog/2016/the-power-of-not-knowing"
-tags: ["ironhack", "opinion", "story"]
+tags: ["ironhack", "memoir"]
 featured: "false"
 excerpt: "When you start in a new job, most of the time, you pretty much don't know what you're doing. Yet this naive attitude is usually the one that turns what it would seem like a fool's errand into an amazing opportunity you can't miss on."
 ---
