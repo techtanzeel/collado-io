@@ -7,7 +7,7 @@ path: "/home"
 ### My Story In a Few Paragraphs
 Born and raised in Barcelona, I am an [Industrial Engineer](/blog/2013/industrial-engineer) by trade, always involved with startups and [tech](/tags/tech) products.
 
-In 2011, right upon graduation, co-founded [iomando technologies](/iomando), a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a [really cool product](/iomando) and ended up acquired by [Citibox](https://citibox.com/) in late 2017.
+In 2011, right upon graduation, co-founded [iomando technologies](/work/iomando), a startup pioneering keyless access management for mobile devices. Which in plain English means opening doors and stuff with your phone. We built a [really cool product](/work/iomando) and ended up acquired by [Citibox](https://citibox.com/) in late 2017.
 
 In 2015, though, I decided to [switch gears](/blog/2015/stepping-down) and pursue another passion of mine: [education](/tags/education). Then [joined Ironhack](/blog/2015/hi-from-ironhack) to change the way we learn about technology. First as the [Campus Manager](/blog/2017/ironhack-gm) in Barcelona, establishing the city operations from the ground up, and later on as a [Product Manager](/blog/2017/ironhack-from-gm-to-pm).
 

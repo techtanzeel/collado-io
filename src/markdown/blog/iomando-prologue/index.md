@@ -4,14 +4,14 @@ date: "2013-01-04"
 path: "/blog/2013/iomando-prologue"
 tags: ["iomando", "memoir", "business"]
 featured: "false"
-excerpt: "The — overly simplified — story of how iomando came to be."
+excerpt: "The — overly simplified and opinionated — story of how iomando came to be."
 ---
 
-[iomando](/iomando) is a mobile product that provides cloud-managed keyless access solutions for mobile devices. Which in plain English means opening doors and stuff with your phone. The service enables its users to easily access and manage their spaces using a smartphone — instead of keys or remote controls. Thus providing a better experience and defining a whole new category when it comes to interact with accesses.
+[iomando](/work/iomando) is a mobile product that provides cloud-managed keyless access solutions for mobile devices. Which in plain English means opening doors and stuff with your phone. The service enables its users to easily access and manage their spaces using a smartphone — instead of keys or remote controls. Thus providing a better experience and defining a whole new category when it comes to interact with accesses.
 
 I co-founded the company back in 2011 and led the product team until 2015. By the end of 2017, iomando was acquired by [Citibox](https://citibox.com) — a Spanish startup that helps you receive goods when you are away.
 
-This is the very first article of [the iomando series](/iomando), a recollection of posts where I explain the story behind the company from a product perspective.
+This is the very first article of [the iomando series](/work/iomando), a recollection of posts where I explain the story behind the company from a product perspective.
 
 
 ## How It All Started
