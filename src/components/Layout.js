@@ -27,14 +27,35 @@ class Layout extends React.Component {
   }
 
   componentDidMount() {
-    const localStorageRef = localStorage.getItem('renderSnackBar');
-    if (localStorageRef) {
-      this.setState({ renderSnackBar: JSON.parse(localStorageRef) });
+    const token = localStorage.getItem('collado.io:token');
+    if (token) {
+      this.shouldSnackBarRender(JSON.parse(token));
     }
   }
 
+  shouldSnackBarRender = (token) => {
+    const timeNow = Date.now();
+    const timeToken = token.timestamp;
+    const timeDiff = timeNow - timeToken;
+    const timeDiffInHours = Math.floor(timeDiff / (1000 * 60 * 60));
+    // timeDiff < 24h honor user prefs for the day and do not show SnackBar
+    // timeDiff > 24h reset SnackBar state
+    if (timeDiffInHours < 24) {
+      this.setState({ renderSnackBar: false });
+    }
+  }
+
+  renewToken = (timeNow) => {
+    const token = {
+      timestamp: timeNow,
+      renderSnackBar: false,
+    };
+    localStorage.setItem('collado.io:token', JSON.stringify(token));
+  }
+
   handleUnmountSnackBar = () => {
-    localStorage.setItem('renderSnackBar', JSON.stringify(false));
+    const timeNow = new Date().getTime();
+    this.renewToken(timeNow);
     this.setState({ renderSnackBar: false });
   }
 
