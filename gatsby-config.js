@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Marc\'s Website',
+    title: 'Marc Collado',
     author: 'Marc Collado',
-    description: 'Marc Collado Personal Website.',
-    siteUrl: 'https://collado.io',
+    description: 'Marc Collado Personal Website',
+    siteUrl: 'https://www.collado.io',
   },
   plugins: [
     // Source filesystem
