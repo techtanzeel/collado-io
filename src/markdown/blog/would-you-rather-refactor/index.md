@@ -2,14 +2,14 @@
 title: "The Would You Rather Refactor"
 date: "2018-11-01"
 path: "/blog/2018/would-you-rather-refactor"
-tags: ["coding", "craft", "design", "education", "product", "tech"]
+tags: ["udacity", "update", "tech", "coding"]
 featured: "false"
-excerpt: "The product story behind the major refactor of the Udacity's React Nanodegree second project."
+excerpt: "The product story behind the major refactor to the Would You Rather app, Udacity's React Nanodegree second project, based on React & Redux."
 ---
 
 Last March I [joined the Udacity’s React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
 
-Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/iomando), at [Ironhack](/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
+Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/work/iomando), at [Ironhack](/work/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
 
 Coming from a technical background has given me an "unfair advantage" relating to other software engineers — despite dealing mostly with the management side of things — participating in technical discussions and comfortably sharing opinionated ideas about our approach to software development.
 
@@ -70,7 +70,7 @@ On the interaction level, I also wanted to keep the card as minimal as possible,
 
 > The outcome is a poll card with larger tappable areas, since the poll container itself acts as the button, that creates a polarizing feeling through the color composition itself — which is the main idea behind the Would You Rather game. No additional buttons or text required, it is as simple as simple gets.
 
-Before the refactor, codewise, the poll card component was truly a mess. It consisted mainly of the poll text, then it had "attached" its correspondent CTA, which rendered dynamically depending on the poll state. What sounds like a plan on paper, caused a lot of problems since the CTAs had to manage its own state as well, turning the whole thing into a really confusing, inconsistent piece of code.
+Before the refactor, code-wise, the poll card component was truly a mess. It consisted mainly of the poll text, then it had "attached" its correspondent CTA, which rendered dynamically depending on the poll state. What sounds like a plan on paper, caused a lot of problems since the CTAs had to manage its own state as well, turning the whole thing into a really confusing, inconsistent piece of code.
 
 Following best practices, now the card has its own component during its lifecycle that properly manages the uniqueness of the poll throughout each step of the way. The components follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) and are isolated enough to do just one thing, but do it really well.
 
