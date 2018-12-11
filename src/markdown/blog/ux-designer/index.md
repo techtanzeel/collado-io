@@ -1,8 +1,8 @@
 ---
-title: "The Designer I Wanted to Be"
+title: "The Designer I Wanted To Be"
 date: "2016-07-03"
-path: "/blog/2016/designer"
-tags: ["craft", "design", "education", "ironhack", "opinion"]
+path: "/blog/2016/designer-i-wanted-to-be"
+tags: ["ironhack", "idea", "ux", "education"]
 featured: "true"
 excerpt: "Despite having been pulled away from explicit design roles as my day job, I have always embraced design principles when making a product or a business decision."
 ---

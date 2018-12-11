@@ -2,9 +2,9 @@
 title: "What If I Had Skipped College?"
 date: "2016-06-26"
 path: "/blog/2016/skip-college"
-tags: ["education", "ironhack", "opinion"]
+tags: ["ironhack", "idea", "education"]
 featured: "false"
-excerpt: "College incentives are totally misaligned because its success is not properly linked to student outcomes."
+excerpt: "College incentives are completely misaligned because its success is not properly linked to student outcomes anymore. Rather, it has become a social apparatus to which students go because they just feel that they have to."
 ---
 
 Since the day I [joined the Ironhack team](/blog/2015/wecode), I have witnessed — from the very first row, more than one hundred students graduating from our bootcamp here in Barcelona. Right after the program, most of them successfully land amazing jobs as developers or start working on their own projects. Because of that, sometimes, I can't help but ask myself what would have happened if I had [skipped college](/blog/2013/industrial-engineer) altogether.
@@ -23,7 +23,7 @@ Back to the eighteen-year-old, fresh out of school, preparing for a long summer 
 
 Maybe, *maybe*, you have already discovered your [life passion](/blog/2015/passion-work) during your childhood and laid out a master plan for the next five years. The data notes that this is not usually the case among school graduates and, if I may, although you think you know, you are probably wrong anyway.
 
-In other words, the [poor eighteen-year-old](/blog/2016/designer) has no clue of what happens next.
+In other words, the [poor eighteen-year-old](/blog/2016/designer-i-wanted-to-be) has no clue of what happens next.
 
 I presume each country would have its own rarenesses in the way college programs are chosen, but for the most part, it was not clear to me how to link studies of choice with a future professional path. Sure, I got lots of propaganda, lots of workshops, but I did not get a clear understanding of which [options](/blog/2016/ironhack-experience) were available outside the box.
 
