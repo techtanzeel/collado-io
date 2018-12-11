@@ -1,10 +1,10 @@
 ---
 title: "Detachment Strategy For The Apple Watch"
 date: "2016-08-21"
-path: "/blog/2016/apple-watch"
-tags: ["opinion", "product", "tech"]
+path: "/blog/2016/detachment-apple-watch"
+tags: ["idea", "product"]
 featured: "false"
-excerpt: "What if Apple rolled out the next Apple Watch with a built-in, low power, worldwide, cellular connectivity?"
+excerpt: "What if Apple became its own carrier and rolled out the next Apple Watch with a built-in, low power, worldwide cellular capabilities that would provide the device with an always-on connection."
 source: "https://www.bloomberg.com/news/articles/2016-08-18/apple-said-to-hit-roadblocks-in-cutting-watch-ties-to-iphone"
 ---
 
