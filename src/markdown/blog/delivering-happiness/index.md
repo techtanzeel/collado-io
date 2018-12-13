@@ -1,15 +1,15 @@
 ---
 title: "📖 Delivering Happiness"
 date: "2017-03-09"
-path: "/blog/2017/book-delivering-happiness"
-tags: ["books", "business", "happiness", "simple"]
+path: "/blog/2017/delivering-happiness"
+tags: ["books", "business", "happiness", "simplicity"]
 featured: "false"
 source: "https://www.amazon.com/dp/B00FOT936Y/"
 ---
 
 > I made a list of the happiest periods in my life, and I realized that none of them involved money. I realized that building stuff and being creative and inventive made me happy.
 
-Money and happiness do not correlate linearly. Its relation looks to me like a logarithmic curve, where deltas in money at the very beginning have a huge impact on happiness — because they unlock fundamental and necessary things, such as food, health care or shelter. But as you move to the right, the curve flattens out and additional amounts of money do not have a noticiable impact on the overall happiness. At that point, happiness is entirely up to you and what do you want to make of it.
+Money and happiness do not correlate linearly. Its relation looks to me like a logarithmic curve, where deltas in money at the very beginning have a huge impact on happiness — because they unlock fundamental and necessary things, such as food, health care or shelter. But as you move to the right, the curve flattens out and additional amounts of money do not have a noticeable impact on the overall happiness. At that point, happiness is entirely up to you and what do you want to make of it.
 
 At the end of the book, there is an accurate framework to categorize the types of happiness, I paraphrase:
 
@@ -40,7 +40,7 @@ Here there are several apparently unrelated, but deeply connected ideas floating
 
 > Every interaction with anyone anywhere was an opportunity to gain additional perspective. [...] I believe that there's something interesting about anyone and everyone—you just have to figure out what that something is.
 
-Similar idea can be found in [Anything You Want](/blog/2017/book-anything-you-want): each interaction is an opportunity to learn something new. Each person is unique in some dimension, if you learn how to how to spot that uniqueness and exploit it, you will develop a super power and create an ubiquitous, always available supply of knowledge.
+Similar idea can be found in [Anything You Want](/blog/2017/anything-you-want): each interaction is an opportunity to learn something new. Each person is unique in some dimension, if you learn how to how to spot that uniqueness and exploit it, you will develop a super power and create an ubiquitous, always available supply of knowledge.
 
 > So the challenge to everyone is this: Make at least one improvement every week that makes Zappos better reflect our core values.
 
