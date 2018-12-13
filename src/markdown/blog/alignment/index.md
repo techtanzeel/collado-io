@@ -2,7 +2,7 @@
 title: "Alignment"
 date: "2017-02-19"
 path: "/blog/2017/alignment"
-tags: ["craft", "education", "ironhack", "opinion"]
+tags: ["ironhack", "idea", "education"]
 featured: "true"
 excerpt: "Passion, craft, and enthusiasm are the required ingredients in order to build great things. The best way to nurture this mindset is to have these enthusiastic students sharing the same room."
 ---
@@ -35,7 +35,7 @@ Back to Ironhack, there is the exact same dynamic at play here. It is a tough ex
 
 > This is how your class becomes amazing and inspiring, but also a safe environment for the students.
 
-The second one is what I call the marathon effect — and yes, I just made that up, but bear with me, it all makes sense. If you have ever taken part in a race you know what I am talking about. Say you are [running a marathon](/sub3). You get there in the morning, all the crowd prepared for the race sharing this same goal — by now this should sound familiar — and you blend yourself with this bright atmosphere.
+The second one is what I call the marathon effect — and yes, I just made that up, but bear with me, it all makes sense. If you have ever taken part in a race you know what I am talking about. Say you are [running a marathon](/tags/sub3). You get there in the morning, all the crowd prepared for the race sharing this same goal — by now this should sound familiar — and you blend yourself with this bright atmosphere.
 
 You are aiming for 42 km, but you are not running alone anymore and the atmosphere literally pushes you beyond your capabilities, it lifts you. You achieve what you thought was impossible and it is because you run with the people. It has happened to me, many times. I am unable to run a sub 3:20 marathon on my own. I tried, and I failed. But I did it the race day.
 
