@@ -2,7 +2,7 @@
 title: "Broken Notes — Take Two"
 date: "2018-11-21"
 path: "/blog/2018/broken-notes-take-two"
-tags: ["design", "product"]
+tags: ["pansa", "idea", "product", "design", "ux"]
 featured: "false"
 excerpt: "In this second attempt, I distill the problems behind the note-taking experience from a product perspective, rather than taking an unreasonably opinionated approach, as I did in the first post."
 ---

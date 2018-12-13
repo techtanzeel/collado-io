@@ -2,7 +2,7 @@
 title: "Broken Notes"
 date: "2018-11-16"
 path: "/blog/2018/broken-notes"
-tags: ["design", "product"]
+tags: ["pansa", "idea", "product", "design", "ux"]
 featured: "true"
 excerpt: "Note-taking apps are frustrating tools when it comes to building long-lasting domain knowledge. While they are delightful input mechanisms, most still fail at postprocessing the information, connecting its content, and present it in the form of knowledge."
 ---
