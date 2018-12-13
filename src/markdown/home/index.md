@@ -17,7 +17,7 @@ As you can see, I like starting things from scratch. Other than that, I devote a
 
 
 ### Other Irrelevant Things
-* Hold [strong opinions](/tags/opinion) on [well-being](/tags/health) and [happiness](/tags/happiness), [simple living](/tags/simple) and [products](/tags/product) in general.
+* Hold [strong opinions](/tags/idea) on [well-being](/tags/health) and [happiness](/tags/happiness), [simple living](/tags/simplicity) and [products](/tags/product) in general.
 * Anything that has to do with good [engineering](/tags/coding), [craftsmanship](/tags/craft), [physics](/tags/physics), [history](/tags/history) or [human behavior](/tags/psychology), has all my attention.
 * Couldn't agree more with Anaïs Nin idea that *"we don't see things as they are"* that we actually *"see them as we are"*.
 * Love stuff that [moves around](/tags/transport): bikes, cars, trains, planes, you name it.

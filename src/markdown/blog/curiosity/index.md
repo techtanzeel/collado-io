@@ -23,7 +23,7 @@ This is not a coincidence though. It is no secret we [select our students](/blog
 
 So is a bootcamp suitable for everybody? No, it is not. A bootcamp is a remarkably [hard experience](/blog/2016/ironhack-experience). But it is also not a matter of being a CS or not, it is a matter of willingness.
 
-I do believe anybody can learn [anything](/blog/2017/book-anything-you-want), but the question is: are you willing to sacrifice, prioritize, commit in order to fulfill a larger vision and build a remarkable future?
+I do believe anybody can learn [anything](/blog/2017/anything-you-want), but the question is: are you willing to sacrifice, prioritize, commit in order to fulfill a larger vision and build a remarkable future?
 
 Again and again, the ones who answer *"yes, I do"* to this question are our students.
 
