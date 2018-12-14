@@ -62,21 +62,21 @@ As an example, I have always [loved cars](/blog/2016/drivetrains-free-time). The
 
 
 ## So What's Wrong With Industrial Engineers?
-Well, in fact, there's nothing wrong with them. I think it’s a powerful degree where you get the chance to learn a lot of things [across separate areas](/blog/2017/alignment). Moreover, if you are a curious person, you are able to connect a lot of dots that seemed unrelated at the beginning.
+Well, in fact, there's nothing wrong with them. I think it's a powerful degree where you get the chance to learn a lot of things [across separate areas](/blog/2017/alignment). Moreover, if you are a curious person, you are able to connect a lot of dots that seemed unrelated at the beginning.
 
-You get a great deal of [horizontal education](/blog/2016/hybrid-profile) that doesn’t put you in a [job ready position](/blog/2017/curiosity), but it builds a strong layer of knowledge beneath you that gives you comfort in most of the situations you can be dealing with. Over time, you also discover that you start from a better position when you want to [learn something new](/blog/2018/udacity-dand) or face a new situation.
+You get a great deal of [horizontal education](/blog/2016/hybrid-profile) that doesn't put you in a [job ready position](/blog/2017/curiosity), but it builds a strong layer of knowledge beneath you that gives you comfort in most of the situations you can be dealing with. Over time, you also discover that you start from a better position when you want to [learn something new](/blog/2018/udacity-dand) or face a new situation.
 
-However, I lament that all of this knowledge was thrown at me and told to learn it. There was no purpose or goal. Everything was about passing the exam. Not the best incentive in the world. It turned the beauty of learning into a to-do list. It didn’t feel right.
+However, I lament that all of this knowledge was thrown at me and told to learn it. There was no purpose or goal. Everything was about passing the exam. Not the best incentive in the world. It turned the beauty of learning into a to-do list. It didn't feel right.
 
-It’s really sad because at the end of the day you invest so much time and money not just to collect knowledge that in you can also get straight from the Wikipedia. This approach made sense a hundred years ago when all the knowledge was not accessible and you should “go” to college in order to get it.
+It's really sad because at the end of the day you invest so much time and money not just to collect knowledge that in you can also get straight from the Wikipedia. This approach made sense a hundred years ago when all the knowledge was not accessible and you should "go" to college in order to get it.
 
-But today, the value of the University should lie in [empowering its students](/blog/2017/community) to better face what’s next. Driven by outcomes and the capacity to fit in a creative group and get the most next to other individuals.
+But today, the value of the University should lie in [empowering its students](/blog/2017/community) to better face what's next. Driven by outcomes and the capacity to fit in a creative group and get the most next to other individuals.
 
 Learning should not be only a matter of passing an exam.
 
-The learning side of the equation should be a supporting piece that comes along to fulfill a greater goal, and that’s exactly where college should come into play. Unlocking this path to greatness the knowledge you won't find in books.
+The learning side of the equation should be a supporting piece that comes along to fulfill a greater goal, and that's exactly where college should come into play. Unlocking this path to greatness the knowledge you won't find in books.
 
-That’s something I understood, after all those years, in my own, the hard way. Because nowadays, you can walk down the street without knowing about quantum physics, but I assure you can’t keep the pace of this fast-evolving society if you don't understand how to fit in a team.
+That's something I understood, after all those years, in my own, the hard way. Because nowadays, you can walk down the street without knowing about quantum physics, but I assure you can't keep the pace of this fast-evolving society if you don't understand how to fit in a team.
 
 ---
 [^1]: Update from 2017. Fortunately, some things change over time and they have rendered this post obsolete. Due to some major European reforms to ensure comparability of higher education programs across the European Union, the figure of the Industrial Engineer was replaced by the combination of two separate engineering degrees.

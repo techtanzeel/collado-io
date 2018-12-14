@@ -19,7 +19,7 @@ Across all three you'll find many insights around the design process and the cha
 
 Now, to the update.
 
-As mentioned in a [previous entry](/blog/2013/services-and-subscriptions) that explained how iomando’s business model works.
+As mentioned in a [previous entry](/blog/2013/services-and-subscriptions) that explained how iomando's business model works.
 
 > We are here for the long run. We truly believe in our mission and we want to build a sustainable business that focuses on delivering the best product.
 >
@@ -43,7 +43,7 @@ To begin with, each board mounts now a double relay bay. This means that from no
 
 
 ## Radio Communications Module
-The double relay bay works when the accesses are close to each other. But imagine that you have multiple accesses and they are far apart. A situation we encounter often. Multiple relays don’t work under these circumstances because the installation costs of having to deploy long lengths of cables are high. Then you end up with the same problem of having to install one electronic controller per door, as we always had.
+The double relay bay works when the accesses are close to each other. But imagine that you have multiple accesses and they are far apart. A situation we encounter often. Multiple relays don't work under these circumstances because the installation costs of having to deploy long lengths of cables are high. Then you end up with the same problem of having to install one electronic controller per door, as we always had.
 
 ![iomando app 2.0 — radio schema](./radio-schema.jpg "The radio module will help reduce the installation costs and optimize the connectivity of the master board")
 
@@ -55,20 +55,20 @@ The main challenge to enable this feature was not the complexity of "making it w
 
 ![iomando app 2.0 — setup schema](./setup-schema.jpg "The biggest challenge we faced was to design the installation process")
 
-Here’s 👆 a schema of the "hidden" process we had to create in order to enable our installers, so they could understand how to set up several radio-connected boards. This setup process that most certainly no end-user will ever see or care about, took almost the same amount of work to design as other front-facing, shiny features.
+Here's 👆 a schema of the "hidden" process we had to create in order to enable our installers, so they could understand how to set up several radio-connected boards. This setup process that most certainly no end-user will ever see or care about, took almost the same amount of work to design as other front-facing, shiny features.
 
 
 ## GPS Module
-iomando 2.0 introduced location services in order to determine the distance someone is allowed to access certain place, determined by the place’s admin.
+iomando 2.0 introduced location services in order to determine the distance someone is allowed to access certain place, determined by the place's admin.
 
 ![iomando app 2.0 — electronics schema](./electronics-schema.jpg "We've also redesigned the placement of some internal components in order to make it smaller and more power efficient")
 
-It all sounds nice and good, but we quickly realized that we don’t have full control of the final location of the devices we sell through a reseller or a distribution partner. The admin can later fix it through the admin panel, but this is not always the case.
+It all sounds nice and good, but we quickly realized that we don't have full control of the final location of the devices we sell through a reseller or a distribution partner. The admin can later fix it through the admin panel, but this is not always the case.
 
-That’s the reason why the new board will sport a GPS chip that will automatically report and update the position of the device. Then when an admin sets a geo-fence, the distance is seamlessly calculated.
+That's the reason why the new board will sport a GPS chip that will automatically report and update the position of the device. Then when an admin sets a geo-fence, the distance is seamlessly calculated.
 
 To wrap it up: building hardware is hard.
 
 It gets worse if you are a small company that is starting out. Building this new iteration of our electronics has been one of the hardest challenges we have faced so far. Nonetheless, we are confident that it will make the iomando experience way better.
 
-The new hardware will be rolling out to our distributors next week and will be gradually updating current customers’ devices starting next month.
+The new hardware will be rolling out to our distributors next week and will be gradually updating current customers' devices starting next month.

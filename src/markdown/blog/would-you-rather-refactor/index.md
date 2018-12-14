@@ -7,9 +7,9 @@ featured: "false"
 excerpt: "The product story behind the major refactor to the Would You Rather app, Udacity's React Nanodegree second project, based on React & Redux."
 ---
 
-Last March I [joined the Udacity’s React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
+Last March I [joined the Udacity's React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
 
-Don’t get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/work/iomando), at [Ironhack](/work/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
+Don't get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/work/iomando), at [Ironhack](/work/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
 
 Coming from a technical background has given me an "unfair advantage" relating to other software engineers — despite dealing mostly with the management side of things — participating in technical discussions and comfortably sharing opinionated ideas about our approach to software development.
 
@@ -17,7 +17,7 @@ Yet at the same time, web development moves fast, and I started to sense that Re
 
 I had to learn React, I owed to my team.
 
-Long story short — if you rather want the long version [check out the RDND in-depth post](/blog/2018/udacity-rdnd) — late July I delivered the last project of the RDND. Yet I finished the Nanodegree feeling that I rushed through the thing. Like I just put a ton of strings together that made some React-sense and wrap them up onto GitHub repos in order to graduate. But didn’t digest the best practices, didn’t master React’s foundation. Somehow, it missed the point.
+Long story short — if you rather want the long version [check out the RDND in-depth post](/blog/2018/udacity-rdnd) — late July I delivered the last project of the RDND. Yet I finished the Nanodegree feeling that I rushed through the thing. Like I just put a ton of strings together that made some React-sense and wrap them up onto GitHub repos in order to graduate. But didn't digest the best practices, didn't master React's foundation. Somehow, it missed the point.
 
 Because of that, I promised myself that as soon as I could put some more "side-project time" together I would go back, review them one at a time, and implement all the cool things I kept on learning.
 
@@ -27,17 +27,17 @@ It took me almost three months to find the right time, but finally, the last cou
 
 I chose to start working again on this one because it was built on top of Redux — which I really liked, but also because it was the one that seemed to have the most room for improvement. During these past two weeks, I set aside almost every evening (and some nights, too) to work on a fully revamped product: from the UI design fundamentals, down to the component structure and the way the data is fetched and handled throughout the app.
 
-In a nutshell, what impressed me the most after going deep again into the project was, first, how quickly you forget about the code you wrote just three or four months ago; and second, yet closely related, what an embarrassing experience is to go through your "old" code. Which I’ll take as a good thing since it means that you’re learning and skills have improved.
+In a nutshell, what impressed me the most after going deep again into the project was, first, how quickly you forget about the code you wrote just three or four months ago; and second, yet closely related, what an embarrassing experience is to go through your "old" code. Which I'll take as a good thing since it means that you're learning and skills have improved.
 
-The app now retains less than 25% of the original code I delivered back in May, while reducing the total lines of code by more than 30% — achieving, of course, feature parity with the older version. I really didn’t know where those metric belonged in a performance scale for an amateur. After consulting with many fellow developers that know a thing or two about it, I have been told that it is pretty impressive 👍.
+The app now retains less than 25% of the original code I delivered back in May, while reducing the total lines of code by more than 30% — achieving, of course, feature parity with the older version. I really didn't know where those metric belonged in a performance scale for an amateur. After consulting with many fellow developers that know a thing or two about it, I have been told that it is pretty impressive 👍.
 
 On top of that, the app loads faster — mostly because I [got rid](https://github.com/MarcCollado/would-you-rather/commit/e053f686a65812c69f60d6e92eb8f4a7f873171c) of the [Material UI library](https://material-ui.com/) (more on that later), but also improved the way asynchronous calls were managed since they were taxing the app performance.
 
-The app comes packed with many new features under the hood, but I’ll try to cover the most important things spanning from the design of the UI down to the refactor of some critical components.
+The app comes packed with many new features under the hood, but I'll try to cover the most important things spanning from the design of the UI down to the refactor of some critical components.
 
 
 ## Designing with Figma
-I don’t want to turn this into an unconditional love letter to Figma, but I totally could. Figma is probably one of the most incredible pieces of software I have discovered this year. There is plenty already written on the Internet about its magnificence, but as a side note, I’ll just go on about what it meant for our product team, in particular.
+I don't want to turn this into an unconditional love letter to Figma, but I totally could. Figma is probably one of the most incredible pieces of software I have discovered this year. There is plenty already written on the Internet about its magnificence, but as a side note, I'll just go on about what it meant for our product team, in particular.
 
 We basically narrowed down our design stack from four separate tools...
 
@@ -48,9 +48,9 @@ We basically narrowed down our design stack from four separate tools...
 
 ...down to a single product, Figma — without losing any features nor accepting any tradeoffs along the way. This is definitely not something that happens very often.
 
-Because of that, I was already interacting with Figma but never had the opportunity to get my hands dirty. Moreover, one of the things that I regret the most (again, going back to the point of rushing through the Nanodegree) was that during the program I didn’t have the time to actually design the projects. But instead jumped straight to the code editor — not something that I’m proud of. In other words, I would have never encouraged my team to do such a thing, but I clearly didn’t eat my own dog food here.
+Because of that, I was already interacting with Figma but never had the opportunity to get my hands dirty. Moreover, one of the things that I regret the most (again, going back to the point of rushing through the Nanodegree) was that during the program I didn't have the time to actually design the projects. But instead jumped straight to the code editor — not something that I'm proud of. In other words, I would have never encouraged my team to do such a thing, but I clearly didn't eat my own dog food here.
 
-So I started — as it should be — from the very beginning. Designing each component in advance, every state it went through the app lifecycle. The journey started with colors and typography. In this regard, I cheated a little bit and used Ironhack’s color palette. For the fonts, I used a combination of Fira Code and Fira Mono.
+So I started — as it should be — from the very beginning. Designing each component in advance, every state it went through the app lifecycle. The journey started with colors and typography. In this regard, I cheated a little bit and used Ironhack's color palette. For the fonts, I used a combination of Fira Code and Fira Mono.
 
 ![New colors and fonts](./colors-fonts.jpg "The new colors and fonts used for the upgrade of the Would You Rather project")
 

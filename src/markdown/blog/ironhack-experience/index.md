@@ -15,21 +15,21 @@ Despite it is not as intense as the full-time format, the goal remains the same:
 
 The main difference with our flagship, full-time, bootcamp program — that has already trained more than 500 people with outstanding results, is the part-time format has been specifically designed for people who are currently employed. The materials team has done an outstanding job structuring all the contents in a way that can be digested, but demanding enough so you can still feel the strain that comes with these intense programs.
 
-I have put a lot thought into this decision. We all run busy lives, and it is definitely a huge challenge on top of anybody who already has a challenging job. I acknowledge that going through this experience will inevitably imply saying no to a lot of things, and despite I’ve been told otherwise several times, I am profoundly convinced that enrolling is the right call.
+I have put a lot thought into this decision. We all run busy lives, and it is definitely a huge challenge on top of anybody who already has a challenging job. I acknowledge that going through this experience will inevitably imply saying no to a lot of things, and despite I've been told otherwise several times, I am profoundly convinced that enrolling is the right call.
 
 In this post I will explain why I decided to join, and why I firmly believe that everybody in a managing position, technical or not, should join, too.
 
 
 ## My Role at Ironhack
-As a campus manager, my daily tasks at Ironhack are far away from technical endeavors. My role consists in managing all aspects of Ironhack’s operations here in Barcelona while executing on the company mission. At the end of the day, I find myself not only managing and inspiring the team but also ensuring we are delivering on our promise of providing the best possible educational experience.
+As a campus manager, my daily tasks at Ironhack are far away from technical endeavors. My role consists in managing all aspects of Ironhack's operations here in Barcelona while executing on the company mission. At the end of the day, I find myself not only managing and inspiring the team but also ensuring we are delivering on our promise of providing the best possible educational experience.
 
 ![Ironhack and Friends event](./ironhack-friends.jpg "Ironhack and Friends event in the Barcelona Campus")
 
 It translates into sales, business development, planning and executing marketing actions, leading hiring processes, ensuring we have an awesome work environment and representing the Ironhack brand by interacting with students and other ecosystem partners.
 
-In other words, I’m kind of the last responsible for Ironhack’s success here in Barcelona, but as you can see, there is no coding involved.
+In other words, I'm kind of the last responsible for Ironhack's success here in Barcelona, but as you can see, there is no coding involved.
 
-Therefore, the legitimate question to ask here would be: *“how come learning how to code, will help you succeed at your job since there’s no coding required at all?”*
+Therefore, the legitimate question to ask here would be: *"how come learning how to code, will help you succeed at your job since there's no coding required at all?"*
 
 
 ## Alignment With the Company Vision
@@ -51,7 +51,7 @@ What this excerpt from my article conveys is that we should approach each market
 
 ![Coding at Ironhack](coding-ironhack.jpg "Coding at Ironhack")
 
-Going on with the razors analysis, the only player that comes to mind that is growing like a rocket, curiously enough, is [Harry’s](https://www.harrys.com/). The blueprint for how to enter a mature, saturated market, leveraging technology in order to enhance the customer experience. Harry’s is not a software company, but I would bet that employs plenty of software engineers and their digital strategy is core to understand their success.
+Going on with the razors analysis, the only player that comes to mind that is growing like a rocket, curiously enough, is [Harry's](https://www.harrys.com/). The blueprint for how to enter a mature, saturated market, leveraging technology in order to enhance the customer experience. Harry's is not a software company, but I would bet that employs plenty of software engineers and their digital strategy is core to understand their success.
 
 
 ## Earn Their Success: Speak Tech
@@ -67,14 +67,14 @@ Management entitles lots of things. But at the end of the day, you will find you
 
 
 ## Why Am I Doing This?
-In my particular case, first of all, I am doing this because I want to experience first hand what it is like to go through our Bootcamp. I think it is not fair that I am rooting for a product that I have never experienced. I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don’t know what it is actually like to be there.
+In my particular case, first of all, I am doing this because I want to experience first hand what it is like to go through our Bootcamp. I think it is not fair that I am rooting for a product that I have never experienced. I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don't know what it is actually like to be there.
 
-Therefore, from an evangelist perspective, I am absolutely convinced that by fully understanding the experience not only I will improve my ability to communicate *why* somebody would benefit from learning how to code. But also get insight and make a better case for the untapped market we might be solving a problem for, but still don’t know.
+Therefore, from an evangelist perspective, I am absolutely convinced that by fully understanding the experience not only I will improve my ability to communicate *why* somebody would benefit from learning how to code. But also get insight and make a better case for the untapped market we might be solving a problem for, but still don't know.
 
 From the inside I hope it will help me better relate to the student experience and have informed conversations with them, as we were discussing before, it is like speaking their language. Because I would be able to understand what they are going through, I will have a better chance when it comes to earning their respect. And looking into the future, having this shared connection can also be a great way to create stronger bonds that will help enhance the collaboration with our [alumni community](/blog/2017/community).
 
-> I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don’t know what it is actually like to be there.
+> I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don't know what it is actually like to be there.
 
 I also expect to gain credibility from the team, mostly in the academic side. Because I would be able to analyze the full scope of every decision I make for the campus, from the layout of the desks, the acoustics of the room to the number of TAs we will need for the next cohort. Only by having a better comprehension of the market, the product, the team and everything in between, I will make the right calls and earn the respect of my peers, by being able to speak their language.
 
-Again it is about understanding and aligning yourself with the company vision, only then you will be in the position to achieve greatness. Learning how to code is a prerequisite for comprehending the full scope of your company, in education, technology or razor blades. Then that’s the ultimate reason why I am going to learn how to code and why you should, too.
+Again it is about understanding and aligning yourself with the company vision, only then you will be in the position to achieve greatness. Learning how to code is a prerequisite for comprehending the full scope of your company, in education, technology or razor blades. Then that's the ultimate reason why I am going to learn how to code and why you should, too.

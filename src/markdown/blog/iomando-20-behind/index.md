@@ -23,7 +23,7 @@ Last month we introduced [iomando 2.0](/blog/2013/iomando-20) — an entirely ne
 
 Since the rollout, we've been receiving a ton of feedback and curiously, a lot of people reached out asking why we had taken certain (product) decisions. We thought this was a great opportunity to expose the reasoning behind some of them.
 
-Unfortunately, we can’t cover all the features released alongside iomando 2.0, because there were a lot of them. Remember, the new UI, the passwordless login, support for up to four doors from the same space, geolocation enhancements, new management tools, passcode lock, plus, all the hardware-related improvements.
+Unfortunately, we can't cover all the features released alongside iomando 2.0, because there were a lot of them. Remember, the new UI, the passwordless login, support for up to four doors from the same space, geolocation enhancements, new management tools, passcode lock, plus, all the hardware-related improvements.
 
 A walk through all of them would take longer than a single post. Instead, we can focus on the three that we've sweated the most — and also the ones that we've been asked the most 👇
 
@@ -43,11 +43,11 @@ We aim to solve a concrete situation for our users by being a better alternative
 
 Passwords and logins are painful because they create friction, thus slowing everything down. This is not something we came up with, it is a widely shared opinion, to say the least.
 
-But we don’t like slow, we like fast. Remember, iomando needs to be fast. Yet it also needs to be secure. The password friction is then a necessary evil, the price we must pay to ensure our spaces remain secure enough.
+But we don't like slow, we like fast. Remember, iomando needs to be fast. Yet it also needs to be secure. The password friction is then a necessary evil, the price we must pay to ensure our spaces remain secure enough.
 
 It is a high price, though.
 
-Our users don’t want to remember yet another password. We spend more customer support time than we wanted to solve password-related issues. On top of that, user data is of no value for us. Our business doesn’t "resell" user data to third parties nor we plan to do anything with the data we are collecting beyond improving our own product.
+Our users don't want to remember yet another password. We spend more customer support time than we wanted to solve password-related issues. On top of that, user data is of no value for us. Our business doesn't "resell" user data to third parties nor we plan to do anything with the data we are collecting beyond improving our own product.
 
 We reached a point where we wondered if "there was a better way". We grab a whiteboard and ask ourselves: "if we were to build this again, how the best login system should look like".
 
@@ -70,13 +70,13 @@ It seemed phone number checked the "manageability" checkboxes, but we had yet to
 
 Curiously enough, it is widely accepted in the "security parlance" that these two characteristics are always a tradeoff, you can't have it both ways. We thought like that, too.
 
-In our ideal world, the user logged in once and she wouldn’t need a password again. But then, how you were reassured that she was who claimed to be in each future login? This was our main struggle. We knew we wanted something passwordless, but didn’t know how to make it work in order to ensure security in each subsequent login.
+In our ideal world, the user logged in once and she wouldn't need a password again. But then, how you were reassured that she was who claimed to be in each future login? This was our main struggle. We knew we wanted something passwordless, but didn't know how to make it work in order to ensure security in each subsequent login.
 
 Meet the verification code.
 
 ![iomando app 2.0 — passwordless login](./paswordless-login.jpg "iomando 2.0 features a passwordless login, the only thing the user needs to do is to enter the SMS code she receives the first time she logs in")
 
-When we tried to distill what security meant for iomando, we thought of a piece of information only the user knew (and remembered), but also something third parties wouldn’t have access to.
+When we tried to distill what security meant for iomando, we thought of a piece of information only the user knew (and remembered), but also something third parties wouldn't have access to.
 
 Eventually, we came up with the realization that flipped our previous assumption on its head: it wasn't necessary to think of the "secure element" as something the user knew when it could be something the user had.
 
@@ -84,13 +84,13 @@ This small twist changes the entire mechanics of the problem. Because once you a
 
 If we could verify the phone number (which we did by sending an SMS with a code to the number the user provided) we could assure that the user was telling us the truth, therefore, we could tie together user identity to her phone number, forever, no further login or password required.
 
-The user "had" the code, she demonstrated it by typing it in, that’s everything we would ever need to check for in order to ensure the user had the phone number she claimed.
+The user "had" the code, she demonstrated it by typing it in, that's everything we would ever need to check for in order to ensure the user had the phone number she claimed.
 
 
 ## Passcode Lock
 Needless to say, also piggybacking on the first feature, security is a concern that runs deep at iomando. Paradoxically, while a passwordless login makes the initial pairing and authentication more secure than it ever was, it also makes it easier to access the app once the authentication has been validated.
 
-This is not a unique trait of iomando. All apps assume a certain security threshold will be ensured behind the lock screen — that’s the reason why we don’t endlessly login again and again to each app every single time we launch them.
+This is not a unique trait of iomando. All apps assume a certain security threshold will be ensured behind the lock screen — that's the reason why we don't endlessly login again and again to each app every single time we launch them.
 
 But we acknowledge iomando is an edge case, an outlier in security terms. We deal with access control and we truly understand the responsibility that comes along with that.
 
@@ -116,7 +116,7 @@ Getting to know the user position in real time opened a whole world of possibili
 
 Since [iomando is distance-agnostic](/blog/2013/betting-on-cellular) when it comes to fulfilling accesses requests, the most straight-forward and obvious geolocation-related feature was to create a geofence around an access point.
 
-In plain English, this simply means we draw a circle around an access with a certain radius — this is a distance set by an admin, which determines whether you are allowed to access or not. Then every time you tap the open button, the app will process your position, match it again the security radius, and decide — depending on whether you’re in or out of the circle — if you’re allowed to open.
+In plain English, this simply means we draw a circle around an access with a certain radius — this is a distance set by an admin, which determines whether you are allowed to access or not. Then every time you tap the open button, the app will process your position, match it again the security radius, and decide — depending on whether you're in or out of the circle — if you're allowed to open.
 
 ![iomando app 2.0 — geolocation designs](./geolocations-designs.jpg "Some ideas that didn't make it to the final release")
 
