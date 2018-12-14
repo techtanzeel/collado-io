@@ -1,7 +1,7 @@
 ---
 title: "iomando"
 date: "2018-10-01"
-path: "/iomando"
+path: "work/iomando"
 ---
 
 This is the iomando page...
