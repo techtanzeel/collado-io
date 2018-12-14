@@ -70,7 +70,7 @@ However, I lament that all of this knowledge was thrown at me and told to learn 
 
 It's really sad because at the end of the day you invest so much time and money not just to collect knowledge that in you can also get straight from the Wikipedia. This approach made sense a hundred years ago when all the knowledge was not accessible and you should "go" to college in order to get it.
 
-But today, the value of the University should lie in [empowering its students](/blog/2017/community) to better face what's next. Driven by outcomes and the capacity to fit in a creative group and get the most next to other individuals.
+But today, the value of the University should lie in [empowering its students](/blog/2017/building-our-community) to better face what's next. Driven by outcomes and the capacity to fit in a creative group and get the most next to other individuals.
 
 Learning should not be only a matter of passing an exam.
 

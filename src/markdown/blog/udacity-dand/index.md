@@ -58,7 +58,7 @@ But again, that's just a personal opinion based solely on my own experience. And
 
 
 ## The Experience
-Finally, how is it like to go through the program? I won't lie: it is hard. Although the course structure is extremely clear, the materials are first class and all the projects really engaging, still, setting aside the time to [work on your own](/blog/2017/alignment), without [social pressures](/blog/2017/community) of any kind, remains the most challenging endeavor, even for Udacity.
+Finally, how is it like to go through the program? I won't lie: it is hard. Although the course structure is extremely clear, the materials are first class and all the projects really engaging, still, setting aside the time to [work on your own](/blog/2017/alignment), without [social pressures](/blog/2017/building-our-community) of any kind, remains the most challenging endeavor, even for Udacity.
 
 I finished the program in eight months[^4], but I was not consistent with my schedule and the number of hours per week I was investing, which I believe is the ultimate "hack" to stay on the program's track.
 

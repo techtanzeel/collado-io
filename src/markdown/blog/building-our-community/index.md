@@ -1,8 +1,8 @@
 ---
-title: "Community"
+title: "Building Our Community"
 date: "2017-07-01"
-path: "/blog/2017/community"
-tags: ["craft", "education", "ironhack", "opinion"]
+path: "/blog/2017/building-our-community"
+tags: ["ironhack", "idea", "education"]
 featured: "true"
 excerpt: "We care about our community to an extent other people would think we are insane. It has become a fundamental piece of our student experience and the key to having the best product."
 ---

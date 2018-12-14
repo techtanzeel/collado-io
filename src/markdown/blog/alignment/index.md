@@ -27,7 +27,7 @@ This is precisely the raison d'être of this first personal interview: to test a
 
 I have seen many cohorts come in and out. This dynamic in a class is the prerequisite for the whole group to succeed. In my humble opinion, there are two reasons for that.
 
-To understand the first, let me tell you something. Before I went to college I used to compete in sailing - [Europe class](http://www.europeclass.org) for the curious. Our team traveled across the country for the national championship, and [it felt like family](/blog/2017/community) to me. We developed such a profound friendship and trust with each other, that I have never felt with, say, college friends. It is also a relationship that has gone beyond our sailing days despite choosing completely opposite life paths.
+To understand the first, let me tell you something. Before I went to college I used to compete in sailing - [Europe class](http://www.europeclass.org) for the curious. Our team traveled across the country for the national championship, and [it felt like family](/blog/2017/building-our-community) to me. We developed such a profound friendship and trust with each other, that I have never felt with, say, college friends. It is also a relationship that has gone beyond our sailing days despite choosing completely opposite life paths.
 
 I used to take these relationships for granted until somebody unexpectedly told me the reason why: *the harshest and rough environments become the catalysts for the strongest relationships to develop*. In my story, sailing in the ocean.
 

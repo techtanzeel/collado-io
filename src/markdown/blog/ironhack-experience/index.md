@@ -71,7 +71,7 @@ In my particular case, first of all, I am doing this because I want to experienc
 
 Therefore, from an evangelist perspective, I am absolutely convinced that by fully understanding the experience not only I will improve my ability to communicate *why* somebody would benefit from learning how to code. But also get insight and make a better case for the untapped market we might be solving a problem for, but still don't know.
 
-From the inside I hope it will help me better relate to the student experience and have informed conversations with them, as we were discussing before, it is like speaking their language. Because I would be able to understand what they are going through, I will have a better chance when it comes to earning their respect. And looking into the future, having this shared connection can also be a great way to create stronger bonds that will help enhance the collaboration with our [alumni community](/blog/2017/community).
+From the inside I hope it will help me better relate to the student experience and have informed conversations with them, as we were discussing before, it is like speaking their language. Because I would be able to understand what they are going through, I will have a better chance when it comes to earning their respect. And looking into the future, having this shared connection can also be a great way to create stronger bonds that will help enhance the collaboration with our [alumni community](/blog/2017/building-our-community).
 
 > I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don't know what it is actually like to be there.
 

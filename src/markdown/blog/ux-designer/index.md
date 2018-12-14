@@ -47,7 +47,7 @@ It made me think a lot about my 23-year-old self.
 
 The doubts I had back then, and what would have been of me I had pursued that path. I wish I had found a program such as the Ironhack bootcamp to kickstart my career back in 2011 because I was not brave enough to go on my own. The frustration that derives from knowing where you want to go, but not where to start, is usually the precursor of giving up.
 
-Looking back it seems that all I needed back then was [somebody to trust](/blog/2017/community). Somebody that clearly knew what was talking about and could [light the path up](/blog/2017/alignment).
+Looking back it seems that all I needed back then was [somebody to trust](/blog/2017/building-our-community). Somebody that clearly knew what was talking about and could [light the path up](/blog/2017/alignment).
 
 Maybe a mentor, or maybe a program that not only would teach me how to build stuff but also connects me with the industry and create the opportunities so I could [get a job](/blog/2017/curiosity) at the end.
 

@@ -33,7 +33,7 @@ A healthier relationship comes out from the fact that if you don't commit to the
 
 
 ## Synchrony
-Finally, and most important, a term based approach brings synchrony to the cohort and the sense that you [belong to a broader community](/blog/2017/community), aka. peer pressure.
+Finally, and most important, a term based approach brings synchrony to the cohort and the sense that you [belong to a broader community](/blog/2017/building-our-community), aka. peer pressure.
 
 During my time enrolled at the DAND, I felt lonely. I knew more students were simultaneously going through the same experience, but I had no way to "feel" it. Despite there was a dedicated Slack community aimed to bridge this gap, overall, it felt scattered and it was difficult to cut through the noise. Each student was in an entirely different stage of the program and the sense of "class" was nowhere to be seen. You were absolutely on your own.
 
