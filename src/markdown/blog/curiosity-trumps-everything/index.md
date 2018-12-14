@@ -81,7 +81,7 @@ This is precisely what relieves me, what makes me believe that life changing edu
 
 Then only wait and see how curiosity, passion and hard work, will do the rest.
 
-- - -
+---
 [^1]: As a Tech School we don't limit ourselves to coding skills. We also have an extremely successful UX/UI program, with similar hiring rates than its Web Development sibling, and plan to open new tracks in the near future. Though this particular post is mainly focused on coding and the Web Development track, its conclusions apply to any other craft.
 
 [^2]: We have come a long way since our first Hiring Week and in just two years it has already gone through several iterations in each campus. While the essence remains the same, we have taken into account an insane amount of feedback, fine tuning the format, the contents and always optimizing and obsessing over hiring rates.
