@@ -64,7 +64,7 @@ As an example, I have always [loved cars](/blog/2016/drivetrains-free-time). The
 ## So What's Wrong With Industrial Engineers?
 Well, in fact, there's nothing wrong with them. I think it's a powerful degree where you get the chance to learn a lot of things [across separate areas](/blog/2017/alignment). Moreover, if you are a curious person, you are able to connect a lot of dots that seemed unrelated at the beginning.
 
-You get a great deal of [horizontal education](/blog/2016/hybrid-profile) that doesn't put you in a [job ready position](/blog/2017/curiosity), but it builds a strong layer of knowledge beneath you that gives you comfort in most of the situations you can be dealing with. Over time, you also discover that you start from a better position when you want to [learn something new](/blog/2018/udacity-dand) or face a new situation.
+You get a great deal of [horizontal education](/blog/2016/hybrid-profile) that doesn't put you in a [job ready position](/blog/2017/curiosity-trumps-everything), but it builds a strong layer of knowledge beneath you that gives you comfort in most of the situations you can be dealing with. Over time, you also discover that you start from a better position when you want to [learn something new](/blog/2018/udacity-dand) or face a new situation.
 
 However, I lament that all of this knowledge was thrown at me and told to learn it. There was no purpose or goal. Everything was about passing the exam. Not the best incentive in the world. It turned the beauty of learning into a to-do list. It didn't feel right.
 

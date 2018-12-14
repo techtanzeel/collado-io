@@ -9,7 +9,7 @@ excerpt: "Despite having been pulled away from explicit design roles as my day j
 
 This fall, at Ironhack, we are introducing a brand new [UX/UI bootcamp](https://www.ironhack.com/en/ux-ui-design-bootcamp). Despite this writing has nothing to do with that — well maybe a little bit, but more on that later, it is a great segue to a more personal story that recently has brought back some memories from my 23-year-old self.
 
-The launch of any new product at Ironhack always involves the industry from the very beginning in order to craft an educational experience that trains students with [valuable skills for employers](/blog/2017/curiosity). Since we started researching for this new bootcamp, we have already met with a lot of companies to understand their needs, reached out to dozens of experts to iterate on the curriculum or [gathered our industry friends](http://www.meetup.com/ironhack-barcelona/events/232025284/) to discuss the importance of UX.
+The launch of any new product at Ironhack always involves the industry from the very beginning in order to craft an educational experience that trains students with [valuable skills for employers](/blog/2017/curiosity-trumps-everything). Since we started researching for this new bootcamp, we have already met with a lot of companies to understand their needs, reached out to dozens of experts to iterate on the curriculum or [gathered our industry friends](http://www.meetup.com/ironhack-barcelona/events/232025284/) to discuss the importance of UX.
 
 Because of it, I would say all the team is right now pretty fluent in UX parlance. But at a personal level, from the beginning, I was especially passionate about this new bootcamp. I kept providing resources, apps, blogs, people doing great work in the field... and consequently, my team kept asking me the (reasonable) question: *how do you know all of this?*
 
@@ -49,7 +49,7 @@ The doubts I had back then, and what would have been of me I had pursued that pa
 
 Looking back it seems that all I needed back then was [somebody to trust](/blog/2017/building-our-community). Somebody that clearly knew what was talking about and could [light the path up](/blog/2017/alignment).
 
-Maybe a mentor, or maybe a program that not only would teach me how to build stuff but also connects me with the industry and create the opportunities so I could [get a job](/blog/2017/curiosity) at the end.
+Maybe a mentor, or maybe a program that not only would teach me how to build stuff but also connects me with the industry and create the opportunities so I could [get a job](/blog/2017/curiosity-trumps-everything) at the end.
 
 I have never thought of that from this perspective, but this is exactly what we are doing at Ironhack for [our students](/blog/2016/ironhack-experience).
 

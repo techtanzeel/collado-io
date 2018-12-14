@@ -79,6 +79,6 @@ Just try to figure out which is the end game and trace the path backward. Someti
 
 That being said, I am not, by any means, against University or college degrees. I believe they provide a ton of value and they are a great choice for a lot of people. I have both admiration and respect for Universities and I look up to them, from time to time, as a source of inspiration.
 
-What I am not comfortable with, is the way we have set the path for education, and how we have created a false correlation between college degrees and [preparing for a job](/blog/2017/curiosity). I know a lot of people who have pursued the college dream because of the false promise of getting a job at the end.
+What I am not comfortable with, is the way we have set the path for education, and how we have created a false correlation between college degrees and [preparing for a job](/blog/2017/curiosity-trumps-everything). I know a lot of people who have pursued the college dream because of the false promise of getting a job at the end.
 
 I am not sure how we got here, what I do know is that we have created the false illusion that college is the one fits all solution for a properly working society. I don't want to hold a dogmatic truth about it, maybe even I am completely wrong. But I find it worrisome that we have rooted this issue so deep in our societal believes, that we are not even questioning *why* is it there in the first place.

@@ -7,7 +7,7 @@ featured: "false"
 excerpt: "The product story behind the major refactor to the Would You Rather app, Udacity's React Nanodegree second project, based on React & Redux."
 ---
 
-Last March I [joined the Udacity's React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
+Last March I [joined the Udacity's React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity-trumps-everything), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
 
 Don't get me wrong, though, I have never felt like an outsider, on the contrary. I am an [engineer](/blog/2013/industrial-engineer) myself. I have been surrounded by talented engineers my entire career: at college, of course, at [iomando](/work/iomando), at [Ironhack](/work/ironhack) — first [as a campus manager](/blog/2015/hi-from-ironhack), and now [as a product manager](/blog/2017/ironhack-from-gm-to-pm).
 

@@ -1,8 +1,8 @@
 ---
 title: "Curiosity Trumps Everything"
 date: "2017-11-27"
-path: "/blog/2017/curiosity"
-tags: ["craft", "education", "ironhack", "opinion"]
+path: "/blog/2017/curiosity-trumps-everything"
+tags: ["ironhack", "idea", "education"]
 featured: "false"
 excerpt: "At some point, any hard skill will inevitably become a commodity. The ability to adapt, retool and learn new things will become the keys to master your own professional fate."
 ---

@@ -55,7 +55,7 @@ Our community is the answer to the question: how are you different than your com
 ## Community and Culture
 I like this idea of defining culture as *what happens when nobody is looking*. Sometimes we take it for granted, but in a way, community and culture are two sides of the same coin.
 
-Alumni, hiring partners, other friendly groups, public institutions... all of them orbit around us, helping create a unique environment for our students to [develop their craft](/blog/2017/curiosity). Scattered people working together under the Ironhack theme to provide an educational experience that none of our students would forget.
+Alumni, hiring partners, other friendly groups, public institutions... all of them orbit around us, helping create a unique environment for our students to [develop their craft](/blog/2017/curiosity-trumps-everything). Scattered people working together under the Ironhack theme to provide an educational experience that none of our students would forget.
 
 > This idea of community doesn't come naturally to me. Like it or not, my engineering background makes me perceive the world in 0s and 1s. A community is an extremely complex artifact composed of the most polyhedral entities: human beings. This makes analyzing, even talking about community a really challenging endeavor.
 

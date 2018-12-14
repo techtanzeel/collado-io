@@ -39,7 +39,7 @@ The second one is what I call the marathon effect — and yes, I just made that 
 
 You are aiming for 42 km, but you are not running alone anymore and the atmosphere literally pushes you beyond your capabilities, it lifts you. You achieve what you thought was impossible and it is because you run with the people. It has happened to me, many times. I am unable to run a sub 3:20 marathon on my own. I tried, and I failed. But I did it the race day.
 
-Ironhack is no different than that. Having twenty extremely motivated students that [share the same goal](/blog/2017/curiosity) help each of them achieve the impossible. Something they would have never done alone. It is the magic of having a group of students that share a common vision in the same room.
+Ironhack is no different than that. Having twenty extremely motivated students that [share the same goal](/blog/2017/curiosity-trumps-everything) help each of them achieve the impossible. Something they would have never done alone. It is the magic of having a group of students that share a common vision in the same room.
 
 > This is how your class becomes a transforming experience where each student can unleash their true potential, far beyond what they could even imagine.
 
