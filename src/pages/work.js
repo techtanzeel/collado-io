@@ -19,9 +19,9 @@ const Work = ({ data }) => {
     .map((edge) => (
       <WorkPost
         key={edge.node.id}
+        excerpt={edge.node.frontmatter.excerpt}
+        path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
-        date={edge.node.frontmatter.date}
-        html={edge.node.html}
       />
     ));
 
@@ -35,7 +35,7 @@ const Work = ({ data }) => {
         className={styles.md}
         dangerouslySetInnerHTML={{ __html: WorkHeader }}
       />
-      {/* {WorksList} */}
+      {WorksList}
     </Layout>
   );
 };
@@ -44,7 +44,7 @@ export const query = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/" } }
-      limit: 1000
+      limit: 10
     ) {
       edges {
         node {
@@ -52,6 +52,7 @@ export const query = graphql`
           html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            path
             title
           }
         }
