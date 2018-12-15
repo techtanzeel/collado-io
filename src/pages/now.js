@@ -19,17 +19,17 @@ const Now = ({ data }) => {
     .map((edge) => (
       <NowPost
         key={edge.node.id}
-        title={edge.node.frontmatter.title}
         date={edge.node.frontmatter.date}
         html={edge.node.html}
+        title={edge.node.frontmatter.title}
       />
     ));
 
   return (
     <Layout>
       <PageHeader
-        title="Now"
         tagline="Things I'm Doing"
+        title="Now"
       />
       <div
         className={styles.md}
@@ -44,7 +44,7 @@ export const query = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(now)/" } }
-      limit: 1000
+      limit: 100
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
