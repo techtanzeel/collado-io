@@ -2,39 +2,47 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Card from './Card';
-// import { mobile, tablet, desktop } from '../utils/breakpoints';
-import { Title2, MetaText } from '../utils/theme';
-import styles from '../utils/md.module.css';
+import WorkCard from './WorkCard';
+import SuperLink from './SuperLink';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
+import { Title2, BodyText } from '../utils/theme';
 
-const WorkPost = ({ date, html, title }) => (
-  <Card
-    hasHover
-  >
-    <Title>
-      {title}
-    </Title>
-    <div
-      className={styles.md}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-    <Published>
-      {`Updated on ${date}`}
-    </Published>
-  </Card>
+const WorkPost = ({
+  excerpt, path, title,
+}) => (
+  <WorkCard>
+    <SuperLink href={path}>
+      <WorkPostTitle>
+        {title}
+      </WorkPostTitle>
+      <Excerpt>
+        {excerpt}
+      </Excerpt>
+    </SuperLink>
+  </WorkCard>
 );
 
-const Title = styled(Title2)`
-  margin-top: 0.5em;
+const WorkPostTitle = styled(Title2)`
+  margin: 0.5em 0em;
 `;
 
-const Published = styled(MetaText)`
-  text-align: center;
+const Excerpt = styled(BodyText)`
+  font-size: 0.875em;
+  /* reduce font-size by 0.125em */
+  margin: 0.5em 0em;
+
+  @media (min-width: ${mobile}) {}
+
+  @media (min-width: ${tablet}) {
+    font-size: 1em;
+  }
+
+  @media (min-width: ${desktop}) {}
 `;
 
 WorkPost.propTypes = {
-  date: PropTypes.string.isRequired,
-  html: PropTypes.string.isRequired,
+  excerpt: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 
