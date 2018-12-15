@@ -17,15 +17,14 @@ const Blog = ({ data }) => {
         date={edge.node.frontmatter.date}
         excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
-        // tags={edge.node.frontmatter.tags}
         title={edge.node.frontmatter.title}
       />));
 
   return (
     <Layout>
       <PageHeader
-        title="Blog"
         tagline="Things I've Written"
+        title="Blog"
       />
       {BlogsList}
     </Layout>
@@ -46,7 +45,6 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             excerpt
             path
-            tags
             title
           }
         }
@@ -65,7 +63,6 @@ Blog.propTypes = {
             date: PropTypes.string,
             excerpt: PropTypes.string,
             path: PropTypes.string,
-            tags: PropTypes.arrayOf(PropTypes.string),
             title: PropTypes.string,
           }),
         }),
