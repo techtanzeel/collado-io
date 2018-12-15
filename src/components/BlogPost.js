@@ -60,9 +60,13 @@ const Published = styled(MetaText)`
 
 BlogPost.propTypes = {
   date: PropTypes.string.isRequired,
-  excerpt: PropTypes.string.isRequired,
+  excerpt: PropTypes.string,
   path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+};
+
+BlogPost.defaultProps = {
+  excerpt: '',
 };
 
 export default BlogPost;
