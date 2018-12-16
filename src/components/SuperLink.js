@@ -25,7 +25,7 @@ const RelativeLink = styled(Link)`
 `;
 
 SuperLink.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.arrayOf(PropTypes.object).isRequired,
   href: PropTypes.string.isRequired,
 };
 

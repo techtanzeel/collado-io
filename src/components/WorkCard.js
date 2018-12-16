@@ -106,5 +106,9 @@ const TextContainer = styled.div`
 
 WorkCard.propTypes = {
   children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  data: PropTypes.shape({
+    iomando: PropTypes.object,
+    ironhack: PropTypes.object,
+  }).isRequired,
   path: PropTypes.string.isRequired,
 };
