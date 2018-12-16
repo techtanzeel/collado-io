@@ -1,10 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import WorkPost from '../components/WorkPost';
+import { mobile } from '../utils/breakpoints';
 import styles from '../utils/md.module.css';
 
 const Work = ({ data }) => {
@@ -28,23 +30,37 @@ const Work = ({ data }) => {
   return (
     <Layout>
       <PageHeader
-        title="Work"
         tagline="Things I've Done"
+        title="Work"
       />
       <div
         className={styles.md}
         dangerouslySetInnerHTML={{ __html: WorkHeader }}
       />
-      {WorksList}
+      <WorksListContainer>
+        {WorksList}
+      </WorksListContainer>
     </Layout>
   );
 };
+
+const WorksListContainer = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: ${mobile}) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+`;
 
 export const query = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/" } }
-      limit: 10
+      limit: 100
     ) {
       edges {
         node {
@@ -52,6 +68,7 @@ export const query = graphql`
           html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            excerpt
             path
             title
           }
@@ -70,6 +87,8 @@ Work.propTypes = {
           html: PropTypes.string,
           frontmatter: PropTypes.shape({
             date: PropTypes.string,
+            excerpt: PropTypes.string,
+            path: PropTypes.string,
             title: PropTypes.string,
           }),
         }),
