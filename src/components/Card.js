@@ -2,14 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import SuperLink from './SuperLink';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { fakeAsbestos } from '../utils/colors';
 
-const Card = ({ children, hasHover }) => (
+// Related component: WorkCard.js
+const Card = ({ children, hover, path }) => (
   <Container
-    hasHover={hasHover}
+    hover={hover}
   >
-    {children}
+    {path === null
+      ? (
+        <div>
+          {children}
+        </div>
+      ) : (
+        <SuperLink href={path}>
+          {children}
+        </SuperLink>
+      )
+    }
   </Container>
 );
 
@@ -44,7 +56,13 @@ const Container = styled.div`
 `;
 
 Card.propTypes = {
-  hasHover: PropTypes.bool.isRequired,
+  children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  hover: PropTypes.bool.isRequired,
+  path: PropTypes.string,
+};
+
+Card.defaultProps = {
+  path: null,
 };
 
 export default Card;
