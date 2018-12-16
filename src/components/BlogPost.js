@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Card from './Card';
-import SuperLink from './SuperLink';
-
 import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title2, BodyText, MetaText } from '../utils/theme';
 
@@ -12,28 +10,28 @@ const BlogPost = ({
   date, excerpt, path, title,
 }) => (
   <Card
-    hasHover
+    hover
+    path={path}
   >
-    <SuperLink href={path}>
-      <BlogPostTitle>
-        {title}
-      </BlogPostTitle>
-      <Excerpt>
-        {excerpt}
-      </Excerpt>
-      <Published>
-        {`Published on ${date}`}
-      </Published>
-    </SuperLink>
+    <Title>
+      {title}
+    </Title>
+    <Excerpt>
+      {excerpt}
+    </Excerpt>
+    <Published>
+      {`Published on ${date}`}
+    </Published>
   </Card>
 );
 
-const BlogPostTitle = styled(Title2)`
+const Title = styled(Title2)`
   margin: 0.5em 0em;
 `;
 
 const Excerpt = styled(BodyText)`
-  font-size: 0.875em; // reduce 0.125em
+  font-size: 0.875em;
+  /* reduce font-size by 0.125em */
   margin: 0.5em 0em;
 
   @media (min-width: ${mobile}) {}
@@ -46,7 +44,8 @@ const Excerpt = styled(BodyText)`
 `;
 
 const Published = styled(MetaText)`
-  font-size: 0.75em; // reduce 0.125em
+  font-size: 0.75em;
+  /* reduce font-size by 0.25em */
   margin: 1.5em 0em 0.5em;
 
   @media (min-width: ${mobile}) {}
