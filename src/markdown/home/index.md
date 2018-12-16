@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: null
-path: "/home"
+path: "/home/null"
 ---
 
 ## My Story In a Few Paragraphs

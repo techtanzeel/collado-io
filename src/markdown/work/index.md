@@ -1,7 +1,7 @@
 ---
 title: "Work"
 date: null
-path: "/work"
+path: "/work/null"
 ---
 
 Hello there!
