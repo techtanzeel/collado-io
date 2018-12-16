@@ -3,26 +3,25 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import WorkCard from './WorkCard';
-import SuperLink from './SuperLink';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { Title2, BodyText } from '../utils/theme';
 
 const WorkPost = ({
   excerpt, path, title,
 }) => (
-  <WorkCard>
-    <SuperLink href={path}>
-      <WorkPostTitle>
-        {title}
-      </WorkPostTitle>
-      <Excerpt>
-        {excerpt}
-      </Excerpt>
-    </SuperLink>
+  <WorkCard
+    path={path}
+  >
+    <Title>
+      {title}
+    </Title>
+    <Excerpt>
+      {excerpt}
+    </Excerpt>
   </WorkCard>
 );
 
-const WorkPostTitle = styled(Title2)`
+const Title = styled(Title2)`
   margin: 0.5em 0em;
 `;
 
