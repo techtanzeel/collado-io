@@ -5,6 +5,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return new Promise((resolve, reject) => {
     const blogPostPage = path.resolve(`src/components/BlogPostPage.js`);
+    const workPostPage = path.resolve(`src/components/WorkPostPage.js`);
     const tagPage = path.resolve(`src/components/TagPage.js`);
 
     resolve(
@@ -23,15 +24,28 @@ exports.createPages = ({ actions, graphql }) => {
                 }
               }
             }
+          },
+          workPosts: allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/" } }
+            limit: 100
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  path
+                }
+              }
+            }
           }
         }
-      `).then(result => {
+      `).then((result) => {
         if (result.errors) {
           reject(result.errors);
         }
 
+        // Create pages for each blog post
         const posts = result.data.blogPosts.edges;
-
         posts.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
@@ -40,15 +54,23 @@ exports.createPages = ({ actions, graphql }) => {
           });
         });
 
-        let allTags = [];
+        // Create pages for each work post
+        const works = result.data.workPosts.edges;
+        works.forEach(({ node }) => {
+          createPage({
+            path: node.frontmatter.path,
+            component: workPostPage,
+            context: {},
+          });
+        });
 
+        // List all the tags found in the blog posts
+        let allTags = [];
         posts.forEach(({ node }) => {
           allTags = [...allTags, ...node.frontmatter.tags];
         });
-
         const uniqTags = [...new Set(allTags)];
-
-        uniqTags.forEach(tag => {
+        uniqTags.forEach((tag) => {
           createPage({
             path: `/tags/${tag}/`,
             component: tagPage,
