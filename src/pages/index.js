@@ -10,8 +10,8 @@ import { mobile, tablet, desktop } from '../utils/breakpoints';
 import styles from '../utils/md.module.css';
 
 const Home = ({ data }) => {
-  const imageMarc = data.imageMarc.childImageSharp.fluid;
-  const copyHome = data.copyHome.edges[0].node.html;
+  const pictureMarc = data.pictureMarc.childImageSharp.fluid;
+  const copy = data.copy.edges[0].node.html;
 
   return (
     <Layout>
@@ -21,14 +21,14 @@ const Home = ({ data }) => {
       />
       <ImageContainer>
         <Img
-          fluid={imageMarc}
           alt="Marc Collado"
+          fluid={pictureMarc}
           imgStyle={{ marginBottom: 0 }}
         />
       </ImageContainer>
       <div
         className={styles.md}
-        dangerouslySetInnerHTML={{ __html: copyHome }}
+        dangerouslySetInnerHTML={{ __html: copy }}
       />
     </Layout>
   );
@@ -54,14 +54,14 @@ const ImageContainer = styled.div`
 
 export const query = graphql`
   {
-    imageMarc: file(relativePath: { eq: "marc.jpg" }) {
+    pictureMarc: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    copyHome: allMarkdownRemark(
+    copy: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(home)/" } }
       limit: 10
     ) {
@@ -77,12 +77,8 @@ export const query = graphql`
 
 Home.propTypes = {
   data: PropTypes.shape({
-    imageMarc: PropTypes.shape({
-      childImageSharp: PropTypes.shape({
-        fluid: PropTypes.object,
-      }),
-    }),
-    copyHome: PropTypes.shape({
+    pictureMarc: PropTypes.object,
+    copy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           id: PropTypes.string,
