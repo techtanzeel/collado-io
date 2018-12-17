@@ -9,11 +9,9 @@ import styles from '../utils/md.module.css';
 
 const Now = ({ data }) => {
   const Nows = data.allMarkdownRemark.edges;
-
   const NowHeader = Nows
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-
   const NowsList = Nows
     .filter((edge) => !!edge.node.frontmatter.date)
     .map((edge) => (

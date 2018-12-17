@@ -8,7 +8,6 @@ import PageHeader from '../components/PageHeader';
 
 const Blog = ({ data }) => {
   const Blogs = data.allMarkdownRemark.edges;
-
   const BlogsList = Blogs
     .filter((edge) => !!edge.node.frontmatter.date)
     .map((edge) => (

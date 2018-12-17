@@ -11,11 +11,9 @@ import styles from '../utils/md.module.css';
 
 const Work = ({ data }) => {
   const Works = data.allMarkdownRemark.edges;
-
   const WorkHeader = Works
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-
   const WorksList = Works
     .filter((edge) => !!edge.node.frontmatter.date)
     .map((edge) => (
