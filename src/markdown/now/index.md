@@ -1,7 +1,7 @@
 ---
 title: "Now"
 date: null
-path: "/now/null"
+path: null
 ---
 
 This is a [/now page](https://nownownow.com/about), inspired by [Derek Sivers](https://sivers.org/) and the [nownownow](https://nownownow.com/) project.
