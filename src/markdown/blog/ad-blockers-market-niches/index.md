@@ -2,7 +2,7 @@
 title: "Ad-Blockers And Market Niches"
 date: "2015-10-10"
 path: "/blog/2015/ad-blockers-market-niches"
-tags: ["idea", "business", "tech"]
+tags: ["idea", "business", "product", "tech"]
 featured: "false"
 excerpt: "The Internet has flipped the advertisement industry in its head. Which in turn, has surfaced a plethora of market niches that were simply not available before, yet they remain to be addressed."
 ---

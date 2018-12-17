@@ -2,9 +2,9 @@
 title: "The Would You Rather Refactor"
 date: "2018-11-01"
 path: "/blog/2018/would-you-rather-refactor"
-tags: ["udacity", "update", "tech", "coding"]
+tags: ["udacity", "update", "product", "tech", "coding"]
 featured: "false"
-excerpt: "The product story behind the major refactor to the Would You Rather app, Udacity's React Nanodegree second project, based on React & Redux."
+excerpt: "The product story behind the major refactor to the Magis app (formerly Would You Rather), Udacity's React Nanodegree second project, based on React & Redux."
 ---
 
 Last March I [joined the Udacity's React Developer Nanodegree (RDND)](https://eu.udacity.com/course/react-nanodegree--nd019). I did it mostly driven by [curiosity](/blog/2017/curiosity-trumps-everything), a passion for coding and crafting digital products. Most importantly, I did it as a way to [relate and connect](/blog/2016/ironhack-experience) in a more profound way with our team of engineers.
@@ -21,7 +21,7 @@ Long story short — if you rather want the long version [check out the RDND in-
 
 Because of that, I promised myself that as soon as I could put some more "side-project time" together I would go back, review them one at a time, and implement all the cool things I kept on learning.
 
-It took me almost three months to find the right time, but finally, the last couple of weeks have been all about updating the [Would You Rather](https://github.com/MarcCollado/would-you-rather) project — the second one of the RDND.
+It took me almost three months to find the right time, but finally, the last couple of weeks have been all about updating the [Would You Rather](https://github.com/MarcCollado/magis/) project — the second one of the RDND.
 
 > This project consists in a small quiz game, built with React & Redux, that quizzes the user with polls in a "Would You Rather..." format. It allows the user to log in, post polls and also vote on polls posted by other users.
 
@@ -31,7 +31,7 @@ In a nutshell, what impressed me the most after going deep again into the projec
 
 The app now retains less than 25% of the original code I delivered back in May, while reducing the total lines of code by more than 30% — achieving, of course, feature parity with the older version. I really didn't know where those metric belonged in a performance scale for an amateur. After consulting with many fellow developers that know a thing or two about it, I have been told that it is pretty impressive 👍.
 
-On top of that, the app loads faster — mostly because I [got rid](https://github.com/MarcCollado/would-you-rather/commit/e053f686a65812c69f60d6e92eb8f4a7f873171c) of the [Material UI library](https://material-ui.com/) (more on that later), but also improved the way asynchronous calls were managed since they were taxing the app performance.
+On top of that, the app loads faster — mostly because I [got rid](https://github.com/MarcCollado/magis/commit/e053f686a65812c69f60d6e92eb8f4a7f873171c) of the [Material UI library](https://material-ui.com/) (more on that later), but also improved the way asynchronous calls were managed since they were taxing the app performance.
 
 The app comes packed with many new features under the hood, but I'll try to cover the most important things spanning from the design of the UI down to the refactor of some critical components.
 
@@ -90,7 +90,7 @@ Here's where Styled Components really came in handy, allowing for the UI style t
 
 
 ## Final Thoughts
-I could go on and on over many of the new features of the Would You Rather project. I really had a great time refactoring it from the ground up, but if you made it this far, I think it'd be a good idea for you to just go to the [project repo](https://github.com/MarcCollado/would-you-rather) and check it out for yourself.
+I could go on and on over many of the new features of the Would You Rather project. I really had a great time refactoring it from the ground up, but if you made it this far, I think it'd be a good idea for you to just go to the [project repo](https://github.com/MarcCollado/magis/) and check it out for yourself.
 
 From now on, I'll try to be more incremental with its development, documenting the roadmap, properly adding issues to the project and working on it regularly, rather than doing massive, one-off pushes. The idea behind all this is no other than to keep practicing my coding skills, while building out things that could be of use to myself and (hopefully) others.
 
