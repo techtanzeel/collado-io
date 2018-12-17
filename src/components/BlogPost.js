@@ -31,7 +31,7 @@ const Title = styled(Title2)`
 
 const Excerpt = styled(BodyText)`
   font-size: 0.875em;
-  /* reduce font-size by 0.125em */
+  /* reduce font-size by 2px */
   margin: 0.5em 0em;
 
   @media (min-width: ${mobile}) {}
@@ -45,7 +45,7 @@ const Excerpt = styled(BodyText)`
 
 const Published = styled(MetaText)`
   font-size: 0.75em;
-  /* reduce font-size by 0.25em */
+  /* reduce font-size by 4px */
   margin: 1.5em 0em 0.5em;
 
   @media (min-width: ${mobile}) {}

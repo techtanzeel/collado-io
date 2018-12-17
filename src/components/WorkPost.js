@@ -27,7 +27,7 @@ const Title = styled(Title2)`
 
 const Excerpt = styled(BodyText)`
   font-size: 0.875em;
-  /* reduce font-size by 0.125em */
+  /* reduce font-size by 2px */
   margin: 0.5em 0em;
 
   @media (min-width: ${mobile}) {}

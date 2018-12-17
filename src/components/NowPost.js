@@ -30,14 +30,14 @@ const Title = styled(Title2)`
 `;
 
 const Published = styled(MetaText)`
-  font-size: 0.875em;
-  /* reduce font-size by 0.125em */
+  font-size: 0.75em;
+  /* reduce font-size by 4px */
   text-align: center;
 
   @media (min-width: ${mobile}) {}
 
   @media (min-width: ${tablet}) {
-    font-size: 1em;
+    font-size: 0.875em;
   }
 
   @media (min-width: ${desktop}) {}
