@@ -6,7 +6,6 @@ path: "/now"
 
 In a nutshell, later this year I'll be spending more time training, coding, and reading, all the details below.
 
-
 ### Training
 I'm back to the running track and (seriously) preparing to [run a sub 3h marathon](/blog/2018/going-sub3) sometime next year.
 
@@ -14,8 +13,7 @@ By the end of the year, I hope to get my marks back down to 40min for 10km and 1
 
 I'll also be running the [Valencia Marathon](https://www.valenciaciudaddelrunning.com/maraton/maraton/) on the 2nd of December — hopefully under 3h15min.
 
-You can [follow me on Strava](https://www.strava.com/athletes/1113999) to know how am I doing...
-
+You can [follow me on Strava](https://www.strava.com/athletes/marccollado) to know how am I doing...
 
 ### Coding
 After finishing the [DAND](/blog/2018/udacity-dand) and the [RDND](/blog/2018/udacity-rdnd), Udacity offered the possibility to [become a mentor](https://www.udacity.com/start-mentoring) for future students of their programs.
@@ -27,7 +25,6 @@ On top of that, I'll be wrapping up other "unfinished" projects of mine:
 * Complete [the moving](/blog/2018/moving-collado-io) of collado.io.
 * Finish both [ES6](https://es6.io/) and [JS30](https://javascript30.com/) Wes Bos courses that I started early this summer.
 * Read for once and for all [Eloquent JavaScript](https://eloquentjavascript.net/) which I started several times, but somehow never managed to reach until the end.
-
 
 ### Reading
 I want to maintain the healthy habit of reading a couple of books per month.
