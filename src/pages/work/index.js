@@ -3,11 +3,11 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
-import WorkPost from '../components/WorkPost';
-import { mobile } from '../utils/breakpoints';
-import styles from '../utils/md.module.css';
+import Layout from '../../components/Layout';
+import PageHeader from '../../components/PageHeader';
+import WorkPost from '../../components/WorkPost';
+import { mobile } from '../../utils/breakpoints';
+import styles from '../../utils/md.module.css';
 
 const Work = ({ data }) => {
   const Works = data.allMarkdownRemark.edges;
