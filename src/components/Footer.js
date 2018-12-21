@@ -22,7 +22,7 @@ const Footer = () => (
       linkedin
     </FooterLink>
     <FooterLink
-      href="https://www.strava.com/athletes/1113999"
+      href="https://www.strava.com/athletes/marccollado"
     >
       strava
     </FooterLink>
