@@ -5,7 +5,6 @@ exports.createPages = ({ actions, graphql }) => {
 
   return new Promise((resolve, reject) => {
     const blogPostPage = path.resolve(`src/components/BlogPostPage.js`);
-    const workPostPage = path.resolve(`src/components/WorkPostPage.js`);
     const tagPage = path.resolve(`src/components/TagPage.js`);
 
     resolve(
@@ -24,19 +23,6 @@ exports.createPages = ({ actions, graphql }) => {
                 }
               }
             }
-          },
-          workPosts: allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/" } }
-            limit: 100
-            sort: { fields: [frontmatter___date], order: DESC }
-          ) {
-            edges {
-              node {
-                frontmatter {
-                  path
-                }
-              }
-            }
           }
         }
       `).then((result) => {
@@ -50,16 +36,6 @@ exports.createPages = ({ actions, graphql }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPostPage,
-            context: {},
-          });
-        });
-
-        // Create pages for each work post
-        const works = result.data.workPosts.edges;
-        works.forEach(({ node }) => {
-          createPage({
-            path: node.frontmatter.path,
-            component: workPostPage,
             context: {},
           });
         });
