@@ -57,12 +57,14 @@ Blog.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          frontmatter: PropTypes.shape({
-            date: PropTypes.string,
-            excerpt: PropTypes.string,
-            path: PropTypes.string,
-            title: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            frontmatter: PropTypes.shape({
+              date: PropTypes.string,
+              excerpt: PropTypes.string,
+              path: PropTypes.string,
+              title: PropTypes.string,
+            }),
           }),
         }),
       ),

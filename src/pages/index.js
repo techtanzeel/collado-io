@@ -54,13 +54,6 @@ const ImageContainer = styled.div`
 
 export const query = graphql`
   {
-    pictureMarc: file(relativePath: { eq: "marc.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     pageCopy: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(home)/" } }
       limit: 1
@@ -72,20 +65,29 @@ export const query = graphql`
         }
       }
     }
+    pictureMarc: file(relativePath: { eq: "marc.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `;
 
 Home.propTypes = {
   data: PropTypes.shape({
-    pictureMarc: PropTypes.object,
     pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          html: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            html: PropTypes.string,
+          }),
         }),
       ),
     }),
+    pictureMarc: PropTypes.object,
   }).isRequired,
 };
 

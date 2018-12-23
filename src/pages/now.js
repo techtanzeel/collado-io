@@ -42,7 +42,7 @@ export const query = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(now)/" } }
-      limit: 100
+      limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -64,11 +64,13 @@ Now.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          html: PropTypes.string,
-          frontmatter: PropTypes.shape({
-            date: PropTypes.string,
-            title: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            html: PropTypes.string,
+            frontmatter: PropTypes.shape({
+              date: PropTypes.string,
+              title: PropTypes.string,
+            }),
           }),
         }),
       ),

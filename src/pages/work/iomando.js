@@ -129,7 +129,7 @@ export const query = graphql`
     iomandoBlogs: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" },
                 frontmatter: { tags: { in: ["iomando"] } } }
-      limit: 100
+      limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       totalCount
@@ -182,8 +182,10 @@ iomando.propTypes = {
     pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          html: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            html: PropTypes.string,
+          }),
         }),
       ),
     }),
@@ -191,13 +193,15 @@ iomando.propTypes = {
       totalCount: PropTypes.number,
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          frontmatter: PropTypes.shape({
-            date: PropTypes.string,
-            excerpt: PropTypes.string,
-            path: PropTypes.string,
-            tags: PropTypes.arrayOf(PropTypes.bool),
-            title: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            frontmatter: PropTypes.shape({
+              date: PropTypes.string,
+              excerpt: PropTypes.string,
+              path: PropTypes.string,
+              tags: PropTypes.arrayOf(PropTypes.string),
+              title: PropTypes.string,
+            }),
           }),
         }),
       ),
