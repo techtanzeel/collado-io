@@ -1,23 +1,13 @@
 ---
 title: "Work"
 date: null
-path: "/work/null"
 ---
 
-Hello there!
+Despite *work* doesn't fully capture the essence of this page — since it aims to showcase both companies I've been professionally involved with, but also random side-projects of mine — I must admit, I couldn't find a better signifier.
 
-Welcome to the new, yet under construction, work page — and sorry if this is not exactly what you were expecting 😕
+Before you jump in though, here's a little bit of context on some of the projects:
 
-You know, this website has been hosted elsewhere for more than five years, and just recently decided to tear everything apart and rebuild the thing from scratch 🔥 if you're curious about the reasons why I wanted to throw this misery onto my own existence, you can read the whole story [in here](/blog/2018/moving-collado-io).
+* iomando: in 2011, upon graduating from college, I co-founded iomando technologies — a startup pioneering keyless access management for mobile devices. We built a really cool product and ended up acquired by [Citibox](https://www.citibox.com/) in late 2017, which integrated iomando's technology into their core product — the smart mailboxes
+* Ironhack: in 2015, after a short-lived, [failed attempt](/blog/2015/hi-from-ironhack) to take a sabbatical, I decided to switch gears and pursue [another passion of mine](/tags/education) and joined [Ironhack](https://www.ironhack.com/) to change the way we learn about technology. First as the Campus Manager in Barcelona, establishing the city operations from the ground up, and later on as a Product Manager.
 
-But moving on, what to do now?
-
-First of all, stay calm, and keep in mind that during the transition all the content is still live at [collado.squarespace.com](https://collado.squarespace.com/) and I've tried to honor the URL mappings. So, if you get a nice 404, most of the time, just changing the root domain and maintaining the URL should do the trick.
-
-Then, knowing that, I've got three options for you:
-
-1. I've put together kind of a [first aid kit](/blog/2018/collado-io-live) to navigate the place. If you have the time and the patience, it just takes two minutes to read and it will provide a little bit of guidance.
-2. If I assume you came here to know more about iomando (this is precisely one of the pages that I'm currently working on), since it was one of the most visited pages at collado.io. Your best option then is definitely to go to [collado.squarespace.com/iomando](https://collado.squarespace.com/iomando)).
-3. Otherwise, you should be fine, just remember that all the old content is still live at [collado.squarespace.com](https://collado.squarespace.com/), and if you behave properly and follow only links on the page, it will all work 😃
-
-Again, sorry for the inconvenience and I hope next time you come back this is all up and running 🚀
+Oh, and by the way, [reach out](https://twitter.com/MarcCollado) if come up with a better (ideally less than five-letter) name that more accurately describes this page 😅
