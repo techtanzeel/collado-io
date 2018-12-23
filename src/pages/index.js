@@ -11,7 +11,7 @@ import styles from '../utils/md.module.css';
 
 const Home = ({ data }) => {
   const pictureMarc = data.pictureMarc.childImageSharp.fluid;
-  const copy = data.copy.edges[0].node.html;
+  const pageCopy = data.pageCopy.edges[0].node.html;
 
   return (
     <Layout>
@@ -28,7 +28,7 @@ const Home = ({ data }) => {
       </ImageContainer>
       <div
         className={styles.md}
-        dangerouslySetInnerHTML={{ __html: copy }}
+        dangerouslySetInnerHTML={{ __html: pageCopy }}
       />
     </Layout>
   );
@@ -61,9 +61,9 @@ export const query = graphql`
         }
       }
     }
-    copy: allMarkdownRemark(
+    pageCopy: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(home)/" } }
-      limit: 10
+      limit: 1
     ) {
       edges {
         node {
@@ -78,7 +78,7 @@ export const query = graphql`
 Home.propTypes = {
   data: PropTypes.shape({
     pictureMarc: PropTypes.object,
-    copy: PropTypes.shape({
+    pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           id: PropTypes.string,
