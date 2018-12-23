@@ -36,7 +36,7 @@ const iomando = ({ data }) => {
     <Layout>
       <PageHeader
         tagline="Keyless access management for mobile devices"
-        title="iomando technologies"
+        title="iomando"
       />
       <Image
         alt="iomando technologies"
@@ -92,11 +92,16 @@ const iomando = ({ data }) => {
           {iomandoBlogsList('idea')}
         </TabPanel>
         <TabPanel>
-          <p>stories</p>
+          <BodyText>
+            {`iomando was also the first company I co-founded, right after graduating from college. Back then I was only 24 and barely knew what a P&L was. Besides developing a great product, iomando has taught me a far more valuable lesson: how to build a sustainable business.`}
+          </BodyText>
           <Image
             alt="iomando stories"
             fluid={iomandoStories}
           />
+          <BodyText>
+            {`Here's a recollection of stories, decisions, but most important, some the lessons learned along the way on how to manage and lead a startup from zero to acquisition.`}
+          </BodyText>
           {iomandoBlogsList('memoir')}
         </TabPanel>
       </Tabs>
