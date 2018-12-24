@@ -19,11 +19,13 @@ const Container = styled.div`
 `;
 
 const Title = styled(Title1)`
-  margin: 0em auto;
+  margin: 0em auto 0.25em;
 `;
 
 const TagLine = styled(MetaText)`
+  line-height: 1.25em;
   margin-bottom: 1em;
+  text-align: center;
   text-transform: uppercase;
 `;
 
