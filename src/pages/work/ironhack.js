@@ -120,7 +120,7 @@ export const query = graphql`
     ironhackBlogs: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" },
                 frontmatter: { tags: { in: ["ironhack"] } } }
-      limit: 100
+      limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       totalCount
@@ -155,13 +155,15 @@ Ironhack.propTypes = {
       totalCount: PropTypes.number,
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string,
-          frontmatter: PropTypes.shape({
-            date: PropTypes.string,
-            excerpt: PropTypes.string,
-            path: PropTypes.string,
-            tags: PropTypes.arrayOf(PropTypes.bool),
-            title: PropTypes.string,
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            frontmatter: PropTypes.shape({
+              date: PropTypes.string,
+              excerpt: PropTypes.string,
+              path: PropTypes.string,
+              tags: PropTypes.arrayOf(PropTypes.string),
+              title: PropTypes.string,
+            }),
           }),
         }),
       ),
