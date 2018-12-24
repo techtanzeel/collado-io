@@ -32,8 +32,16 @@ const Container = styled.div`
   background: ${fakeAsbestos};
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   padding: 1em 0em;
+
+  @media (min-width: ${mobile}) {
+    margin-bottom: 1.25em;
+  }
+
+  @media (min-width: ${tablet}) {
+    margin-bottom: 1.5em;
+  }
 `;
 
 const NavbarLink = styled(Link)`
