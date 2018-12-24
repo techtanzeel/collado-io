@@ -13,7 +13,9 @@ const BlogPostPage = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <Layout>
+    <Layout
+      title={frontmatter.title}
+    >
       <BlogPostTitle>
         {frontmatter.title}
       </BlogPostTitle>
