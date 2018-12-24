@@ -1,10 +1,14 @@
 module.exports = {
   siteMetadata: {
-    author: 'Marc Collado',
     title: 'Marc Collado',
+    titleTemplate: 'Marc Collado — %s',
+    shortName: 'Marc',
+    author: 'Marc Collado',
+    siteLanguage: 'en',
+    image: '/static/img/marc-collado.jpg',
     description: 'Marc Collado personal website',
     url: 'https://www.collado.io',
-    twitterUsername: '@MarcCollado',
+    twitter: '@MarcCollado',
   },
   plugins: [
     // Source filesystem
@@ -86,6 +90,7 @@ module.exports = {
     },
 
     // Utils & Helpers
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
   ],
