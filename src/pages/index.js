@@ -35,20 +35,23 @@ const Home = ({ data }) => {
 };
 
 const ImageContainer = styled.div`
-  margin: 0em auto;
+  margin: -0.75em auto 0em;
   min-width: 12em;
-  width: 50%;
+  width: 45%;
 
   @media (min-width: ${mobile}) {
-    max-width: 16em;
+    margin-bottom: -0.5em;
+    max-width: 15em;
   }
 
   @media (min-width: ${tablet}) {
-    max-width: 17em;
+    margin-bottom: -0.25em;
+    max-width: 16em;
   }
 
   @media (min-width: ${desktop}) {
-    max-width: 18em;
+    margin-bottom: 0em;
+    max-width: 17em;
   }
 `;
 
