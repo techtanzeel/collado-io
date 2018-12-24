@@ -90,6 +90,13 @@ module.exports = {
     },
 
     // Utils & Helpers
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-131366514-1',
+        respectDNT: true,
+      },
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
