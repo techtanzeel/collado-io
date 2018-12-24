@@ -48,8 +48,8 @@ export const query = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
-        title
         tags
+        title
       }
     }
   }
@@ -60,12 +60,10 @@ BlogPostPage.propTypes = {
     markdownRemark: PropTypes.shape({
       html: PropTypes.string.isRequired,
       frontmatter: PropTypes.shape({
-        path: PropTypes.string.isRequired,
         date: PropTypes.string.isRequired,
+        path: PropTypes.string.isRequired,
+        tags: PropTypes.arrayOf(PropTypes.string),
         title: PropTypes.string.isRequired,
-        tags: PropTypes.arrayOf(
-          PropTypes.string,
-        ),
       }),
     }),
   }).isRequired,
