@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -11,9 +10,8 @@ import SnackBar from './SnackBar';
 import {
   mobile, tablet, desktop,
 } from '../utils/breakpoints';
-// import {
-//   hipBlack, fakeAsbestos, bianchiGreen,
-// } from '../utils/colors';
+// import { hipBlack, fakeAsbestos, bianchiGreen } from '../utils/colors';
+import SEO from '../utils/seo';
 // import {
 //   Title1, Title2, Title3, BodyText, BodyLink, MetaText,
 // } from '../utils/theme';
@@ -60,20 +58,20 @@ class Layout extends React.Component {
   }
 
   render() {
-    const { children } = this.props;
+    const {
+      children, title, description, image, pathname, article,
+    } = this.props;
     const { renderSnackBar } = this.state;
 
     return (
       <Container>
-        <Helmet defaultTitle="Marc Collado">
-          <meta name="twitter:site" content="@MarcCollado" />
-          <meta name="og:type" content="website" />
-          <link
-            rel="canonical"
-            href="https://collado.io"
-          />
-          <html lang="en" />
-        </Helmet>
+        <SEO
+          title={title}
+          description={description}
+          image={image}
+          pathname={pathname}
+          article={article}
+        />
         {renderSnackBar ? <SnackBar unmount={this.handleUnmountSnackBar} /> : null}
         <Navbar />
         <Content>
@@ -121,6 +119,20 @@ const Content = styled.div`
   }
 `;
 
-Layout.propTypes = {};
+Layout.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  pathname: PropTypes.string,
+  article: PropTypes.bool,
+};
+
+Layout.defaultProps = {
+  title: null,
+  description: null,
+  image: null,
+  pathname: null,
+  article: false,
+};
 
 export default Layout;
