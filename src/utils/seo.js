@@ -19,7 +19,7 @@ const query = graphql`
         siteLanguage
         defaultImage: image
         defaultDescription: description
-        siteUrl: url
+        siteUrl
         twitter
       }
     }

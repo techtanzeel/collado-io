@@ -7,7 +7,7 @@ module.exports = {
     siteLanguage: 'en',
     image: '/static/img/marc-collado.jpg',
     description: 'Marc Collado personal website',
-    url: 'https://www.collado.io',
+    siteUrl: 'https://www.collado.io',
     twitter: '@MarcCollado',
   },
   plugins: [
