@@ -4,27 +4,29 @@
   const bianchiGreen = '#B3E4C8';
 */
 
-
 .react-tabs {
   -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
   border-bottom: 1px solid #525555;
+  display: flex;
+  justify-content: center;
   margin: 0em 0em 1.25em;
   padding: 0em;
 }
 
 .react-tabs__tab {
-  display: inline-block;
   border: 1px solid transparent;
   border-bottom: none;
   bottom: -1px;
-  position: relative;
-  list-style: none;
-  margin-bottom: 0px;
-  padding: 6px 12px;
   cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 0em;
+  padding: 0.5em;
+  position: relative;
+  text-align: center;
 }
 
 .react-tabs__tab--selected {
@@ -64,4 +66,20 @@
 
 .react-tabs__tab-panel--selected {
   display: block;
+}
+
+@media (min-width: 576px) {
+  .react-tabs__tab {
+    padding: 0.5em 0.75em;
+  }
+}
+
+@media (min-width: 768px) {
+  .react-tabs__tab {
+    padding: 0.5em 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+
 }
