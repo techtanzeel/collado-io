@@ -61,6 +61,7 @@ const SEO = ({
             <meta name="image" content={seo.image} />
             <meta name="apple-mobile-web-app-title" content={shortName} />
             <meta name="application-name" content={shortName} />
+            <meta name="google-site-verification" content="vFwB-R5enzdQD5dGriZ1LWEt8Vs2gS9FPjXeeCg4LAI" />
             <link rel="canonical" href="https://www.collado.io" />
             <link rel="icon" sizes="64x64" href={Favicon} />
             <link rel="icon" sizes="32x32" type="image/png" href={smallFavicon} />
