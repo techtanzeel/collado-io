@@ -13,4 +13,4 @@ Quiet, family guy, born and raised in Barcelona.
 ## Other Than That
 I devote almost all my free time to 📚 [reading](/tags/books/) books, 🏋️‍♂️ [training](/tags/sub3/), and 🏗 [building](/work/pansa/), mostly, useless things.
 
-`PRO TIP`:  if you want to know what I am currently up to, check out my [now page](https://collado-io.netlify.com/now), inspired by [Derek Sivers](https://sivers.org/) and the [nownownow](https://nownownow.com/) project.
+`PRO TIP`:  if you want to know what I am currently up to, check out my [now page](/now), inspired by [Derek Sivers](https://twitter.com/sivers) and the [nownownow](https://nownownow.com/) project.
