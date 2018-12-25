@@ -2,7 +2,7 @@
 title: "Ready Player One"
 date: "2018-05-09"
 path: "/blog/2018/ready-player-one"
-tags: ["movies", "opinion", "product", "tech"]
+tags: ["movies", "idea", "tech", "ai"]
 featured: "false"
 excerpt: "I went to the movies and left wondering whether it will become cheaper to recreate an entirely new world rather than fixing the one we live in."
 ---

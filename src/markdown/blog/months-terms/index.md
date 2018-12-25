@@ -1,8 +1,8 @@
 ---
-title: "Months and Terms"
-path: "/blog/2018/months-terms"
+title: "Months And Terms"
 date: "2018-05-16"
-tags: ["education", "opinion", "product"]
+path: "/blog/2018/months-terms"
+tags: ["udacity", "tech", "data", "education"]
 featured: "false"
 excerpt: "Why I stuck with the DAND's monthly structure rather than switching to the updated term-based model."
 ---
@@ -24,7 +24,7 @@ It is a clever approach because it seems the student would be primarily driven t
 Here is precisely where intrinsic motivators kick in and this is why a term-based model is better suited to recreate the conditions for the student to thrive.
 
 
-##  A Time Constraint
+## A Time Constraint
 On the other hand, term-based programs provide something far more valuable than getting your money back: synchrony and a time constraint. Synchrony is all about the sense of community and sharing the learning experience with other students. The time constraint helps handicap the program from a time perspective.
 
 While the monthly model places an imaginary, soft deadline of twelve months to get your money back, it doesn't set a specific point in time where the program ends. In other words, as a student, you can get stuck, indefinitely paying every month until the end of time, without having graduated. The term structure instead delivers a much clearer time framework, because of you either graduate within the given term, or you don't.
