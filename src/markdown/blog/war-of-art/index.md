@@ -1,10 +1,10 @@
 ---
 title: "📖 The War Of Art"
 date: "2018-07-30"
-path: "/blog/2018/book-war-art"
-tags: ["books", "craft", "happiness", "product"]
+path: "/blog/2018/war-of-art"
+tags: ["books", "art", "happiness", "productivity"]
 featured: "false"
-source: "https://www.amazon.com/dp/1501260626"
+source: "https://www.amazon.com/dp/1501260626/"
 ---
 
 ## Showing Up
@@ -32,11 +32,11 @@ Friends sometimes ask, "Don't you get lonely sitting by yourself all day?" At fi
 * It is the space between our life and the the unlived life within us.
 * Derives from any act that rejects immediate gratification in favor of long-term growth, health, or integrity.
 * It will tell you anything to keep you from doing your work.
-	* It will perjure, fabricate, falsify; seduce, bully, cajole. Resistance is protean.
-	* It cannot be reasoned with. It understands nothing but power.
-	* It is an engine of destruction, programmed from the factory to prevent us from doing our work.
+  * It will perjure, fabricate, falsify; seduce, bully, cajole. Resistance is protean.
+  * It cannot be reasoned with. It understands nothing but power.
+  * It is an engine of destruction, programmed from the factory to prevent us from doing our work.
 * Resistance is fear. But it is too cunning to show itself naked in this form, then it brings in Rationalization.
-	* A series of plausible, rational justifications for why we shouldn't do our work.
+  * A series of plausible, rational justifications for why we shouldn't do our work.
 * The more important a call or action is to our soul's evolution, the more Resistance we will feel toward pursuing it. Therefore, the more scared we are of a work or calling, the more sure we can be that we have to do it.
 * It aims to kill. Its target is the epicenter of our being: our genius, our soul, the unique and priceless gift we were put on earth to give and that no one else has but us.
 * Resistance has no strength of its own. Every ounce of juice it possesses comes from us. We feed it with power by our fear of it.

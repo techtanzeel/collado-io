@@ -2,9 +2,9 @@
 title: "Udacity Data Analyst Nanodegree"
 date: "2018-02-04"
 path: "/blog/2018/udacity-dand"
-tags: ["udacity", "product", "tech", "data", "education"]
+tags: ["udacity", "tech", "data", "education"]
 featured: "true"
-excerpt: "A product manager review of the Udacity Data Analyst Nanodegree."
+excerpt: "A review of the Udacity Data Analyst Nanodegree, from a Product Manager's perspective."
 ---
 
 ![Udacity data science nanodegree](./udacity-dand.jpg "Udacity data science nanodegree")
@@ -62,7 +62,7 @@ Finally, how is it like to go through the program? I won't lie: it is hard. Alth
 
 I finished the program in eight months[^4], but I was not consistent with my schedule and the number of hours per week I was investing, which I believe is the ultimate "hack" to stay on the program's track.
 
-The main problem I faced would go like this: the amount of effort it takes to re-engage again with the course is (exponentially) related to the amount of time you spend away from it. In other words, the more time you stay away from the program, the more difficult it gets to just go past the Udacity's login screen. It becomes an [ongoing battle](/blog/2018/book-war-art) against your willpower.
+The main problem I faced would go like this: the amount of effort it takes to re-engage again with the course is (exponentially) related to the amount of time you spend away from it. In other words, the more time you stay away from the program, the more difficult it gets to just go past the Udacity's login screen. It becomes an [ongoing battle](/blog/2018/war-of-art) against your willpower.
 
 I suffered from that, big time. I remember sometime around June where after over a month without completing a single lesson, the thought of dropping out even crossed my mind. I endured, but the chances of not writing this post right now were then higher than you might expect.
 
