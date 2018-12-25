@@ -37,7 +37,7 @@ Precisely for this reason I am convinced this future is inevitable. If given the
 
 I don't think this last point can be even argued, but this is just one side of the problem. The true, underlying narrative I see around this whole "parallel world" debate is not technological, but societal.
 
-The question we should be asking is not "if" we'll eventually be capable of developing a digital world virtually indistinguishable from ours. Not even "when". This is inevitable and we all should acknowledge it is going to happen, sooner or later, period.
+The question we should be asking is not "if" we'll eventually be capable of developing a digital world virtually indistinguishable from ours. [Not even "when"](/blog/2016/google-ai-play-go). This is inevitable and we all should acknowledge it is going to happen, sooner or later, period.
 
 The question we should be asking, the one this movie is subtlety exposing, is at which point it will become cheaper to recreate an entirely new (digital) world rather than fixing the one we live in.
 
