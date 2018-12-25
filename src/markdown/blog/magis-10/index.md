@@ -13,7 +13,7 @@ That was quite a refactor, auditing each component of the code base (while reduc
 
 By the end of the post, I also mentioned that from now on I'd try to be more consistent and incremental with its development, [documenting the roadmap](https://github.com/MarcCollado/magis/projects/1), properly adding issues to the project and working on it on a more regular basis, rather than doing massive, one-off pushes.
 
-Well, here's take two, brought to you by a couple of vacation days I got for myself right after the [Valencia Marathon](/blog/2018/valencia-3-15-39). And while not sure "incremental" is the best word to describe it, working on it felt so good that I've decided to change its name (for a cooler one, more on that in a moment) and start versioning the thing to put a little bit of sanity to its future development.
+Well, here's take two, brought to you by a couple of vacation days I got for myself right after the [Valencia Marathon](https://www.strava.com/activities/1996244257). And while not sure "incremental" is the best word to describe it, working on it felt so good that I've decided to change its name (for a cooler one, more on that in a moment) and start versioning the thing to put a little bit of sanity to its future development.
 
 That being said, let's once and for all stop the drumroll and jump straight into what's new.
 

@@ -7,7 +7,7 @@ path: "/now"
 2019 will start by consolidating and doubling down on the same 2018' themes, but with a slightly different focus.
 
 ### Training
-Keeping up with the ~~obsession~~ goal of [running a marathon under three hours](/tags/sub3), the next stop, after [missing the mark](/blog/2018/valencia-3-15-39) — just by 39 seconds — in Valencia, will be the [Sevilla Marathon](http://www.zurichmaratonsevilla.es/) on the 17th of February and my hometown' [Barcelona Marathon](https://www.zurichmaratobarcelona.es/) on the 10th of March.
+Keeping up with the ~~obsession~~ goal of [running a marathon under three hours](/tags/sub3), the next stop, after [missing the mark](https://www.strava.com/activities/1996244257) — just by 39 seconds — in Valencia, will be the [Sevilla Marathon](http://www.zurichmaratonsevilla.es/) on the 17th of February and my hometown' [Barcelona Marathon](https://www.zurichmaratobarcelona.es/) on the 10th of March.
 
 Both Sevilla and Barcelona should clock somewhere between 3h10min and 3h15min, the closer to the former, the better.
 
