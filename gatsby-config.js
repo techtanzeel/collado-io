@@ -6,7 +6,7 @@ module.exports = {
     author: 'Marc Collado',
     siteLanguage: 'en',
     image: '/static/img/marc-collado.jpg',
-    description: 'Marc Collado personal website',
+    description: 'Marc Collado Personal Website. Product Manager @ Ironhack. Co-founder @ iomando. Industrial Engineer. Programmer aficionado. Avid runner.',
     siteUrl: 'https://www.collado.io',
     twitter: '@MarcCollado',
   },
