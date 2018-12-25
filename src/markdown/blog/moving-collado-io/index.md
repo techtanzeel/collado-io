@@ -13,7 +13,7 @@ What started as a way to crystalize what I learnt, has become a journey of disco
 
 In other words, I wanted to create a backup drive for my brain, you know, just in case.
 
-But soon I realized that the sole process of [sitting down and write](/blog/2018/book-war-art) was also teaching me how to think: broadening my perspective, structuring my reasoning and slowly smoothing my roughest thoughts out. An invaluable asset nowadays I couldn't live without.
+But soon I realized that the sole process of [sitting down and write](/blog/2018/war-of-art) was also teaching me how to think: broadening my perspective, structuring my reasoning and slowly smoothing my roughest thoughts out. An invaluable asset nowadays I couldn't live without.
 
 Writing has profoundly changed the way I approach problems both in my personal and professional life.
 

@@ -9,7 +9,7 @@ excerpt: "A retrospective of the first month of the sub3 project. Despite it got
 
 It's been over a month since I started planning for the sub3 project. In my mind, this first month was all about getting things up and running, building the habit, the momentum that will eventually become the foundation for the project. Yet sincerely, the results have blown my wildest expectations, I couldn't have imagined a better, more steady start.
 
-I feel the need to [bring back Steve](/blog/2018/book-war-art) here, just to remind me what I got wrong the last time, but also what fueled me this last month — and hopefully what will keep me going in the future.
+I feel the need to [bring back Steve](/blog/2018/war-of-art) here, just to remind me what I got wrong the last time, but also what fueled me this last month — and hopefully what will keep me going in the future.
 
 > How many pages have I produced? I don't care. Are they any good? I don't even think about it. All that matters is I've put in my time and hit it with all I've got. All that counts is that, for this day, for this session, I have overcome Resistance.
 

@@ -45,7 +45,7 @@ Challenge accepted!
 
 
 ## Why I Failed In 2018
-The short answer is because I still hadn't read [this book](/blog/2018/book-war-art).
+The short answer is because I still hadn't read [this book](/blog/2018/war-of-art).
 
 To quote Steven Pressfield on the exact reason I failed:
 
