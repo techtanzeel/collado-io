@@ -2,9 +2,9 @@
 title: "Services And Subscriptions"
 date: "2013-03-11"
 path: "/blog/2013/services-and-subscriptions"
-tags: ["iomando", "memoir", "idea", "business"]
+tags: ["iomando", "idea", "business"]
 featured: "false"
-excerpt: "Why subscription-based businesses promote the right incentives in order to create the best products."
+excerpt: "Why subscription-based businesses promote the right incentives in order to deliver the best products and create healthier customer relationships."
 ---
 
 ![iomando vs remote](./iomando-vs-remote.jpg "iomando vs remote")
