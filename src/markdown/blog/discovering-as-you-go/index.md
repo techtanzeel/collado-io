@@ -2,7 +2,7 @@
 title: "Discovering As You Go"
 date: "2014-01-23"
 path: "/blog/2014/discovering-as-you-go"
-tags: ["iomando", "memoir", "idea", "business", "product"]
+tags: ["iomando", "idea", "memoir", "business", "product"]
 featured: "false"
 excerpt: "As we advanced on our journey we discovered new, initially invisible markets to serve, where our product was a better fit. The hardest part though was acknowledging that our initial product ideas were not optimal."
 ---
@@ -49,7 +49,7 @@ After endless talks with building managers, mobility administrators, people in c
 Under the hood, iomando had two fundamental traits that made our value proposition unique for those use cases in a way that competitors simply couldn't match:
 
 * Adding additional units of capacity came without an associated cost. In terms of traditional access systems, if you wanted to deploy a new key or a remote to a customer, you had to actually make and pay for the thing. This a perfectly reasonable thing to do — pay for your cost of goods that you'll later sell, but something that didn't occur with iomando. Creating more permissions was freed from a manufacturing point of view since the key itself was composed of 1s and 0s. From a cost basis perspective, it was virtually the same to serve a little shop or a huge city council with three million users.
-* Putting the service in the hands of our users was also free of charge. Not only adding new units of capacity was virtually free, but the distribution of those new units themselves was also free. Since we are changing the [plastic for bits](/blog/2014/plastic-bits), the permissions were also distributed through the air. A huge competitive advantage in places with a larger user base, because not only the owner saved a lot of money by not purchasing the key itself, but it also removed the need for the distribution afterward.
+* Putting the service in the hands of our users was also free of charge. Not only adding new units of capacity was virtually free, but the distribution of those new units themselves was also free. Since we are changing the [plastic for bits](/blog/2014/plastic-for-bits), the permissions were also distributed through the air. A huge competitive advantage in places with a larger user base, because not only the owner saved a lot of money by not purchasing the key itself, but it also removed the need for the distribution afterward.
 
 This realization made us rethink our business model. We were allocating almost all our resources and efforts chasing small communities and houses because they were far easier deals and we "understood" the consumer market. But our nature, our ability to reap the scale that came from being software based, made us a better fit for larger organizations and places where access control was a matter of thousands, even millions.
 
