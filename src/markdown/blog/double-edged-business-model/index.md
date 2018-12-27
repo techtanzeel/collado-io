@@ -33,7 +33,7 @@ Bringing the conversation back to iomando, we chose the latter, the naive route.
 
 Of course, [we knew nothing](/blog/2013/wrong-about-pricing).
 
-We built a product for a market that we recreated in our minds. We didn’t consider how the market was shaped, and we were confident our product would just fit "out of the box".
+We built a product for a market that we [recreated in our minds](/blog/2013/pivoting-iomando). We didn’t consider how the market was shaped, and we were confident our product would just fit "out of the box".
 
 The way out of this situation was to distill the core nature of our product, find something unique, and leverage it in order to create something our competitors could not replicate.
 
@@ -43,7 +43,7 @@ We also had to account for how our sales channels already operated: distributors
 
 Our distributors didn't speak LTV. They spoke installation cost, that was their bread and butter and what their customers were used to pay for. Thus we had to create a model for iomando that fit their expectations and the way they were used to do business.
 
-We course corrected and split our hardware and software operations. We let installers play their own rules and manage the hardware side of the business — alongside the customer service relationship.
+We course corrected and split our hardware and software operations. We let installers play their own rules and manage the [hardware side of the business](/blog/2013/iomando-20-hardware) — alongside the customer service relationship.
 
 This way distributors benefited from a huge markup on every sale, which included the electronic unit plus the installation. This is the way this industry has operated since forever, and this is the way iomando makes some room for itself.
 
