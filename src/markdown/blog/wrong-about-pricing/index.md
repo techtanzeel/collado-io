@@ -2,7 +2,7 @@
 title: "We Were Wrong About Pricing"
 date: "2013-06-10"
 path: "/blog/2013/wrong-about-pricing"
-tags: ["iomando", "memoir", "idea", "business"]
+tags: ["iomando", "idea", "memoir", "business"]
 featured: "false"
 excerpt: "How we changed our pricing strategy in order to make both distributors and customers happy, while creating a sustainable business along the way."
 ---
@@ -81,7 +81,7 @@ We've explicitly separated our business units, both hardware, and software.
 
 Now, we directly sell our hardware to distributors. It has a price and they sell it to the customers with a markup and an installation cost. No more "renting". The customer buys the hardware and owns it. Therefore, on this side, we drive a classic ~30% markup business that is paid up front and finances almost all the manufacturing costs and operations. Prior to that, the cost of the hardware was bundled onto the subscription and we were "losing money" on every single sale, hoping the LTV of the customer would account for that in the future.
 
-> This makes the distributors happy because they can run a business, as usual, their margins are higher in absolute terms and the customer acquires something and it feels like she is [paying for atoms, not bits](/blog/2014/plastic-bits).
+> This makes the distributors happy because they can run a business, as usual, their margins are higher in absolute terms and the customer acquires something and it feels like she is [paying for atoms, not bits](/blog/2014/plastic-for-bits).
 
 On top of that, with every sale distributors closes, we tie the customer back with a SAAS that provides the access control features. We make it everything plug and play and transparent to both the installer and the customer. The moment the installation takes place, our device connects to the internet and awaits to be activated by the customer. She only has to go to our activation portal, introduce the serial number and the number of licenses and it is already working.
 
