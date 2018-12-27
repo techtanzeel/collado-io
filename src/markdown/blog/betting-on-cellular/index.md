@@ -2,7 +2,7 @@
 title: "Betting On Cellular Technology"
 date: "2013-04-02"
 path: "/blog/2013/betting-on-cellular"
-tags: ["iomando", "memoir", "idea", "product", "tech"]
+tags: ["iomando", "idea", "product", "tech"]
 featured: "false"
 excerpt: "The reasons behind the controversial decision of using cellular technology — rather than Bluetooth or Wi-Fi, to power our IoT devices."
 ---
