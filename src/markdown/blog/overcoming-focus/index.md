@@ -2,7 +2,7 @@
 title: "Overcoming Focus"
 date: "2014-02-11"
 path: "/blog/2014/overcoming-focus"
-tags: ["iomando", "idea", "memoir", "business"]
+tags: ["iomando", "memoir", "idea", "business"]
 featured: "false"
 excerpt: "While focus is usually perceived as a fundamental component to build a sustainable business in the long-term, when in survival mode, focus might only contribute to wreck you down."
 ---
