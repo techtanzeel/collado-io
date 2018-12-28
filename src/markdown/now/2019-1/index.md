@@ -21,7 +21,7 @@ What I do know is that [pansa](/work/pansa) will become one of the most delightf
 ### Reading
 I want to keep on reading a couple of books per month, but also reinstate the practice of publishing my [book notes](/tags/books) — even if they aren't extremely polished.
 
-Early 2019, these will be my eight book pickings:
+Early 2019, these will be my eight (+1) book pickings:
 
 * [Stumbling on Happiness](https://www.amazon.com/dp/B000GCFW0A/)
 * [Predictably Irrational](https://www.amazon.com/dp/B002RI9QJE/)
