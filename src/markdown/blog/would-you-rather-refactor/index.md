@@ -2,7 +2,7 @@
 title: "The Would You Rather Refactor"
 date: "2018-11-01"
 path: "/blog/2018/would-you-rather-refactor"
-tags: ["udacity", "update", "product", "tech", "coding"]
+tags: ["udacity", "product", "tech", "coding"]
 featured: "false"
 excerpt: "The product story behind the major refactor to the Magis app (formerly Would You Rather), Udacity's React Nanodegree second project, based on React & Redux."
 ---

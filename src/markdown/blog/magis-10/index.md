@@ -2,7 +2,7 @@
 title: "Magis 1.0"
 date: "2018-12-12"
 path: "/blog/2018/magis-10"
-tags: ["udacity", "update", "product", "tech", "coding"]
+tags: ["udacity", "product", "tech", "coding"]
 featured: "false"
 excerpt: "Introducing Magis 1.0, with a new name, continuous deployment, user authentication, real-time database... and an inconsequential, but exhausting data model refactor."
 ---
