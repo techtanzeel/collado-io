@@ -111,9 +111,7 @@ const BodyLink = styled.a`
 
   @media (min-width: ${mobile}) {}
 
-  @media (min-width: ${tablet}) {
-    font-size: 1.125em;
-  }
+  @media (min-width: ${tablet}) {}
 
   @media (min-width: ${desktop}) {}
 `;
