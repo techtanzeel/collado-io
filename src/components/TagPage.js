@@ -43,8 +43,7 @@ const TagPage = ({ pageContext, data }) => {
       <ButtonContainer>
         <Button
           href="/tags"
-          size="small"
-          theme="light"
+          theme="dark"
         >
         View all tags
         </Button>
