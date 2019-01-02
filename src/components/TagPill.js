@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import SuperLink from './SuperLink';
-
 import { tablet } from '../utils/breakpoints';
 import { fakeAsbestos, hipBlack } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
@@ -13,23 +12,29 @@ const TagPill = ({ children }) => (
     <SuperLink
       href={`/tags/${children}`}
     >
-      <TagName>
+      <TagText>
         {`${children}`.toLowerCase()}
-      </TagName>
+      </TagText>
     </SuperLink>
   </Container>
 );
 
 const Container = styled.div`
   display: flex;
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+
+  @media (min-width: ${tablet}) {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
 `;
 
-const TagName = styled(MetaTextMono)`
+const TagText = styled(MetaTextMono)`
   background: ${fakeAsbestos}22;
   border-radius: 0.25em;
   color: ${hipBlack};
-  margin-bottom: 0.25em;
-  margin-right: 0.25em; // Makes some room between pills
+  margin-bottom: 0em;
   padding: 0.25em 0.5em;
   transition: background 0.3s ease-out;
 
@@ -38,8 +43,6 @@ const TagName = styled(MetaTextMono)`
   }
 
   @media (min-width: ${tablet}) {
-    margin-bottom: 0.5em;
-    margin-right: 0.5em;
     padding: 0.25em 0.75em;
   }
 `;
