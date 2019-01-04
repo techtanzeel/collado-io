@@ -63,25 +63,23 @@ But going sub3 is a whole other story and doesn't come naturally to anybody. Not
 
 
 ## The 2019 Challenge
-Easy 😰, run the 2019 Barcelona Marathon under the three-hour mark.
+Easy 😰, run a marathon under the three-hour mark in 2019.
 
-Am I certain that this year I'm going to make it? Nope. But at least I know that I will be consistent, put the necessary effort and measure and act upon what works and what doesn't. Otherwise this whole project would be a wasted effort.
+Am I certain that this year I'm going to make it? Nope. But at least I know that I will be consistent, put the necessary effort and measure and act upon what works and what doesn't. Otherwise, this whole project would be a wasted effort.
 
 One more time, from Steven:
 
 > The pro concentrates on technique. The professional masters how, and leaves what and why to the gods.
 
-And finally, what this #sub3 project has to do with collado.io?
+And finally, why do it in the first place?
 
-This is going to be the first project starting on [the new collado.io](/blog/2018/moving-collado-io). It won't be just a simple series of posts, but a broader analysis over my training log and how the different inputs affect the output on the track. Think of a visualization where you can see how decisions ultimately affect performance.
+First of all, because the challenge will help me become more consistent with my practice, and regardless I make it or not, I'll end up in a pretty decent place anyway. Nothing bad comes out from being physically active.
 
-The project will also serve as a journal to document the whole process: from my routine to the equipment I use. The idea is to create a recipe for success for anybody who wants to cross the three-hour mark.
+But I don't want this to be just a simple series of posts — the topic is way too "me-centric" and I don't think it has a broader appeal or interest. I just want this project to help me analyze in depth my training log, and understand how the different inputs affect my overall performance.
 
-The idea behind starting this project goes back to the very idea of why I started this site in the first place. Back then I was afraid to forget about the things I learned. My life consists in a series of self-imposed experiments — ranging from walking everywhere for a month, eating strict paleo for a year or squatting 100kg following the 5x5, that I'm logging nowhere but on a handful of notebooks.
+The idea behind starting this project goes back to the very idea of why I started this very site in the first place. Back then I was afraid to forget about the things I learned. My life consists in a series of self-imposed experiments — ranging from walking everywhere for a month, eating strict paleo for a year or squatting 100kg following the 5x5, that I'm logging nowhere but on a handful of notebooks.
 
-I want to publish all of this. Not because humanity needs to know, thousands if not millions of people have already walked down this path, but because I just want a place to look back, reflect, and see what I've been up to during my time on Earth.
-
-This post marks the beginning of the project #sub3, I'll keep publishing all related posts under the tag `sub3` that you can check [here](/tags/sub3).
+This time though, I want to be strategic with my efforts and measure the training in a way I didn't before. Everything will be publicly available at my [Strava profile](https://www.strava.com/athletes/marccollado) and maybe I share some updates in the future as follow up posts under the tag `sub3` that you can check [here](/tags/sub3).
 
 ---
 [^1]: Not that I quit exercising, despite never being a professional athlete, I've always maintained a fairly active lifestyle. During this gap, from fourteen to eighteen, I trained regularly with the sailing national team. We didn't run much, but it kept me quite busy.
