@@ -4,10 +4,10 @@ date: "2018-09-24"
 path: "/blog/2018/sub3-month-1"
 tags: ["health", "sub3"]
 featured: "false"
-excerpt: "A retrospective of the first month of the sub3 project. Despite it got off to a solid start, challenges around maintaining volume while pushing times and PRs down, still remain."
+excerpt: "A retrospective of the first month of the sub3 marathon project. Despite it got off to a solid start, challenges around maintaining volume while pushing times and PRs down, still remain."
 ---
 
-It's been over a month since I started planning for the sub3 project. In my mind, this first month was all about getting things up and running, building the habit, the momentum that will eventually become the foundation for the project. Yet sincerely, the results have blown my wildest expectations, I couldn't have imagined a better, more steady start.
+It's been over a month since I started planning for the sub3 marathon project. In my mind, this first month was all about getting things up and running, building the habit, the momentum that will eventually become the foundation for the project. Yet sincerely, the results have blown my wildest expectations, I couldn't have imagined a better, more steady start.
 
 I feel the need to [bring back Steve](/blog/2018/war-of-art) here, just to remind me what I got wrong the last time, but also what fueled me this last month — and hopefully what will keep me going in the future.
 
@@ -61,7 +61,7 @@ Here's my weight log these lasts months 👇
 ## Coming Up
 Next month I want to maintain the momentum and clock 200 to 220km. This is less than this month because the 29th of September I'll be running the [Mitja Pirineus](http://ultrapirineu.com/en/mitja) and I don't want to show up there overtrained, so a little bit of rest will be welcome during the early phase of the month.
 
-On top of that, I've got a few trips booked for October — that will certainly disrupt a little bit my training agenda. Nonthelesss, I'm aiming for new PRs for the 10k, below 00:43:00, and also completing the first half marathon training, below 01:40:00.
+On top of that, I've got a few trips booked for October — that will certainly disrupt a little bit my training agenda. Nonetheless, I'm aiming for new PRs for the 10k, below 00:43:00, and also completing the first half marathon training, below 01:40:00.
 
 So, my homework for the next month 👇
 
