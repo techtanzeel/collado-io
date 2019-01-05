@@ -7,7 +7,7 @@ featured: "false"
 excerpt: "College incentives are completely misaligned because its success is not properly linked to student outcomes anymore. Rather, it has become a social apparatus to which students go because they just feel that they have to."
 ---
 
-Since the day I [joined the Ironhack team](/blog/2015/wecode), I have witnessed — from the very first row, more than one hundred students graduating from our bootcamp here in Barcelona. Right after the program, most of them successfully land amazing jobs as developers or start working on their own projects. Because of that, sometimes, I can't help but ask myself what would have happened if I had [skipped college](/blog/2013/industrial-engineer) altogether.
+Since the day I [joined the Ironhack team](/blog/2015/hi-from-ironhack), I have witnessed — from the very first row, [more than one hundred students graduating from our bootcamp](/blog/2017/curiosity-trumps-everything) here in Barcelona. Right after the program, most of them successfully land amazing jobs as developers or start working on their own projects. Because of that, sometimes, I can't help but ask myself what would have happened if I had [skipped college](/blog/2013/industrial-engineer) altogether.
 
 I know it is a useless exercise and just food for thought — I'm not getting back my college years anytime soon. It helps me, though, better understand how I got here, and also share with the newcomers what I have learned — and got wrong, from the experience.
 
