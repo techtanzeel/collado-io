@@ -56,6 +56,8 @@ Trouble is a faux form of fame or attention. It's easier to get busted in the be
 
 If you find yourself criticizing other people, you're probably doing it out of Resistance. When we see others beginning to live their authentic selves, it drives us crazy if we have not lived out our own.
 
+📍 Conditions
+
 How many of us have become drunks and drug addicts, developed tumors and neuroses, succumbed to painkillers, gossip, and compulsive cell-phone use, simply because we don't do that thing that our hearts, our inner genius, is calling us to? Resistance defeats us.
 
 The acquisition of a condition lends significance to one's existence. An illness, a cross to bear. Some people go from condition to condition; they cure one, and another pops up to take its place. The condition becomes a work of art in itself, a shadow version of the real creative act the victim is avoiding by expending so much care cultivating his condition.
@@ -110,6 +112,10 @@ The professional cannot allow the actions of others to define his reality. Tomor
 ## Muse
 We can't be anything we want to be. We come into this world with a specific, personal destiny. We have a job to do, a calling to enact, a self to become. We are who we are from the cradle, and we're stuck with it. Our job in this lifetime is not to shape ourselves into some ideal we imagine we ought to be, but to find out who we already are and become it.
 
-[it is our calling, you owe it not just to you, but to the world] If you were meant to cure cancer or write a symphony or crack cold fusion and you don't do it, you not only hurt yourself, even destroy yourself. You hurt your children. You hurt me. You hurt the planet.
+📍 Our calling
 
-[working territorially] I trusted what I wanted, not what I thought would work. I did what I myself thought was interesting, and left its reception to the gods. The artist can't do his work hierarchically. He has to work territorially.
+It is our calling, you owe it not just to you, but to the world. If you were meant to cure cancer or write a symphony or crack cold fusion and you don't do it, you not only hurt yourself, even destroy yourself. You hurt your children. You hurt me. You hurt the planet.
+
+📍 Working territorially
+
+I trusted what I wanted, not what I thought would work. I did what I myself thought was interesting, and left its reception to the gods. The artist can't do his work hierarchically. He has to work territorially.
