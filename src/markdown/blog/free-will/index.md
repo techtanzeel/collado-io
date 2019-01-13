@@ -5,7 +5,7 @@ path: "/blog/2018/free-will"
 tags: ["books", "physics", "happiness", "psychology"]
 featured: "false"
 excerpt: ""
-source: "https://www.amazon.com/dp/B006IDG2T6"
+source: "https://www.amazon.com/dp/B006IDG2T6/"
 ---
 
 > Free will is an illusion. Our wills are simply not of our own making. Thoughts and intentions emerge from background causes of which we are unaware and over which we exert no conscious control. We do not have the freedom we think we have.
