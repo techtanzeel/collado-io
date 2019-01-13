@@ -1,0 +1,262 @@
+---
+title: "📖 Stumbling On Happiness"
+date: "2019-01-13"
+path: "/blog/2019/stumbling-on-happiness"
+tags: ["books", "happiness", "psychology"]
+featured: "false"
+excerpt: ""
+source: "https://www.amazon.com/dp/B000FII1JO/"
+---
+
+How much of what you do is for now, and how much is to please the future you?
+
+We do "good" things in the charitable service of the people we will soon become. We treat our future selves as though they were our children, constructing tomorrows that we hope will make them happy.
+
+🖊 Mind the syntactic distinction between "me" and "they" as if they were different people.
+
+The human being is the only animal that experiences and thinks about the future, and is able to see the world as it has never seen before —  imagine objects and episodes that do not exist in the realm of the real.
+
+The human brain is an "anticipation machine" and "making future" is the most important thing it does.
+
+The frontal lobe is responsible for planning and anxiety — two key future-oriented functions.
+
+When people find it easy to imagine an event, they overestimate the likelihood that it will occur. Because we get more practice imagining good events than bad events, we overestimate the likelihood that good events will actually happen to us, which leads us to be unrealistically optimistic about our futures.
+
+On the other hand, fear, worry, and anxiety have useful roles to play in our lives. We motivate by dramatizing the unpleasant consequences of misbehaviors by imagining the unpleasant tomorrows.
+
+> One of the central needs of humans is to control things. Enacting control over your own life is a source of pleasure.
+
+The most important reason why our brains insist on simulating the future is that our brains want to control the experiences we are about to have.
+
+🖊 Whenever you are leading a team, make sure they feel in control, that they are making decisions themselves.
+
+If we lose our ability to control things, we become unhappy, helpless, hopeless, and  depressed. Despite we exert no control over an uncontrollable event, people often act as though they can control the uncontrollable.
+
+
+## Subjectivity
+> The fact that experience is unobservable to everyone but the person having it.
+
+We don't notice changes if we are not focused on an experience as it changes. In this case, we rely on our memories to remember and recognize a change, but our memories are quite faulty — thus it is difficult to assess happiness on a shaky memory.
+
+No one knows what happiness really is. That means we can’t say definitely whether someone in a situation that might seem bad to us, is actually less happy than we are.
+
+We can be wrong about our own emotional experience.
+
+📍 Language squishing hypothesis: our current view and understanding of the world completely shapes our own perception and emotional experience.
+
+🖇 [Learning to See — iA](https://ia.net/topics/learning-to-see)
+
+Once we have an experience, we cannot simply set it aside and see the world as we would have seen it had the experience never happened.
+
+📍 Experience-stretching hypothesis: you might have heard "They only think they’re happy because they don’t know what they are missing." That’s actually the point. Not knowing what we are missing is the very thing that allows us to be happy despite not having some other opportunity.
+
+🖇 [Hedonic treadmill — Wikipedia](https://en.wikipedia.org/wiki/Hedonic_treadmill)
+
+In other words, your experiential background can dramatically change your happiness levels. Once you know something exists and have experienced pleasure from it, then your definition of happiness changes compared to what it was in the past.
+
+What's more, an experience that once brought you pleasure could no longer do. A man given a drink of water in the desert may rate his happiness as an 8/8. A year later, that same drink might make him feel no better than a 2/8.
+
+Experience and awareness are closely related but not the same. Experience refers to partaking in an event. Awareness refers to being cognizant that the event is happening.
+
+* Experience comes from the Latin "experientia", which means "to try"
+* Awareness comes from the Greek "horáō",  which means "to see"
+
+How to evaluate subjective experiences?
+
+Psychological sciences will always be imperfect because we are trying to observe someone else's subjective experience, but it's the best we've got and the closest an outside observer can get to understanding the inside of someone else's mind.
+
+📍 In this scenario we have to trust on the Law of Large Numbers. Which is to say that phenomena arises from very large numbers of something, is not the same as that phenomena derived from a smaller sample "but bigger".
+
+Large numbers make the experiment behave in a totally different way. For example, billions of neurons lead to a conscious human brain, but two neurons are not a small version of consciousness.
+
+Similarly, one person's subjective experience of happiness (and life) might be imperfect and subjective, but when we look at hundreds or thousands of people truths and patterns start to emerge. The individual imperfections cancel each other out.
+
+🖇 An idea closely related to [Thinking Fast And Slow](/blog/2018/thinking-fast-and-slow) and the idea that:
+
+> Large samples are more precise than small samples, which is the same to say that extreme outcomes are more likely to be found in small samples.
+
+
+## Realism
+The way our brain store and retrieve memories of past experience deceives us and provides a faulty interpretation of the way things truly are.
+
+📍 Manufactured belief: because those interpretations are usually so good, we do not realize that we are seeing an interpretation. Instead, we feel as though we are sitting comfortably inside our heads, looking out though the clear glass windshield of our eyes, watching the world as it really is.
+
+🔖 It has been demonstrated by several experiments that information gathered after an event can actually change our memories of such event.
+
+We forget that our brains are talented forgers, delivering a mixture of memory and perception whose detail is so compelling that its inauthenticity is rarely detected.
+
+How our brains accomplish such faithful reflection? [Immanuel Kant — Wikipedia](https://en.wikipedia.org/wiki/Immanuel_Kant) claimed that our perceptions are the result of a psychological process that combines:
+
+* What our eyes see
+* What we already think, feel, know, want and believe
+
+Then uses this combination of sensory information and preexisting knowledge to construct our perceptions of reality.
+
+As [Will Durant — Wikipedia](https://en.wikipedia.org/wiki/Will_Durant) put it, a _manufactured reality_.
+
+Our brains “fill in” all sorts of information each day. Our predictions are influenced by our experiences. We make assumptions about things that we predict based on the previous experiences we have had or heard about before.
+
+Therefore, the mistake we make when we unthinkingly accept the validity of our memories and perceptions is the same mistake we make when we imagine our futures.
+
+📍 The power of absence: we tend to underestimate the events that don't happen. To infer causal relationships between two events, you have to compute:
+
+* Co ocurrences
+* Non co ocurrences
+* Co-absences
+
+Yet people tend to focus on or remember "what happened", but not "what didn't happen". Again, in the same way, we tend to omit the details when we think of the future and focus only in the information at hand.
+
+For example, a life with blindness is about a lot more than being blind, but when we imagine life as a blind person we tend to only think about seeing and forget all the other parts of life.
+
+🔖 Seeing in time is like seeing in space:
+
+* When we imagine the distant future, we tend to imagine things in generalities and gloss over the details and focus more on the "why".
+* When we imagine things in the near future (like tomorrow), we tend to think in concrete details and focus more on the "how".
+
+When things are far away (in space) they are vague and lacking in detail. We do not mistakenly conclude that the far-away thing is vague and lacking in detail. But when we remember or imagine a distant (in time) event, our brains seem to overlook the fact that details vanish, and we conclude that the distant events are as vague as we are imagining and remembering them.
+
+For example, have you ever wondered why you often make commitments that you deeply regret when the moment to fulfill them arrives? When we said yes, we were thinking in terms of why instead of how, in terms of causes of consequences instead of execution, and we failed to consider the fact that the detail-free event we were imagining would not be the detail-laden event we would actually experience. Doing something next month is "an act of love", whereas doing it right now is "an act of lunch".
+
+* 20 dollars in a year `vs` 19 dollars in 364 days
+* 20 dollars today `vs` 19 dollars tomorrow
+
+
+## Presentism
+Our today's experience inevitably shapes our views of the future. Everyone tends to use the present as a way to imagine the future and influence memories of the past. Thus, our memories and imaginations are often closer to our current reality than actual reality.
+
+That's the reason why when scientists make erroneous predictions, they almost always err by predicting that the future will be too much like the present.
+
+📍 Preefeling: just as imagination previews objects, so does it prefeel events.
+
+When we ask our brains to look at a real object and an imaginary object at the same time, our brains choose the real object. Eyes open and looking at something overrides imagining something.
+
+When we try to ignore our current gloomy state and make a forecast about how we will feel tomorrow, we find it's a lot like trying to imagine the taste of marshmallow while chewing liver. It's only natural that we should imagine the future and then consider how doing so makes us feel, but because our brains are hell-bent on responding to current events, we mistakenly conclude that we will feel tomorrow as we feel today.
+
+📍 Starting points have a profound impact on ending points. Your starting point matters because we often end up close to where we started. (This could be applied to many areas of life: memories, socioeconomic status, education, etc.)
+
+🖇 An idea closely related to the  [Anchoring Effect](https://en.wikipedia.org/wiki/Anchoring) from [Thinking Fast And Slow](/blog/2018/thinking-fast-and-slow).
+
+🔖 Variety and repetition: the idea of anchoring perfectly translates to variety — variety made people less happy, not more. Volunteers in a no-variety group were more satisfied than volunteers in the variety group.
+
+> Variety made people less happy, not more.
+
+Wonderful things are especially wonderful the first time they happen, but their wonderfulness wanes with repetition. Jhink about the first time your love said "I love you", versus the 100th time.
+
+📍 Habituation effect: decreases pleasure with repeated cycles, but it can fade over time. "Variety is the spice of life" can be false depending on timing.
+
+Time and variety are two ways to avoid habituation, and if you have one, then you don't need the other.
+
+When episodes are sufficiently separated in time, variety is not only unnecessary, it can actually be costly.
+
+When considering options available to you during a single session (like many appetizers at one meal) variety is good. When considering options spaced out over time (like what to order at your favorite restaurant each month) go with your top pick every time because the habituation effect will decrease between each session and you'll get full enjoyment each time.
+
+🖊 We tend to think of time as we think of space — past is behind, present is here, future is beyond. If we draw a timeline we do it as we write, left to right. Yet this is not a shared pattern across cultures, other cultures that don't share this values do it their own way.
+
+> We compare with the past instead of with the available.
+
+It is much easier to remember the past rather than generate new possibilities — thus I’ll tend to compare the present with the past when I should be comparing the present with the possible instead.
+
+People are more likely to purchase a vacation package that has been marked down from $600 to $500 than an identical package that costs $400 that was on sale the previous day for $300. We end up preferring bad deals that have become decent deals to great deals that were once amazing deals.
+
+🔖 The human brain is not sensitive to the absolute magnitude of stimulation, but it is extraordinary sensitive to differences in changes — to the relative difference of stimulation.
+
+There is no answer to the question “is people able to detect 5 ounces?” Because brains do not detect “ounces”, they detect "differences in ounces".
+
+The same is true for other physical magnitudes, but it also extends to non-physical objects, like money. We don't think in absolute dollars. We think of relative dollars. We would drive across town to save $50 on a $100 radio, but not to save $50 on a $100,000 car. Yet our bank account doesn't "work" in terms of relative dollars, but in absolute ones. Those $50 will be the same ones we purchase a pencil or a house.
+
+📍 Side-by-side comparisons: having objects side-by-side make us consider features we weren't even thinking of when we thought of buying the item in the first place.
+
+For example, people were given the opportunity to bid on a dictionary that was in perfect condition and had 10,000 words. They bid $24. Others given the opportunity to bid on a dictionary with a torn cover but 20,000 words. They bid $20. When a different group was able to compare them side-by-side, they bid $19 for the small intact dictionary and $27 for the large torn dictionary. People care about an attribute (# of words) only when it is brought to their attention by side-by-side comparison.
+
+🔖 What do all these facts about comparison mean for our ability to imagine future feelings?
+
+1. Value is determined by the comparison of one thing to another.
+2. There is more than one kind of comparison we can make in any given instance.
+3. We may value something more highly when we make one kind of comparison than when we make a different kind of comparison.
+
+If we want to predict how something will make us feel in the future, we must consider the kind of comparison we will be making in the future, and not the kind of comparison we happen to be making in the present.
+
+Just because the comparison has been brought to our attention, we can't imagine our futures without it. And we don't ask ourselves if the comparisons we are making now, are the ones we will be making later.
+
+🔖 Great example of this: sit people in a table and ask them how they'd feel eating a bag of potato chips. In one group place a chocolate bar next to the chips, on the other, a plate with sardines. Then people compare how would they enjoy eating the potatoes compared with the "other" food. But they were wrong, because the moment they'd eat the potato chips, neither the chocolate nor the sardines would have any influence whatsoever in their enjoyment of the chips.
+
+Again, side-by-side comparisons, when evaluating their experience eating the chips, they were doing so "compared to the other food" instead of evaluating the actual experience. Same thing when buying a pair of speakers side-by-side.
+
+We think losses are more powerful than equal sized gains.
+
+📍 Presentism: refers to judging historical events or people by modern day standards. It is largely useless and unfair because you can't expect historical figures to make the same decisions as we do now because they lived in a very different context. Condemning Thomas Jefferson for keeping slaves or Sigmund Freud for patronizing women is like arresting someone today for having driven without a seat belt in 1923.
+
+While pigeons and rats respond to stimuli as they are presented in the world, people respond to stimuli as they are represented in the mind.
+
+
+## Rationalization
+> There is nothing either good or bad, but thinking makes it so.
+
+🔖 The brain and the eye have developed a contractual relationship in which the brain has agreed to believe what the eye sees and not what the eye denies. But in return the eye has agreed to look where the brain wants. When the facts don't match our expectations, we just cook the facts.
+
+We tend to overestimate how terrible traumatic events will actually be: when people are asked to predict how they'll feel if a bad event occurs, they consistently overestimate how awful they'll feel and how long they'll feel awful.
+
+🔖 We’re more likely to look for and find a positive view of things we’re stuck with than of things we’re not. Because it is only when we can’t change our experience that we look for ways to change our view of the experience.
+
+> We find silver linings only when we must.
+
+🔖 We tend to overvalue freedom. We can easily imagine all of the benefits freedom will provide to us, but we tend to underestimate the fact that freedom hinders us from moving forward because we are constantly debating if their are better options out there. Only when we have fully committed and gone “all in” do we reach an inescapable situation where our brain can easily justify our behavior and circumstances.
+
+Because experiences are inherently ambiguous, finding a positive view of an experience is done well and often. Racetrack gamblers evaluate their horses more positively when they are leaving the betting window than when they are approaching it. Same with voters. Objects are fine on their own, but when they become our objects, they are instantly finer. People are adept at finding a positive way to view things once those things become their own.
+
+Nobody wants to be stood up at the altar, but those who have had it happen say it was the best thing that happened to them. Like so many things, getting jilted is more painful in prospect and more rosy in retrospect.
+
+📍 We have psychological immune systems which often get triggered when we experience particularly traumatic events. These systems protect us from events that we would assume would be intensely painful and thus we are able to recover from them better than we often assume we would.
+
+Inescapable situations will trigger our psychological immune systems, which then promote our brain’s ability to deliver a positive outlook and happiness from an inescapable situation.
+
+* If we can't find people who are doing more poorly than we are, we create them.
+* When we want to believe that someone is smart, a single letter of recommendation may suffice. When we don't want to believe that person is smart, we may demand a thick envelope full of transcripts, tests, and testimony.
+
+🔖 It doesn't take much to convince us that we are smart and healthy, but it takes a lot of facts to convince us of the opposite.
+
+🖇 Related to the  [Confirmation Bias](https://en.wikipedia.org/wiki/Confirmation_bias) also seen in [Thinking Fast And Slow](/blog/2018/thinking-fast-and-slow). We don't just select facts that support our own views from magazines, but also from memory.
+
+We spent countless hours and dollars arranging our lives to ensure that we are surrounded by people who like us, and people who are like us, information that supports our own beliefs and realities.
+
+🔖 People in all walks of life seem to regret NOT having done things much more than they regret things they did. The most popular regrets are not going to college, not grasping profitable business opportunities, and not spending enough time with family and friends.
+
+Maybe because... It's harder to manufacture positive and credible views of inactions than actions.
+
+Three interesting related-concepts seen throughout the book:
+
+* Insight ~ remedied by glasses
+* Hindsight ~ remedied by written notes of the past
+* Foresight is as fallible as insight or hindsight, how to remedy foresight? 👇
+
+
+## Corrigibility
+People choose certainty over uncertainty and clarity over mystery, despite the fact that in both cases clarity and certainty had been shown to diminish happiness.
+
+We naturally (but incorrectly) assume that things that come easily to mind are things we have frequently encountered.
+
+> Infrequent or unusual experiences are the most memorable. We tend to remember the best of times and the worst of times not the most likely of times.
+
+It is usually the way an experience ends that shapes the how we remember it. Memory's fetish for endings explains why women often remember childbirth as less painful than it really was, and why couples whose relationships have gone sour remember that they were never really happy in the first place.
+
+Wealth increases happiness when it lifts people out of poverty into middle class, but it does little to increase happiness thereafter.
+
+🔖 Economies grow only if people are deluded into believing that the production of wealth will make them happy — which we know it definitely won't.
+
+The belief that children are a source of happiness becomes a part of our cultural wisdom simply because the opposite belief unravels the fabric of any society that holds it.
+
+One way to make predictions about our own emotional futures is to find someone who is having the experience we are contemplating and ask them how they feel.
+
+The best way to predict our feelings tomorrow is to see how others are feeling today.
+
+The average person doesn't see themselves as average. Most people see themselves as more [fill in the blank] than the average Joe. Ironically, our bias towards seeing ourselves as better than average causes us to see ourselves as less biased than average, too.
+
+We don't always see ourselves as superior, but we almost always see ourselves as unique.
+
+Surrogation is a cheap and effective way to predict one's future emotions, but because we don't realize just how similar we all are, we reject this reliable method and rely instead on our imaginations, as flawed and fallible as they may be.
+
+📍 Bernoulli’s calculation for happiness
+
+* Multiply the odds of getting what you want by the utility of getting what you want: `happiness = probability * pleasure`.
+* Each successive dollar provides a little less pleasure than the one before it. The determination of the value of an item must not be based on its price, but on the utility it yields.
+* The problem is that it’s nearly impossible to predict the utility we will get from our choices because of the many biases we have.
