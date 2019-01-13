@@ -4,6 +4,7 @@ date: "2018-07-30"
 path: "/blog/2018/war-of-art"
 tags: ["books", "art", "happiness", "productivity"]
 featured: "false"
+excerpt: "Winning the Inner Creative Battle"
 source: "https://www.amazon.com/dp/1501260626/"
 ---
 
@@ -18,7 +19,7 @@ The truly free individual is free only to the extent of his own self-mastery. Wh
 
 Do I really believe that my work is crucial to the planet's survival? Of course not. But it's as important to me as catching that mouse is to the hawk circling outside my window. He's hungry. He needs a kill. So do I.
 
-> Someone once asked Somerset Maugham if he wrote on a schedule or only when struck by inspiration. "I write only when inspiration strikes," he replied. "Fortunately it strikes every morning at nine o'clock sharp." That's a pro.
+🔖 Someone once asked Somerset Maugham if he wrote on a schedule or only when struck by inspiration. "I write only when inspiration strikes," he replied. "Fortunately it strikes every morning at nine o'clock sharp." That's a pro.
 
 The professional has learned that success, like happiness, comes as a by-product of work. The professional concentrates on the work and allows rewards to come or not come, whatever they like.
 
@@ -41,9 +42,9 @@ Friends sometimes ask, "Don't you get lonely sitting by yourself all day?" At fi
 * It aims to kill. Its target is the epicenter of our being: our genius, our soul, the unique and priceless gift we were put on earth to give and that no one else has but us.
 * Resistance has no strength of its own. Every ounce of juice it possesses comes from us. We feed it with power by our fear of it.
 
-> This very moment, we can change our lives. There never was a moment, and never will be, when we are without the power to alter our destiny. This second, we can turn the tables on Resistance. This second, we can sit down and do our work.
+This very moment, we can change our lives. There never was a moment, and never will be, when we are without the power to alter our destiny. This second, we can turn the tables on Resistance. This second, we can sit down and do our work.
 
-What does Resistance feel like?
+📍 What does Resistance feel like?
 
 First, unhappiness. We feel like hell. A low-grade misery pervades everything. We're bored, we're restless. We can't get no satisfaction. There's guilt but we can't put our finger on the source. We want to go back to bed; we want to get up and party. We feel unloved and unlovable. We're disgusted. We hate our lives. We hate ourselves.
 
@@ -67,7 +68,7 @@ When we drug ourselves to blot out our soul's call, we are being good Americans 
 ### Artists and fundamentalists
 Who am I? Why am I here? They're not easy because the human being isn't wired to function as an individual. We're wired tribally, to act as part of a group. Our psyches are programmed by millions of years of hunter-gatherer evolution. We know what the clan is; we know how to fit into the band and the tribe. What we don't know is how to be alone. We don't know how to be free individuals.
 
-> The artist and the fundamentalist both confront the same issue, the mystery of their existence as individuals, but fundamentalism and art are mutually exclusive.
+🔖 The artist and the fundamentalist both confront the same issue, the mystery of their existence as individuals, but fundamentalism and art are mutually exclusive.
 
 The artist is the advanced model. His culture possesses affluence, stability, enough excess of resource to permit the luxury of self-examination. The artist is grounded in freedom. He is not afraid of it. […] He believes in progress and evolution.
 
@@ -94,13 +95,13 @@ The artist committing himself to his calling has volunteered for hell: a diet of
 
 Knows how to be miserable. This is a great asset because it's human, the proper role for a mortal. It does not offend the gods, but elicits their intercession.
 
-> The professional understands delayed gratification. He is the ant, not the grasshopper; the tortoise, not the hare.
+🔖 The professional understands delayed gratification. He is the ant, not the grasshopper; the tortoise, not the hare.
 
 Gives an ear to criticism, seeking to learn and grow. But she never forgets that Resistance is using criticism against her on a far more diabolical level.
 
 The professional conducts his business in the real world. Adversity, injustice, bad hops and rotten calls, even good breaks and lucky bounces all comprise the ground over which the campaign must be waged. The field is level, the professional understands, only in heaven.
 
-> The pro concentrates on technique. The professional masters how, and leaves what and why to the gods.
+🔖 The pro concentrates on technique. The professional masters how, and leaves what and why to the gods.
 
 The professional respects his craft. He does not consider himself superior to it. He recognizes the contributions of those who have gone before him. He apprentices himself to them.
 
