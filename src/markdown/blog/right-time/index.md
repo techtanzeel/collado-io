@@ -1,0 +1,60 @@
+---
+title: "The Right Time"
+date: "2019-01-09"
+path: "/blog/2019/right-time"
+tags: ["idea", "happiness", "psychology"]
+featured: "false"
+excerpt: "When it comes to advising somebody, it is as important for the advisor to be knowledgeable and qualified, as is for the advisee to be ready to listen, ready to act."
+---
+
+For those who know me well it shouldn't come as a surprise that — at several stages of my career, and for many years now — I've been pondering with the idea of becoming a full-time developer.
+
+In 2011, [right out of college](/blog/2013/industrial-engineer), and after [building the first iteration of iomando](/blog/2013/iomando-10) by myself, I fell in love with the craft and wondered if, ultimately, [that was my calling](/blog/2015/passion-work). Long story short, a combination of a premature seed round at iomando, pushy investors, and my inability to say "no", inadvertently put me on the "manager's track".
+
+In 2015, right after [stepping down from iomando](/blog/2015/stepping-down), I had committed to a sabbatical that, hopefully, would route me back to the "developer's track". Long story short, my sabbatical [barely lasted twelve days](/blog/2015/hi-from-ironhack), and again, I was back on the "manager's track".
+
+This time around though, not without a cynical touch of humor.
+
+What are the odds, that not only *destiny* has always pushed me towards managerial roles, and away from technical ones, but in an unexpected turn of events, it [put me in charge](/blog/2016/the-power-of-not-knowing) of the school that helps its students become software developers themselves?
+
+As campus manager, I've literally [helped and advised hundreds of students getting a job](/blog/2017/curiosity-trumps-everything), from [fill in the blank] to software developer. Don't get me wrong though, I'm extremely proud of the career that I've cast for myself. But sometimes one has to admit that destiny's irony goes a long way.
+
+That being said, and setting aside my own frustrations and this never-ending indecision that runs deep inside my head, [I've never stopped learning and coding](https://github.com/MarcCollado) as a hobbyist.
+
+From the good old college days tinkering with C and Visual Basic, I've always been on the lookout for new learning opportunities and keeping up to date with the latest technologies.
+
+In 2016, as a campus manager, I [enrolled Ironhack's Part-time Web Development Bootcamp](/blog/2016/ironhack-experience) — not just to experience our own product first hand, but out of a genuine curiosity to learn web development.
+
+In 2017, right after [my transition back again to product management](/blog/2017/ironhack-from-gm-to-pm), I [enrolled the Udacity Data Analyst Nanodegree](/blog/2018/udacity-dand) — not to become a data analyst myself, but to bring a little bit of sanity into an overly opinionated environment.
+
+And again, 2018 has been all about React, and one step along the way has been graduating from the [Udacity React Developer Nanodegree](/blog/2018/udacity-rdnd) — not to become a developer myself, but to deeply understand the stack our engineering team deals with every day.
+
+---
+
+That was quite a long prologue.
+
+My point is that during these years at Ironhack, I've encouraged a lot of people to make the change, switch careers and join the tech industry as software developers — how effortless is to deliver advice, when your own interests are not at stake!
+
+At the end of the day, it is a matter of empathy — and I get them because I've been in the exact same situation as they are. Maybe that's why most of them end up immensely happy with their career choices and come back later to thank me — for which I'm extremely humbled and grateful, definitely one of the reasons I take pleasure in what I do.
+
+On the other hand, I've also been on the other side of the conversation. I've consulted many friends and mentors if I should make the move, and become a software developer myself.
+
+Again, this shouldn't come as a surprise to anybody — the first part of this very post might lead you to think that I'm already halfway there. And of course, their recommendations, look a lot like the ones I give to other people: "just do it".
+
+Yet a quick look into [my LinkedIn profile](https://www.linkedin.com/in/marccollado/) might tell you that, so far, I haven't made the change.
+
+Am I not eating my own dog food? Is it cowardliness? Lack of confidence? The reason why is beside the point, the thing is that it made me think, way beyond this particular situation.
+
+It made me think how many times we deliver unsolicited advice to people we care about, and while most of the time they listen, they don't act.
+
+And we get judgmental, because for us it is so damn obvious, that we can't understand their indecision. Why? We are convinced we have far more domain knowledge. Yet they don't listen. We get frustrated, even angry.
+
+Well, for them — for me, too — it's just not the right time.
+
+Giving advice and receiving advice are completely different things. You have to be qualified to give advice, but you have to be prepared to receive it, which is a far more complicated endeavor.
+
+Because it is impossible for a third party observer to fully appreciate the dimension of another's mind. What's going on in there? Which are their struggles right now? If [we can't even understand ourselves](/blog/2018/free-will), how come we can pretend to even grasp the surface of somebody else?
+
+You know, I don't believe in new year's resolutions, but I'll make an exception for this one.
+
+For 2019, I resolve to embrace empathy, to acknowledge and respect the battle each of us is secretly fighting — even without knowing which one this is. Be patient and accept that right now is not the right time. Yet persist, and wait until the time comes. Then, just then, become their best support.
