@@ -4,7 +4,7 @@ date: "2018-07-30"
 path: "/blog/2018/war-of-art"
 tags: ["books", "art", "happiness", "productivity"]
 featured: "false"
-excerpt: "Winning the Inner Creative Battle"
+excerpt: "Winning the inner creative battle"
 source: "https://www.amazon.com/dp/1501260626/"
 ---
 
