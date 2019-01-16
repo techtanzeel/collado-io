@@ -11,7 +11,7 @@ source: "https://www.amazon.com/dp/B00KFHBNA4/"
 What's the point of meditation?
 
 * Practicing meditation and mindfulness will make you at least 10 percent happier.
-* Being mindful doesn’t change the problems in your life, but mindfulness does help you respond to your problems rather than react to them.
+* Being mindful doesn't change the problems in your life, but mindfulness does help you respond to your problems rather than react to them.
 * Mindfulness makes you appreciate the present more, decreases your anxiety over the past and future.
 * Ultimately, it helps you realize that striving for success is fine as long as you accept that the outcome is outside your control.
 
@@ -77,6 +77,6 @@ Meditation is like doing focused reps for your mind. Focus on the breath, lose y
 
 Mindfulness represents an alternative to living reactively.
 
-Being mindful doesn’t change the problems in your life. You still need to take action, but the key is that mindfulness allows you to respond rather than react to the problems in your life.
+Being mindful doesn't change the problems in your life. You still need to take action, but the key is that mindfulness allows you to respond rather than react to the problems in your life.
 
-Striving for success is fine as long as you realize that the outcome is not under your control. If you don’t waste your energy on variables you cannot influence, you can focus much more effectively on those you can. Be as ambitious as possible, but let go of the result. This makes it easier for you to be resilient and bounce back if the result is poor.
+Striving for success is fine as long as you realize that the outcome is not under your control. If you don't waste your energy on variables you cannot influence, you can focus much more effectively on those you can. Be as ambitious as possible, but let go of the result. This makes it easier for you to be resilient and bounce back if the result is poor.

@@ -13,13 +13,13 @@ There's one question though, one they always ask, that keeps me awake at night.
 
 > How do you protect your business from other competitors, or in startup parlance, what's the unique trait about your business that makes you the most likely to succeed.
 
-The reason why, for a long time, I've struggled to answer this question is that I’ve been framing it wrong. As an [engineer by trade](/blog/2013/industrial-engineer), when it comes to protection, I’ve always thought of the technology as the solution that would eventually fix it all: understand the problem better than your competitor, build a [great product](/blog/2013/iomando-20) and "they will come".
+The reason why, for a long time, I've struggled to answer this question is that I've been framing it wrong. As an [engineer by trade](/blog/2013/industrial-engineer), when it comes to protection, I've always thought of the technology as the solution that would eventually fix it all: understand the problem better than your competitor, build a [great product](/blog/2013/iomando-20) and "they will come".
 
 This assumption, I've learned, is perfectly flawed.
 
 It presumes an ideal scenario where the product or the technology is not constrained by any other factor, it is all there is. Yet constraints are all over the place. Protecting a business exclusively with technology might be possible to an extent — especially in the early stages — but definitely not in the long run.
 
-When investors ask for defensibility they are implicitly asking for an "unfair advantage" — what do you know that others don’t. They are trying to asses whether you have already studied the end game.
+When investors ask for defensibility they are implicitly asking for an "unfair advantage" — what do you know that others don't. They are trying to asses whether you have already studied the end game.
 
 Each time I was asked along these lines I started to ramble around technology, only interrupted a few seconds later with the inevitable "so anyone could do it, right?" — they were not expecting a technical answer.
 
@@ -27,13 +27,13 @@ Again, I had a hard time making my head around this one and only learned it the 
 
 Technology is not an end by itself. It should be rather the support function for something bigger: the business model. Only when business model and technology work together towards a certain vision, incentives are aligned.
 
-Easier said than done though. There are many factors at play, but the creativity required to come up with a unique, innovative business model usually derives either from being an insider or [naive enough](/blog/2014/discovering-as-you-go) not to know what you're doing. Outsmart any given market is not an easy endeavor if you don’t fully understand its in and outs beforehand.
+Easier said than done though. There are many factors at play, but the creativity required to come up with a unique, innovative business model usually derives either from being an insider or [naive enough](/blog/2014/discovering-as-you-go) not to know what you're doing. Outsmart any given market is not an easy endeavor if you don't fully understand its in and outs beforehand.
 
 Bringing the conversation back to iomando, we chose the latter, the naive route. We entered the access control market with a [new technology](/blog/2013/iomando-10) assuming that "everybody's wrong, but we know how this [should be done](/blog/2013/services-and-subscriptions)".
 
 Of course, [we knew nothing](/blog/2013/wrong-about-pricing).
 
-We built a product for a market that we [recreated in our minds](/blog/2013/pivoting-iomando). We didn’t consider how the market was shaped, and we were confident our product would just fit "out of the box".
+We built a product for a market that we [recreated in our minds](/blog/2013/pivoting-iomando). We didn't consider how the market was shaped, and we were confident our product would just fit "out of the box".
 
 The way out of this situation was to distill the core nature of our product, find something unique, and leverage it in order to create something our competitors could not replicate.
 

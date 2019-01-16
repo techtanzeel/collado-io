@@ -38,7 +38,7 @@ If we lose our ability to control things, we become unhappy, helpless, hopeless,
 
 We don't notice changes if we are not focused on an experience as it changes. In this case, we rely on our memories to remember and recognize a change, but our memories are quite faulty — thus it is difficult to assess happiness on a shaky memory.
 
-No one knows what happiness really is. That means we can’t say definitely whether someone in a situation that might seem bad to us, is actually less happy than we are.
+No one knows what happiness really is. That means we can't say definitely whether someone in a situation that might seem bad to us, is actually less happy than we are.
 
 We can be wrong about our own emotional experience.
 
@@ -48,7 +48,7 @@ We can be wrong about our own emotional experience.
 
 Once we have an experience, we cannot simply set it aside and see the world as we would have seen it had the experience never happened.
 
-📍 Experience-stretching hypothesis: you might have heard "They only think they’re happy because they don’t know what they are missing." That’s actually the point. Not knowing what we are missing is the very thing that allows us to be happy despite not having some other opportunity.
+📍 Experience-stretching hypothesis: you might have heard "They only think they're happy because they don't know what they are missing." That's actually the point. Not knowing what we are missing is the very thing that allows us to be happy despite not having some other opportunity.
 
 🖇 [Hedonic treadmill — Wikipedia](https://en.wikipedia.org/wiki/Hedonic_treadmill)
 
@@ -154,7 +154,7 @@ When considering options available to you during a single session (like many app
 
 > We compare with the past instead of with the available.
 
-It is much easier to remember the past rather than generate new possibilities — thus I’ll tend to compare the present with the past when I should be comparing the present with the possible instead.
+It is much easier to remember the past rather than generate new possibilities — thus I'll tend to compare the present with the past when I should be comparing the present with the possible instead.
 
 People are more likely to purchase a vacation package that has been marked down from $600 to $500 than an identical package that costs $400 that was on sale the previous day for $300. We end up preferring bad deals that have become decent deals to great deals that were once amazing deals.
 
@@ -196,7 +196,7 @@ While pigeons and rats respond to stimuli as they are presented in the world, pe
 
 We tend to overestimate how terrible traumatic events will actually be: when people are asked to predict how they'll feel if a bad event occurs, they consistently overestimate how awful they'll feel and how long they'll feel awful.
 
-🔖 We’re more likely to look for and find a positive view of things we’re stuck with than of things we’re not. Because it is only when we can’t change our experience that we look for ways to change our view of the experience.
+🔖 We're more likely to look for and find a positive view of things we're stuck with than of things we're not. Because it is only when we can't change our experience that we look for ways to change our view of the experience.
 
 > We find silver linings only when we must.
 
@@ -208,7 +208,7 @@ Nobody wants to be stood up at the altar, but those who have had it happen say i
 
 📍 We have psychological immune systems which often get triggered when we experience particularly traumatic events. These systems protect us from events that we would assume would be intensely painful and thus we are able to recover from them better than we often assume we would.
 
-Inescapable situations will trigger our psychological immune systems, which then promote our brain’s ability to deliver a positive outlook and happiness from an inescapable situation.
+Inescapable situations will trigger our psychological immune systems, which then promote our brain's ability to deliver a positive outlook and happiness from an inescapable situation.
 
 * If we can't find people who are doing more poorly than we are, we create them.
 * When we want to believe that someone is smart, a single letter of recommendation may suffice. When we don't want to believe that person is smart, we may demand a thick envelope full of transcripts, tests, and testimony.
@@ -255,8 +255,8 @@ We don't always see ourselves as superior, but we almost always see ourselves as
 
 Surrogation is a cheap and effective way to predict one's future emotions, but because we don't realize just how similar we all are, we reject this reliable method and rely instead on our imaginations, as flawed and fallible as they may be.
 
-📍 Bernoulli’s calculation for happiness
+📍 Bernoulli's calculation for happiness
 
 * Multiply the odds of getting what you want by the utility of getting what you want: `happiness = probability * pleasure`.
 * Each successive dollar provides a little less pleasure than the one before it. The determination of the value of an item must not be based on its price, but on the utility it yields.
-* The problem is that it’s nearly impossible to predict the utility we will get from our choices because of the many biases we have.
+* The problem is that it's nearly impossible to predict the utility we will get from our choices because of the many biases we have.
