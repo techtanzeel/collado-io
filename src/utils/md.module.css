@@ -7,7 +7,7 @@
 /* Headers */
 .md > h2,
 .md > h3 {
-  color: #2A2E2E;
+  color: #2a2e2e;
   font-weight: 700;
   letter-spacing: -1px;
   margin-top: 2em;
@@ -21,7 +21,7 @@
 /* Text */
 .md > p,
 .md li {
-  color: #2A2E2E;
+  color: #2a2e2e;
 }
 
 .md a,
@@ -33,20 +33,20 @@
 
 .md > p > a,
 .md li > a {
-  border-bottom: 0.25em solid #B3E4C8;
-  box-shadow: inset 0 -0.25em 0 #B3E4C8;
+  border-bottom: 0.25em solid #b3e4c8;
+  box-shadow: inset 0 -0.25em 0 #b3e4c8;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .md > p > a:hover,
 .md li > a:hover {
-  background: #B3E4C8;
+  background: #b3e4c8;
 }
 
 /* Blockquotes */
 .md > blockquote {
-  border-left: 0.25em solid #B3E4C8;
+  border-left: 0.25em solid #b3e4c8;
   padding-left: 1em;
 }
 
@@ -65,18 +65,21 @@
 }
 
 .md > blockquote > p > a {
-  border-bottom: 0.25em solid #B3E4C8;
-  box-shadow: inset 0 -0.25em 0 #B3E4C8;
+  border-bottom: 0.25em solid #b3e4c8;
+  box-shadow: inset 0 -0.25em 0 #b3e4c8;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .md > blockquote > p > a:hover {
-  background: #B3E4C8;
+  background: #b3e4c8;
 }
 
 /* Code */
-.md > p > code {
+.md code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.875em;
+  letter-spacing: -1px;
   padding: 0em 0.25em;
 }
 
@@ -94,7 +97,7 @@
 .md > div > ol > li > a:hover,
 .md > div > ol > li > a:hover {
   background: none;
-  color: #B3E4C8;
+  color: #b3e4c8;
 }
 
 /* Images & GIFs */
