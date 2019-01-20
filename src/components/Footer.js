@@ -6,26 +6,10 @@ import { mobile, tablet, desktop } from '../utils/breakpoints';
 
 const Footer = () => (
   <Container>
-    <FooterLink
-      href="https://github.com/marccollado"
-    >
-      github
-    </FooterLink>
-    <FooterLink
-      href="https://twitter.com/marccollado"
-    >
-      twitter
-    </FooterLink>
-    <FooterLink
-      href="https://linkedin.com/in/marccollado"
-    >
-      linkedin
-    </FooterLink>
-    <FooterLink
-      href="https://www.strava.com/athletes/marccollado"
-    >
-      strava
-    </FooterLink>
+    <FooterLink href="https://twitter.com/marccollado">twitter</FooterLink>
+    <FooterLink href="https://linkedin.com/in/marccollado">linkedin</FooterLink>
+    <FooterLink href="https://github.com/marccollado">github</FooterLink>
+    <FooterLink href="https://www.strava.com/athletes/marccollado">strava</FooterLink>
   </Container>
 );
 
