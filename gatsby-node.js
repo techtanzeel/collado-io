@@ -6,7 +6,6 @@ exports.createPages = ({ actions, graphql }) => {
   return new Promise((resolve, reject) => {
     const blogPostPage = path.resolve(`src/components/BlogPostPage.js`);
     const tagPage = path.resolve(`src/components/TagPage.js`);
-
     resolve(
       graphql(`
         {
@@ -26,20 +25,16 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       `).then((result) => {
-        if (result.errors) {
-          reject(result.errors);
-        }
-
+        if (result.errors) reject(result.errors);
         // Create pages for each blog post
         const posts = result.data.blogPosts.edges;
         posts.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
             component: blogPostPage,
-            context: {},
+            context: {}
           });
         });
-
         // List all the tags found in the blog posts
         let allTags = [];
         posts.forEach(({ node }) => {
@@ -50,12 +45,10 @@ exports.createPages = ({ actions, graphql }) => {
           createPage({
             path: `/tags/${tag}/`,
             component: tagPage,
-            context: {
-              tag,
-            },
+            context: { tag }
           });
         });
-      }),
+      })
     );
   });
 };
