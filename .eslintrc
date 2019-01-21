@@ -2,76 +2,40 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": true,
-    "jquery": true
+    "node": true
   },
-  "extends": [
-    "airbnb"
-  ],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "parser": "babel-eslint",
   "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "jsx": true
-    },
-    "sourceType": "module"
+    }
   },
   "rules": {
-    "arrow-body-style": [
-      2,
-      "as-needed"
-    ],
-    "arrow-parens": [
-      2,
-      "always"
-    ],
     "lines-between-class-members": [
-      2,
+      "error",
       "always",
       {
         "exceptAfterSingleLine": true
       }
     ],
-    "no-console": 1,
-    "no-unused-vars": [
-      1,
-      {
-        "argsIgnorePattern": "res|next|^err"
-      }
-    ],
-    "no-useless-constructor": 1,
-    "quotes": [
-      1,
-      "single",
-      {
-        "allowTemplateLiterals": true
-      }
-    ],
+    "no-console": ["warn", { "allow": ["error"] }],
+    "no-unused-vars": ["warn", {}],
+    "no-useless-constructor": "warn",
     "jsx-a11y/anchor-is-valid": [
       1,
       {
-        "components": [
-          "Link"
-        ],
-        "specialLink": [
-          "to"
-        ]
+        "components": ["Link"],
+        "specialLink": ["to"]
       }
     ],
-    "react/forbid-prop-types": 1,
-    "react/jsx-filename-extension": 0,
-    "react/jsx-one-expression-per-line": [
-      1,
-      {
-        "allow": "single-child"
-      }
-    ],
-    "react/prefer-stateless-function": 1,
-    "react/prop-types": 1
+    "react/forbid-prop-types": "warn",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "warn",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "off"
   },
-  "plugins": [
-    "html",
-    "jsx-a11y",
-    "react"
-  ]
+  "plugins": ["html", "jsx-a11y", "react"]
 }
