@@ -1,24 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-import SuperLink from './SuperLink';
 import { tablet } from '../utils/breakpoints';
 import { fakeAsbestos, hipBlack, bianchiGreen } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
 
 const Button = ({ children, href, theme }) => (
-  <Container>
-    <SuperLink
-      href={href}
-    >
-      <ButtonText
-        theme={theme}
-      >
-        {`${children}`.toLowerCase()}
-      </ButtonText>
-    </SuperLink>
-  </Container>
+  <button className="flex-button" type="button">
+    <Link to={href} style={{ textDecoration: 'none' }} activeStyle={{}}>
+      <ButtonText>{`${children}`.toLowerCase()}</ButtonText>
+    </Link>
+  </button>
 );
 
 const Container = styled.div`
@@ -33,7 +27,8 @@ const Container = styled.div`
 `;
 
 const ButtonText = styled(MetaTextMono)`
-  background: ${(props) => (props.theme === 'dark' ? `${fakeAsbestos}22` : `${bianchiGreen}`)};
+  background: ${(props) =>
+    props.theme === 'dark' ? `${fakeAsbestos}22` : `${bianchiGreen}`};
   border-radius: 0.25em;
   color: ${hipBlack};
   margin-bottom: 0em;
@@ -41,7 +36,8 @@ const ButtonText = styled(MetaTextMono)`
   transition: background 0.3s ease-out;
 
   &:hover {
-    background: ${(props) => (props.theme === 'dark' ? `${fakeAsbestos}44` : `${bianchiGreen}88`)};
+    background: ${(props) =>
+      props.theme === 'dark' ? `${fakeAsbestos}44` : `${bianchiGreen}88`};
   }
 
   @media (min-width: ${tablet}) {
@@ -52,7 +48,7 @@ const ButtonText = styled(MetaTextMono)`
 Button.propTypes = {
   children: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
-  theme: PropTypes.oneOf(['light', 'dark']).isRequired,
+  theme: PropTypes.oneOf(['light', 'dark']).isRequired
 };
 
 export default Button;
