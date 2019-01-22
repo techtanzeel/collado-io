@@ -1,21 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-import SuperLink from './SuperLink';
 import { tablet } from '../utils/breakpoints';
 import { fakeAsbestos, hipBlack } from '../utils/colors';
 import { MetaTextMono } from '../utils/theme';
 
 const TagPill = ({ children }) => (
   <Container>
-    <SuperLink
-      href={`/tags/${children}`}
+    <Link
+      to={`/tags/${children}`}
+      style={{ textDecoration: 'none' }}
+      activeStyle={{}}
     >
-      <TagText>
-        {`${children}`.toLowerCase()}
-      </TagText>
-    </SuperLink>
+      <TagText>{`${children}`.toLowerCase()}</TagText>
+    </Link>
   </Container>
 );
 
@@ -48,7 +48,7 @@ const TagText = styled(MetaTextMono)`
 `;
 
 TagPill.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.string.isRequired
 };
 
 export default TagPill;
