@@ -1,27 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
-import SuperLink from './SuperLink';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { fakeAsbestos } from '../utils/colors';
 
 // Related component: WorkCard.js
 const Card = ({ children, hover, path }) => (
-  <Container
-    hover={hover}
-  >
-    {path === null
-      ? (
-        <div>
-          {children}
-        </div>
-      ) : (
-        <SuperLink href={path}>
-          {children}
-        </SuperLink>
-      )
-    }
+  <Container hover={hover}>
+    {path === null ? (
+      <div>{children}</div>
+    ) : (
+      <Link to={path} style={{ textDecoration: 'none' }} activeStyle={{}}>
+        {children}
+      </Link>
+    )}
   </Container>
 );
 
@@ -35,8 +29,12 @@ const Container = styled.div`
   padding: 0.75em 1.25em;
   transition: box-shadow 0.3s ease;
 
-  &:hover, &:active {
-    box-shadow: ${(props) => (props.hasHover ? `${fakeAsbestos}22 0em 0.5em 1em 0em` : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`)}
+  &:hover,
+  &:active {
+    box-shadow: ${(props) =>
+      props.hasHover
+        ? `${fakeAsbestos}22 0em 0.5em 1em 0em`
+        : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`};
   }
 
   @media (min-width: ${mobile}) {
@@ -58,11 +56,11 @@ const Container = styled.div`
 Card.propTypes = {
   children: PropTypes.arrayOf(PropTypes.object).isRequired,
   hover: PropTypes.bool.isRequired,
-  path: PropTypes.string,
+  path: PropTypes.string
 };
 
 Card.defaultProps = {
-  path: null,
+  path: null
 };
 
 export default Card;
