@@ -1,10 +1,9 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
+import { Link, StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import styled from 'styled-components';
 
-import SuperLink from './SuperLink';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
 import { fakeAsbestos } from '../utils/colors';
 
@@ -16,15 +15,10 @@ const WorkCard = ({ children, data, path }) => {
 
   return (
     <Container>
-      <SuperLink href={path}>
-        <Img
-          fluid={data[workID].childImageSharp.fluid}
-          alt={workID}
-        />
-        <TextContainer>
-          {children}
-        </TextContainer>
-      </SuperLink>
+      <Link to={path} style={{ textDecoration: 'none' }} activeStyle={{}}>
+        <Img fluid={data[workID].childImageSharp.fluid} alt={workID} />
+        <TextContainer>{children}</TextContainer>
+      </Link>
     </Container>
   );
 };
@@ -32,23 +26,23 @@ const WorkCard = ({ children, data, path }) => {
 export default (props) => (
   <StaticQuery
     query={graphql`
-        query WorkCardQuery {
-          ironhack: file(relativePath: { eq: "ironhack.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 500) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          },
-          iomando: file(relativePath: { eq: "iomando.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 500) {
-                ...GatsbyImageSharpFluid
-              }
+      query WorkCardQuery {
+        ironhack: file(relativePath: { eq: "ironhack.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
-      `}
+        iomando: file(relativePath: { eq: "iomando.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
     render={(data) => <WorkCard data={data} {...props} />}
   />
 );
@@ -67,7 +61,8 @@ const Container = styled.div`
   transition: box-shadow 0.3s ease;
   width: 70vw;
 
-  &:hover, &:active {
+  &:hover,
+  &:active {
     box-shadow: ${fakeAsbestos}22 0em 0.5em 1em 0em;
   }
 
@@ -108,7 +103,7 @@ WorkCard.propTypes = {
   children: PropTypes.arrayOf(PropTypes.object).isRequired,
   data: PropTypes.shape({
     iomando: PropTypes.object,
-    ironhack: PropTypes.object,
+    ironhack: PropTypes.object
   }).isRequired,
-  path: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired
 };
