@@ -1,47 +1,26 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
 import Layout from './Layout';
 import BlogPostTags from './BlogPostTags';
 import styles from '../utils/md.module.css';
-// import { mobile, tablet, desktop } from '../utils/breakpoints';
-import { Title1, Title3, MetaText } from '../utils/theme';
 
 const BlogPostPage = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <Layout
-      title={frontmatter.title}
-    >
-      <BlogPostTitle>
-        {frontmatter.title}
-      </BlogPostTitle>
-      <MetaText>
-        {`Published on ${frontmatter.date}`}
-      </MetaText>
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+    <Layout title={frontmatter.title}>
+      <h1 style={{ margin: 0 }}>{frontmatter.title}</h1>
+      <p className="meta" style={{ marginTop: '0.5em' }}>{`Published on ${
+        frontmatter.date
+      }`}</p>
+      <div className={styles.md} dangerouslySetInnerHTML={{ __html: html }} />
       <hr />
-      <TagTitle>Tags</TagTitle>
-      <BlogPostTags
-        tags={frontmatter.tags}
-      />
+      <h3 style={{ marginBottom: 0, textAlign: 'center' }}>Tags</h3>
+      <BlogPostTags tags={frontmatter.tags} />
     </Layout>
   );
 };
-
-const BlogPostTitle = styled(Title1)`
-  margin-bottom: 0.25em;
-`;
-
-const TagTitle = styled(Title3)`
-  text-align: center;
-`;
 
 export const query = graphql`
   query blogPostQuery($path: String!) {
@@ -64,11 +43,11 @@ BlogPostPage.propTypes = {
       frontmatter: PropTypes.shape({
         date: PropTypes.string.isRequired,
         path: PropTypes.string.isRequired,
-        tags: PropTypes.arrayOf(PropTypes.string),
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }).isRequired,
+        tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+        title: PropTypes.string.isRequired
+      })
+    })
+  }).isRequired
 };
 
 export default BlogPostPage;
