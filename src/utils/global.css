@@ -92,6 +92,7 @@ pre {
   background: #b3e4ca44;
   padding: 1.25em;
   border-radius: 0.25em;
+  white-space: pre-wrap;
 }
 
 code {
