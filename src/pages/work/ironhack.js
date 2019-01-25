@@ -7,7 +7,7 @@ import {
   Tabs, TabList, Tab, TabPanel,
 } from 'react-tabs';
 
-import BlogPost from '../../components/BlogPost';
+import BlogPostLink from '../../components/BlogPostLink';
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
 import styles from '../../utils/md.module.css';
@@ -21,7 +21,7 @@ const Ironhack = ({ data }) => {
   const ironhackBlogsList = (tag) => ironhackBlogs
     .filter((edge) => edge.node.frontmatter.tags.includes(tag))
     .map((edge) => (
-      <BlogPost
+      <BlogPostLink
         key={edge.node.id}
         date={edge.node.frontmatter.date}
         excerpt={edge.node.frontmatter.excerpt}
