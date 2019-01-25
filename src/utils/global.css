@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,700,700i|Inconsolata:400,700');
+
+:root {
+  --hipBlack: #2a2e2e;
+  --fakeAsbestos: #525555;
+  --bianchiGreen: #b3e4c8;
+}
+
+/*
+BREAKPOINTS
+--mobile: 576px;
+--tablet: 768px;
+--desktop: 1024px;
+*/
+
+body {
+  font-size: 16px;
+  margin: 0em;
+}
+
+/* HEADERS */
+h1,
+h2,
+h3 {
+  color: var(--hipBlack);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+h1 {
+  box-shadow: inset 0em -0.5em 0em var(--bianchiGreen);
+  font-size: 1.75em;
+  padding-left: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+/* BODY */
+p,
+li {
+  color: var(--hipBlack);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.65;
+  margin-block-end: 0.5em;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+p a,
+li a {
+  border-bottom: 0.25em solid var(--bianchiGreen);
+  box-shadow: inset 0 -0.25em 0 var(--bianchiGreen);
+  transition: background 0.3s ease;
+}
+
+p a:hover,
+li a:hover {
+  background: var(--bianchiGreen);
+}
+
+/* BLOCKQUOTES */
+blockquote {
+  border-left: 0.25em solid var(--bianchiGreen);
+  margin: auto 0em;
+  padding-left: 1em;
+}
+
+blockquote p {
+  color: var(--fakeAsbestos);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1em;
+  letter-spacing: -1px;
+}
+
+/* CODE */
+pre {
+  background: #b3e4ca44;
+  padding: 1.25em;
+  border-radius: 0.25em;
+}
+
+code {
+  color: var(--fakeAsbestos);
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.875em;
+  letter-spacing: -1px;
+}
+
+/* ELEMENTS */
+hr {
+  margin: 1em 0em 0em;
+  opacity: 0.5;
+}
+
+/* SPECIAL TEXT */
+.meta {
+  opacity: 0.6;
+  font-size: 0.875em;
+}
+
+.flex-button {
+  border: none;
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.column {
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+
+  p,
+  li {
+    font-size: 1.125em;
+  }
+
+  p a,
+  li a {
+    box-shadow: inset 0 -0.26em 0 var(--bianchiGreen);
+  }
+
+  blockquote p {
+    font-size: 1.125em;
+  }
+
+  pre {
+    padding: 1.5em;
+  }
+
+  code {
+    font-size: 1em;
+  }
+
+  .meta {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+}
