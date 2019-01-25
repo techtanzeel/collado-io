@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import BlogPost from './BlogPost';
+import BlogPostLink from './BlogPostLink';
 import Button from './Button';
 import Layout from './Layout';
 import PageHeader from './PageHeader';
@@ -19,33 +19,26 @@ const TagPage = ({ pageContext, data }) => {
     totalCount === 1 ? '' : 's'
   } tagged with "${tag}"`;
 
-  const BlogsList = Blogs
-    .filter((edge) => !!edge.node.frontmatter.date)
-    .map((edge) => (
-      <BlogPost
+  const BlogsList = Blogs.filter((edge) => !!edge.node.frontmatter.date).map(
+    (edge) => (
+      <BlogPostLink
         key={edge.node.id}
         date={edge.node.frontmatter.date}
         excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
-      />));
+      />
+    )
+  );
 
   return (
     <Layout>
-      <PageHeader
-        title={`This is ${tag}`}
-        tagline="The blog, filtered"
-      />
-      <Title3>
-        {TagHeader}
-      </Title3>
+      <PageHeader title={`This is ${tag}`} tagline="The blog, filtered" />
+      <Title3>{TagHeader}</Title3>
       {BlogsList}
       <ButtonContainer>
-        <Button
-          href="/tags"
-          theme="dark"
-        >
-        View all tags
+        <Button href="/tags" theme="dark">
+          View all tags
         </Button>
       </ButtonContainer>
     </Layout>
@@ -60,7 +53,10 @@ const ButtonContainer = styled.div`
 export const query = graphql`
   query tagPageQuery($tag: String) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" }, frontmatter: { tags: { in: [$tag] } } }
+      filter: {
+        fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" }
+        frontmatter: { tags: { in: [$tag] } }
+      }
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -82,7 +78,7 @@ export const query = graphql`
 
 TagPage.propTypes = {
   pageContext: PropTypes.shape({
-    tag: PropTypes.string,
+    tag: PropTypes.string
   }).isRequired,
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
@@ -95,13 +91,13 @@ TagPage.propTypes = {
               excerpt: PropTypes.string,
               path: PropTypes.string,
               tags: PropTypes.arrayOf(PropTypes.string),
-              title: PropTypes.string,
-            }),
-          }),
-        }),
-      ),
-    }),
-  }).isRequired,
+              title: PropTypes.string
+            })
+          })
+        })
+      )
+    })
+  }).isRequired
 };
 
 export default TagPage;
