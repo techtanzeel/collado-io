@@ -10,10 +10,10 @@ const BlogPostPage = ({ data }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout title={frontmatter.title}>
-      <h1 style={{ margin: 0 }}>{frontmatter.title}</h1>
-      <p className="meta" style={{ marginTop: '0.5em' }}>{`Published on ${
-        frontmatter.date
-      }`}</p>
+      <h1 style={{ margin: '0.25em 0 0' }}>{frontmatter.title}</h1>
+      <p className="meta" style={{ marginTop: '0.5em' }}>
+        {`Published on ${frontmatter.date}`}
+      </p>
       <div className={styles.md} dangerouslySetInnerHTML={{ __html: html }} />
       <hr />
       <h3 style={{ marginBottom: 0, textAlign: 'center' }}>Tags</h3>
