@@ -15,7 +15,7 @@ BREAKPOINTS
   background: var(--fakeAsbestos);
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
   padding: 1em 0em;
 }
 
@@ -37,7 +37,7 @@ BREAKPOINTS
 
 @media (min-width: 768px) {
   .navbar {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   }
   .navlink {
     font-size: 1em;
