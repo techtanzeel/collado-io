@@ -7,10 +7,9 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import SnackBar from './SnackBar';
-import {
-  mobile, tablet, desktop,
-} from '../utils/breakpoints';
+import { mobile, tablet, desktop } from '../utils/breakpoints';
 // import { hipBlack, fakeAsbestos, bianchiGreen } from '../utils/colors';
+
 import SEO from '../utils/seo';
 // import {
 //   Title1, Title2, Title3, BodyText, BodyLink, MetaText,
@@ -41,25 +40,30 @@ class Layout extends React.Component {
     if (timeDiffInHours < 24) {
       this.setState({ renderSnackBar: false });
     }
-  }
+  };
 
   renewToken = (timeNow) => {
     const token = {
       timestamp: timeNow,
-      renderSnackBar: false,
+      renderSnackBar: false
     };
     localStorage.setItem('collado.io:token', JSON.stringify(token));
-  }
+  };
 
   handleUnmountSnackBar = () => {
     const timeNow = new Date().getTime();
     this.renewToken(timeNow);
     this.setState({ renderSnackBar: false });
-  }
+  };
 
   render() {
     const {
-      children, title, description, image, pathname, article,
+      children,
+      title,
+      description,
+      image,
+      pathname,
+      article
     } = this.props;
     const { renderSnackBar } = this.state;
 
@@ -72,11 +76,11 @@ class Layout extends React.Component {
           pathname={pathname}
           article={article}
         />
-        {renderSnackBar ? <SnackBar unmount={this.handleUnmountSnackBar} /> : null}
+        {renderSnackBar ? (
+          <SnackBar unmount={this.handleUnmountSnackBar} />
+        ) : null}
         <Navbar />
-        <Content>
-          {children}
-        </Content>
+        <Content>{children}</Content>
         <Footer />
       </Container>
     );
@@ -87,35 +91,31 @@ const Container = styled.div`
   min-width: 320px;
 
   @media (min-width: ${mobile}) {
-
   }
 
   @media (min-width: ${tablet}) {
-
   }
 
   @media (min-width: ${desktop}) {
-
   }
 `;
 
 const Content = styled.div`
   display: flex;
   flex-flow: column;
-  margin: 0 auto;
   max-width: 800px;
-  padding: 0em 2em;
+  margin: 0em auto;
+  padding: 0em 1.5em;
 
   @media (min-width: ${mobile}) {
     padding: 0em 3em;
   }
 
   @media (min-width: ${tablet}) {
-    padding: 0em 4em;
+    padding: 0em 5em;
   }
 
   @media (min-width: ${desktop}) {
-    padding: 0em;
   }
 `;
 
@@ -124,7 +124,7 @@ Layout.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
-  article: PropTypes.bool,
+  article: PropTypes.bool
 };
 
 Layout.defaultProps = {
@@ -132,7 +132,7 @@ Layout.defaultProps = {
   description: null,
   image: null,
   pathname: null,
-  article: false,
+  article: false
 };
 
 export default Layout;
