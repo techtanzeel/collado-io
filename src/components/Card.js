@@ -25,8 +25,8 @@ const Container = styled.div`
   box-shadow: ${fakeAsbestos}22 0em 0.125em 0.25em 0em;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.25em;
-  padding: 0.75em 1.25em;
+  margin: 0.75em 0em 0.25em;
+  padding: 1em 1.25em 0.75em;
   transition: box-shadow 0.3s ease;
 
   &:hover,
@@ -38,18 +38,14 @@ const Container = styled.div`
   }
 
   @media (min-width: ${mobile}) {
-    margin-bottom: 1.5em;
-    padding: 1em 1.5em;
   }
 
   @media (min-width: ${tablet}) {
-    margin-bottom: 1.75em;
-    padding: 1.25em 1.75em;
+    margin: 1em 0em;
+    padding: 1.5em 1.75em 1em;
   }
 
   @media (min-width: ${desktop}) {
-    margin-bottom: 2em;
-    padding: 1.25em 2em;
   }
 `;
 
