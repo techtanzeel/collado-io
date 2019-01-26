@@ -6,9 +6,10 @@ module.exports = {
     author: 'Marc Collado',
     siteLanguage: 'en',
     image: '/static/img/marc-collado.jpg',
-    description: 'Marc Collado Personal Website. Product Manager @ Ironhack. Co-founder @ iomando. Industrial Engineer. Programmer aficionado. Avid runner.',
+    description:
+      'Marc Collado Personal Website. Product Manager @ Ironhack. Co-founder @ iomando. Industrial Engineer. Programmer aficionado. Avid runner.',
     siteUrl: 'https://www.collado.io',
-    twitter: '@MarcCollado',
+    twitter: '@MarcCollado'
   },
   plugins: [
     // Source filesystem
@@ -16,36 +17,36 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/img`,
-      },
+        path: `${__dirname}/src/img`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'home',
-        path: `${__dirname}/src/markdown/home`,
-      },
+        path: `${__dirname}/src/markdown/home`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'blog',
-        path: `${__dirname}/src/markdown/blog`,
-      },
+        path: `${__dirname}/src/markdown/blog`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'now',
-        path: `${__dirname}/src/markdown/now`,
-      },
+        path: `${__dirname}/src/markdown/now`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'work',
-        path: `${__dirname}/src/markdown/work`,
-      },
+        path: `${__dirname}/src/markdown/work`
+      }
     },
 
     // Markdown parser
@@ -59,8 +60,8 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false,
-              showCaptions: false,
-            },
+              showCaptions: false
+            }
           },
           {
             resolve: 'gatsby-remark-embed-video',
@@ -69,11 +70,11 @@ module.exports = {
               ratio: 1.77,
               height: 400,
               related: false,
-              noIframeBorder: true,
-            },
-          },
-        ],
-      },
+              noIframeBorder: true
+            }
+          }
+        ]
+      }
     },
 
     // Image processing
@@ -82,23 +83,17 @@ module.exports = {
 
     // Styles & Typography
     'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography.js',
-      },
-    },
 
     // Utils & Helpers
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-131366514-1',
-        respectDNT: true,
-      },
+        respectDNT: true
+      }
     },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-catch-links',
-  ],
+    'gatsby-plugin-catch-links'
+  ]
 };
