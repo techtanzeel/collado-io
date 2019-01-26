@@ -15,10 +15,7 @@ const Home = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader
-        tagline="Singularly Curious"
-        title="Marc Collado"
-      />
+      <PageHeader tagline="Singularly Curious" title="Marc Collado" />
       <ImageContainer>
         <Img
           alt="Marc Collado"
@@ -35,22 +32,21 @@ const Home = ({ data }) => {
 };
 
 const ImageContainer = styled.div`
-  margin: -0.75em auto 0em;
+  margin: 0em auto -1.5em;
   min-width: 12em;
   width: 45%;
 
   @media (min-width: ${mobile}) {
-    margin-bottom: -0.5em;
+    margin-bottom: -1.75em;
     max-width: 15em;
   }
 
   @media (min-width: ${tablet}) {
-    margin-bottom: -0.25em;
+    margin-bottom: -2.25em;
     max-width: 16em;
   }
 
   @media (min-width: ${desktop}) {
-    margin-bottom: 0em;
     max-width: 17em;
   }
 `;
@@ -85,13 +81,13 @@ Home.propTypes = {
         PropTypes.shape({
           node: PropTypes.shape({
             id: PropTypes.string,
-            html: PropTypes.string,
-          }),
-        }),
-      ),
+            html: PropTypes.string
+          })
+        })
+      )
     }),
-    pictureMarc: PropTypes.object,
-  }).isRequired,
+    pictureMarc: PropTypes.object
+  }).isRequired
 };
 
 export default Home;
