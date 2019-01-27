@@ -76,7 +76,7 @@ li a:hover {
 /* BLOCKQUOTES */
 blockquote {
   border-left: 0.25em solid var(--bianchiGreen);
-  margin: auto 0em;
+  margin: 1.25em 0em;
   padding-left: 1em;
 }
 
@@ -118,24 +118,24 @@ hr {
   font-size: 0.875em;
 }
 
-.tagline {
-  text-transform: uppercase;
-}
-
 /* CONTAINERS */
 .flex {
   display: flex;
 }
 
 /* (SMALL) COMPONENTS */
+/* BlogPostTags.js */
+.tags {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* PageHeader.js */
 .header {
   align-items: center;
   flex-flow: column nowrap;
 }
-
-.tags {
-  flex-flow: row wrap;
-  justify-content: center;
+.tagline {
+  text-transform: uppercase;
 }
 
 .flex-button {
