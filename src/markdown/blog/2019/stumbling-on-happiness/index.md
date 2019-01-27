@@ -94,7 +94,7 @@ Then uses this combination of sensory information and preexisting knowledge to c
 
 As [Will Durant — Wikipedia](https://en.wikipedia.org/wiki/Will_Durant) put it, a _manufactured reality_.
 
-Our brains “fill in” all sorts of information each day. Our predictions are influenced by our experiences. We make assumptions about things that we predict based on the previous experiences we have had or heard about before.
+Our brains "fill in" all sorts of information each day. Our predictions are influenced by our experiences. We make assumptions about things that we predict based on the previous experiences we have had or heard about before.
 
 Therefore, the mistake we make when we unthinkingly accept the validity of our memories and perceptions is the same mistake we make when we imagine our futures.
 
@@ -160,7 +160,7 @@ People are more likely to purchase a vacation package that has been marked down 
 
 🔖 The human brain is not sensitive to the absolute magnitude of stimulation, but it is extraordinary sensitive to differences in changes — to the relative difference of stimulation.
 
-There is no answer to the question “is people able to detect 5 ounces?” Because brains do not detect “ounces”, they detect "differences in ounces".
+There is no answer to the question "is people able to detect 5 ounces?" Because brains do not detect "ounces", they detect "differences in ounces".
 
 The same is true for other physical magnitudes, but it also extends to non-physical objects, like money. We don't think in absolute dollars. We think of relative dollars. We would drive across town to save $50 on a $100 radio, but not to save $50 on a $100,000 car. Yet our bank account doesn't "work" in terms of relative dollars, but in absolute ones. Those $50 will be the same ones we purchase a pencil or a house.
 
@@ -200,7 +200,7 @@ We tend to overestimate how terrible traumatic events will actually be: when peo
 
 > We find silver linings only when we must.
 
-🔖 We tend to overvalue freedom. We can easily imagine all of the benefits freedom will provide to us, but we tend to underestimate the fact that freedom hinders us from moving forward because we are constantly debating if their are better options out there. Only when we have fully committed and gone “all in” do we reach an inescapable situation where our brain can easily justify our behavior and circumstances.
+🔖 We tend to overvalue freedom. We can easily imagine all of the benefits freedom will provide to us, but we tend to underestimate the fact that freedom hinders us from moving forward because we are constantly debating if their are better options out there. Only when we have fully committed and gone "all in" do we reach an inescapable situation where our brain can easily justify our behavior and circumstances.
 
 Because experiences are inherently ambiguous, finding a positive view of an experience is done well and often. Racetrack gamblers evaluate their horses more positively when they are leaving the betting window than when they are approaching it. Same with voters. Objects are fine on their own, but when they become our objects, they are instantly finer. People are adept at finding a positive way to view things once those things become their own.
 
