@@ -32,7 +32,7 @@ const Container = styled.div`
   &:hover,
   &:active {
     box-shadow: ${(props) =>
-      props.hasHover
+      props.hover
         ? `${fakeAsbestos}22 0em 0.5em 1em 0em`
         : `${fakeAsbestos}22 0em 0.125em 0.25em 0em`};
   }
