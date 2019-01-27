@@ -1,10 +1,10 @@
 ---
-title: "Going Sub3"
-date: "2018-08-20"
-path: "/blog/2018/going-sub3"
-tags: ["health", "sub3"]
-featured: "true"
-excerpt: "Last year I set out to run a marathon in less than 3 hours and failed. This year I'll reset my goal but also make a fun project out of it."
+title: 'Going Sub3'
+date: '2018-08-20'
+path: '/blog/2018/going-sub3'
+tags: ['sub3', 'performance']
+featured: 'true'
+excerpt: 'Last year I set out to run a marathon in less than 3 hours and failed. This year I will reset my goal but also make a fun project out of it.'
 ---
 
 Last year — also by the end of the summer, I challenged myself to finish the 2018 Barcelona Marathon under three hours.
@@ -21,8 +21,8 @@ To echo the wise man:
 
 > If you can't measure it, you can't improve it.
 
-
 ## The Starting Point
+
 I wanted to first address this "background check" because it is vital in order to give the project context and help assess "how difficult" getting there would actually be.
 
 My relation with running started early. I was part of the track team at my school when I was fourteen and stayed there for a couple of years, but nothing serious. Then forgot about it altogether[^1] for a few years. Suddenly, for reasons unknown, in 2011 I started joining some friends for weekend trail runs.
@@ -35,16 +35,16 @@ For the record, I have never followed a training program or stuck to a strict di
 
 Throughout these years I have run dozens of 10k and half marathons; and six marathons — the first one in 2013, but for those of you who prefer the data, here are my PRs as of 2018:
 
-* 10k — 00:40:57
-* Half marathon — 01:28:26
-* Marathon — 03:18:20
+- 10k — 00:40:57
+- Half marathon — 01:28:26
+- Marathon — 03:18:20
 
 Here is where I stand: six months to skim more than eighteen marathon minutes on top of a non-supervised, but fairly active and healthy life.
 
 Challenge accepted!
 
-
 ## Why I Failed In 2018
+
 The short answer is because I still hadn't read [this book](/blog/2018/war-of-art).
 
 To quote Steven Pressfield on the exact reason I failed:
@@ -61,8 +61,8 @@ Back to running, I basically failed because I lacked the consistency and didn't 
 
 But going sub3 is a whole other story and doesn't come naturally to anybody. Not even the most privileged genetics or the best self-talk will get you there without a decent, structured amount of dedicated training.
 
-
 ## The 2019 Challenge
+
 Easy 😰, run a marathon under the three-hour mark in 2019.
 
 Am I certain that this year I'm going to make it? Nope. But at least I know that I will be consistent, put the necessary effort and measure and act upon what works and what doesn't. Otherwise, this whole project would be a wasted effort.
@@ -82,8 +82,7 @@ The idea behind starting this project goes back to the very idea of why I starte
 This time though, I want to be strategic with my efforts and measure the training in a way I didn't before. Everything will be publicly available at my [Strava profile](https://www.strava.com/athletes/marccollado) and maybe I share some updates in the future as follow up posts under the tag `sub3` that you can check [here](/tags/sub3).
 
 ---
+
 [^1]: Not that I quit exercising, despite never being a professional athlete, I've always maintained a fairly active lifestyle. During this gap, from fourteen to eighteen, I trained regularly with the sailing national team. We didn't run much, but it kept me quite busy.
-
 [^2]: To illustrate this particular case, after the 2018 Barcelona Marathon in March, I didn't run again a single km until July. I stop training altogether, overate during months and almost gained 10kg, from 59.6kg to 68.4kg. This was a couple of weeks ago, the turning point when I realized that I had to do something with my life.
-
 [^3]: Rereading this paragraph I sound like an indecisive maniacal bouncing around from project to project as if there was no tomorrow. Well, fortunately that's not the case, believe me, I am fine :) but I needed the example to explain this idea and maybe I took the analogy too far, anyway, you got the point.
