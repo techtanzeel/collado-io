@@ -1,10 +1,10 @@
 ---
-title: "The Ironhack Experience"
-date: "2016-03-30"
-path: "/blog/2016/ironhack-experience"
-tags: ["education", "ironhack", "opinion"]
-featured: "true"
-excerpt: "This Saturday I will be enrolling the Ironhack Web Development program, and why everybody in a managing position, technical or not, should join, too."
+title: 'The Ironhack Experience'
+date: '2016-03-30'
+path: '/blog/2016/ironhack-experience'
+tags: ['ironhack', 'idea', 'education']
+featured: 'true'
+excerpt: 'This Saturday I will be enrolling the Ironhack Web Development program, and why everybody in a managing position, technical or not, should join, too.'
 ---
 
 This Saturday the 2nd of April, I will be enrolling the [Ironhack](https://www.ironhack.com) Web Development program, in its part-time format. It spans six months: two afternoons during the week and the whole Saturday, accounting for more than 400 hours of accelerated learning.
@@ -19,42 +19,42 @@ I have put a lot thought into this decision. We all run busy lives, and it is de
 
 In this post I will explain why I decided to join, and why I firmly believe that everybody in a managing position, technical or not, should join, too.
 
-
 ## My Role at Ironhack
+
 As a campus manager, my daily tasks at Ironhack are far away from technical endeavors. My role consists in managing all aspects of Ironhack's operations here in Barcelona while executing on the company mission. At the end of the day, I find myself not only managing and inspiring the team but also ensuring we are delivering on our promise of providing the best possible educational experience.
 
-![Ironhack and Friends event](./ironhack-friends.jpg "Ironhack and Friends event in the Barcelona Campus")
+![Ironhack and Friends event](./ironhack-friends.jpg 'Ironhack and Friends event in the Barcelona Campus')
 
 It translates into sales, business development, planning and executing marketing actions, leading hiring processes, ensuring we have an awesome work environment and representing the Ironhack brand by interacting with students and other ecosystem partners.
 
 In other words, I'm kind of the last responsible for Ironhack's success here in Barcelona, but as you can see, there is no coding involved.
 
-Therefore, the legitimate question to ask here would be: *"how come learning how to code, will help you succeed at your job since there's no coding required at all?"*
-
+Therefore, the legitimate question to ask here would be: _"how come learning how to code, will help you succeed at your job since there's no coding required at all?"_
 
 ## Alignment With the Company Vision
+
 I profoundly believe that in order to achieve greatness, no matter what your job title is, you must understand, embrace and align yourself with the [company vision](/blog/2014/vision). It might sound abstract, but I have come to realize that for a company to be successful in a market, for an employee to thrive within a company, and in most facets of life, the [alignment with the bigger picture](/blog/2017/alignment) is always a prerequisite for success.
 
-[Markus Leyendecker](https://www.linkedin.com/in/leyendecker) — Harvard MBA student and also Ironhack alumni, has already done an amazing job explaining this issue. As he points out in his article *Pre-bootcamp: Why would a future Harvard MBA learn how to code?* the understatement of the building blocks of your business is key for anybody that attempts to lead any team or company.
+[Markus Leyendecker](https://www.linkedin.com/in/leyendecker) — Harvard MBA student and also Ironhack alumni, has already done an amazing job explaining this issue. As he points out in his article _Pre-bootcamp: Why would a future Harvard MBA learn how to code?_ the understatement of the building blocks of your business is key for anybody that attempts to lead any team or company.
 
 > If one accepts the hypothesis, that companies, which are at-heart digital, will continue to outgrow the competition, one should realize why I want learn to code. It follows a very basic logical chain: Everyone working at a company should be able to understand what the company is best at: selling the right product to its customer segment. For instance, one would think that a Boeing CEO would understand, at least much better than a CEO from another industry, how an airplane works and which steps of the value chain Boeing excels at.
 
 I could not agree more. But as devil's advocate, one could argue that if a company is not competing in the software industry, and say it is selling razor blades, then the code should not be a lever for success. Which brings us to the second point: that software is becoming a transversal discipline.
 
-
 ## Digital Transformation
+
 As I already pointed out in [The Rise of the Hybrid Profile](/blog/2016/hybrid-profile), programming is not only for programmers anymore. Instead, it is starting to permeate across all industries, changing the way we interact with products and how customers want to be reached in order to deploy effective marketing actions.
 
 > All the components involved in the creation, distribution, and sale of a digital product are, in some way, influenced by the same digital ingredient: code. For this reason, the ones who acknowledge this situation and learn the fundamental principles underlying digital products will inevitably have a considerable advantage when having to deal with this new breed of products.
 
 What this excerpt from my article conveys is that we should approach each market, business or product, from a more holistic perspective. Meaning that despite certain end products [will remain hardware based](/blog/2015/scale), its surroundings: distribution, marketing, operations and ultimately, the customer experience, will be profoundly affected by the digital transformation that lies ahead.
 
-![Coding at Ironhack](coding-ironhack.jpg "Coding at Ironhack")
+![Coding at Ironhack](coding-ironhack.jpg 'Coding at Ironhack')
 
 Going on with the razors analysis, the only player that comes to mind that is growing like a rocket, curiously enough, is [Harry's](https://www.harrys.com/). The blueprint for how to enter a mature, saturated market, leveraging technology in order to enhance the customer experience. Harry's is not a software company, but I would bet that employs plenty of software engineers and their digital strategy is core to understand their success.
 
-
 ## Earn Their Success: Speak Tech
+
 The conclusion that derives from this premise is clear: as a manager, you will be dealing with software issues at some point. That might come in the flavor of the project that you are working on or it may be the core competence of your team. Either way, you will need to prove that, at least, you have the slightest clue of what you are actually managing.
 
 After more than five years involved in products at tech companies, I have seen plenty of issues such as PMs not respected by engineering teams because they did not have technical chops or marketers who were literally mocked for not understanding how something worked. Believe me, as a manager, it is a harsh situation to overcome.
@@ -65,11 +65,11 @@ I am not saying this is a good thing, but we have drawn some kind of line betwee
 
 Management entitles lots of things. But at the end of the day, you will find yourself making key decisions and you want to do that through the eyes of every person in your team, even better, through the eyes of the company as a whole. You will be setting the table on behalf of a lot of people, and you will only earn their respect you if you know what you are talking about.
 
-
 ## Why Am I Doing This?
+
 In my particular case, first of all, I am doing this because I want to experience first hand what it is like to go through our Bootcamp. I think it is not fair that I am rooting for a product that I have never experienced. I have repeatedly seen how we are helping our students pivot their careers and ultimately turning them into digital makers. I know it is amazing and I know it works, but I don't know what it is actually like to be there.
 
-Therefore, from an evangelist perspective, I am absolutely convinced that by fully understanding the experience not only I will improve my ability to communicate *why* somebody would benefit from learning how to code. But also get insight and make a better case for the untapped market we might be solving a problem for, but still don't know.
+Therefore, from an evangelist perspective, I am absolutely convinced that by fully understanding the experience not only I will improve my ability to communicate _why_ somebody would benefit from learning how to code. But also get insight and make a better case for the untapped market we might be solving a problem for, but still don't know.
 
 From the inside I hope it will help me better relate to the student experience and have informed conversations with them, as we were discussing before, it is like speaking their language. Because I would be able to understand what they are going through, I will have a better chance when it comes to earning their respect. And looking into the future, having this shared connection can also be a great way to create stronger bonds that will help enhance the collaboration with our [alumni community](/blog/2017/building-our-community).
 
