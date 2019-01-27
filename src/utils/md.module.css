@@ -19,6 +19,10 @@ BREAKPOINTS
 }
 
 /* BODY TEXT */
+.md > ul,
+.md > ol {
+  padding-inline-start: 1.5em;
+}
 
 /* BLOCKQUOTES */
 
@@ -66,6 +70,12 @@ BREAKPOINTS
   .md > h2,
   .md > h3 {
     margin-top: 1.5em;
+  }
+
+  .md ul > li > p,
+  .md ul > li > ul > li {
+    font-size: 1em;
+    margin-block-start: 0em;
   }
 }
 
