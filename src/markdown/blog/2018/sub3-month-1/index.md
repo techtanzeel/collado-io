@@ -2,7 +2,7 @@
 title: 'sub3 — Month #1'
 date: '2018-09-24'
 path: '/blog/2018/sub3-month-1'
-tags: ['sub3', 'performace']
+tags: ['sub3', 'performance']
 featured: 'false'
 excerpt: 'A retrospective of the first month of the sub3 marathon project. Despite it got off to a solid start, challenges around maintaining volume while pushing times and PRs down, still remain.'
 ---
