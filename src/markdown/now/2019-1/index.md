@@ -25,8 +25,8 @@ I want to keep on reading a couple of books per month, but also reinstate the pr
 
 Early 2019, these will be my eight (+1) book pickings:
 
-- [Stumbling on Happiness](https://www.amazon.com/dp/B000GCFW0A/)
-- [Predictably Irrational](https://www.amazon.com/dp/B002RI9QJE/)
+- [Stumbling on Happiness](/blog/2019/stumbling-on-happiness)
+- [Predictably Irrational](/blog/2019/predictably-irrational)
 - [Fooled by Randomness](https://www.amazon.com/dp/B002RI9BH6/)
 - [The Wisdom of Crowds](https://www.amazon.com/dp/B000FCKC3I/)
 - [The Power of Habit](https://www.amazon.com/dp/B006WAIV6M/)
