@@ -225,7 +225,7 @@ Same with coffee: when presented with test-taste coffee in styrofoam cups, peopl
 - Half were asked questions about being Asian first (priming their thoughts for race-related issues), and they did better on the test.
 - Half were asked questions about being a woman first (priming their thoughts for gender-related issues), and they did worse on the test.
 
-Related to📍 [Priming - Wikipedia](https://en.wikipedia.org/wiki/Priming) effect, not just states of mind prime behavior or decisions, but also actions and emotions can be primed by events of which we are not even aware.
+🖇 Related to [Priming - Wikipedia](https://en.wikipedia.org/wiki/Priming) effect, not just states of mind prime behavior or decisions, but also actions and emotions can be primed by events of which we are not even aware.
 
 🎲 John Bargh and the "Florida effect" involves two stages of priming. First, the set of words primes thoughts of old age, though the word "old" is never mentioned; second, these thoughts prime behavior, walking slowly, which is associative with old age.
 
