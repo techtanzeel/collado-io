@@ -44,7 +44,7 @@ In my experience, having no competitors doesn't help either — and I'd even arg
 - First of all, the world is big enough that if nobody is also exploring the same space, I would worry whether the opportunity you're pursuing has value at all.
 - Second, creating awareness alone is a bad place to be. Competitors will definitely help you heat up the place — when the market is not yet saturated.
 
-In other words, nobody dies from competition in the early days. The opportunity remains huge so it won't be “them" the ones lowering your prospects of success. For the reasons stated above, even a big player entering your space is good news, because it has recognized you market as a good business opportunity and it will also bring attention to the niche.
+In other words, nobody dies from competition in the early days. The opportunity remains huge so it won't be "them" the ones lowering your prospects of success. For the reasons stated above, even a big player entering your space is good news, because it has recognized you market as a good business opportunity and it will also bring attention to the niche.
 
 For instance, some people at iomando thought we were doomed when Apple released [HomeKit](https://developer.apple.com/homekit/) — yet that very week, we saw — by far — the highest amount visits hitting our website and also scored a 15% increase in sales MoM.
 

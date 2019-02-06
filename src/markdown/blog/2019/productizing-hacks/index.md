@@ -45,7 +45,7 @@ And it works? Well, yes it does, kind of. A bicycle can also get you from Berlin
 
 Mounting Emoji-based hacks on top of markdown is fine, and it has served me well for years, but it is not optimal. Yet they served, though, another — way more valuable — purpose: they paved the road for a new product to existing.
 
-It inevitably reminded me of the design trend for [turning user hacks into product insights](https://blog.prototypr.io/turning-user-hacks-into-product-insights-3f8f6bbaa15c), a widely shared pattern across the design community that advocates for stop thinking of the design process in terms of either "users don’t know what they don’t know" or "users know what we don’t yet know", but instead treat it as a reinforcing cycle.
+It inevitably reminded me of the design trend for [turning user hacks into product insights](https://blog.prototypr.io/turning-user-hacks-into-product-insights-3f8f6bbaa15c), a widely shared pattern across the design community that advocates for stop thinking of the design process in terms of either "users don't know what they don't know" or "users know what we don't yet know", but instead treat it as a reinforcing cycle.
 
 > Our approach is to look for "the hacks" — the things users are already doing in an attempt to solve a particular need or problem — and turn those hacks into insights.
 
