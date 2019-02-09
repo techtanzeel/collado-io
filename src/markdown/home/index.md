@@ -8,9 +8,10 @@ date: null
 Quiet, family guy, born and raised in Barcelona.
 
 - 🎓 Industrial engineer
-- 🤹‍♂️ Devoted [product manager](https://linkedin.com/in/marccollado/)
-- 👨‍💻 [Programmer aficionado](https://github.com/MarcCollado/)
-- 🏃‍♂️ [Avid runner](https://www.strava.com/athletes/marccollado/)
+- 🤹‍♂️ Devoted product manager
+- 👨‍💻 Programmer aficionado
+- 🏃‍♂️ Avid runner
+- 🤓 Lifelong learner
 
 ## What I've Been Up To
 
