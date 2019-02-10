@@ -2,7 +2,7 @@
 title: '📖 The Subtle Art of Not Giving a F*ck'
 date: '2019-02-10'
 path: '/blog/2019/the-subtle-art-of-not-giving-a-fuck'
-tags: ['books', 'happiness', 'psychology']
+tags: ['books', 'happiness', 'psychology', 'simplicity']
 featured: 'false'
 excerpt: 'A counterintuitive approach to living a good life'
 source: 'https://www.amazon.com/dp/0062457713/'
@@ -266,18 +266,37 @@ Commitment, in its own way, offers a wealth of opportunity and experiences that 
 
 Breadth of experience is necessary and desirable to go out there and discover what seems worth investing yourself in. But depth is where the gold is buried.
 
----
+📍 Death
 
-# Book Notes #1
+The human being is the only animal that is able to think about alternate realities.
 
-Ernest Becker book The Denial of Death: All of human civilization, he says, is basically a result of immortality projects that allow our conceptual self to live on way past the point of our physical death.
+[Ernest Becker book The Denial of Death](https://www.amazon.com/dp/0684832402/) makes a distinction between two types of selves:
+
+- Physical self
+- Conceptual self: the one the endures even after we "physically" die
+
+All of human civilization, he says, is basically a result of immortality projects that allow our conceptual self to live on way past the point of our physical death. This is ultimately why we aim to put our names in buildings or go to Mars.
+
+Our physical bodies will die, but we cling to the idea that we can live on through religion, politics, sports, art, and technological innovation.
+
+All of the meaning in our life is shaped by our innate desire to "never truly die".
+
+Death is the only thing we know for certain, thus it shall be the compass that orients our values and decisions.
+
+If there is no reason to do anything, if life is pointless, then there is also no reason to not do anything. What do you have to lose? You're going to die anyway, so your fears and embarrassments and failures don't mean anything. You might as well try.
+
+📍 Something bigger than yourself
+
+True happiness comes from contributing to something bigger than yourself.
+
+On the other hand, entitlement isolates us because it runs counter the idea of a contribution to a larger, greater project.
+
+`Great attention !== Great success`
 
 People declare themselves experts, entrepreneurs, inventors, innovators, mavericks, and coaches without any real-life experience, because they feel that they need to be great to be accepted in a world that broadcasts only the extraordinary.
 
-# Book Notes #2
-
-If there is no reason to do anything, if life is pointless, then there is also no reason to not do anything. What do you have to lose? You're going to die anyway, so your fears and embarrassments and failures don't mean anything. You might as well try.
-All of the meaning in our life is shaped by our innate desire to never truly die. Our physical bodies will die, but we cling to the idea that we can live on through religion, politics, sports, art, and technological innovation.
-The only way to be comfortable with death is to understand and see yourself as something bigger than yourself, to contribute to some much larger entity.
 It is the act of choosing your values and living by them that makes you great, not any outcome or accomplishment.
-"We're all going to die, all of us. What a circus! That alone should make us love each other, but it doesn't." -Charles Bukowski
+
+> We're all going to die, all of us. What a circus! That alone should make us love each other, but it doesn't.
+
+—— Charles Bukowski
