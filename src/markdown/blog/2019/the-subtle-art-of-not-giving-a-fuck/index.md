@@ -22,9 +22,7 @@ The key to a good life is giving a fuck about less, giving a fuck about only wha
 
 Because there's an infinite amount of things we can now see or know, there are also an infinite number of ways we can discover that we don't measure up, that we're not good enough, that things aren't as great as they could be.
 
-> Wanting positive experience is a negative experience; accepting negative experience is a positive experience.
-
-The desire for a more positive experience is itself a negative experience. And, paradoxically, the acceptance of one's negative experience is itself a positive experience. In other words, pursuing something only reinforces that you lack it in the first place.
+> Wanting positive experience is a negative experience; accepting negative experience is a positive experience.Pursuing something only reinforces that you lack it in the first place.
 
 🖇 Related to Alan Watts' Backwards Law: if one is to apply more conscious effort in hopes of increased results, he will run into diminishing returns for his effort. More effort does not equate to better results.
 
@@ -34,15 +32,13 @@ Everything worthwhile in life is won through surmounting the associated negative
 
 —— Albert Camus
 
-🔖 If you are able to not give a fuck about the pain your goals require, then you become unstoppable.
+If you are able to not give a fuck about the pain your goals require, then you become unstoppable.
 
-This is how it works: you are going to die one day. Everyone you know is going to die soon. In this period of time, you only have a certain amount of fucks to give.
+🔖 This is how it works: you are going to die one day. Everyone you know is going to die soon. In this period of time, you only have a certain amount of fucks to give.
 
 Learning how to focus and prioritize your thoughts effectively, pick and choose what matters, based on finely honed personal values. It is extremely difficult to achieve, but it is perhaps the greatest and most important struggle one can undertake in life.
 
 Because when you give too many fucks — everyone and everything — you'll feel that you're perpetually entitled to be comfortable and happy at all times. That all is supposed to be exactly the way you wanted it to be. It'll eat you alive.
-
-Not giving a fuck is not about being indifferent. It just means you're comfortable with being different. Don't say fuck it to everything in life, just to the unimportant things.
 
 Whether you realize it or not, you are always choosing what to give a fuck about. The key is to gradually prune the things you care about, so that you only give a fuck on the most important of occasions.
 
@@ -54,9 +50,7 @@ Whether you realize it or not, you are always choosing what to give a fuck about
 
 Happiness is a work in progress. It comes from solving problems, not avoiding them. To be happy we need something to solve. Yet solving problems is hard and often feels bad.
 
-Finding something important and meaningful in your life is perhaps the most productive use of your time and energy.
-
-It's okay for things to suck some of the time. The point is not to get away from the shit. The point is to find the shit you enjoy dealing with.
+Finding something important and meaningful in your life is perhaps the most productive use of your time and energy. Find the shit you enjoy dealing with.
 
 Suffering is nature's preferred agent for inspiring change. But there is no value in suffering when it is done without purpose.
 
@@ -125,7 +119,7 @@ Everything we think and feel about a situation ultimately comes back to how valu
 
 —— Sigmund Freud
 
-The difference between a problem being painful or being powerful is a sense that we chose it. If you're miserable in your current situation, it's because you feel like some part of it is outside your control - that there's a problem you have no ability to solve, a problem that was somehow thrust upon you without your choosing.
+The difference between a problem being painful or being powerful is a sense that we chose it. If you're miserable in your current situation, it's because you feel like some part of it is outside your control — that there's a problem you have no ability to solve, a problem that was somehow thrust upon you without your choosing.
 
 📍 Pleasure is a false god. Research shows that people who focus their energy on superficial pleasures end up more anxious, more emotionally unstable, and more depressed. Pleasure is the most superficial form of life satisfaction and therefore the easiest to obtain and the easiest to lose.
 
@@ -147,7 +141,7 @@ People will often fight over who gets to be responsible for successful and happi
 
 Change is as simple as choosing to give a fuck about something else. It really is that simple. It's just not easy.
 
-Throughout my life, I've been flat-out wrong about myself, others, society, culture, the world, the universe - everything. And I hope that will continue to be the case for the rest of my life.
+Throughout my life, I've been flat-out wrong about myself, others, society, culture, the world, the universe — everything. And I hope that will continue to be the case for the rest of my life.
 
 On the other hand, people who base their self-worth on being right about everything prevent themselves from learning from their mistakes.
 
@@ -219,7 +213,7 @@ Goals are limited in the amount of happiness they can provide in our lives becau
 
 "Buy a house and a nice car" once achieved, has nothing left to give you.
 
-Goals like buy a lake house, lose fifteen pounds - are limited in the amount of happiness they can produce in our lives. They may be helpful when pursuing quick, short-term benefits, but as guides for the overall trajectory of our life, they suck.
+Goals like buy a lake house, lose fifteen pounds — are limited in the amount of happiness they can produce in our lives. They may be helpful when pursuing quick, short-term benefits, but as guides for the overall trajectory of our life, they suck.
 
 Paradoxically, then, by choosing processes as your focus, you can increase your overall, lifelong happiness by focusing on the process and not the goal. Processes never end, which means happiness can continue indefinitely.
 
