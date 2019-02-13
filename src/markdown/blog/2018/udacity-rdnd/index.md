@@ -1,0 +1,126 @@
+---
+title: 'Udacity React Developer Nanodegree'
+date: '2018-08-09'
+path: '/blog/2018/udacity-rdnd'
+tags: ['udacity', 'tech', 'coding', 'education']
+featured: 'true'
+excerpt: 'A review of the Udacity React Developer Nanodegree, from a product manager (and developer aficionado) perspective.'
+---
+
+![Udacity React Developer Nanodegree](./udacity-rdnd.jpg 'Udacity React Developer Nanodegree')
+
+If you asked me three years ago, I'd have never predicted that, at this point in time, I'd be writing a review for a second Udacity Nanodegree, and third truly intense learning experience in a row.
+
+In 2017, after [my transition back again to product management at Ironhack](/blog/2017/ironhack-from-gm-to-pm), I [enrolled the Udacity Data Analyst Nanodegree](/blog/2018/udacity-dand) (DAND) — not to become a data analyst myself, but to bring a little bit of sanity into (what I thought to be) an overly opinionated environment.
+
+Prior to that, in 2016, as a campus manager, I [enrolled Ironhack's Part-time Web Development Bootcamp](/blog/2016/ironhack-experience) — not just to experience our own product first hand, but out of a genuine curiosity to learn web development.
+
+Fast forward to 2018 and it has been all about React. One step along the way has been graduating from the [Udacity React Developer Nanodegree](https://www.udacity.com/course/react-nanodegree--nd019) (RDND). Same I did with its [data sibling](/blog/2018/udacity-dand), this is my attempt to write the kind of post I wish I had read before I enrolled myself: explain why I did it, who is it for and, of course, how the overall experience was like.
+
+## Why I Did It?
+
+Regardless of my technical background — and not having had enough coding-related training during the last two years — there were still times when I could feel quite disconnected from our engineering team's bread and butter.
+
+All Ironhack's platform is currently built on React, and more often than I'd be willing to admit, I found myself dealing with technical situations — mostly implementation details — its scope I didn't fully comprehend. Which truth be told, made me feel a little uncomfortable.
+
+Don't get me wrong though, I blindly trust the engineers on my team. But at the end of the day, I believe that the ultimate responsibility for any product decision is on the PM. A technically poor move could end up costing the organization a lot, both in resources and morale. That's the reason why I didn't feel at ease "outsourcing" this kind of decisions.
+
+It goes without saying that a PM working with digital products (and nowadays [this distinction encompasses almost all products](/blog/2016/hybrid-profile)) should have, at least, a bare understanding of how the underlying mechanics of the thing she is managing ultimately works.
+
+Yet in my opinion, this is not a debate about facts, but about respect and humility. As PMs we are gifted being surrounded by remarkably talented individuals that are able to craft astounding digital experiences. Learning to code, not only puts you in a better position to make the right decisions, but it signals a genuine curiosity for developers' work, it signals that you care.
+
+This is how you create empathy, this is how you earn the respect of your team, and of course, this is how you lead.
+
+I'm not going to make any statement about whether PMs should learn to code or not. The PM' desired toolkit will always depend on the nature and stage of the product. Coding skills might be desirable sometimes, but the same way being a great marketer or an insightful analyst might be desirable in others. I don't think there is a predetermined formula of skills every single PM should check. That's the beauty of the craft, each PM brings her wide range and a weighted combination of skills to the table — and that's what makes products unique.
+
+That being said, full disclosure: [I like to code](/blog/2019/right-time). Most important though, I also like to support engineers and help them think more broadly about the problems we are trying to solve for our users. Work together, challenge them — as far as my technical chops allow for it — and come up with creative solutions. This is one of my favorite facets of my job as a PM, and undoubtedly, coding skills play a major role in fulfilling this vision.
+
+Long story short, despite the Udacity Nanodegree is mostly targeted to job seekers, career changers, and acts as a first step towards the developer community, my goal for this program was not about getting a job as a developer afterward.
+
+And while I'm pretty familiar with how in-demand React developers currently are (this is the stack we teach at Ironhack's Web Development Bootcamps across 11 locations and the placement rates across graduates remain outstanding), I can't comment on Udacity's outcomes and career services, since I totally skipped that part of the program.
+
+## The Program
+
+Coming in from the DAND [before it switched to a term-based structure](/blog/2018/months-terms), felt enrolling the RDND a radically different experience.
+
+First of all, you could not start whenever you wanted. Cohorts started once a month, aimed (I suppose) to create a sense of synchrony that translated into an enhanced Slack communication amongst your course peers. While still far from [what you get out of an offline experience](/blog/2017/alignment), the course channel definitely felt more vibrant and contextualized, since the struggles across the students were kind of related.
+
+Switching to a term-based structure was a nice attempt to [improve the sense of community](/blog/2017/building-our-community) most online experiences lack. Yet the most notable effect it had was its ability to create pressure amongst its participants — another factor where most online courses still fall short.
+
+In other words: the course had a deadline.
+
+You get four months to graduate. Boy, that was pressure. For the amount of work you're asked to carry on — and I don't have access to Udacity's graduation rates — I think the deadline is quite aggressive. It took me a little over three months to finish, but believe me, it became my top priority (aside from my full-time job, of course) for almost all that period of time.
+
+While I previously approached the DAND more like a side-project and had huge ups and downs when it came to the dedication, the RDND felt more intense — if you're somewhat serious about finishing it, beware that the program will ask for a huge time commitment on your end.
+
+The course is broken down in three main projects:
+
+- [MyReads](https://github.com/MarcCollado/my-reads) — React Project
+- [Would You Rather](https://github.com/MarcCollado/magis)\* — React & Redux Project
+- [Flashcards](https://github.com/MarcCollado/flashcards) — React Native Project
+  - [Flashcards API](https://github.com/MarcCollado/flashcards-api) — Flashcards' GraphQL & NodeJS backend (the API was not required in the project's rubric, but I wanted the app to have a server and database, so I went "full-stack")
+
+Update from late-2018: after graduating from the RDND I [kept working](/blog/2018/would-you-rather-refactor) on the Would You Rather project, adding more features, and later on [renamed it to Magis](/blog/2018/magis-10).
+
+The course's learning curve is really well thought out since it ramps up smoothly from the basics of React, then using Redux to show you how to manage global state, and finally developing for mobile devices with React Native.
+
+The projects feel hands-on from the very beginning and they are nicely aligned with its learning outcomes. If you complete them, you'll certainly have learned what the program promises.
+
+The entire course is led by [Tyler McGinnis](https://github.com/tylermcginnis), an amazing educator and developer. My only Udacity related comparison point here was the DAND, and frankly, the RDND was a far better experience both in terms of content quality and course structure.
+
+First of all, because having a single teacher guiding the whole experience creates a deeper empathy with the course itself and contributes to the feeling of "this guy knows what he's talking about".
+
+But most important, while the DAND lacked a cohesive narrative between units and felt like jumping all over the place, the RDND created a sense of layered progress, constantly stacking new ideas on top of prior concepts.
+
+I felt like learning more, with half of the effort, but it all came packaged in a more intense and engaging experience.
+
+## The Experience
+
+Finally, if you would ask me "how is it like to go through the program?" I think my answer would be along the lines as the one I gave for the DAND, and I quote:
+
+> I won't lie: it is hard. Although the course structure is extremely clear, the materials are first class and all the projects really engaging, still, setting aside the time to work on your own, without social pressures of any kind, remains the most challenging endeavor, even for Udacity.
+
+Most of what I wrote about the DAND applies here as well in terms of "the experience", but there are a few distinct catches that are worth emphasizing.
+
+### Keep
+
+- The term-based and the cohort-like structure keeps the students in sync and stimulates the sense of community.
+- The program was extremely well thought out and the contents are nicely tied to the learning outcomes.
+- Tyler McGinnis is an amazing teacher and having him from start to finish is great — yet some of the materials were pulled out straight from his courses, which are way cheaper...
+- The course theme is aligned with the industry demands, and by the end, you've amassed plenty of front-end skills.
+
+### Improve
+
+- The quality and production of the videos were far better than the DAND, but still, the course feels very much lonely. There is a lot of room for improvement (not just for the RDND, but for e-learning in general) to deliver more engaging experiences.
+- Despite the program is not marketed to train full-stack developers, a little bit of back-end integration wouldn't hurt.
+- A closer look to the projects reveals that they are somehow "refined versions" the official documentation. For the self-taught students out there, the premium you end up paying for the "hand-holding" might be too high.
+
+### Drop
+
+Just one thing: the mentorship program.
+
+I haven't mentioned it until this point because I think you can go through the entire program ignoring the fact that it even exists, but the experience itself is a complete mess.
+
+The idea is that you get assigned a mentor you can chat with whenever you want. Mentors can provide support both in terms of motivation, and also solve any technical question you might encounter during the course.
+
+Maybe it was just me, that I've got a "careless mentor" (you could always ask for a new one, which I never did), but all the support I received from him was mostly useless. For example:
+
+- He was based in a (completely) different time-zone, which made communications even more difficult. If the point of a mentor is to provide a more customized help than the forums, why put six hours between the two?
+- The follow-ups he gave me felt bot-like and automated. Again, if the point is to have a more individualized experience, you should at least expect a more personal communication. Otherwise, just put me into a drip campaign and call it a day.
+- The interaction is done through an in-app chat. Mentors are strictly instructed to keep the communications in there, but sharing code and other assets within the chat is really difficult. Udacity should consider either enrich the chat experience or allow for the relationship to go beyond its own domains i.e. GitHub, Skype...
+
+I totally get Udacity's reasons to create this figure. I also get that you can't have a dedicated mentor in a course that "only" costs 500€, the numbers just don't add up. But still, if you want to keep it, Udacity should reframe the way it is marketed and also reset the expectations around what you'll get from it.
+
+## In A Nutshell
+
+So, upon graduation, if you were to ask me: would you do it again?
+
+Content-wise I'd say _"...maybe?"_ Because looking back (hindsight bias alert), if your goal is to get your hands dirty with React or learn the basics coming in from a different technology, I would recommend [cheaper options](https://wesbos.com).
+
+On the other hand, while the 500€ premium might be too high for some, if you are looking for a kickstart into the React developer world and landing a job afterward, Udacity's is definitely an option to consider.
+
+It is true that you can get to the same skill level through cheaper (even free) programs and resources. Yet that's the price you pay for a coherent educational structure, an engaging community, but most importantly, the "badge of honor" coming from the Nanodegree — and later on from Udacity's career services.
+
+Career-wise any graduate that has worked hard during the program will most certainly end up in a position to land a job as a React developer. Yet I still think the program lacks a more holistic approach to web development. Along these lines, the program also comes as a perfect complement prior to joining a more intense experience, such as a coding bootcamp.
+
+Hence, great course — definitely an improvement over past Nanodegrees — still better suited for career changers and job seekers rather than career boosters.
