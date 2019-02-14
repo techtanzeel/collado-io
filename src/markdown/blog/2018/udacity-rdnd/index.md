@@ -113,14 +113,16 @@ I totally get Udacity's reasons to create this figure. I also get that you can't
 
 ## In A Nutshell
 
-So, upon graduation, if you were to ask me: would you do it again?
+So, upon graduation, if you were to ask me: would you recommend it to a friend?
 
-Content-wise I'd say _"...maybe?"_ Because looking back (hindsight bias alert), if your goal is to get your hands dirty with React or learn the basics coming in from a different technology, I would recommend [cheaper options](https://wesbos.com).
+For the most, yes, without even hesitating. But I'd add some caveats here, depending on whether the desired outcome is for the sake of learning or there is a career opportunity at stake.
 
-On the other hand, while the 500€ premium might be too high for some, if you are looking for a kickstart into the React developer world and landing a job afterward, Udacity's is definitely an option to consider.
+Looking back (hindsight bias alert), if your end goal is "just" to get your hands dirty with React or learn the basics coming in from a different technology, I might go for [cheaper options](https://wesbos.com). Content-wise they will cover almost all (if not more) of the RDND syllabus, but of course, don't expect its quality and refinement.
 
-It is true that you can get to the same skill level through cheaper (even free) programs and resources. Yet that's the price you pay for a coherent educational structure, an engaging community, but most importantly, the "badge of honor" coming from the Nanodegree — and later on from Udacity's career services.
+On the other hand, while the 500€ premium might be too high for some, if you are aiming to become a React developer and landing a job afterward, Udacity's is definitely an option you should consider.
 
-Career-wise any graduate that has worked hard during the program will most certainly end up in a position to land a job as a React developer. Yet I still think the program lacks a more holistic approach to web development. Along these lines, the program also comes as a perfect complement prior to joining a more intense experience, such as a coding bootcamp.
+This is the price you pay for a coherent educational structure, an engaging community, but most importantly, the "badge of honor" and public recognition coming from the Nanodegree — and later on from Udacity's career services.
 
-Hence, great course — definitely an improvement over past Nanodegrees — still better suited for career changers and job seekers rather than career boosters.
+Career-wise any graduate that has worked hard during the program will most certainly end up in a position to land a job as a React developer. Yet I still think the program lacks a more holistic approach to web development — making a potential transition to the industry too harsh because of its narrow in scope. The flip-side of this argument though, is that the program also comes in as a perfect complement prior to joining a more intense experience, such as a coding bootcamp.
+
+Hence, great course, great value — definitely an improvement over past Nanodegrees — still better suited for career changers and job seekers rather than career boosters.
