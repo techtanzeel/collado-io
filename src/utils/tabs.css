@@ -1,38 +1,62 @@
+:root {
+  --hipBlack: #2a2e2e;
+  --fakeAsbestos: #525555;
+  --fakeAsbestosAlpha: #52555522;
+  --bianchiGreen: #b3e4c8;
+}
+
 /*
-  const hipBlack = '#2A2E2E';
-  const fakeAsbestos = '#525555';
-  const bianchiGreen = '#B3E4C8';
+BREAKPOINTS
+--mobile: 576px;
+--tablet: 768px;
+--desktop: 1024px;
 */
 
 .react-tabs {
+  /* Display & Box Model */
+  margin-top: 1em;
+
+  /* Other */
   -webkit-tap-highlight-color: transparent;
 }
 
 .react-tabs__tab-list {
-  border-bottom: 1px solid #525555;
+  /* Display & Box Model */
+  margin: 0em 0em 1.25em;
+  border-bottom: 1px solid var(--fakeAsbestos);
+  padding: 0em;
+
+  /* Flex */
   display: flex;
   justify-content: center;
-  margin: 0em 0em 1.25em;
-  padding: 0em;
 }
 
 .react-tabs__tab {
+  /* Positioning */
+  position: relative;
+  bottom: -1px;
+
+  /* Display & Box Model */
+  display: inline-block;
+  margin-bottom: 0em;
   border: 1px solid transparent;
   border-bottom: none;
-  bottom: -1px;
-  cursor: pointer;
-  display: inline-block;
-  list-style: none;
-  margin-bottom: 0em;
   padding: 0.5em;
-  position: relative;
+
+  /* Text */
+  list-style: none;
   text-align: center;
+
+  /* Other */
+  cursor: pointer;
 }
 
 .react-tabs__tab--selected {
-  background: #FFF;
-  border-color: #525555;
-  border-radius: 0.25em 0.25em 0 0;
+  /* Display & Box Model */
+  border-color: var(--fakeAsbestos);
+  border-radius: 5px 5px 0px 0px;
+  /* Color */
+  background: white;
 }
 
 .react-tabs__tab--selected > p {
@@ -40,46 +64,52 @@
 }
 
 .react-tabs__tab--disabled {
+  /* Color */
   color: #52555588;
+
+  /* Other */
   cursor: default;
 }
 
 .react-tabs__tab:focus {
+  /* Display & Box Model */
   box-shadow: 0 0 5px hsl(208, 99%, 50%);
   border-color: hsl(208, 99%, 50%);
+
+  /* Other */
   outline: none;
 }
 
 .react-tabs__tab:focus:after {
-  content: "";
+  /* Positioning */
   position: absolute;
-  height: 5px;
-  left: -4px;
   right: -4px;
   bottom: -5px;
+  left: -4px;
+
+  /* Display & Box Model */
+  height: 5px;
+
+  /* Color */
   background: #fff;
+
+  /* Other */
+  content: '';
 }
 
 .react-tabs__tab-panel {
+  /* Display & Box Model */
   display: none;
 }
 
 .react-tabs__tab-panel--selected {
+  /* Display & Box Model */
   display: block;
-}
-
-@media (min-width: 576px) {
-  .react-tabs__tab {
-    padding: 0.5em 0.75em;
-  }
 }
 
 @media (min-width: 768px) {
   .react-tabs__tab {
-    padding: 0.5em 1em;
+    /* Display & Box Model */
+    padding: 0em 1.25em 0.25em;
   }
-}
-
-@media (min-width: 1024px) {
-
 }
