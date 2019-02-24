@@ -5,19 +5,22 @@ import styled from 'styled-components';
 
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
-import WorkPost from '../../components/WorkPost';
+import { WorkCard } from '../../components/WorkCard';
 import { mobile } from '../../utils/breakpoints';
 import styles from '../../utils/md.module.css';
 
 const Work = ({ data }) => {
-  const Works = data.allMarkdownRemark.edges;
-  const WorkHeader = Works
+  const WorkData = data.allMarkdownRemark.edges;
+  const WorkIntro = WorkData
+    // Markdown file with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-  const WorksList = Works
+  const WorkList = WorkData
+    // Markdown file with fronmatter date data
     .filter((edge) => !!edge.node.frontmatter.date)
+    // Generate a feed of WorkPosts
     .map((edge) => (
-      <WorkPost
+      <WorkCard
         key={edge.node.id}
         excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
@@ -27,22 +30,17 @@ const Work = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader
-        tagline="Things I've Done"
-        title="Work"
-      />
+      <PageHeader tagline="Things I've Done" title="Work" />
       <div
         className={styles.md}
-        dangerouslySetInnerHTML={{ __html: WorkHeader }}
+        dangerouslySetInnerHTML={{ __html: WorkIntro }}
       />
-      <WorksListContainer>
-        {WorksList}
-      </WorksListContainer>
+      <WorkListContainer>{WorkList}</WorkListContainer>
     </Layout>
   );
 };
 
-const WorksListContainer = styled.div`
+const WorkListContainer = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -88,13 +86,13 @@ Work.propTypes = {
               date: PropTypes.string,
               excerpt: PropTypes.string,
               path: PropTypes.string,
-              title: PropTypes.string,
-            }),
-          }),
-        }),
-      ),
-    }),
-  }).isRequired,
+              title: PropTypes.string
+            })
+          })
+        })
+      )
+    })
+  }).isRequired
 };
 
 export default Work;
