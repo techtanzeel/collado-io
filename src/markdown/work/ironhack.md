@@ -1,8 +1,8 @@
 ---
-title: "Ironhack"
-date: "2018-10-01"
-path: "/work/ironhack/"
-excerpt: "Empowering the next generation of digital creators"
+title: 'Ironhack'
+date: '2018-10-01'
+path: '/work/ironhack/'
+excerpt: 'Empowering the next generation of digital creators'
 ---
 
 Hello there!
