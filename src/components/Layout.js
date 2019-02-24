@@ -112,10 +112,11 @@ const Content = styled.div`
   }
 
   @media (min-width: ${tablet}) {
-    padding: 0em 5em;
+    padding: 0em 4em;
   }
 
   @media (min-width: ${desktop}) {
+    padding: 0em 5em;
   }
 `;
 
