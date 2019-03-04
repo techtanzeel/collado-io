@@ -21,7 +21,7 @@
       }
     ],
     "react/forbid-prop-types": "warn",
-    "react/jsx-filename-extension": "warn",
+    "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "warn",
     "react/prop-types": "warn",
     "react/react-in-jsx-scope": "off"
