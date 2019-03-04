@@ -2,7 +2,7 @@
 title: 'The Ironhack Experience'
 date: '2016-03-30'
 path: '/blog/2016/ironhack-experience'
-tags: ['ironhack', 'idea', 'education']
+tags: ['ironhack', 'idea', 'memoir', 'education', 'coding']
 featured: 'true'
 excerpt: 'This Saturday I will be enrolling the Ironhack Web Development program, and why everybody in a managing position, technical or not, should join, too.'
 ---
