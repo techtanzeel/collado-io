@@ -3,9 +3,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import {
-  Tabs, TabList, Tab, TabPanel,
-} from 'react-tabs';
+import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 import BlogPostLink from '../../components/BlogPostLink';
 import Layout from '../../components/Layout';
@@ -17,16 +15,19 @@ import { BodyText } from '../../utils/theme';
 const iomando = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const iomandoBlogs = data.iomandoBlogs.edges;
-  const iomandoBlogsList = (tag) => iomandoBlogs
-    .filter((edge) => edge.node.frontmatter.tags.includes(tag))
-    .map((edge) => (
-      <BlogPostLink
-        key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        excerpt={edge.node.frontmatter.excerpt}
-        path={edge.node.frontmatter.path}
-        title={edge.node.frontmatter.title}
-      />));
+  const iomandoBlogsList = (tag) =>
+    iomandoBlogs
+      .filter((edge) => edge.node.frontmatter.tags.includes(tag))
+      .map((edge) => (
+        <BlogPostLink
+          key={edge.node.id}
+          date={edge.node.frontmatter.date}
+          excerpt={edge.node.frontmatter.excerpt}
+          path={edge.node.frontmatter.path}
+          title={edge.node.frontmatter.title}
+        />
+      ));
+
   const iomandoCover = data.iomandoCover.childImageSharp.fluid;
   const iomandoProduct = data.iomandoProduct.childImageSharp.fluid;
   const iomandoInsights = data.iomandoInsights.childImageSharp.fluid;
@@ -38,10 +39,7 @@ const iomando = ({ data }) => {
         tagline="Keyless access management for mobile devices"
         title="iomando"
       />
-      <Image
-        alt="iomando technologies"
-        fluid={iomandoCover}
-      />
+      <Image alt="iomando technologies" fluid={iomandoCover} />
       <div
         className={styles.md}
         dangerouslySetInnerHTML={{ __html: pageCopy }}
@@ -49,45 +47,45 @@ const iomando = ({ data }) => {
       <Tabs>
         <TabList>
           <Tab>
-            <BodyText>
-              {`Product releases`}
-            </BodyText>
+            <BodyText>Product releases</BodyText>
           </Tab>
           <Tab>
-            <BodyText>
-              {`Industry insights`}
-            </BodyText>
+            <BodyText>Industry insights</BodyText>
           </Tab>
           <Tab>
-            <BodyText>
-              {`Company stories`}
-            </BodyText>
+            <BodyText>iomando stories</BodyText>
           </Tab>
         </TabList>
 
         <TabPanel>
           <BodyText>
-            {`At iomando, we cared about our product and our users' experience beyond what most would consider unreasonable. Even in the early days, we understood that investing in having the best product would eventually become a unique asset and the enabler of a thriving business.`}
+            At iomando, we cared about our product and our users' experience
+            beyond what most would consider unreasonable. Even in the early
+            days, we understood that investing in having the best product would
+            eventually become a unique asset and the enabler of a thriving
+            business.
           </BodyText>
-          <Image
-            alt="iomando updates"
-            fluid={iomandoProduct}
-          />
+          <Image alt="iomando updates" fluid={iomandoProduct} />
           <BodyText>
-            {`Here's a recollection of all the release notes and product updates. Right from the very first 1.0, minor .1s, up to the latest 3.0, upon which the company was acquired.`}
+            Here is a recollection of all the release notes and product updates.
+            Right from the very first 1.0, minor .1s, up to the latest 3.0, upon
+            which the company was acquired.
           </BodyText>
           {iomandoBlogsList('update')}
         </TabPanel>
         <TabPanel>
           <BodyText>
-            {`Great products arise around user pains. Curiously, iomando was — unintentionally — designed the other way around. We built a really cool product, but all of a sudden, we found ourselves with an amazing piece of technology in the midst of a market we knew nothing about.`}
+            Great products arise around user pains. Curiously, iomando was —
+            unintentionally — designed the other way around. We built a really
+            cool product, but all of a sudden, we found ourselves with an
+            amazing piece of technology in the midst of a market we knew nothing
+            about.
           </BodyText>
-          <Image
-            alt="iomando insights"
-            fluid={iomandoInsights}
-          />
+          <Image alt="iomando insights" fluid={iomandoInsights} />
           <BodyText>
-            {`Here's a recollection of posts that uncovers a naive's journey of discovery, trying to convince the opaque, hardware-based accessibility management market, that software was the "new thing".`}
+            Here is a recollection of posts that uncovers a naive journey of
+            discovery, trying to convince the opaque, hardware-based
+            accessibility management market, that software was the new thing.
           </BodyText>
           {iomandoBlogsList('idea')}
         </TabPanel>
@@ -95,10 +93,7 @@ const iomando = ({ data }) => {
           <BodyText>
             {`iomando was also the first company I co-founded, right after graduating from college. Back then I was only 24 and barely knew what a P&L was. Besides developing a great product, iomando has taught me a far more valuable lesson: how to build a sustainable business.`}
           </BodyText>
-          <Image
-            alt="iomando stories"
-            fluid={iomandoStories}
-          />
+          <Image alt="iomando stories" fluid={iomandoStories} />
           <BodyText>
             {`Here's a recollection of stories, decisions, but most important, some the lessons learned along the way on how to manage and lead a startup from zero to acquisition.`}
           </BodyText>
@@ -116,7 +111,9 @@ const Image = styled(Img)`
 export const query = graphql`
   {
     pageCopy: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/(iomando)/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/(iomando)/" }
+      }
       limit: 1
     ) {
       edges {
@@ -127,8 +124,10 @@ export const query = graphql`
       }
     }
     iomandoBlogs: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" },
-                frontmatter: { tags: { in: ["iomando"] } } }
+      filter: {
+        fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" }
+        frontmatter: { tags: { in: ["iomando"] } }
+      }
       limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -184,10 +183,10 @@ iomando.propTypes = {
         PropTypes.shape({
           node: PropTypes.shape({
             id: PropTypes.string,
-            html: PropTypes.string,
-          }),
-        }),
-      ),
+            html: PropTypes.string
+          })
+        })
+      )
     }),
     iomandoBlogs: PropTypes.shape({
       totalCount: PropTypes.number,
@@ -200,17 +199,17 @@ iomando.propTypes = {
               excerpt: PropTypes.string,
               path: PropTypes.string,
               tags: PropTypes.arrayOf(PropTypes.string),
-              title: PropTypes.string,
-            }),
-          }),
-        }),
-      ),
+              title: PropTypes.string
+            })
+          })
+        })
+      )
     }),
     iomandoCover: PropTypes.object,
     iomandoProduct: PropTypes.object,
     iomandoInsights: PropTypes.object,
-    iomandoStories: PropTypes.object,
-  }).isRequired,
+    iomandoStories: PropTypes.object
+  }).isRequired
 };
 
 export default iomando;
