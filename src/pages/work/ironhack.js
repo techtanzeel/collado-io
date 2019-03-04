@@ -3,9 +3,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import {
-  Tabs, TabList, Tab, TabPanel,
-} from 'react-tabs';
+import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 import BlogPostLink from '../../components/BlogPostLink';
 import Layout from '../../components/Layout';
@@ -14,20 +12,25 @@ import styles from '../../utils/md.module.css';
 import '../../utils/tabs.css';
 import { BodyText } from '../../utils/theme';
 
-
 const Ironhack = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const ironhackBlogs = data.ironhackBlogs.edges;
-  const ironhackBlogsList = (tag) => ironhackBlogs
-    .filter((edge) => edge.node.frontmatter.tags.includes(tag))
-    .map((edge) => (
-      <BlogPostLink
-        key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        excerpt={edge.node.frontmatter.excerpt}
-        path={edge.node.frontmatter.path}
-        title={edge.node.frontmatter.title}
-      />));
+  const ironhackBlogsList = (tag) =>
+    ironhackBlogs
+      .filter((edge) => edge.node.frontmatter.tags.includes(tag))
+      .map((edge) => (
+        <BlogPostLink
+          key={edge.node.id}
+          date={edge.node.frontmatter.date}
+          excerpt={edge.node.frontmatter.excerpt}
+          path={edge.node.frontmatter.path}
+          title={edge.node.frontmatter.title}
+        />
+      ));
+
+  const ironhackCover = data.ironhackCover.childImageSharp.fluid;
+  const ironhackInsights = data.ironhackInsights.childImageSharp.fluid;
+  const ironhackStories = data.ironhackStories.childImageSharp.fluid;
 
   return (
     <Layout>
@@ -35,67 +38,55 @@ const Ironhack = ({ data }) => {
         tagline="Empowering the next generation of digital creators"
         title="Ironhack"
       />
-      {/* <Image
-        alt="Ironhack technologies"
-        fluid={IronhackCover}
-      /> */}
+      <Image alt="Ironhack technologies" fluid={ironhackCover} />
       <div
         className={styles.md}
         dangerouslySetInnerHTML={{ __html: pageCopy }}
       />
-      {/* <Tabs>
+      <Tabs>
         <TabList>
           <Tab>
-            <BodyText>
-              {``}
-            </BodyText>
+            <BodyText>Industry insights</BodyText>
           </Tab>
           <Tab>
-            <BodyText>
-              {``}
-            </BodyText>
-          </Tab>
-          <Tab>
-            <BodyText>
-              {``}
-            </BodyText>
+            <BodyText>Ironhack stories</BodyText>
           </Tab>
         </TabList>
 
         <TabPanel>
           <BodyText>
-            {`Lorem Ipsum...`}
+            Education — as we know it — is changing, for the better. At Ironhack
+            I had a unique opportunity to be part and lead this revolution,
+            using technology to create the tools for our students to boost their
+            careers and become digital creators themselves.
           </BodyText>
-          <Image
-            alt="Ironhack updates"
-            fluid={IronhackProduct}
-          />
+          <Image alt="Ironhack insights" fluid={ironhackInsights} />
           <BodyText>
-            {`Lorem Ipsum...`}
+            Thousands of graduates across eleven locations have taught me a lot
+            about education and how our students ultimately learn. Here is a
+            recollection of posts around educational products, methodologies,
+            what has worked (what has not...) and the lessons we have learned
+            along the way.
           </BodyText>
-          {ironhackBlogsList('update')}
-        </TabPanel>
-        <TabPanel>
-          <BodyText>
-            {`Lorem Ipsum...`}
-          </BodyText>
-          <Image
-            alt=""
-            fluid={}
-          />
           {ironhackBlogsList('idea')}
         </TabPanel>
         <TabPanel>
           <BodyText>
-            {`Lorem Ipsum...`}
+            When I joined, early 2015, Ironhack looked like nothing it has
+            become today. We were barely ten of us and the idea of changing
+            people lives in just two months sounded more like a wild dream
+            rather than an attainable reality.
           </BodyText>
-          <Image
-            alt=""
-            fluid={}
-          />
+          <Image alt="Ironhack stories" fluid={ironhackStories} />
+          <BodyText>
+            After more than four years, I have accumulated thousands of stories,
+            raging from being a student myself to scaling campuses operations.
+            Here is a recollection of posts that distill my story at Ironhack
+            from a more confidential, idiosyncratic perspective.
+          </BodyText>
           {ironhackBlogsList('memoir')}
         </TabPanel>
-      </Tabs> */}
+      </Tabs>
     </Layout>
   );
 };
@@ -107,7 +98,9 @@ const Image = styled(Img)`
 export const query = graphql`
   {
     pageCopy: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/(ironhack)/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/(src)/(markdown)/(work)/(ironhack)/" }
+      }
       limit: 1
     ) {
       edges {
@@ -118,8 +111,10 @@ export const query = graphql`
       }
     }
     ironhackBlogs: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" },
-                frontmatter: { tags: { in: ["ironhack"] } } }
+      filter: {
+        fileAbsolutePath: { regex: "/(src)/(markdown)/(blog)/" }
+        frontmatter: { tags: { in: ["ironhack"] } }
+      }
       limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -137,7 +132,27 @@ export const query = graphql`
         }
       }
     }
-
+    ironhackCover: file(relativePath: { eq: "ironhack-cover.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    ironhackInsights: file(relativePath: { eq: "ironhack-insights.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    ironhackStories: file(relativePath: { eq: "ironhack-barcelona.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `;
 
@@ -147,9 +162,9 @@ Ironhack.propTypes = {
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           id: PropTypes.string,
-          html: PropTypes.string,
-        }),
-      ),
+          html: PropTypes.string
+        })
+      )
     }),
     ironhackBlogs: PropTypes.shape({
       totalCount: PropTypes.number,
@@ -162,13 +177,16 @@ Ironhack.propTypes = {
               excerpt: PropTypes.string,
               path: PropTypes.string,
               tags: PropTypes.arrayOf(PropTypes.string),
-              title: PropTypes.string,
-            }),
-          }),
-        }),
-      ),
+              title: PropTypes.string
+            })
+          })
+        })
+      )
     }),
-  }).isRequired,
+    ironhackCover: PropTypes.object,
+    ironhackInsights: PropTypes.object,
+    ironhackStories: PropTypes.object
+  }).isRequired
 };
 
 export default Ironhack;
