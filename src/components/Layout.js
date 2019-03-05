@@ -4,16 +4,11 @@ import styled from 'styled-components';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-import Footer from './Footer';
-import Navbar from './Navbar';
+import { Footer } from './Footer';
+import { Navbar } from './Navbar';
 import SnackBar from './SnackBar';
 import { mobile, tablet, desktop } from '../utils/breakpoints';
-// import { hipBlack, fakeAsbestos, bianchiGreen } from '../utils/colors';
-
 import SEO from '../utils/seo';
-// import {
-//   Title1, Title2, Title3, BodyText, BodyLink, MetaText,
-// } from '../utils/theme';
 
 library.add(faTimes);
 
