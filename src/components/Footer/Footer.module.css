@@ -1,0 +1,56 @@
+:root {
+  --hipBlack: #2a2e2e;
+  --fakeAsbestos: #525555;
+  --bianchiGreen: #b3e4c8;
+  --bianchiGreenAlpha: #b3e4c888;
+}
+
+.footer {
+  /* Display & Box Model */
+  margin-top: 2em;
+  padding: 2em 0em;
+
+  /* Flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Color */
+  background: var(--bianchiGreenAlpha);
+}
+
+.footer__link {
+  /* Display & Box Model */
+  margin: 0em 0.5em;
+  border-bottom: 0.25em solid transparent;
+  padding: 0.5em 0.5em 0.25em;
+
+  /* Text */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.875em;
+
+  /* Color */
+  color: var(--fakeAsbestos);
+
+  /* Other */
+  transition: border-bottom 0.3s ease;
+}
+
+.footer__link:hover {
+  /* Display & Box Model */
+  border-bottom: 0.25em solid var(--fakeAsbestos);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    /* Display & Box Model */
+    margin-top: 3em;
+  }
+  .footer__link {
+    /* Display & Box Model */
+    padding: 0.5em 0.75em;
+
+    /* Text */
+    font-size: 1em;
+  }
+}
