@@ -1,0 +1,7 @@
+/* index.js */
+.container {
+  /* FLEX */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
