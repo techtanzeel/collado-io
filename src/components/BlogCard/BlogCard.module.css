@@ -1,0 +1,35 @@
+/* Shared .card styles with NowCard & WorkCard */
+.card {
+  /* Display & Box Model */
+  box-shadow: var(--fakeAsbestosAlpha22) 0 0.125em 0.25em 0;
+  margin: 0.75em 0 0.25em;
+  border: 1px solid var(--fakeAsbestosAlpha22);
+  border-radius: 0.25em;
+  padding: 1em 1.5em;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+
+  /* Other */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover,
+.card:active {
+  /* Display & Box Model */
+  box-shadow: var(--fakeAsbestosAlpha22) 0 0.5em 1em 0;
+}
+
+.card__title {
+  /* Display & Box Model */
+  margin-top: 0.25em;
+}
+
+.card__excerpt {
+  /* Display & Box Model */
+  margin: 0.5em 0;
+
+  /* Text */
+  font-size: smaller;
+}
