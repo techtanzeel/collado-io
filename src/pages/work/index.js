@@ -1,13 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
+import styles from './work.module.css';
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
 import { WorkCard } from '../../components/WorkCard';
-import { mobile } from '../../utils/breakpoints';
-import styles from '../../utils/md.module.css';
 
 const Work = ({ data }) => {
   const WorkData = data.allMarkdownRemark.edges;
@@ -35,22 +32,10 @@ const Work = ({ data }) => {
         className={styles.md}
         dangerouslySetInnerHTML={{ __html: WorkIntro }}
       />
-      <WorkListContainer>{WorkList}</WorkListContainer>
+      <div className={styles.container}>{WorkList}</div>
     </Layout>
   );
 };
-
-const WorkListContainer = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: ${mobile}) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-`;
 
 export const query = graphql`
   {
