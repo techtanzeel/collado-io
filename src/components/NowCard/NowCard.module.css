@@ -1,0 +1,17 @@
+:root {
+  --fakeAsbestosAlpha: #52555522;
+}
+
+/* Shared .card styles with BlogCard & WorkCard */
+.card {
+  /* Display & Box Model */
+  box-shadow: var(--fakeAsbestosAlpha) 0em 0.125em 0.25em 0em;
+  margin: 0.75em 0 0.25em;
+  border: 1px solid var(--fakeAsbestosAlpha);
+  border-radius: 0.25em;
+  padding: 0 1.5em;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}
