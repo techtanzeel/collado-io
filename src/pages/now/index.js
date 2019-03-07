@@ -14,13 +14,13 @@ const NowPage = ({ data }) => {
   const NowList = NowData
     // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
-    // Generate a feed of WorkPosts
+    // Generate a feed of NowPosts
     .map((edge) => (
       <NowCard
         key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        html={edge.node.html}
         title={edge.node.frontmatter.title}
+        html={edge.node.html}
+        date={edge.node.frontmatter.date}
       />
     ));
 
@@ -60,11 +60,11 @@ NowPage.propTypes = {
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
-            id: PropTypes.string,
-            html: PropTypes.string,
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string,
-              title: PropTypes.string
+              date: PropTypes.string.isRequired,
+              title: PropTypes.string.isRequired
             })
           })
         })

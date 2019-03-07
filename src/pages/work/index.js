@@ -62,13 +62,13 @@ WorkPage.propTypes = {
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
-            id: PropTypes.string,
-            html: PropTypes.string,
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string,
-              excerpt: PropTypes.string,
-              path: PropTypes.string,
-              title: PropTypes.string
+              date: PropTypes.string.isRequired,
+              excerpt: PropTypes.string.isRequired,
+              path: PropTypes.string.isRequired,
+              title: PropTypes.string.isRequired
             })
           })
         })
