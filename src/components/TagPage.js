@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import BlogPostLink from './BlogPostLink';
+import { BlogCard } from './BlogCard';
 import Layout from './Layout';
 import PageHeader from './PageHeader';
 import { Title3 } from '../utils/theme';
@@ -17,7 +17,7 @@ const TagPage = ({ pageContext, data }) => {
 
   const BlogsList = Blogs.filter((edge) => !!edge.node.frontmatter.date).map(
     (edge) => (
-      <BlogPostLink
+      <BlogCard
         key={edge.node.id}
         date={edge.node.frontmatter.date}
         excerpt={edge.node.frontmatter.excerpt}

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
-import BlogPostLink from '../../components/BlogPostLink';
+import { BlogCard } from '../../components/BlogCard';
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
 import styles from '../../utils/md.module.css';
@@ -19,7 +19,7 @@ const Ironhack = ({ data }) => {
     ironhackBlogs
       .filter((edge) => edge.node.frontmatter.tags.includes(tag))
       .map((edge) => (
-        <BlogPostLink
+        <BlogCard
           key={edge.node.id}
           date={edge.node.frontmatter.date}
           excerpt={edge.node.frontmatter.excerpt}
