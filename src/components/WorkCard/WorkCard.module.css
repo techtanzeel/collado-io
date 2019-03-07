@@ -1,13 +1,9 @@
-:root {
-  --fakeAsbestosAlpha: #52555522;
-}
-
 .card {
   /* Display & Box Model */
-  box-shadow: var(--fakeAsbestosAlpha) 0em 0.125em 0.25em 0em;
+  box-shadow: var(--fakeAsbestosAlpha22) 0em 0.125em 0.25em 0em;
   width: 15em;
   margin: 1em;
-  border: 1px solid var(--fakeAsbestosAlpha);
+  border: 1px solid var(--fakeAsbestosAlpha22);
   border-radius: 0.25em;
   overflow: hidden;
 
@@ -22,7 +18,7 @@
 .card:hover,
 .card:active {
   /* Display & Box Model */
-  box-shadow: var(--fakeAsbestosAlpha) 0 0.5em 1em 0;
+  box-shadow: var(--fakeAsbestosAlpha22) 0 0.5em 1em 0;
 }
 
 .card__wrapper {
