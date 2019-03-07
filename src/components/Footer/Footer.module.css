@@ -1,8 +1,3 @@
-:root {
-  --fakeAsbestos: #525555;
-  --bianchiGreenAlpha: #b3e4c888;
-}
-
 .footer {
   /* Display & Box Model */
   margin-top: 2em;
@@ -14,7 +9,7 @@
   align-items: center;
 
   /* Color */
-  background: var(--bianchiGreenAlpha);
+  background: var(--bianchiGreenAlpha88);
 }
 
 .footer__link {
