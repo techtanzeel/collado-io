@@ -1,21 +1,22 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import Layout from '../../components/Layout';
+import PageHeader from '../../components/PageHeader';
+import { NowCard } from '../../components/NowCard';
 
-import Layout from '../components/Layout';
-import NowPost from '../components/NowPost';
-import PageHeader from '../components/PageHeader';
-import styles from '../utils/md.module.css';
-
-const Now = ({ data }) => {
-  const Nows = data.allMarkdownRemark.edges;
-  const NowHeader = Nows
+const NowPage = ({ data }) => {
+  const NowData = data.allMarkdownRemark.edges;
+  const NowIntro = NowData
+    // Get md files with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-  const NowsList = Nows
+  const NowList = NowData
+    // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
+    // Generate a feed of WorkPosts
     .map((edge) => (
-      <NowPost
+      <NowCard
         key={edge.node.id}
         date={edge.node.frontmatter.date}
         html={edge.node.html}
@@ -25,15 +26,9 @@ const Now = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader
-        tagline="Things I'm Doing"
-        title="Now"
-      />
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: NowHeader }}
-      />
-      {NowsList}
+      <PageHeader tagline="Things I'm Doing" title="Now" />
+      <div dangerouslySetInnerHTML={{ __html: NowIntro }} />
+      {NowList}
     </Layout>
   );
 };
@@ -59,7 +54,7 @@ export const query = graphql`
   }
 `;
 
-Now.propTypes = {
+NowPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
@@ -69,13 +64,13 @@ Now.propTypes = {
             html: PropTypes.string,
             frontmatter: PropTypes.shape({
               date: PropTypes.string,
-              title: PropTypes.string,
-            }),
-          }),
-        }),
-      ),
-    }),
-  }).isRequired,
+              title: PropTypes.string
+            })
+          })
+        })
+      )
+    })
+  }).isRequired
 };
 
-export default Now;
+export default NowPage;
