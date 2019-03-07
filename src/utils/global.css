@@ -28,6 +28,9 @@ body {
 h1,
 h2,
 h3 {
+  /* Display & Box Model */
+  margin-bottom: 0;
+
   /* Text */
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
