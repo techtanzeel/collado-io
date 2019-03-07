@@ -6,9 +6,9 @@
   /* Display & Box Model */
   box-shadow: var(--fakeAsbestosAlpha) 0em 0.125em 0.25em 0em;
   width: 15em;
+  margin: 1em;
   border: 1px solid var(--fakeAsbestosAlpha);
   border-radius: 0.25em;
-  margin: 1em;
   overflow: hidden;
 
   /* Flex */
@@ -32,7 +32,7 @@
 
 .card__title {
   /* Display & Box Model */
-  margin: 0.25em 0;
+  margin-top: 0.25em;
 }
 
 .card__excerpt {
