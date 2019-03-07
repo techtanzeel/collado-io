@@ -6,32 +6,29 @@ import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
 import { WorkCard } from '../../components/WorkCard';
 
-const Work = ({ data }) => {
+const WorkPage = ({ data }) => {
   const WorkData = data.allMarkdownRemark.edges;
   const WorkIntro = WorkData
-    // Markdown file with the fronmatter date set to null (index.md)
+    // Get md files with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
   const WorkList = WorkData
-    // Markdown file with fronmatter date data
+    // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
     // Generate a feed of WorkPosts
     .map((edge) => (
       <WorkCard
         key={edge.node.id}
-        excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
+        excerpt={edge.node.frontmatter.excerpt}
       />
     ));
 
   return (
     <Layout>
       <PageHeader tagline="Things I've Done" title="Work" />
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: WorkIntro }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: WorkIntro }} />
       <div className={styles.container}>{WorkList}</div>
     </Layout>
   );
@@ -59,7 +56,7 @@ export const query = graphql`
   }
 `;
 
-Work.propTypes = {
+WorkPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
@@ -80,4 +77,4 @@ Work.propTypes = {
   }).isRequired
 };
 
-export default Work;
+export default WorkPage;
