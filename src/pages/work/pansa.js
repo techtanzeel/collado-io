@@ -8,7 +8,6 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import { BlogCard } from '../../components/BlogCard';
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
-import styles from '../../utils/md.module.css';
 import '../../utils/tabs.css';
 import { BodyText } from '../../utils/theme';
 

@@ -8,7 +8,6 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import { BlogCard } from '../../components/BlogCard';
 import Layout from '../../components/Layout';
 import PageHeader from '../../components/PageHeader';
-import styles from '../../utils/md.module.css';
 import '../../utils/tabs.css';
 import { BodyText } from '../../utils/theme';
 
@@ -39,10 +38,7 @@ const Ironhack = ({ data }) => {
         title="Ironhack"
       />
       <Image alt="Ironhack technologies" fluid={ironhackCover} />
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: pageCopy }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: pageCopy }} />
       <Tabs>
         <TabList>
           <Tab>
