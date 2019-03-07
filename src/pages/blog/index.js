@@ -1,29 +1,30 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import Layout from '../../components/Layout';
+import PageHeader from '../../components/PageHeader';
+import { BlogCard } from '../../components/BlogCard';
 
-import BlogPostLink from '../components/BlogPostLink';
-import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
-
-const Blog = ({ data }) => {
-  const Blogs = data.allMarkdownRemark.edges;
-  const BlogsList = Blogs.filter((edge) => !!edge.node.frontmatter.date).map(
-    (edge) => (
-      <BlogPostLink
+const BlogPage = ({ data }) => {
+  const BlogData = data.allMarkdownRemark.edges;
+  const BlogList = BlogData
+    // Get md files
+    .filter((edge) => !!edge.node.frontmatter.date)
+    .map((edge) => (
+      // Generate a feed of BlogPosts
+      <BlogCard
         key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
+        excerpt={edge.node.frontmatter.excerpt}
+        date={edge.node.frontmatter.date}
       />
-    )
-  );
+    ));
 
   return (
     <Layout>
       <PageHeader tagline="Things I've Written" title="Blog" />
-      {BlogsList}
+      {BlogList}
     </Layout>
   );
 };
@@ -50,18 +51,18 @@ export const query = graphql`
   }
 `;
 
-Blog.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
-            id: PropTypes.string,
+            id: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string,
-              excerpt: PropTypes.string,
-              path: PropTypes.string,
-              title: PropTypes.string
+              date: PropTypes.string.isRequired,
+              excerpt: PropTypes.string.isRequired,
+              path: PropTypes.string.isRequired,
+              title: PropTypes.string.isRequired
             })
           })
         })
@@ -70,4 +71,4 @@ Blog.propTypes = {
   }).isRequired
 };
 
-export default Blog;
+export default BlogPage;
