@@ -52,8 +52,9 @@ export default (props) => (
 
 WorkCard.propTypes = {
   data: PropTypes.shape({
-    iomando: PropTypes.object,
-    ironhack: PropTypes.object
+    iomando: PropTypes.object.isRequired,
+    ironhack: PropTypes.object.isRequired,
+    pansa: PropTypes.object.isRequired
   }).isRequired,
   excerpt: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
