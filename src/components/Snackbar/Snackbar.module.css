@@ -1,0 +1,60 @@
+.snackbar__container {
+  /* Display & Box Model */
+  padding: 0 1em 0.5em;
+
+  /* Flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Color */
+  background-color: #f1c40f88;
+}
+
+.snackbar__text {
+  /* Display & Box Model */
+  max-width: 725px;
+
+  /* Text */
+  font-size: smaller;
+  text-align: center;
+}
+
+.snackbar__text a {
+  /* Display & Box Model */
+  border-color: var(--fakeAsbestos);
+  box-shadow: var(--fakeAsbestos);
+}
+
+.snackbar__text a:hover {
+  /* Color */
+  color: #ffffff;
+  background: var(--fakeAsbestos);
+}
+
+.snackbar__close {
+  /* Display & Box Model */
+  margin-left: 0.5em;
+  border: none;
+  border-radius: 1em;
+  padding: 6px 9px;
+
+  /* Flex */
+  display: flex;
+
+  /* Color */
+  background-color: #f1c40f;
+
+  /* Other */
+  transition: background-color 0.3s ease;
+}
+
+.snackbar__close:hover {
+  /* Color */
+  background-color: var(--fakeAsbestosAlpha88);
+}
+
+.snackbar__icon {
+  /* Text */
+  text-align: center;
+}
