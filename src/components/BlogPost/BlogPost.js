@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styles from './BlogPost.module.css';
-import Layout from '../Layout';
+import { Layout } from '../Layout';
 import { PublishedAt } from '../PublishedAt';
 import { Tag } from '../Tag';
 

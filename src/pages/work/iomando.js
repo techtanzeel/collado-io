@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import styles from './work.module.css';
 import { BlogCard } from '../../components/BlogCard';
-import Layout from '../../components/Layout';
+import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
 import '../../utils/tabs.css';
 

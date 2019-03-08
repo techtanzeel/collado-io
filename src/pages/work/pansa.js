@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import Layout from '../../components/Layout';
+import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
 import '../../utils/tabs.css';
 

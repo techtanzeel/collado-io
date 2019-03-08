@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styles from './work.module.css';
-import Layout from '../../components/Layout';
+import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
 import { WorkCard } from '../../components/WorkCard';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import Layout from '../components/Layout';
+import { Layout } from '../components/Layout';
 import { Header } from '../components/Header';
 
 const TagsPage = ({ data }) => {
@@ -10,10 +10,7 @@ const TagsPage = ({ data }) => {
 
   return (
     <Layout>
-      <Header
-        title="All Tags"
-        tagline="The blog, tagged"
-      />
+      <Header title="All Tags" tagline="The blog, tagged" />
       <ul>
         {group.map((tag) => (
           <li key={tag.fieldValue}>
@@ -52,16 +49,16 @@ TagsPage.propTypes = {
       group: PropTypes.arrayOf(
         PropTypes.shape({
           fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired,
-      ),
+          totalCount: PropTypes.number.isRequired
+        }).isRequired
+      )
     }),
     site: PropTypes.shape({
       siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }).isRequired,
+        title: PropTypes.string.isRequired
+      })
+    })
+  }).isRequired
 };
 
 export default TagsPage;

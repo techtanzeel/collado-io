@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { BlogCard } from './BlogCard';
-import Layout from './Layout';
+import { Layout } from './Layout';
 import { Header } from './Header';
 import { Title3 } from '../utils/theme';
 
