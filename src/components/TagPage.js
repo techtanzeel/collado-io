@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { BlogCard } from './BlogCard';
 import Layout from './Layout';
-import PageHeader from './PageHeader';
+import { Header } from './Header';
 import { Title3 } from '../utils/theme';
 
 const TagPage = ({ pageContext, data }) => {
@@ -29,7 +29,7 @@ const TagPage = ({ pageContext, data }) => {
 
   return (
     <Layout>
-      <PageHeader title={`This is ${tag}`} tagline="The blog, filtered" />
+      <Header title={`This is ${tag}`} tagline="The blog, filtered" />
       <Title3>{TagHeader}</Title3>
       {BlogsList}
     </Layout>

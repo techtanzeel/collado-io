@@ -6,7 +6,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import styles from './work.module.css';
 import { BlogCard } from '../../components/BlogCard';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import '../../utils/tabs.css';
 
 const iomando = ({ data }) => {
@@ -32,7 +32,7 @@ const iomando = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader
+      <Header
         tagline="Keyless access management for mobile devices"
         title="iomando"
       />

@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import { NowCard } from '../../components/NowCard';
 
 const NowPage = ({ data }) => {
@@ -26,7 +26,7 @@ const NowPage = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader tagline="Things I'm Doing" title="Now" />
+      <Header tagline="Things I'm Doing" title="Now" />
       <div dangerouslySetInnerHTML={{ __html: NowIntro }} />
       {NowList}
     </Layout>

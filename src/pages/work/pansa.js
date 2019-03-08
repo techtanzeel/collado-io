@@ -1,12 +1,12 @@
 import React from 'react';
 import Img from 'gatsby-image';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import '../../utils/tabs.css';
 
 const pansa = () => (
   <Layout>
-    <PageHeader tagline="Cloud storage for your mind " title="pansa" />
+    <Header tagline="Cloud storage for your mind " title="pansa" />
     <p>
       Pansa is a memory-taking app. It helps you create, organize, find and
       connect memories so you don’t have to worry about forgetting. Save

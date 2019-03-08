@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import { BlogCard } from '../../components/BlogCard';
 
 const BlogPage = ({ data }) => {
@@ -23,7 +23,7 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader tagline="Things I've Written" title="Blog" />
+      <Header tagline="Things I've Written" title="Blog" />
       {BlogList}
     </Layout>
   );

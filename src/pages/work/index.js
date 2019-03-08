@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import styles from './work.module.css';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import { WorkCard } from '../../components/WorkCard';
 
 const WorkPage = ({ data }) => {
@@ -27,7 +27,7 @@ const WorkPage = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader tagline="Things I've Done" title="Work" />
+      <Header tagline="Things I've Done" title="Work" />
       <div dangerouslySetInnerHTML={{ __html: WorkIntro }} />
       <div className={styles.container}>{WorkList}</div>
     </Layout>

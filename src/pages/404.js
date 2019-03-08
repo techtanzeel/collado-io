@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
+import { Header } from '../components/Header';
 import { mobile } from '../utils/breakpoints';
 import { Title2, BodyText, BodyLink } from '../utils/theme';
 
 
 const NotFoundPage = () => (
   <Layout>
-    <PageHeader
+    <Header
       tagline="Page Not Found"
       title="404"
     />

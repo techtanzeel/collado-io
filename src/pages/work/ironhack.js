@@ -6,7 +6,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import styles from './work.module.css';
 import { BlogCard } from '../../components/BlogCard';
 import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import { Header } from '../../components/Header';
 import '../../utils/tabs.css';
 
 const Ironhack = ({ data }) => {
@@ -31,7 +31,7 @@ const Ironhack = ({ data }) => {
 
   return (
     <Layout>
-      <PageHeader
+      <Header
         tagline="Empowering the next generation of digital creators"
         title="Ironhack"
       />

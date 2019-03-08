@@ -3,14 +3,14 @@ import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
+import { Header } from '../components/Header';
 
 const TagsPage = ({ data }) => {
   const { group } = data.allMarkdownRemark;
 
   return (
     <Layout>
-      <PageHeader
+      <Header
         title="All Tags"
         tagline="The blog, tagged"
       />
