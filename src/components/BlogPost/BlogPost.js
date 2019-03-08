@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styles from './BlogPost.module.css';
 import Layout from '../Layout';
 import { PublishedAt } from '../PublishedAt';
-import BlogPostTags from '../BlogPostTags';
+import { Tag } from '../Tag';
 
 const BlogPost = ({ data }) => {
   const { markdownRemark } = data;
@@ -21,7 +21,11 @@ const BlogPost = ({ data }) => {
       <div className={styles.meta}>
         <PublishedAt date={date} />
         <h3>Tags</h3>
-        <BlogPostTags tags={tags} />
+        <div className={styles.tag__container}>
+          {tags.map((tag) => (
+            <Tag key={tag}>{tag}</Tag>
+          ))}
+        </div>
       </div>
     </Layout>
   );
