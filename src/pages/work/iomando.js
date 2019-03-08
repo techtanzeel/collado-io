@@ -7,7 +7,7 @@ import styles from './work.module.css';
 import { BlogCard } from '../../components/BlogCard';
 import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
-import '../../utils/tabs.css';
+import '../../styles/tabs.css';
 
 const iomando = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
@@ -193,7 +193,7 @@ iomando.propTypes = {
           })
         })
       )
-    }).isRequired,
+    }),
     iomandoBlogPosts: PropTypes.shape({
       totalCount: PropTypes.number,
       edges: PropTypes.arrayOf(
@@ -210,7 +210,7 @@ iomando.propTypes = {
           })
         })
       )
-    }).isRequired,
+    }),
     iomandoCover: PropTypes.object.isRequired,
     iomandoProduct: PropTypes.object.isRequired,
     iomandoInsights: PropTypes.object.isRequired,

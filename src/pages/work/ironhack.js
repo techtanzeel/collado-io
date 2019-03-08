@@ -7,7 +7,7 @@ import styles from './work.module.css';
 import { BlogCard } from '../../components/BlogCard';
 import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
-import '../../utils/tabs.css';
+import '../../styles/tabs.css';
 
 const Ironhack = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
@@ -163,11 +163,13 @@ Ironhack.propTypes = {
     pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string.isRequired,
-          html: PropTypes.string.isRequired
+          node: PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired
+          })
         })
       )
-    }).isRequired,
+    }),
     ironhackBlogPosts: PropTypes.shape({
       totalCount: PropTypes.number,
       edges: PropTypes.arrayOf(
@@ -184,7 +186,7 @@ Ironhack.propTypes = {
           })
         })
       )
-    }).isRequired,
+    }),
     ironhackCover: PropTypes.object.isRequired,
     ironhackInsights: PropTypes.object.isRequired,
     ironhackStories: PropTypes.object.isRequired

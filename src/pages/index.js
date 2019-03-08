@@ -50,11 +50,13 @@ HomePage.propTypes = {
     pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
-          id: PropTypes.string.isRequired,
-          html: PropTypes.string.isRequired
+          node: PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired
+          })
         })
       )
-    }).isRequired,
+    }),
     cartoonMarc: PropTypes.object.isRequired
   }).isRequired
 };
