@@ -9,18 +9,10 @@
   --bianchiGreenAlpha88: #b3e4c888;
 }
 
-/*
-BREAKPOINTS
---mobile: 576px;
---tablet: 768px;
---desktop: 1024px;
-*/
-
 html {
   font-size: 16px;
 }
 
-/* HEADERS */
 h1,
 h2,
 h3 {
@@ -51,7 +43,6 @@ h3 {
   font-size: 1.25em;
 }
 
-/* BODY */
 p,
 li {
   color: var(--hipBlack);
@@ -82,7 +73,11 @@ li a:hover {
   background: var(--bianchiGreen);
 }
 
-/* BLOCKQUOTES */
+ul,
+ol {
+  padding-inline-start: 1.25em;
+}
+
 blockquote {
   border-left: 0.25em solid var(--bianchiGreen);
   margin: 1.25em 0em;
@@ -96,7 +91,6 @@ blockquote p {
   letter-spacing: -1px;
 }
 
-/* CODE */
 pre {
   background: #b3e4ca44;
   padding: 1.25em;
@@ -111,7 +105,6 @@ code {
   letter-spacing: -1px;
 }
 
-/* ELEMENTS */
 hr {
   margin: 1em 0em 0em;
   opacity: 0.5;
