@@ -1,15 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTimes, faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
 import 'normalize.css';
-
-import { Footer } from './Footer';
-import { Navbar } from './Navbar';
-import SnackBar from './SnackBar';
-import { mobile, tablet, desktop } from '../utils/breakpoints';
-import SEO from '../utils/seo';
+import styles from './Layout.module.css';
+import { Snackbar } from '../Snackbar';
+import { Navbar } from '../Navbar';
+import { Footer } from '../Footer';
+import SEO from '../../utils/seo';
 
 library.add(faTimes, faCalendarCheck);
 
@@ -64,7 +62,7 @@ class Layout extends React.Component {
     const { renderSnackBar } = this.state;
 
     return (
-      <Container>
+      <div className={styles.out__container}>
         <SEO
           title={title}
           description={description}
@@ -73,48 +71,15 @@ class Layout extends React.Component {
           article={article}
         />
         {renderSnackBar ? (
-          <SnackBar unmount={this.handleUnmountSnackBar} />
+          <Snackbar unmount={this.handleUnmountSnackBar} />
         ) : null}
         <Navbar />
-        <Content>{children}</Content>
+        <div className={styles.in__container}>{children}</div>
         <Footer />
-      </Container>
+      </div>
     );
   }
 }
-
-const Container = styled.div`
-  min-width: 320px;
-
-  @media (min-width: ${mobile}) {
-  }
-
-  @media (min-width: ${tablet}) {
-  }
-
-  @media (min-width: ${desktop}) {
-  }
-`;
-
-const Content = styled.div`
-  display: flex;
-  flex-flow: column;
-  max-width: 800px;
-  margin: 0em auto;
-  padding: 0em 1.5em;
-
-  @media (min-width: ${mobile}) {
-    padding: 0em 3em;
-  }
-
-  @media (min-width: ${tablet}) {
-    padding: 0em 4em;
-  }
-
-  @media (min-width: ${desktop}) {
-    padding: 0em 5em;
-  }
-`;
 
 Layout.propTypes = {
   title: PropTypes.string,
