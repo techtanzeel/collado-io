@@ -36,3 +36,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+.tag__container {
+  /* Display & Box Model */
+  margin-top: 0.75em;
+
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
