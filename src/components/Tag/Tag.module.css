@@ -1,0 +1,25 @@
+.tag {
+  /* Display & Box Model */
+  margin-bottom: 0.5em;
+  margin-right: 0.25em;
+  border-radius: 0.25em;
+  padding: 0.2em 0.5em 0.25em;
+
+  /* Color */
+  background: var(--fakeAsbestosAlpha22);
+
+  /* Other */
+  transition: background 0.3s ease;
+}
+
+.tag:hover {
+  /* Color */
+  background: var(--fakeAsbestosAlpha88);
+}
+
+.tag__link {
+  /* Text */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: smaller;
+  letter-spacing: -1px;
+}

@@ -1,0 +1,36 @@
+.out__container {
+  /* Display & Box Model */
+  min-width: 320px;
+}
+
+.in__container {
+  /* Display & Box Model */
+  max-width: 800px;
+  margin: 0em auto;
+  padding: 0 1em;
+
+  /* Flex */
+  display: flex;
+  flex-flow: column;
+}
+
+@media (min-width: 576px) {
+  .in__container {
+    /* Display & Box Model */
+    padding: 0 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .in__container {
+    /* Display & Box Model */
+    padding: 0 3em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .in__container {
+    /* Display & Box Model */
+    padding: 0 4em;
+  }
+}

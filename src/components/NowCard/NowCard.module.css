@@ -1,0 +1,13 @@
+/* Shared .card styles with BlogCard & WorkCard */
+.card {
+  /* Display & Box Model */
+  box-shadow: var(--fakeAsbestosAlpha22) 0 0.125em 0.25em 0;
+  margin: 0.75em 0 0.25em;
+  border: 1px solid var(--fakeAsbestosAlpha22);
+  border-radius: 0.25em;
+  padding: 0 1.5em 1em;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}

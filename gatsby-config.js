@@ -81,9 +81,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
 
-    // Styles & Typography
-    'gatsby-plugin-styled-components',
-
     // Utils & Helpers
     {
       resolve: `gatsby-plugin-google-analytics`,

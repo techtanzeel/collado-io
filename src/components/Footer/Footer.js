@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const Footer = () => (
-  <div className={styles.footer}>
+  <footer className={styles.footer}>
     <a className={styles.footer__link} href="https://twitter.com/marccollado">
       twitter
     </a>
@@ -15,7 +15,7 @@ const Footer = () => (
     <a className={styles.footer__link} href="https://github.com/marccollado">
       github
     </a>
-  </div>
+  </footer>
 );
 
 export default Footer;

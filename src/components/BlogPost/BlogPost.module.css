@@ -1,0 +1,48 @@
+.title {
+  /* Display & Box Model */
+  margin: 0.25em 0;
+}
+
+.markdown > hr {
+  /* Display & Box Model */
+  margin: 1.5em 0;
+}
+
+.markdown > div > hr {
+  /* Display & Box Model */
+  display: none;
+}
+
+.markdown > div > ol > li > a:hover,
+.markdown > div > ol > li > a:hover {
+  /* Color */
+  background: none;
+  color: var(--bianchiGreen);
+}
+
+/* Images & GIFs */
+.markdown > p > img {
+  /* Display & Box Model */
+  display: block;
+  margin: 0 auto;
+}
+
+.meta {
+  /* Display & Box Model */
+  margin-top: 1.5em;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag__container {
+  /* Display & Box Model */
+  margin-top: 0.75em;
+
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

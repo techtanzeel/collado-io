@@ -1,0 +1,23 @@
+.header__container {
+  /* FLEX */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  /* Display & Box Model */
+  margin: 0;
+}
+
+.header__tagline {
+  /* Display & Box Model */
+  margin: 0;
+
+  /* Text */
+  font-size: smaller;
+  text-transform: uppercase;
+
+  /* Color */
+  color: var(--fakeAsbestosAlpha88);
+}

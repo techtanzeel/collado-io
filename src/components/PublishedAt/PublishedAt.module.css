@@ -1,0 +1,19 @@
+.icon {
+  /* Display & Box Model */
+  display: inline;
+
+  /* Color */
+  color: var(--fakeAsbestosAlpha88);
+  opacity: 0.75;
+}
+.date {
+  /* Display & Box Model */
+  display: inline;
+  margin-left: 0.5em;
+
+  /* Text */
+  font-size: smaller;
+
+  /* Color */
+  color: var(--fakeAsbestosAlpha88);
+}

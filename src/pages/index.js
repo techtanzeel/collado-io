@@ -2,54 +2,25 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import { Layout } from '../components/Layout';
+import { Header } from '../components/Header';
 
-import Layout from '../components/Layout';
-import PageHeader from '../components/PageHeader';
-import { mobile, tablet, desktop } from '../utils/breakpoints';
-import styles from '../utils/md.module.css';
-
-const Home = ({ data }) => {
-  const pictureMarc = data.pictureMarc.childImageSharp.fluid;
+const HomePage = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
+  const cartoonMarc = data.cartoonMarc.childImageSharp.fluid;
 
   return (
     <Layout>
-      <PageHeader tagline="Singularly Curious" title="Marc Collado" />
-      <ImageContainer>
-        <Img
-          alt="Marc Collado"
-          fluid={pictureMarc}
-          imgStyle={{ marginBottom: 0 }}
-        />
-      </ImageContainer>
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: pageCopy }}
+      <Header tagline="Singularly Curious" title="Marc Collado" />
+      <Img
+        alt="Marc Collado"
+        fluid={cartoonMarc}
+        style={{ width: `15em`, margin: `0 auto -1em` }}
       />
+      <div dangerouslySetInnerHTML={{ __html: pageCopy }} />
     </Layout>
   );
 };
-
-const ImageContainer = styled.div`
-  margin: 0em auto -1.5em;
-  min-width: 12em;
-  width: 45%;
-
-  @media (min-width: ${mobile}) {
-    margin-bottom: -1.75em;
-    max-width: 15em;
-  }
-
-  @media (min-width: ${tablet}) {
-    margin-bottom: -2.25em;
-    max-width: 16em;
-  }
-
-  @media (min-width: ${desktop}) {
-    max-width: 17em;
-  }
-`;
 
 export const query = graphql`
   {
@@ -64,9 +35,9 @@ export const query = graphql`
         }
       }
     }
-    pictureMarc: file(relativePath: { eq: "marc.jpg" }) {
+    cartoonMarc: file(relativePath: { eq: "marc.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -74,20 +45,20 @@ export const query = graphql`
   }
 `;
 
-Home.propTypes = {
+HomePage.propTypes = {
   data: PropTypes.shape({
     pageCopy: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
-            id: PropTypes.string,
-            html: PropTypes.string
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired
           })
         })
       )
     }),
-    pictureMarc: PropTypes.object
+    cartoonMarc: PropTypes.object.isRequired
   }).isRequired
 };
 
-export default Home;
+export default HomePage;

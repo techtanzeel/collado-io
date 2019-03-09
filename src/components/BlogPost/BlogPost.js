@@ -1,23 +1,32 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import Layout from './Layout';
-import BlogPostTags from './BlogPostTags';
-import styles from '../utils/md.module.css';
+import styles from './BlogPost.module.css';
+import { Layout } from '../Layout';
+import { PublishedAt } from '../PublishedAt';
+import { Tag } from '../Tag';
 
-const BlogPostPage = ({ data }) => {
+const BlogPost = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
+  const { title, date, tags } = frontmatter;
   return (
-    <Layout title={frontmatter.title}>
-      <h1 style={{ margin: '0.25em 0 0' }}>{frontmatter.title}</h1>
-      <p className="meta" style={{ marginTop: '0.5em' }}>
-        {`Published on ${frontmatter.date}`}
-      </p>
-      <div className={styles.md} dangerouslySetInnerHTML={{ __html: html }} />
+    <Layout title={title}>
+      <h1 className={styles.title}>{title}</h1>
+      <div
+        className={styles.markdown}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
       <hr />
-      <h3 style={{ marginBottom: 0, textAlign: 'center' }}>Tags</h3>
-      <BlogPostTags tags={frontmatter.tags} />
+      <div className={styles.meta}>
+        <PublishedAt date={date} />
+        <h3>Tags</h3>
+        <div className={styles.tag__container}>
+          {tags.map((tag) => (
+            <Tag key={tag}>{tag}</Tag>
+          ))}
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -36,7 +45,7 @@ export const query = graphql`
   }
 `;
 
-BlogPostPage.propTypes = {
+BlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       html: PropTypes.string.isRequired,
@@ -50,4 +59,4 @@ BlogPostPage.propTypes = {
   }).isRequired
 };
 
-export default BlogPostPage;
+export default BlogPost;

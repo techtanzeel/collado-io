@@ -1,56 +1,38 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
-import Layout from '../../components/Layout';
-import PageHeader from '../../components/PageHeader';
+import styles from './work.module.css';
+import { Layout } from '../../components/Layout';
+import { Header } from '../../components/Header';
 import { WorkCard } from '../../components/WorkCard';
-import { mobile } from '../../utils/breakpoints';
-import styles from '../../utils/md.module.css';
 
-const Work = ({ data }) => {
+const WorkPage = ({ data }) => {
   const WorkData = data.allMarkdownRemark.edges;
   const WorkIntro = WorkData
-    // Markdown file with the fronmatter date set to null (index.md)
+    // Get md files with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-  const WorkList = WorkData
-    // Markdown file with fronmatter date data
+  const renderCards = WorkData
+    // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
     // Generate a feed of WorkPosts
     .map((edge) => (
       <WorkCard
         key={edge.node.id}
-        excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
+        excerpt={edge.node.frontmatter.excerpt}
       />
     ));
 
   return (
     <Layout>
-      <PageHeader tagline="Things I've Done" title="Work" />
-      <div
-        className={styles.md}
-        dangerouslySetInnerHTML={{ __html: WorkIntro }}
-      />
-      <WorkListContainer>{WorkList}</WorkListContainer>
+      <Header tagline="Things I've Done" title="Work" />
+      <div dangerouslySetInnerHTML={{ __html: WorkIntro }} />
+      <div className={styles.container}>{renderCards}</div>
     </Layout>
   );
 };
-
-const WorkListContainer = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: ${mobile}) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-`;
 
 export const query = graphql`
   {
@@ -74,19 +56,19 @@ export const query = graphql`
   }
 `;
 
-Work.propTypes = {
+WorkPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
-            id: PropTypes.string,
-            html: PropTypes.string,
+            id: PropTypes.string.isRequired,
+            html: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string,
-              excerpt: PropTypes.string,
-              path: PropTypes.string,
-              title: PropTypes.string
+              date: PropTypes.string.isRequired,
+              excerpt: PropTypes.string.isRequired,
+              path: PropTypes.string.isRequired,
+              title: PropTypes.string.isRequired
             })
           })
         })
@@ -95,4 +77,4 @@ Work.propTypes = {
   }).isRequired
 };
 
-export default Work;
+export default WorkPage;

@@ -1,0 +1,12 @@
+/* index.js */
+.container {
+  /* FLEX */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* work pages */
+.image {
+  /* Display & Box Model */
+  margin: 1em 0;
+}
