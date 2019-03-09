@@ -1,37 +1,37 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { BlogCard } from './BlogCard';
-import { Layout } from './Layout';
-import { Header } from './Header';
-import { Title3 } from '../utils/theme';
+import { Layout } from '../Layout';
+import { Header } from '../Header';
+import { BlogCard } from '../BlogCard';
 
 const TagPage = ({ pageContext, data }) => {
-  const Blogs = data.allMarkdownRemark.edges;
+  const BlogData = data.allMarkdownRemark.edges;
   const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
-
-  const TagHeader = `${totalCount} post${
+  const TagCount = `${totalCount} post${
     totalCount === 1 ? '' : 's'
   } tagged with "${tag}"`;
 
-  const BlogsList = Blogs.filter((edge) => !!edge.node.frontmatter.date).map(
-    (edge) => (
+  const renderCards = BlogData
+    // Get md files
+    .filter((edge) => !!edge.node.frontmatter.date)
+    .map((edge) => (
+      // Generate a feed of BlogPosts
       <BlogCard
         key={edge.node.id}
-        date={edge.node.frontmatter.date}
-        excerpt={edge.node.frontmatter.excerpt}
         path={edge.node.frontmatter.path}
         title={edge.node.frontmatter.title}
+        excerpt={edge.node.frontmatter.excerpt}
+        date={edge.node.frontmatter.date}
       />
-    )
-  );
+    ));
 
   return (
     <Layout>
-      <Header title={`This is ${tag}`} tagline="The blog, filtered" />
-      <Title3>{TagHeader}</Title3>
-      {BlogsList}
+      <Header title={`Tag: ${tag}`} tagline="Like the blog, but filtered" />
+      <p>`There are ${TagCount}`</p>
+      {renderCards}
     </Layout>
   );
 };
@@ -53,7 +53,6 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             excerpt
             path
-            tags
             title
           }
         }
@@ -64,7 +63,7 @@ export const query = graphql`
 
 TagPage.propTypes = {
   pageContext: PropTypes.shape({
-    tag: PropTypes.string
+    tag: PropTypes.string.isRequired
   }).isRequired,
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
@@ -73,11 +72,10 @@ TagPage.propTypes = {
         PropTypes.shape({
           node: PropTypes.shape({
             frontmatter: PropTypes.shape({
-              date: PropTypes.string,
-              excerpt: PropTypes.string,
-              path: PropTypes.string,
-              tags: PropTypes.arrayOf(PropTypes.string),
-              title: PropTypes.string
+              date: PropTypes.string.isRequired,
+              excerpt: PropTypes.string.isRequired,
+              path: PropTypes.string.isRequired,
+              title: PropTypes.string.isRequired
             })
           })
         })
