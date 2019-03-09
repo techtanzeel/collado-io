@@ -12,7 +12,7 @@ import '../../styles/tabs.css';
 const iomando = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const iomandoBlogPosts = data.iomandoBlogPosts.edges;
-  const iomandoBlogPostsList = (tag) =>
+  const renderCards = (tag) =>
     iomandoBlogPosts
       .filter((edge) => edge.node.frontmatter.tags.includes(tag))
       .map((edge) => (
@@ -73,7 +73,7 @@ const iomando = ({ data }) => {
             Right from the very first 1.0, minor .1s, up to the latest 3.0, upon
             which the company was acquired.
           </p>
-          {iomandoBlogPostsList('update')}
+          {renderCards('update')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -93,7 +93,7 @@ const iomando = ({ data }) => {
             discovery, trying to convince the opaque, hardware-based
             accessibility management market, that software was the new thing.
           </p>
-          {iomandoBlogPostsList('idea')}
+          {renderCards('idea')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -107,7 +107,7 @@ const iomando = ({ data }) => {
           <p>
             {`Here's a recollection of stories, decisions, but most important, some the lessons learned along the way on how to manage and lead a startup from zero to acquisition.`}
           </p>
-          {iomandoBlogPostsList('memoir')}
+          {renderCards('memoir')}
         </TabPanel>
       </Tabs>
     </Layout>

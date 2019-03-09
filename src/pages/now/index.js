@@ -11,7 +11,7 @@ const NowPage = ({ data }) => {
     // Get md files with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-  const NowList = NowData
+  const renderCards = NowData
     // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
     // Generate a feed of NowPosts
@@ -28,7 +28,7 @@ const NowPage = ({ data }) => {
     <Layout>
       <Header tagline="Things I'm Doing" title="Now" />
       <div dangerouslySetInnerHTML={{ __html: NowIntro }} />
-      {NowList}
+      {renderCards}
     </Layout>
   );
 };

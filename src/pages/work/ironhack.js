@@ -12,7 +12,7 @@ import '../../styles/tabs.css';
 const Ironhack = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const ironhackBlogPosts = data.ironhackBlogPosts.edges;
-  const ironhackBlogsList = (tag) =>
+  const renderCards = (tag) =>
     ironhackBlogPosts
       .filter((edge) => edge.node.frontmatter.tags.includes(tag))
       .map((edge) => (
@@ -70,7 +70,7 @@ const Ironhack = ({ data }) => {
             what has worked (what has not...) and the lessons we have learned
             along the way.
           </p>
-          {ironhackBlogsList('idea')}
+          {renderCards('idea')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -90,7 +90,7 @@ const Ironhack = ({ data }) => {
             Here is a recollection of posts that distill my story at Ironhack
             from a more confidential, idiosyncratic perspective.
           </p>
-          {ironhackBlogsList('memoir')}
+          {renderCards('memoir')}
         </TabPanel>
       </Tabs>
     </Layout>

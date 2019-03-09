@@ -12,7 +12,7 @@ const WorkPage = ({ data }) => {
     // Get md files with the fronmatter date set to null (index.md)
     .filter((edge) => edge.node.frontmatter.date === null)
     .map((edge) => edge.node.html);
-  const WorkList = WorkData
+  const renderCards = WorkData
     // Get md files with fronmatter date data set
     .filter((edge) => !!edge.node.frontmatter.date)
     // Generate a feed of WorkPosts
@@ -29,7 +29,7 @@ const WorkPage = ({ data }) => {
     <Layout>
       <Header tagline="Things I've Done" title="Work" />
       <div dangerouslySetInnerHTML={{ __html: WorkIntro }} />
-      <div className={styles.container}>{WorkList}</div>
+      <div className={styles.container}>{renderCards}</div>
     </Layout>
   );
 };

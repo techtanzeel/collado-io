@@ -7,7 +7,7 @@ import { BlogCard } from '../../components/BlogCard';
 
 const BlogPage = ({ data }) => {
   const BlogData = data.allMarkdownRemark.edges;
-  const BlogList = BlogData
+  const renderCards = BlogData
     // Get md files
     .filter((edge) => !!edge.node.frontmatter.date)
     .map((edge) => (
@@ -24,7 +24,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <Header tagline="Things I've Written" title="Blog" />
-      {BlogList}
+      {renderCards}
     </Layout>
   );
 };
