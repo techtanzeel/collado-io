@@ -60,25 +60,32 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false,
-              showCaptions: false
+              showCaptions: false,
+              quality: 75
             }
           },
+
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
               width: 800,
-              ratio: 1.77,
-              height: 400,
               related: false,
               noIframeBorder: true
             }
-          }
+          },
+          `gatsby-remark-responsive-iframe`
         ]
       }
     },
 
     // Image processing
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        stripMetadata: true,
+        defaultQuality: 75
+      }
+    },
     'gatsby-transformer-sharp',
 
     // Utils & Helpers
