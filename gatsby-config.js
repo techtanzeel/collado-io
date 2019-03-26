@@ -73,14 +73,14 @@ module.exports = {
               noIframeBorder: true
             }
           },
-          `gatsby-remark-responsive-iframe`
+          'gatsby-remark-responsive-iframe'
         ]
       }
     },
 
     // Image processing
     {
-      resolve: `gatsby-plugin-sharp`,
+      resolve: 'gatsby-plugin-sharp',
       options: {
         stripMetadata: true,
         defaultQuality: 75
@@ -90,7 +90,7 @@ module.exports = {
 
     // Utils & Helpers
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-131366514-1',
         respectDNT: true
@@ -98,6 +98,7 @@ module.exports = {
     },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-catch-links'
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-netlify-cms'
   ]
 };
