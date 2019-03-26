@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: MarcCollado/collado-io
+
+media_folder: 'src/img'
+site_url: 'https://www.collado.io'
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'src/markdown/blog/2019'
+    create: true
+    format: 'yaml-frontmatter'
+    slug: '{{year}}{{month}}{{day}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date', format: 'YYYY-MM-DD' }
+      - {
+          label: 'Path',
+          name: 'path',
+          widget: 'string',
+          hint: '/blog/2019/...',
+        }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - {
+          label: 'Featured',
+          name: 'featured',
+          widget: 'boolean',
+          default: false,
+        }
+      - {
+          label: 'Excerpt',
+          name: 'excerpt',
+          widget: 'string',
+          pattern: ['.{20,}', 'Must have at least 20 characters'],
+          required: false,
+        }
+      - { label: 'Source', name: 'source', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -4,26 +4,15 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import styles from './work.module.css';
-import { BlogCard } from '../../components/BlogCard';
 import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
 import '../../styles/tabs.css';
+import { renderBlogCards } from '../../utils/helpers';
 
 const Ironhack = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const ironhackBlogPosts = data.ironhackBlogPosts.edges;
-  const renderCards = (tag) =>
-    ironhackBlogPosts
-      .filter((edge) => edge.node.frontmatter.tags.includes(tag))
-      .map((edge) => (
-        <BlogCard
-          key={edge.node.id}
-          path={edge.node.frontmatter.path}
-          title={edge.node.frontmatter.title}
-          excerpt={edge.node.frontmatter.excerpt}
-          date={edge.node.frontmatter.date}
-        />
-      ));
+  const renderIronhackCards = renderBlogCards.bind(null, ironhackBlogPosts);
   // Get the images from the GraphQL query
   const ironhackCover = data.ironhackCover.childImageSharp.fluid;
   const ironhackInsights = data.ironhackInsights.childImageSharp.fluid;
@@ -70,7 +59,7 @@ const Ironhack = ({ data }) => {
             what has worked (what has not...) and the lessons we have learned
             along the way.
           </p>
-          {renderCards('idea')}
+          {renderIronhackCards('idea')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -90,7 +79,7 @@ const Ironhack = ({ data }) => {
             Here is a recollection of posts that distill my story at Ironhack
             from a more confidential, idiosyncratic perspective.
           </p>
-          {renderCards('memoir')}
+          {renderIronhackCards('memoir')}
         </TabPanel>
       </Tabs>
     </Layout>

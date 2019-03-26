@@ -4,26 +4,15 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import styles from './work.module.css';
-import { BlogCard } from '../../components/BlogCard';
 import { Layout } from '../../components/Layout';
 import { Header } from '../../components/Header';
 import '../../styles/tabs.css';
+import { renderBlogCards } from '../../utils/helpers';
 
 const iomando = ({ data }) => {
   const pageCopy = data.pageCopy.edges[0].node.html;
   const iomandoBlogPosts = data.iomandoBlogPosts.edges;
-  const renderCards = (tag) =>
-    iomandoBlogPosts
-      .filter((edge) => edge.node.frontmatter.tags.includes(tag))
-      .map((edge) => (
-        <BlogCard
-          key={edge.node.id}
-          path={edge.node.frontmatter.path}
-          title={edge.node.frontmatter.title}
-          excerpt={edge.node.frontmatter.excerpt}
-          date={edge.node.frontmatter.date}
-        />
-      ));
+  const renderIomandoCards = renderBlogCards.bind(null, iomandoBlogPosts);
   // Get the images from the GraphQL query
   const iomandoCover = data.iomandoCover.childImageSharp.fluid;
   const iomandoProduct = data.iomandoProduct.childImageSharp.fluid;
@@ -73,7 +62,7 @@ const iomando = ({ data }) => {
             Right from the very first 1.0, minor .1s, up to the latest 3.0, upon
             which the company was acquired.
           </p>
-          {renderCards('update')}
+          {renderIomandoCards('update')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -93,7 +82,7 @@ const iomando = ({ data }) => {
             discovery, trying to convince the opaque, hardware-based
             accessibility management market, that software was the new thing.
           </p>
-          {renderCards('idea')}
+          {renderIomandoCards('idea')}
         </TabPanel>
         <TabPanel>
           <p>
@@ -107,7 +96,7 @@ const iomando = ({ data }) => {
           <p>
             {`Here's a recollection of stories, decisions, but most important, some the lessons learned along the way on how to manage and lead a startup from zero to acquisition.`}
           </p>
-          {renderCards('memoir')}
+          {renderIomandoCards('memoir')}
         </TabPanel>
       </Tabs>
     </Layout>
