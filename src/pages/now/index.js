@@ -63,7 +63,7 @@ NowPage.propTypes = {
             id: PropTypes.string.isRequired,
             html: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string.isRequired,
+              date: PropTypes.string,
               title: PropTypes.string.isRequired
             })
           })

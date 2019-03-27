@@ -65,9 +65,9 @@ WorkPage.propTypes = {
             id: PropTypes.string.isRequired,
             html: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
-              date: PropTypes.string.isRequired,
-              excerpt: PropTypes.string.isRequired,
-              path: PropTypes.string.isRequired,
+              date: PropTypes.string,
+              excerpt: PropTypes.string,
+              path: PropTypes.string,
               title: PropTypes.string.isRequired
             })
           })
