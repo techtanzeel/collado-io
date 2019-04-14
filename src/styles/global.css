@@ -74,6 +74,10 @@ a:active {
   color: inherit;
 }
 
+a.anchor {
+  display: none;
+}
+
 p a,
 li a {
   /* Display & Box Model */
@@ -142,6 +146,10 @@ hr {
   html {
     /* Text */
     font-size: 17px;
+  }
+
+  a.anchor {
+    display: inline;
   }
 }
 
